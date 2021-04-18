@@ -1,7 +1,5 @@
-import Link from 'next/link'
 export default function header() {
     return (
-
         <>
             <section class="indoorbanner">
                 <div class="container">
@@ -9,100 +7,53 @@ export default function header() {
             </section>
             <section class="indoorbanner gradientBlack">
                 <div class="container">
-                    <div class="inDoorBannerDes">
-                        <p>An ambitious design that inspires action. A safe game in which there is no place for aggression. Unique modes that make players superheroes.</p>
-                    </div>
+                    <h2 class="skyblueTitle text-center">Game
+                        <span>Scenario
+                        </span>
+                    </h2>
                 </div>
             </section>
+
             <section class="gameKitSec">
-                <div class="gameKitDesc">
-                    <h2 class="greyBlackTitle">
-                        <span>Game kit
-                        </span>Galaxy ECLIPSE</h2>
-                    <h6>GALAXY ECLIPSE</h6>
-                    <p>
-                        <strong></strong>
-                        Is a new generation of indoor laser tag game kits with smart sensor illumination, motion control, and unique game modes that make everyone a superhero
-                    </p>
-
+                <div class="siriusImg">
+                    <img src="/img/sirius.png"/>
                 </div>
-                <div class="gameKitImg">
-                    <img src="/img/game-kit.png"/>
-                </div>
-
-            </section>
-
-            <section class="blasterSec">
-                <div class="container">
-                    <div class="blasterKitDesc">
-                        <img src="/img/gun.png"/>
-
-                        <h2 class="skyblueTitle">BLASTER
-                            <span>Galaxy ECLIPSE
-                            </span>
-                        </h2>
-
-                        <div class="row">
-                            <div class="col-md-2">
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2">
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-2">
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </section>
-            <section class="brightShotTeamColorSec">
-                <div class="container">
+                <div class="siriusDesc">
+                    <h2 class="skyblueTitle"
+                        style={
+                            {
+                                color: '#222',
+                                marginBottom: '10px'
+                            }
+                    }>
+                        SIRIUS</h2>
+                    <p>A portable scenario device that gives the players bonuses. The active mode of operation is displayed by the animated backlighting of the diodes.</p>
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="skyblueTitle">
-                                <span>Bright shots &nbsp;
-                                </span>
-                                with team color
-                            </h2>
+                            <ul>
+                                <li><img src="/img/gsicon1.png"/></li>
+                            </ul>
                         </div>
-                        <div class="col-md-6">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>HALO TECHNOLOGY</h4>
-                                <p>Thanks to the HALO technology, a shooting blaster sends a red beam and a flesh of the team color. Double shot illumination makes the game safer and also allows players to better distinguish between allies and opponents.</p>
+                        <div class="col-md-6"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="">
+                                <p>The Eclipse kit will intuitively and immersively display every game event, injury, change of lead, or virtual explosion. This solution is realized due to the complex geometry of the sensors and the wellcoordinated work of more than 50 LEDs</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <img src="/img/indoor-team-shot.jpg"/>
-            </section>
+                        <div class="col-md-1"></div>
 
+                        <div class="col-md-5">
+                            <p>A shock imitation module built into the back of the vest gives a real shake to the deactivated player due to its powerful vibration. Also, when injured, a spot vibration indication is triggered in the sensor that the opponent hit.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </section>
             <section class="gameKitSec eclipsVest">
                 <div class="gameKitDesc">
 
@@ -146,45 +97,7 @@ export default function header() {
                 <div class="gameKitImg">
                     <img src="/img/galaxy-kit2.png"/>
                 </div>
-
             </section>
-            <section class="gameKitSec">
-                <div class="gameKitDesc">
-
-                    <h2 class="skyblueTitle"
-                        style={
-                            {color: '#222'}
-                    }>
-                        <span>ECLIPSE</span>
-                        Vest</h2>
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="">
-                                <h6>SMART LIGHT INDICATION</h6>
-                                <p>The Eclipse kit will intuitively and immersively display every game event, injury, change of lead, or virtual explosion. This solution is realized due to the complex geometry of the sensors and the wellcoordinated work of more than 50 LEDs</p>
-                            </div>
-                        </div>
-                        <div class="col-md-1"></div>
-
-                        <div class="col-md-5">
-                            <h6>SIMULATION OF SHOCK
-                            </h6>
-                            <p>A shock imitation module built into the back of the vest gives a real shake to the deactivated player due to its powerful vibration. Also, when injured, a spot vibration indication is triggered in the sensor that the opponent hit.
-                            </p>
-                        </div>
-
-                        <div class="col-md-1"></div>
-
-
-                    </div>
-
-                </div>
-                <div class="gameKitImg">
-                    <img src="/img/feel.png"/>
-                </div>
-
-            </section>
-
             <section class="threeSoundSec">
                 <div class="container">
                     <div class="row">
@@ -224,7 +137,6 @@ export default function header() {
             </div>
             {/* super power */}
             <section class="superPowerSec">
-
                 <div class="powerSecLeft">
                     <h2 class="greyBlackTitle">
                         <span>Choose your
@@ -482,9 +394,7 @@ export default function header() {
                 </div>
             </section>
             <div class="indoorBtn">
-                <Link href="/indoor/game-scenario">
-                    <a class="btn btn-primary btnMain">See Game scenario</a>
-                </Link>
+                <a class="btn btn-primary btnMain">See Game scenario</a>
             </div>
         </>
     )

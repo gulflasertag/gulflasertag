@@ -899,7 +899,11 @@ section {
 .video{
   margin:0 auto;
   max-width:600px;
-  padding:30px 0;
+  padding:45px 0;
+}
+.video h2{
+  text-align: center;
+  margin-bottom: 30px;
 }
 .sceneSec{
   background-image: none;
@@ -1034,7 +1038,11 @@ margin:0 auto
   text-align: center;
   font-weight: 400;
 }
-
+/* Bright Shot Team Color Section */
+.brightShotTeamColorSec{
+  background:#000;
+  padding-bottom:0;
+}
 /* /game kit section/ */
 .gameKitSec{
   display: grid;
@@ -1067,6 +1075,160 @@ background-image: url(/img/background-bottom-right.png), url(/img/background-top
   max-width: 800px;
   margin:0 auto
 }
+.eclipsVest .gameKitDesc{
+  background-color:#000;
+}
+.eclipsVest .whiteTitleText h4{
+  border:none
+}
+.eclipsVest .whiteTitleText{
+  max-width:270px;
+  margin-bottom:30px;
+  margin-top:30px;
+}
+.greyBlackTitle{
+  font-weight:400;
+  font-size: 50px;
+  color:#000;
+  margin-bottom:60px;
+  line-height: 1em;
+}
+.greyBlackTitle span{
+  color: #666;
+  display: block;
+}
+.skyblueTitle{
+  font-weight:400;
+  font-size: 50px;
+  margin-bottom:60px;
+  color:#c6c6c6;
+  line-height: 1em;
+}
+.skyblueTitle span{
+  color: #006dda;
+  display: block;
+}
+.eclipsVest .gameKitImg img{
+    max-width:600px;
+    margin:0;
+    margin-left:-45px;
+    margin-top:60px;
+}
+.threeSoundSec{
+ background:#000;
+}
+.whiteTitleTextNoBorder h4{
+  color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.whiteTitleTextNoBorder p {
+  color: #ccc;
+  padding-top: 5px;
+  padding-bottom:45px;
+  max-width:300px;
+  font-weight:400
+}
+/* superpower */
+.superPowerSec{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  grid-column-gap: 0px;
+  padding:0;
+  position: relative;
+}
+.imageBottom{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  max-width:40%;
+}
+.powerSecLeft{
+  padding: 30px 60px;
+}
+.powerSecLeft .greyBlackTitle{
+  margin-top:100px;
+}
+.powerSecLeft .greyBlackTitle{
+  margin-bottom: 15px;
+}
+.powerSecRight{
+  background-color:#000;
+  padding: 60px 60px;
+  background-image: url(/img/white-tringle1.png), url(/img/white-tringle2.png);
+    background-position: left top,left bottom ;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 26%,26%;  
+}
+.powerSecRight img{
+  max-width:130px;
+  text-align: right;
+}
+.powerSecRight .whiteTitleTextNoBorder{
+  padding-bottom:5px;
+}
+/* software indoor */
+.indoorSoftwareSec{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  grid-column-gap: 0px;
+  padding:0;
+}
+.indoorSoftwareLeft{
+background:#131313;
+}
+.indoorSoftwareLeft img{
+  width:110%;
+  max-width:110%;
+  z-index: 2;
+  position: relative;
+}
+.indoorSoftwareRight{
+  padding:120px 60px 120px 120px;
+background-color:#0091ff;
+background-image: url(/img/background-left-bottom.png), url(/img/background-top-left.png);
+  background-position: left bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+}
+.indoorSoftwareRight .whiteTitleTextNoBorder p{
+  padding-bottom:10px
+}
+/* script section */
+.scriptPointsSec{
+  background:#000;
+}
+.scriptpointItemImg{
+  max-width:50px;
+}
+.scriptpointItem{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 5px;
+  padding-right:30px  
+}
+.indoorBtn{
+  text-align: center;
+  padding:45px 30px
+}
+.indoorBtn .btnMain{
+  max-width: 400px;
+  width: 100%;
+  font-size: 30px;
+  padding: 20px 30px 25px;
+}
+
+/* sirius */
+.siriusImg{
+  background:#131313;
+  padding:120px 60px 0;
+}
+.siriusDesc{
+  background:#fff;
+  padding:120px 60px
+}
+
 @media (max-width: 767px) {
   .hideDesktop{
       display: block;
