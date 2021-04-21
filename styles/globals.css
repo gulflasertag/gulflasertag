@@ -432,13 +432,59 @@ h6,
 }
 .navbar-nav {
   float: none;
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
   padding: 10px 0;
 }
-
+.navbar-default .navbar-nav>li{
+  padding: 5px 10px;
+}
+.navbar-default .navbar-nav>li>a{
+  color:#000;
+  font-size: 17px;
+  height: 55px;
+}
+.navbar-nav li a:hover{
+  color: var(--primary_color) !important;
+  background-color: #f8e6e6 !important;
+  border-radius: 5px;
+}
+.navbar-default .navbar-nav>li>a .caret{
+  padding-top: 0;
+  margin-left: 8px;
+  border-top: 6px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+.dropdown-menu li a{
+  padding:15px 30px;
+  font-size: 16px;;
+}
+.dropdown-menu li{
+  padding:0
+}
 .main_menu {
   border: none;
+  z-index: 999;
+  width:100%;
+  transition: all ease-in-out 0.5s;
+}
+.fixHeader{
+  position: fixed;
+  min-height: 50px;
+  border-bottom: 1px solid #000;
+}
+.fixHeader .navbar-brand img{
+  max-width: 120px;
+}
+.fixHeader .navbar-nav li a{
+  padding:10px;
+  height: 42px;
+  font-size: 14px;
+}
+.fixHeader .navbar-nav li{
+  padding-top:0;
+  padding-bottom:0;
 }
 .btnMain {
   background: var(--primary_color);
@@ -664,6 +710,10 @@ section {
 }
 .topFooter p{
   padding-right:40px;
+  font-weight: 400;
+}
+.topFooter a{
+  font-weight: 400;
 }
 
 .topFooter ul li{
@@ -1213,7 +1263,7 @@ background-image: url(/img/background-left-bottom.png), url(/img/background-top-
   padding:45px 30px
 }
 .indoorBtn .btnMain{
-  max-width: 400px;
+  max-width: 475px;
   width: 100%;
   font-size: 30px;
   padding: 20px 30px 25px;
@@ -1224,11 +1274,48 @@ background-image: url(/img/background-left-bottom.png), url(/img/background-top-
   background:#131313;
   padding:120px 60px 0;
 }
+.siriusImg img{
+    max-width:80%;
+  }
 .siriusDesc{
   background:#fff;
-  padding:120px 60px
+  padding:120px 60px 60px;
 }
-
+.siriusDesc li{
+  list-style: none;
+  font-weight: 600;
+  font-size: 13px;
+  color:#000;
+  display: flex;
+  align-items: center;
+}
+.siriusDesc li img{
+  display: inline;
+  width:50px;
+  margin-right:15px;
+}
+.normalTable{
+    margin:30px 0;
+    width:100%;
+}
+.normalTable td{
+  padding-bottom:10px
+}
+.dominationSec {
+  background:#333
+}
+.dominationSecRight li {
+  color:#ddd
+}
+.dominationSecRight .normalTable td{
+  color:#ccc
+}
+.dominationSecLeft{
+  padding: 120px 60px;
+}
+.dominationSecLeft img{
+    max-width:80%;
+  }
 @media (max-width: 767px) {
   .hideDesktop{
       display: block;

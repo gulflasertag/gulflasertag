@@ -11,7 +11,7 @@ export default function Footer() {
                             <div class="footerLogo">
                                 <Link href="/">
                                     <a>
-                                        <img src="/img/logo.png"/>
+                                        <img src="/img/logo.png" alt="logo-lasrertag"/>
                                     </a>
                                 </Link>
                             </div>

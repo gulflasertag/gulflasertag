@@ -15,7 +15,7 @@ export default function header() {
                         </button>
                         <Link href="/">
                             <a class="navbar-brand">
-                                <img src="/img/logo.png"/>
+                                <img src="/img/logo.png" alt="logo-lasrertag"/>
                             </a>
                         </Link>
                     </div>
@@ -40,13 +40,11 @@ export default function header() {
                                             <a title="Outdoor">OutDoor</a>
                                         </Link>
                                     </li>
-                                    <li role="separator" class="divider"></li>
                                     <li>
                                         <Link href="/indoor">
                                             <a title="Indoor">Indoor</a>
                                         </Link>
                                     </li>
-                                    <li role="separator" class="divider"></li>
                                     <li>
                                         <Link href="/airbunker">
                                             <a title="Air Bunker">Air Bunker</a>

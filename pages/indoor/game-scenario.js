@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function header() {
     return (
         <>
@@ -15,9 +17,6 @@ export default function header() {
             </section>
 
             <section class="gameKitSec">
-                <div class="siriusImg">
-                    <img src="/img/sirius.png"/>
-                </div>
                 <div class="siriusDesc">
                     <h2 class="skyblueTitle"
                         style={
@@ -31,370 +30,228 @@ export default function header() {
                     <div class="row">
                         <div class="col-md-6">
                             <ul>
-                                <li><img src="/img/gsicon1.png"/></li>
+                                <li><img src="/img/gsicon1.png"/>RADIATION</li>
+                                <li><img src="/img/gsicon3.png"/>MEDKIT</li>
+                                <li><img src="/img/gsicon5.png"/>BASE</li>
+                                <li><img src="/img/gsicon7.png"/>BONUS</li>
                             </ul>
                         </div>
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><img src="/img/gsicon2.png"/>AMMO</li>
+                                <li><img src="/img/gsicon4.png"/>RESPAWN</li>
+                                <li><img src="/img/gsicon6.png"/>RANDOM</li>
+                                <li><img src="/img/gsicon8.png"/>DIGITAL FLAG</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-5">
-                            <div class="">
-                                <p>The Eclipse kit will intuitively and immersively display every game event, injury, change of lead, or virtual explosion. This solution is realized due to the complex geometry of the sensors and the wellcoordinated work of more than 50 LEDs</p>
-                            </div>
-                        </div>
-                        <div class="col-md-1"></div>
+                        <div class="col-md-12">
+                            <table class="normalTable">
+                                <tr>
+                                    <td>Activation by shots</td>
+                                    <td>+</td>
+                                </tr>
+                                <tr>
+                                    <td>Activation by touch
+                                    </td>
+                                    <td>+</td>
+                                </tr>
+                                <tr>
+                                    <td>Battery life
+                                    </td>
+                                    <td>up to 24 hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Size</td>
+                                    <td>19х19х5,5 cm</td>
+                                </tr>
+                                <tr>
+                                    <td>Weight</td>
+                                    <td>520 grams</td>
+                                </tr>
 
-                        <div class="col-md-5">
-                            <p>A shock imitation module built into the back of the vest gives a real shake to the deactivated player due to its powerful vibration. Also, when injured, a spot vibration indication is triggered in the sensor that the opponent hit.
-                            </p>
+                                <tr>
+                                    <td>Control</td>
+                                    <td>Android</td>
+                                </tr>
+
+                            </table>
+
                         </div>
+                    </div>
+                </div>
+
+                <div class="siriusImg">
+                    <img src="/img/sirius.png"/>
+                </div>
+            </section>
+            <section class="gameKitSec">
+                <div class="siriusImg">
+                    <img src="/img/multistation.png"/>
+                </div>
+                <div class="siriusDesc">
+                    <h2 class="skyblueTitle"
+                        style={
+                            {
+                                color: '#222',
+                                marginBottom: '10px'
+                            }
+                    }>
+                        MULTISTATION</h2>
+                    <p>A cross-functional scenario device that can give bonuses to players, or act as a target for capture. A 27-cm LED panel animatedly displays the operating mode</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><img src="/img/gsicon1.png"/>RADIATION</li>
+                                <li><img src="/img/gsicon3.png"/>MEDKIT</li>
+                                <li><img src="/img/gsicon5.png"/>BASE</li>
+                                <li><img src="/img/gsicon7.png"/>BONUS</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><img src="/img/gsicon2.png"/>AMMO</li>
+                                <li><img src="/img/gsicon4.png"/>RESPAWN</li>
+                                <li><img src="/img/gsicon6.png"/>RANDOM</li>
+                                <li><img src="/img/gsicon8.png"/>DIGITAL FLAG</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="normalTable">
+                                <tr>
+                                    <td>Activation by shots</td>
+                                    <td>+</td>
+                                </tr>
+                                <tr>
+                                    <td>Activation by touch
+                                    </td>
+                                    <td>+</td>
+                                </tr>
+                                <tr>
+                                    <td>Battery life
+                                    </td>
+                                    <td>up to 24 hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Size</td>
+                                    <td>19х19х5,5 cm</td>
+                                </tr>
+                                <tr>
+                                    <td>Weight</td>
+                                    <td>520 grams</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Control</td>
+                                    <td>Android</td>
+                                </tr>
+
+                            </table>
+
+                        </div>
+
                     </div>
 
                 </div>
 
 
             </section>
-            <section class="gameKitSec eclipsVest">
-                <div class="gameKitDesc">
 
-                    <h2 class="skyblueTitle">
-                        <span>ECLIPSE</span>
-                        Vest</h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>5 VIBRATION INDICATION MODULES</h4>
-                                <p>Spot vibration of the zone hit by an enemy and a powerful shock imitation when the player is completely deactivated.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>LENGTH - 42 CM
-                                </h4>
-                                <p>Due to the small area of contact with the body, the player does not overheat during the session</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>WEIGHT - 1200 G</h4>
-                                <p>The minimal weight of the vest allows even the smallest children of 5 years to play.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>2 SPEAKERS</h4>
-                                <p>The speakers are installed in the shoulders of the vest so that visitors stay informed about all game.</p>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </div>
-                <div class="gameKitImg">
-                    <img src="/img/galaxy-kit2.png"/>
-                </div>
-            </section>
-            <section class="threeSoundSec">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2 class="skyblueTitle">
-                                <span>3 sound &nbsp;
-                                </span>
-                                sources
-                            </h2>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="whiteTitleTextNoBorder">
-                                <p>The speaker in the blaster is responsible for the sound indication of shots.</p>
-                                <p>2 speakers on the shoulders of the vest alert players about wounds, flag capturing, respawn, and other game events</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="whiteTitleTextNoBorder">
-                                <p>Thanks to surround and parallel playback of sounds, the visitor hears each notification.</p>
-                                <p>Game kits come in 6 available languages.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <img src="/img/3sound.jpg"/>
-                </div>
-                <div class="shape shape-bottom" data-negative="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                        <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
-                    </svg>
-                </div>
-            </section>
-            <div class="video">
-                <h2>
-                    How to play ?
-                </h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LkMO_chGWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
             {/* super power */}
             <section class="superPowerSec">
-                <div class="powerSecLeft">
-                    <h2 class="greyBlackTitle">
-                        <span>Choose your
-                        </span>
-                        superpower!</h2>
-                    <div class="row">
-                        <div class="col-md-7">
-                            <p>By placing a hand on the sensor on the stomach, the player can activate one of the superpowers for a limited time.</p>
-                        </div>
-                    </div>
+                <div class="dominationSecLeft">
+
                     <div class="imageBottom">
-                        <img src="/img/handpower.jpg"/>
+                        <img src="/img/img154.jpg"/>
                     </div>
                 </div>
-                <div class="powerSecRight">
-                    <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-3">
-                            <img src="/img/power1.png"/>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>HEALER</h4>
-                                <p>Allows you to restore health for yourself and all allies nearby.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-3">
-                            <img src="/img/power2.png"/>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>NINJA</h4>
-                                <p>Turns off the vest illumination, allowing you to sneak up on opponents.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-3">
-                            <img src="/img/power3.png"/>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>POWER SHIELD</h4>
-                                <p>Temporarily makes a player invulnerable to all types of damage.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-3">
-                            <img src="/img/power4.png"/>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>BOMBER-MAN</h4>
-                                <p>deactivates all the enemies nearby with an explosion.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-3">
-                            <img src="/img/power5.png"/>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>MAX DAMAGE</h4>
-                                <p>Increases blaster damage up to 100 units</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </section>
-            <section class="indoorSoftwareSec">
-
-                <div class="indoorSoftwareLeft">
-                    <img src="/img/mobile.png"/>
-                </div>
-                <div class="indoorSoftwareRight">
-                    <h2 class="skyblueTitle">
-                        <span style={
-                            {color: "#fff"}
-                        }>Software</span>for a quick solution to every task!
-                    </h2>
+                <div class="siriusDesc dominationSecRight"
+                    style={
+                        {backgroundColor: '#030303'}
+                }>
                     <div class="whiteTitleTextNoBorder">
-                        <p>Remote control and disconnection of game sets in 2 clicks.</p>
-                        <p>Ready-made game scenarios and a flexible constructor to create unique modes.</p>
-                        <p>A set of characters and over 40 parameters to create your own heroes.</p>
-                        <p>Team and personal statistics of players with unique achievements.</p>
-                        <p>All this allows one person to easily conduct a game for more than 30 participants.</p>
-
-                    </div>
-                </div>
-            </section>
-            <section class="scriptPointsSec">
-                <div class="container">
-                    <h2 class="skyblueTitle">Use &nbsp;
-                        <span style={
-                            {display: "inline"}
+                        <h2 class="skyblueTitle"
+                            style={
+                                {
+                                    marginBottom: '30px',
+                                    color: '#ccc',
+                                    fontWeight: '200',
+                                    fontSize: '27px'
+                                }
                         }>
-                            ready-made
-                            <br/>scripts
-                        </span>
-                    </h2>
+                            <b style={
+                                {color: '#fff'}
+                            }>SMART&nbsp;</b>
+                            DOMINATION BOX</h2>
+                        <p>A cross-functional scenario device that can give bonuses to players, or act as a target for capture. A 27-cm LED panel animatedly displays the operating mode</p>
+                    </div>
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon1.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>WARM-UP
-                                    </h4>
-                                    <p>A simple game to familiarize yourself with the arena maze and game kit before more interesting scenarios.</p>
-                                </div>
-                            </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><img src="/img/gsicon1.png"/>RADIATION</li>
+                                <li><img src="/img/gsicon3.png"/>MEDKIT</li>
+                                <li><img src="/img/gsicon5.png"/>BASE</li>
+                                <li><img src="/img/gsicon7.png"/>BONUS</li>
+                            </ul>
                         </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon2.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>THE VIRUS ELIMINATION
-                                    </h4>
-                                    <p>Destroy all the virus sources faster than opponents by freezing their weapons with shots.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon3.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>BASE ASSAULT
-                                    </h4>
-                                    <p>Storm the base which is actively protected by the enemy team, while not forgetting about your own defense</p>
-                                </div>
-                            </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li><img src="/img/gsicon2.png"/>AMMO</li>
+                                <li><img src="/img/gsicon4.png"/>RESPAWN</li>
+                                <li><img src="/img/gsicon6.png"/>RANDOM</li>
+                                <li><img src="/img/gsicon8.png"/>DIGITAL FLAG</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon4.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>DEATHMATCH
-                                    </h4>
-                                    <p>Combat with automatic respawn and a limited number of ammo magazines.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon5.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>ENCOUNTER
-                                    </h4>
-                                    <p>Team mode with simple rules for beginners and young players.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon6.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>ULTIMATIVE WEAPON
-                                    </h4>
-                                    <p>Your blaster becomes your ultimate weapon that fires single shots with high damage.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon7.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>ARENA KING
-                                    </h4>
-                                    <p>A battle in which the last player wins</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon8.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>TEAM DEATHMATCH
+                        <div class="col-md-12">
+                            <table class="normalTable">
+                                <tr>
+                                    <td>Activation by shots</td>
+                                    <td>+</td>
+                                </tr>
+                                <tr>
+                                    <td>Activation by touch
+                                    </td>
+                                    <td>+</td>
+                                </tr>
+                                <tr>
+                                    <td>Battery life
+                                    </td>
+                                    <td>up to 24 hours</td>
+                                </tr>
+                                <tr>
+                                    <td>Size</td>
+                                    <td>19х19х5,5 cm</td>
+                                </tr>
+                                <tr>
+                                    <td>Weight</td>
+                                    <td>520 grams</td>
+                                </tr>
 
-                                    </h4>
-                                    <p>Team battle with automatic respawn</p>
-                                </div>
-                            </div>
+                                <tr>
+                                    <td>Control</td>
+                                    <td>Android</td>
+                                </tr>
+
+                            </table>
+
                         </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon9.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>
-                                        MIND CONTROL
-                                    </h4>
-                                    <p>You capture the minds of deactivated opponents and they become a part of your team.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon10.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>EXPLORATION
-                                    </h4>
-                                    <p>Find ancient artifacts faster than the opposing team.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon11.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>DOMINATION
-                                    </h4>
-                                    <p>A game with a limited amount of ammo and the ability to replenish health and supplies only at the base.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="scriptpointItem">
-                                <div class="scriptpointItemImg">
-                                    <img src="/img/sicon12.png"/></div>
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>VAMPIRE FEUD
-                                    </h4>
-                                    <p>Striking opponents, just like a vampire, you take away their health units and restore yours</p>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
+
+
             </section>
+
+
             <div class="indoorBtn">
-                <a class="btn btn-primary btnMain">See Game scenario</a>
+                <Link href="/indoor">
+                    <a class="btn btn-primary btnMain">More on Indoor Galaxy Eclipse</a>
+                </Link>
             </div>
         </>
     )

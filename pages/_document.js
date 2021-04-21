@@ -12,6 +12,9 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head lang="en">
+                    <title>Gulf LaserTag</title>
+                    <meta name="description" content="An ambitious design that inspires action."/>
+
                     <link rel="shortcut icon" href="img/favicon.png" type="img/x-icon"/>
                     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
                 </Head>
