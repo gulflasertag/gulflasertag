@@ -975,6 +975,9 @@ section {
  background:#312e2e;
  color:#c3c2c2;
 }
+.darktable td,.darktable th{
+  color:#ccc
+}
 
  /* airbunker page  */
 
@@ -1294,6 +1297,19 @@ background-image: url(/img/background-left-bottom.png), url(/img/background-top-
   width:50px;
   margin-right:15px;
 }
+.siriusIconItem{
+text-align: center;
+}
+.siriusIconItem img{
+  width:55px;
+  margin:0 auto
+}
+.siriusIconItem h2{
+  color:#ccc;
+  font-size: 15px;
+  font-weight: 500;  
+  margin-top:5px;
+}
 .normalTable{
     margin:30px 0;
     width:100%;
@@ -1315,6 +1331,18 @@ background-image: url(/img/background-left-bottom.png), url(/img/background-top-
 }
 .dominationSecLeft img{
     max-width:80%;
+  }
+  .dboxIconItem{
+    margin-top:30px;
+    text-align: center;
+  }
+  .dboxIconItem img{
+    width:80px;
+    margin: 0 auto;
+  }
+  .dboxIconItem h2{
+    font-size: 15px;
+    font-weight: 400;
   }
 @media (max-width: 767px) {
   .hideDesktop{
