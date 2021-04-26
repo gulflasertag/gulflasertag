@@ -579,6 +579,60 @@ export default function header() {
                     </div>
                 </div>
             </section>
+
+            <section class="headbandSec sceneSec"
+                style={
+                    {background: "#070b0c"}
+            }>
+                <div class="container">
+                    <div class="taggerGroupHeaderPreTitle">Accessories</div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="taggerGroupItemName">
+                                <h2 class="whiteTitle">
+                                    <strong>SMART &nbsp;</strong>
+                                    remote control</h2>
+                            </div>
+                            <div class="whiteTitleText">
+                                <h4 style={
+                                    {border: 'none'}
+                                }>Portable scenario device</h4>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="whiteTitleText">
+                                        <p>This device is for setting up and controlling game sets and additional devices. With the help of the remote control you can choose the team color, game mode, as well as set the players’ parameters
+                                        </p>
+                                        <p>The 18 tactical buttons are grouped according to their purpose, which allows you to instantly send commands. Using a handy clip, you can fix the remote control
+                                                                                                                                                                                                                            on your belt.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="whiteTitleText">
+                                        <p>Each button is programmable for any command (from turning off the gaming kit tochanging a preset) and, if necessary, you can quickly return to the factory settings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <img src="/img/img507.jpg"
+                                        style={
+                                            {maxWidth: "300px"}
+                                        }/>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </>
     )
 }
