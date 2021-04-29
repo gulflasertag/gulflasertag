@@ -36,7 +36,6 @@ export default function Home() {
                             <p class="secDescription">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Praesent feugiat eleifend nisi quis scelerisque.
                             </p>
-                            <a class="btn btn-primary btnMain">Click here</a>
                         </div>
 
                     </div>
@@ -144,7 +143,9 @@ export default function Home() {
                         </div>
                     </div>
                     <div class="text-center">
-                        <a href="#" class="btn btn-primary btnMain">See All Products</a>
+                        <Link href="/outdoor">
+                            <a class="btn btn-primary btnMain">See All Products</a>
+                        </Link>
                     </div>
 
                 </div>
@@ -163,7 +164,7 @@ export default function Home() {
                         <div class="col-md-6 col-sm-6 col-12">
                             <h2 class="sectionHeading">Indoor Galaxy Eclipse</h2>
                             <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Unique modes that make players superheroes.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Unique modes that make players superheroes.</p>
                             <hr/>
                             <div class="indoorSec_item">
                                 <div class="row">
@@ -189,7 +190,9 @@ export default function Home() {
                                 </div>
                             </div>
 
-                            <a href="#" class="btn btn-primary btnMain btnMainWhite">See All Products</a>
+                            <Link href="/indoor">
+                                <a class="btn btn-primary btnMain btnMainWhite">See All Products</a>
+                            </Link>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
                             <img src="img/galaxy-kit.png" alt="Indoor Galaxy Eclipse"/>
@@ -210,17 +213,19 @@ export default function Home() {
                     <p class="subheading">Paintball Laser tag Archeritag Nerf Drone racing</p>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/airbunker.jpeg" alt="Airbunker"/>
+                            <img src="img/airbunker2.png" alt="Airbunker"/>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <img src="img/airbunker.jpeg" alt="Airbunker"/>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/airbunker.jpeg" alt="Airbunker"/>
+                            <img src="img/airbunker6.png" alt="Airbunker"/>
                         </div>
                     </div>
 
-                    <a href="#" class="btn btn-primary btnMain">See All Products</a>
+                    <Link href="/airbunker">
+                        <a class="btn btn-primary btnMain">See All Products</a>
+                    </Link>
                 </div>
             </section>
 

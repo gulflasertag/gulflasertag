@@ -54,20 +54,22 @@ export default function header() {
                             </li>
 
                             <li>
-                                <Link href="#">
+                                <Link href="/designArenas">
+                                    <a title="Designing of Arenas ">Designing of Arenas
+                                    </a>
+                                </Link>
+                            </li>
+
+                            <li>
+                                <Link href="/about">
                                     <a title="about us">
                                         About us
                                     </a>
                                 </Link>
                             </li>
-                            <li>
-                                <Link href="#">
-                                    <a title="Gallery">Gallery</a>
-                                </Link>
-                            </li>
 
                             <li>
-                                <Link href="#">
+                                <Link href="/contact">
                                     <a title="contact us">Contact us</a>
                                 </Link>
                             </li>
