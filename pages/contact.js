@@ -100,16 +100,9 @@ export default function contact() {
                                                 }
                                             }
                                             name='name'
-                                            className={
-                                                styles.inputField
-                                            }/>
+                                            class="inputField form-control"/>
 
                                     </formGroup>
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">Email address</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"/>
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                                </div>
                                 <formGroup className={
                                     styles.inputGroup
                                 }>
@@ -120,9 +113,7 @@ export default function contact() {
                                                 setEmail(e.target.value)
                                             }
                                         }
-                                        className={
-                                            styles.inputField
-                                        }/>
+                                        class="inputField form-control"/>
                                 </formGroup>
                             <formGroup className={
                                 styles.inputGroup
@@ -134,9 +125,7 @@ export default function contact() {
                                             setMessage(e.target.value)
                                         }
                                     }
-                                    className={
-                                        styles.inputField
-                                    }/>
+                                    class="inputField form-control"/>
                             </formGroup>
                         <input type='submit'
                             onClick={
