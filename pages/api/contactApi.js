@@ -28,16 +28,15 @@ export default function (req, res) {
             req.body.email
         }</p>`
     }
-    transporter.sendMail(mailData, function (err, info) {
-        if (err) 
-            console.log(err)
-         else 
-            console.log(info)
 
-
-        
-
-
-    })
+    transporter.sendMail(mailData, (err, data) => {
+        if (err) {
+            console.log(err);
+            res.send("error" + JSON.stringify(err));
+        } else {
+            console.log("mail send");
+            res.send("success");
+        }
+    });
     res.status(200)
 }
