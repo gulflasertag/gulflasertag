@@ -86,8 +86,11 @@ export default function contact() {
                                 styles.container
                             }>
                                 <form className={
-                                    styles.main
-                                }>
+                                        styles.main
+                                    }
+                                    name="contactForm"
+                                    method="POST">
+                                    <input type="hidden" name="form-name" valus="contactForm"/>
 
                                     <formGroup className={
                                         styles.inputGroup
