@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap");
 :root {
   --cont: 100%;
   --fs35: 35px;
@@ -577,6 +576,7 @@ section {
 /* indoor galazy */
 .indoorSec {
   background-color: #0f0f0f;
+  padding-top:15rem
 }
 .indoorSec .sectionHeading {
   color: #fff;
@@ -961,6 +961,7 @@ section {
   margin:0 auto;
   max-width:600px;
   padding:45px 0;
+  text-align: center;
 }
 .video h2{
   text-align: center;
@@ -1396,8 +1397,120 @@ margin-bottom:15px;
   .inputField {
     height: 30px;
   }
+
+  /* contact form */
+  .contactInfo{
+    text-align: center;
+  }
+  .contactInfo .icon{
+    border: 1px solid #000;
+    width:72px;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding:20px;
+  }
+  .contactInfo .icon svg{
+    font-size: 25px;
+    margin:0;
+  }
+  .contactInfo h3{
+    font-size: 25px;
+    justify-content: center;
+    margin:30px auto 15px;
+  } 
+@media (max-width: 1000px) {
+.brightShotTeamColorSec{
+  text-align: center;
+}
+.whiteTitleTextNoBorder p{
+  margin:0 auto;
+}
+.skyblueTitle{
+  text-align: center;
+}
+.indoorSoftwareRight{
+  padding: 120px 60px
+}
+.skyblueTitle {
+  font-size: 35px;
+}
+.indoorSoftwareLeft img{
+  margin-top:90px;
+}
+
+}
 @media (max-width: 767px) {
+  .heroBanner{
+    padding: 8rem 0;
+  }
+  .video iframe{
+    max-width:300px;
+    width:100%;
+    height:auto;
+    margin:30px auto;
+  }
+  .heroBanner h2{
+    font-size: 45px;
+  }
+  .sectionHeading{
+    font-size: 40px;
+  }
+  .outdoorSec .secDescription{
+    margin-bottom: 20px;
+  }
+  section{
+    padding: 8rem 0;
+  }
+  .outdoorSec_item,.indoorSec_item{
+    text-align:center
+  }
   .hideDesktop{
       display: block;
+  }
+  .btnMainWhite{
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    margin: 30px auto;
+  }
+  .topFooter{
+    text-align: center;
+  }
+  .footerLogo{
+    margin: 30px auto;
+  }
+  .topFooter p{
+    padding-right: 0;
+  }
+  .footerTitle{
+    margin-top: 60px;
+  }
+  .outdoorBannerBottom{
+    text-align: center;
+  }
+  .outdoorBannerTop{
+    padding: 10rem 0 10rem;
+  }
+  .outdoorBannerTop .sectionHeading{
+    font-size: 42px;
+  }
+  .icon{
+    max-width: 90px;
+    margin:0 auto;
+    margin-bottom: 15px;
+  }
+  .navbar-toggle .icon-bar{
+    padding:1px;
+    height:5px;
+    width:25px;
+  }
+  .navbar-nav{
+    flex-direction: column;
+  }
+  .navbar-default .navbar-toggle{
+      border-color: #333;
+  }
+  .navbar-default .navbar-toggle .icon-bar{
+    background-color: #333;
   }
 }

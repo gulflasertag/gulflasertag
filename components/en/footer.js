@@ -6,7 +6,7 @@ export default function Footer() {
             <div class="topFooter">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h2 class="footerTitle">About</h2>
                             <div class="footerLogo">
                                 <Link href="/">
@@ -18,7 +18,7 @@ export default function Footer() {
                             <p>An ambitious design that inspires action. A safe game in which there is no place for aggression. Unique modes that make players superheroes.
                             </p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h2 class="footerTitle">Quick Links</h2>
                             <ul>
                                 <li>
@@ -48,7 +48,7 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h2 class="footerTitle">Quick Links</h2>
                             <ul>
                                 <li>
@@ -70,7 +70,7 @@ export default function Footer() {
 
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <h2 class="footerTitle">Pages</h2>
                             <ul>
                                 <li>

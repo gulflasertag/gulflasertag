@@ -43,32 +43,32 @@ export default function header() {
                         </h2>
 
                         <div class="row">
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>LENGTH - 40 CM</h4>
                                     <p>Makes the game comfortable even for children from 5 years old.</p>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>LENGTH - 40 CM</h4>
                                     <p>Makes the game comfortable even for children from 5 years old.</p>
                                 </div>
                             </div>
 
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>LENGTH - 40 CM</h4>
                                     <p>Makes the game comfortable even for children from 5 years old.</p>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>LENGTH - 40 CM</h4>
                                     <p>Makes the game comfortable even for children from 5 years old.</p>
                                 </div>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>LENGTH - 40 CM</h4>
                                     <p>Makes the game comfortable even for children from 5 years old.</p>
@@ -195,13 +195,13 @@ export default function header() {
                                 sources
                             </h2>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="whiteTitleTextNoBorder">
                                 <p>The speaker in the blaster is responsible for the sound indication of shots.</p>
                                 <p>2 speakers on the shoulders of the vest alert players about wounds, flag capturing, respawn, and other game events</p>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-sm-6">
                             <div class="whiteTitleTextNoBorder">
                                 <p>Thanks to surround and parallel playback of sounds, the visitor hears each notification.</p>
                                 <p>Game kits come in 6 available languages.</p>
@@ -337,7 +337,7 @@ export default function header() {
                         </span>
                     </h2>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon1.png"/></div>
@@ -348,7 +348,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon2.png"/></div>
@@ -359,7 +359,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon3.png"/></div>
@@ -372,7 +372,7 @@ export default function header() {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon4.png"/></div>
@@ -383,7 +383,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon5.png"/></div>
@@ -394,7 +394,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon6.png"/></div>
@@ -407,7 +407,7 @@ export default function header() {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon7.png"/></div>
@@ -418,7 +418,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon8.png"/></div>
@@ -430,7 +430,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon9.png"/></div>
@@ -445,7 +445,7 @@ export default function header() {
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon10.png"/></div>
@@ -456,7 +456,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon11.png"/></div>
@@ -467,7 +467,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4 col-sm-6">
                             <div class="scriptpointItem">
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon12.png"/></div>
