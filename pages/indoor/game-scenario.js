@@ -28,7 +28,7 @@ export default function header() {
                         SIRIUS</h2>
                     <p>A portable scenario device that gives the players bonuses. The active mode of operation is displayed by the animated backlighting of the diodes.</p>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-xs-6">
                             <ul>
                                 <li><img src="/img/gsicon1.png"/>RADIATION</li>
                                 <li><img src="/img/gsicon3.png"/>MEDKIT</li>
@@ -36,7 +36,7 @@ export default function header() {
                                 <li><img src="/img/gsicon7.png"/>BONUS</li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xs-6">
                             <ul>
                                 <li><img src="/img/gsicon2.png"/>AMMO</li>
                                 <li><img src="/img/gsicon4.png"/>RESPAWN</li>
@@ -101,7 +101,7 @@ export default function header() {
                         MULTISTATION</h2>
                     <p>A cross-functional scenario device that can give bonuses to players, or act as a target for capture. A 27-cm LED panel animatedly displays the operating mode</p>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-xs-6">
                             <ul>
                                 <li><img src="/img/gsicon1.png"/>RADIATION</li>
                                 <li><img src="/img/gsicon3.png"/>MEDKIT</li>
@@ -109,7 +109,7 @@ export default function header() {
                                 <li><img src="/img/gsicon7.png"/>BONUS</li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xs-6">
                             <ul>
                                 <li><img src="/img/gsicon2.png"/>AMMO</li>
                                 <li><img src="/img/gsicon4.png"/>RESPAWN</li>
@@ -162,7 +162,7 @@ export default function header() {
 
             {/* super power */}
             <section class="superPowerSec">
-                <div class="dominationSecLeft">
+                <div class="dominationSecLeft xs-hide">
 
                     <div class="imageBottom">
                         <img src="/img/img154.jpg"/>
@@ -189,7 +189,7 @@ export default function header() {
                         <p>A cross-functional scenario device that can give bonuses to players, or act as a target for capture. A 27-cm LED panel animatedly displays the operating mode</p>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-xs-6">
                             <ul>
                                 <li><img src="/img/gsicon1.png"/>RADIATION</li>
                                 <li><img src="/img/gsicon3.png"/>MEDKIT</li>
@@ -197,7 +197,7 @@ export default function header() {
                                 <li><img src="/img/gsicon7.png"/>BONUS</li>
                             </ul>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xs-6">
                             <ul>
                                 <li><img src="/img/gsicon2.png"/>AMMO</li>
                                 <li><img src="/img/gsicon4.png"/>RESPAWN</li>

@@ -212,7 +212,6 @@ h6 {
   transition: 0.3s ease-in;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -846,6 +845,8 @@ section {
 .taggerGroupSidebarItem{
   border-bottom:1px solid #000;
   padding:10px 0;
+  max-width: 300px;
+    margin: 0 auto;
 }
 .taggerGroupSidebarItem p{
   color:#000;
@@ -1074,6 +1075,9 @@ section {
   margin:10px;
   border:1px solid #000;
   height:100%;
+  max-width:500px;
+  width:100%;
+  margin:10px auto
 }
 .dimentionItem img{
  max-width:350px;
@@ -1086,7 +1090,11 @@ margin:0 auto
 /* airbunker requirement */
 .airbunkerRequirement img{
   max-width:400px;
-  margin:0
+  margin:0;
+}
+.airbunkerRequirement  .bunker{
+    padding-left:30px;
+    padding-right:30px
 }
 /* /eclips indoor page/ */
 .indoorbanner{
@@ -1291,6 +1299,7 @@ background-image: url(/img/background-left-bottom.png), url(/img/background-top-
 }
 .siriusImg img{
     max-width:80%;
+    margin:0 auto;
   }
 .siriusDesc{
   background:#fff;
@@ -1311,6 +1320,7 @@ background-image: url(/img/background-left-bottom.png), url(/img/background-top-
 }
 .siriusIconItem{
 text-align: center;
+margin:15px 0
 }
 .siriusIconItem img{
   width:55px;
@@ -1419,24 +1429,74 @@ margin-bottom:15px;
     margin:30px auto 15px;
   } 
 @media (max-width: 1000px) {
-.brightShotTeamColorSec{
-  text-align: center;
-}
-.whiteTitleTextNoBorder p{
-  margin:0 auto;
-}
-.skyblueTitle{
-  text-align: center;
-}
-.indoorSoftwareRight{
-  padding: 120px 60px
-}
-.skyblueTitle {
-  font-size: 35px;
-}
-.indoorSoftwareLeft img{
-  margin-top:90px;
-}
+  .brightShotTeamColorSec{
+    text-align: center;
+  }
+  .whiteTitleTextNoBorder p{
+    margin:0 auto;
+  }
+  .skyblueTitle{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .indoorSoftwareRight{
+    padding: 120px 60px
+  }
+  .indoorSoftwareLeft img{
+    margin-top:90px;
+  }
+  .footerLogo{
+    max-width:100px;
+  }
+  section{
+    padding:6rem 0;
+  }
+  .footerTitle{
+    margin-top:60px;
+  }
+  .topFooter{
+    padding-top:0
+  }
+  
+  .icon{
+    max-width: 90px;
+    margin:0 auto;
+    margin-bottom: 15px;
+  }
+  .taggerGroupSidebarItem p{
+    text-align: center;
+  }
+  .impulseRecoilSec{
+    padding-top:100px
+  }
+  .navbar-default .navbar-nav>li>a{
+    font-size: 15px;
+    padding:10px 5px;
+  }
+  .taggerGroupItem img, .sceneSec img, .taggerGroupItemSpec{
+    width:60%;
+    margin:0 auto
+  }
+  .siriusDesc{
+    padding: 60px 30px 30px
+  }
+  /* airbunker ipad*/
+  .airbunkerBannerContent{
+    padding-top: 20vh;
+  }
+  .airbunkerBannerContent h2,.airbunkerBannerContent h4{
+    text-align: center;
+  }
+  .airbunkerRequirement{
+    text-align: center;
+  }
+  .airbunkerRequirement img{
+    margin:0 auto
+  }
+  .airbunkerTableIntro{
+    min-height: 600px;
+  }
 
 }
 @media (max-width: 767px) {
@@ -1457,9 +1517,6 @@ margin-bottom:15px;
   }
   .outdoorSec .secDescription{
     margin-bottom: 20px;
-  }
-  section{
-    padding: 8rem 0;
   }
   .outdoorSec_item,.indoorSec_item{
     text-align:center
@@ -1494,11 +1551,6 @@ margin-bottom:15px;
   .outdoorBannerTop .sectionHeading{
     font-size: 42px;
   }
-  .icon{
-    max-width: 90px;
-    margin:0 auto;
-    margin-bottom: 15px;
-  }
   .navbar-toggle .icon-bar{
     padding:1px;
     height:5px;
@@ -1509,8 +1561,68 @@ margin-bottom:15px;
   }
   .navbar-default .navbar-toggle{
       border-color: #333;
+      right:25%;
   }
   .navbar-default .navbar-toggle .icon-bar{
     background-color: #333;
+  }
+  .outdoorBannerTop .subheading{
+    font-size: 20px;
+  }
+  .greyBlackTitle{
+      font-size: 30px;
+  }
+  .gameKitSec,.superPowerSec, .indoorSoftwareSec, .superPowerSec{
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .gameKitDesc{
+    background-image: none;
+    padding:30px 30px 60px
+  }
+  .inDoorBannerDes p{
+    font-size: 20px;
+  }
+  .whiteTitleTextNoBorder{
+    text-align:center
+  }
+  .gameKitImg{
+    background:#fff
+  }
+  .gameKitImg img{
+    max-width:280px;
+  }
+  .xs-hide{
+    display: none;
+  }
+  .eclipsVest .gameKitImg img{
+    max-width:260px;
+    margin: 60px auto 0;
+  }
+  .gameKitDesc h6{
+    margin-top:30px
+  }
+  .powerSecLeft .greyBlackTitle{
+    margin-top:0;
+  }
+  .powerSecRight img{
+    margin:0 auto
+  }
+  .indoorSoftwareRight{
+ background-size: 50%;
+  }
+  .indoorSoftwareRight{
+    padding: 30px 30px 60px;
+  }
+  .superPowerSec .imageBottom{
+    position: relative;
+  }
+  .indoorBtn .btnMain{
+    font-size: 20px;
+    padding: 20px 10px 25px;
+  }
+  .siriusImg{
+    padding-top:60px;
+    background:#fff;
   }
 }

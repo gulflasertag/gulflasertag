@@ -70,7 +70,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section class="outdoorSec" data-aos="fade-up" data-aos-delay="50" data-aos-once="false">
+            <section class="outdoorSec">
                 <div class="container">
                     <h4 class="subheading">THE GAME IS JUST BEGINNING</h4>
                     <h2 class="sectionHeading">Outdoor Laser Tag System</h2>

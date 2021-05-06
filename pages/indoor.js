@@ -5,7 +5,7 @@ export default function header() {
         <>
             <section class="indoorbanner">
                 <div class="container">
-                    <img src="/img/eclips-indoor.png"/></div>
+                    <img src="/img/eclips-indoor.jpg"/></div>
             </section>
             <section class="indoorbanner gradientBlack">
                 <div class="container">
@@ -179,7 +179,7 @@ export default function header() {
                     </div>
 
                 </div>
-                <div class="gameKitImg">
+                <div class="gameKitImg xs-hide">
                     <img src="/img/feel.png"/>
                 </div>
 

@@ -85,49 +85,47 @@ export default function header() {
                                 <h4>8 modes</h4>
                             </div>
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon1.jpg" width="60px"/>
                                         <h2>RADIATION</h2>
                                     </div>
 
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon2.jpg" width="60px"/>
                                         <h2>MEDKIT</h2>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon3.jpg" width="60px"/>
                                         <h2>AMMO</h2>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon4.jpg" width="60px"/>
                                         <h2>RESPAWN</h2>
                                     </div>
                                 </div>
 
-                            </div>
-                            <br/><br/>
-                            <div class="row">
-                                <div class="col-md-3">
+
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon5.jpg" width="60px"/>
                                         <h2>DIGITAL FLAG</h2>
                                     </div>
 
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon6.jpg" width="60px"/>
                                         <h2>RANDOM</h2>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon7.jpg" width="60px"/>
                                         <h2>
@@ -135,15 +133,13 @@ export default function header() {
                                         </h2>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon8.jpg" width="60px"/>
                                         <h2>BASE</h2>
                                     </div>
                                 </div>
-
                             </div>
-
 
                         </div>
                     </div>
@@ -224,50 +220,47 @@ export default function header() {
                                 <h4>8 modes</h4>
                             </div>
                             <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon1.jpg" width="60px"/>
                                         <h2>RADIATION</h2>
                                     </div>
 
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon2.jpg" width="60px"/>
                                         <h2>MEDKIT</h2>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon3.jpg" width="60px"/>
                                         <h2>AMMO</h2>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon4.jpg" width="60px"/>
                                         <h2>RESPAWN</h2>
                                     </div>
                                 </div>
 
-                            </div>
-                            <br/><br/>
-                            <div class="row">
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon5.jpg" width="60px"/>
                                         <h2>BASE</h2>
                                     </div>
 
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon6.jpg" width="60px"/>
                                         <h2>DOMINATION BOX</h2>
                                     </div>
                                 </div>
 
-                                <div class="col-md-3">
+                                <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon8.jpg" width="60px"/>
                                         <h2>BASE</h2>
@@ -355,32 +348,32 @@ export default function header() {
                                             <br/>
                                             <br/>
                                             <div class="row">
-                                                <div class="col-md-4">
+                                                <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon1.jpg"/>
                                                         <h2>CAPTURE BY TIME
                                                         </h2>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon2.jpg"/>
                                                         <h2>TUG-OF-WAR</h2>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon3.jpg"/>
                                                         <h2>CAPTURE BY SHOTS</h2>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon4.jpg"/>
                                                         <h2>RAISE THE FLAG</h2>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-4">
+                                                <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon5.jpg"/>
                                                         <h2>TRIPLE CAPTURE</h2>
@@ -605,7 +598,7 @@ export default function header() {
                                         <p>This device is for setting up and controlling game sets and additional devices. With the help of the remote control you can choose the team color, game mode, as well as set the players’ parameters
                                         </p>
                                         <p>The 18 tactical buttons are grouped according to their purpose, which allows you to instantly send commands. Using a handy clip, you can fix the remote control
-                                                                                                                                                                                                                            on your belt.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        on your belt.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">

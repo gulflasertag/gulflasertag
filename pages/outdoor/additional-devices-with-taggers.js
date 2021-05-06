@@ -26,14 +26,14 @@ export default function header() {
                                 <hr/>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
 
                                     <div class="whiteTitleText">
                                         <h4>Durability</h4>
                                         <p>The screen is integrated in special mounting racks and protected with 6 mm glass, which eliminates mechanical damage and displacement when falling.</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <div class="whiteTitleText">
                                         <h4>Usability</h4>
                                         <p>The wide viewing angle without glare ensures clear visibility of all indicators from any angle. Bright backlighting allows visitors to clearly see all game indicators even in sunny weather.</p>
@@ -41,13 +41,13 @@ export default function header() {
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <div class="whiteTitleText">
                                         <h4>Gamefication</h4>
                                         <p>30 coloured indicators are intuitive for players of any age and allows them to perceive the information easily even in high dynamic of the game</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-sm-6">
                                     <div class="whiteTitleText">
                                         <h4>Convenience</h4>
                                         <p>Service indicators of the screen allow immediate game sets customizing. Information displayed in boot-mode optimizes the process of updating the equipment up to the new version in a few minutes.</p>
