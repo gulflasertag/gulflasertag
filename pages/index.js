@@ -63,7 +63,7 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>TAGGERS</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                                                <p>Basic, Standard, Premium and Tactical Pro Falcon F1 and F2, Glock 19, Colt M4, Ak-47.</p>
                                             </div>
                                         </div>
                                     </a>
@@ -79,7 +79,7 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>ADDITIONAL DEVICES WITH TAGGERS</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                                                <p>Headband Netronic Black / Pixel, Vest Netronic Black / Pixel, Shock-band</p>
                                             </div>
                                         </div>
                                     </a>
@@ -95,7 +95,7 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>GAME SCENARIO DEVICES</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                                                <p>Sirius, Multistation, SMART  Domination Box, Laser tag Grenade, Red dot sight,Protective tip, Shipping bag 6x, «Vortex» charger, SMART  remote control</p>
                                             </div>
                                         </div>
                                     </a>
@@ -117,7 +117,7 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>SOFTWARES</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                                                <p>Wi-Fi router, Repeater system, Android Box, Powerbank, Free Software</p>
                                             </div>
                                         </div>
                                     </a>
@@ -133,7 +133,7 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>SERVICES PROVIDED</h4>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
+                                                <p>Technical support, Business Development Assistance,Informational support, Certified Equipment,Service Center Network, Advanced equipment</p>
                                             </div>
                                         </div>
                                     </a>
@@ -144,7 +144,7 @@ export default function Home() {
                     </div>
                     <div class="text-center">
                         <Link href="/outdoor">
-                            <a class="btn btn-primary btnMain">See All Products</a>
+                            <a class="btn btn-primary btnMain">View More</a>
                         </Link>
                     </div>
 
@@ -164,40 +164,52 @@ export default function Home() {
                         <div class="col-md-6 col-sm-6 col-12">
                             <h2 class="sectionHeading">Indoor Galaxy Eclipse</h2>
                             <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      Unique modes that make players superheroes.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Unique modes that make players superheroes.</p>
                             <hr/>
                             <div class="indoorSec_item">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="icon"><FaVideo/></div>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <h4>How To Play</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
-                                    </div>
-                                </div>
+                                <Link href="/indoor/#video">
+                                    <a>
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <div class="icon"><FaVideo/></div>
+                                            </div>
+                                            <div class="col-md-10">
+
+                                                <h4>How To Play</h4>
+                                                <p>Instructions: how to play indoor laser tag? A laser tag video briefing in 4K!</p>
+
+                                            </div>
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
 
                             <div class="indoorSec_item">
-                                <div class="row">
-                                    <div class="col-md-2">
-                                        <div class="icon"><FaGamepad/></div>
-                                    </div>
-                                    <div class="col-md-10">
-                                        <h4>Game Scenario</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.</p>
-                                    </div>
-                                </div>
+                                <Link href="/indoor/game-scenario">
+                                    <a>
+                                        <div class="row">
+                                            <div class="col-md-2">
+                                                <div class="icon"><FaGamepad/></div>
+                                            </div>
+                                            <div class="col-md-10">
+                                                <h4>Game Scenario</h4>
+                                                <p>SIRIUS, MULTISTATION, SMART DOMINATION BOX</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </Link>
                             </div>
+
                             <br/>
                             <br/>
                             <Link href="/indoor">
-                                <a class="btn btn-primary btnMain btnMainWhite">See All Products</a>
+                                <a class="btn btn-primary btnMain btnMainWhite">View More</a>
                             </Link>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
                             <img src="img/galaxy-kit.png" alt="Indoor Galaxy Eclipse"/>
                         </div>
+
                     </div>
                 </div>
                 <div class="shape shape-bottom" data-negative="true">
@@ -225,7 +237,7 @@ export default function Home() {
                     </div>
 
                     <Link href="/airbunker">
-                        <a class="btn btn-primary btnMain">See All Products</a>
+                        <a class="btn btn-primary btnMain">Read More</a>
                     </Link>
                 </div>
             </section>

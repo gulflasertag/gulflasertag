@@ -256,7 +256,7 @@ export default function header() {
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon6.jpg" width="60px"/>
-                                        <h2>DOMINATION BOX</h2>
+                                        <h2>BOMB</h2>
                                     </div>
                                 </div>
 
@@ -419,11 +419,10 @@ export default function header() {
                                             <hr/>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>Domination box capture is one of the mostpopular game mechanics in laser tag. Smart Domination box offers participants a new level of gaming event dynamics.</p>
-                                                    <p>The scenario device is set in the center of the arena, as the place of greatest activity</p>
+                                                    <p>The body of the laser tag grenade is made of impact-resistant polymer  materials, two rubber bumpers soften drops and bumps. To activate the grenade, you need to hold the button and, when ready, release it by throwing the grenade towards the enemy.</p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>The device has 5 modes, based on which you can create exciting scenarios or modify existing ones. Indication of the degree of capture is shown on 3 dynamic scales, which allows players to observe the progress of their team and think through tactical actions.</p>
+                                                    <p>The device is equipped with an  infrared emitter, and after 4 seconds the grenade strikes all the enemies within a radius of 5 meters. The “explosion” of the laser tag grenade is accompanied by sound and light indication.</p>
                                                 </div>
                                             </div>
 
@@ -586,11 +585,7 @@ export default function header() {
                                     <strong>SMART &nbsp;</strong>
                                     remote control</h2>
                             </div>
-                            <div class="whiteTitleText">
-                                <h4 style={
-                                    {border: 'none'}
-                                }>Portable scenario device</h4>
-                            </div>
+                            <div class="whiteTitleText"></div>
 
                             <div class="row">
                                 <div class="col-md-6">
@@ -598,7 +593,7 @@ export default function header() {
                                         <p>This device is for setting up and controlling game sets and additional devices. With the help of the remote control you can choose the team color, game mode, as well as set the players’ parameters
                                         </p>
                                         <p>The 18 tactical buttons are grouped according to their purpose, which allows you to instantly send commands. Using a handy clip, you can fix the remote control
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        on your belt.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                on your belt.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">

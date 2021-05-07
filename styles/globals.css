@@ -491,7 +491,7 @@ h6,
   background: var(--primary_color);
   color: #fff;
   border-radius: 50px;
-  padding: 15px 30px 18px;
+  padding: 15px 40px 18px;
   font-size: 18px;
   line-height: 1em;
   border: none;
@@ -499,6 +499,8 @@ h6,
 .btnMainWhite {
   background: #fff;
   color: #000;
+  z-index: 2;
+  position: relative;
 }
 section {
   padding: 9rem 0;
@@ -589,6 +591,15 @@ section {
 .indoorSec h4 {
   color: #fff;
 }
+
+.indoorSec .indoorSec_item a .row{
+  transition: all ease-in-out 0.2s;
+}
+.indoorSec .indoorSec_item a:hover .row{
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
 /* outdoor system */
 .outdoorSec .sectionHeading,
 .outdoorSec .subheading {
@@ -840,7 +851,8 @@ section {
 }
 .taggerGroupItemSpec ul li span{
   float:right;
-  color:#000
+  color:#000;
+  padding-top:0;
 }
 .taggerGroupSidebarItem{
   border-bottom:1px solid #000;
@@ -1086,6 +1098,13 @@ margin:0 auto
 .airbunkerDroneRaceSec{
   background-image:url("/img/img301.jpg");
   background-position: top center;
+}
+.dimentionValue{
+  color:#000;
+  font-weight: 900;
+  margin-top:5px;
+  font-size: 20px;
+
 }
 /* airbunker requirement */
 .airbunkerRequirement img{

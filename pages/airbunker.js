@@ -59,8 +59,8 @@ export default function header() {
                         <div class="row">
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
-                                    <span>Set of bunkers</span><br/>
-                                    for the NXL 2021 field</h2>
+                                    <span>Set of Bunkers</span><br/>
+                                    for the “PSP / NXL” field</h2>
                             </div>
 
                             <div class="col-md-6"></div>
@@ -298,20 +298,20 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="dimentionItem">
                                 <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">2,1 х 2,5 х 2,75 m</div>
+                                <div class="dimentionValue">1,5 х 1 х 1 m</div>
                                 <img src="/img/dimentions5.png"/>
                                 <div class="dimentionName">
-                                    <h4>Dorito medium</h4>
+                                    <h4>Tall Cakе</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="dimentionItem">
                                 <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">1,7 х 1,7 х 1,7 m</div>
+                                <div class="dimentionValue">1 х 1 х 1 m</div>
                                 <img src="/img/dimentions6.png"/>
                                 <div class="dimentionName">
-                                    <h4>Dorito small</h4>
+                                    <h4>Cakе</h4>
                                 </div>
                             </div>
                         </div>
@@ -320,20 +320,20 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="dimentionItem">
                                 <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">2,1 х 2,5 х 2,75 m</div>
+                                <div class="dimentionValue">1,95 х 1,5 х 0,5 m</div>
                                 <img src="/img/dimentions7.png"/>
                                 <div class="dimentionName">
-                                    <h4>Dorito medium</h4>
+                                    <h4>Wing</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="dimentionItem">
                                 <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">1,7 х 1,7 х 1,7 m</div>
+                                <div class="dimentionValue">0,75 х 0,5 х 3 m</div>
                                 <img src="/img/dimentions8.png"/>
                                 <div class="dimentionName">
-                                    <h4>Dorito small</h4>
+                                    <h4>Snake Beam</h4>
                                 </div>
                             </div>
                         </div>

@@ -14,43 +14,58 @@ export default function header() {
             </div>
             <section class="headbandSec">
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle topAbsolute">Features</div>
+                    <div class="taggerGroupHeaderPreTitle topAbsolute"
+                        style={
+                            {
+                                position: 'relative',
+                                left: '0'
+                            }
+                    }>Features</div>
                     <div class="row">
                         <div class="col-md-6">
                             <h2 class="whiteTitle">Headband Netronic Black / Pixel</h2>
                             <img src="/img/headband.jpg" class="hideDesktop"/></div>
                         <div class="col-md-6">
                             <div class="taggerGroupItemPrice blck">
-                                <h4>$ 599</h4>
+                                <h4></h4>
                                 <p>The headband kit includes 2 sweatbands made of breathable Air Mesh material.</p>
                                 <hr/>
                             </div>
+                            <h4 style={
+                                {
+                                    color: '#fff',
+                                    paddingBottom: '15px;',
+                                    borderBottom: '1px solid #ccc'
+
+                                }
+                            }>Features</h4>
+
                             <div class="row">
                                 <div class="col-sm-6">
 
                                     <div class="whiteTitleText">
-                                        <h4>Durability</h4>
-                                        <p>The screen is integrated in special mounting racks and protected with 6 mm glass, which eliminates mechanical damage and displacement when falling.</p>
+                                        <h4>Weight</h4>
+                                        <p>The NETRONIC headband’s weight is reduced by 25%. Now it weighs only 150 grams, and is not felt on the head, so the player does not feel discomfort even during a long game.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Usability</h4>
-                                        <p>The wide viewing angle without glare ensures clear visibility of all indicators from any angle. Bright backlighting allows visitors to clearly see all game indicators even in sunny weather.</p>
+                                        <h4>Impact resistant materials</h4>
+                                        <p>The polycarbonate sensor body protects the internal electronics from damage, moisture, and dust, and a special bumper prevents the sensors from wearing out.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Gamefication</h4>
-                                        <p>30 coloured indicators are intuitive for players of any age and allows them to perceive the information easily even in high dynamic of the game</p>
+                                        <h4>Practicality and automation</h4>
+                                        <p>The new generation headband is made of CORDURA MAXI material. The density of this fabric is 50% higher than that of analogues and is 1200g / m.sq. The superbright inversion light indication for games on the street and indoors in any lighting. Auto power off after 10 minutes of inactivity reduces power consumption. For quick access to electronics, the headband is equipped with a moisture-proof zipper.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Convenience</h4>
-                                        <p>Service indicators of the screen allow immediate game sets customizing. Information displayed in boot-mode optimizes the process of updating the equipment up to the new version in a few minutes.</p>
+                                        <h4>Immersion in the game</h4>
+                                        <p>The NETRONIC headband implements a zonal vibration indication of a hit. Now the player will understand from which side he was hit. Each hit sensor is equipped with an infrared emitter, due to which interactive functions are available: “exit wound”, “regeneration”, “bleeding”. The NETRONIC headband can work autonomously without a blaster in the modes: Zombie Walker, Medic, Hostage.Now there is no need to buy a separate device for these roles.</p>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +89,9 @@ export default function header() {
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
-                                                <h2>Vest Netronic Black / Pixel</h2>
+                                                <h2>
+                                                    <strong>Vest Netronic&nbsp;</strong>
+                                                    Black / Pixel</h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <img src="/img/acceVest.jpg"/>
@@ -84,16 +101,15 @@ export default function header() {
 
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="taggerGroupItemPrice">
-                                                <h4>$ 310</h4>
-                                            </div>
+                                            <div class="taggerGroupItemPrice"></div>
                                             <div class="ItemSubTitle">“Black” & “Pixel”
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <p>The laser tag vests “Black” and “Pixel” are an alternative to the NETRONIC headband.A vest and headband can also be used together</p>
-                                                    <p>The laser tag vests “Black” and “Pixel” are an alternative to the NETRONIC headband.A vest and headband can also be used together</p>
+                                                    <p>
+                                                        Using both of them significantly increases the area for a hit, making the game special. The NETRONIC vest, as well as the headband, can work autonomously, without a laser tag gun</p>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <p>Hit sensors are installed on the chest, shoulders, and back.
@@ -151,7 +167,7 @@ export default function header() {
                                         </div>
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemPrice">
-                                                <h4>$ 180</h4>
+                                                <h4></h4>
                                             </div>
                                             <div class="ItemSubTitle">
                                                 Specifications
@@ -176,6 +192,11 @@ export default function header() {
                                                             <th scope="row">3</th>
                                                             <td>Method of data transfer</td>
                                                             <td>radio channel</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">4</th>
+                                                            <td>Battery life</td>
+                                                            <td>12 hours</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>

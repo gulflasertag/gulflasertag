@@ -59,12 +59,23 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <Link href="/indoor">
-                                        <a>Galaxy Eclipse</a>
+                                        <a>Indoor Galaxy Eclipse</a>
+                                    </Link>
+                                </li>
+
+                                <li>
+                                    <Link href="/indoor/game-scenario">
+                                        <a>Indoor Galaxy Eclipse Game Scenario</a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/airbunker">
                                         <a>Airbunker</a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/designArenas">
+                                        <a>Designing of Arenas</a>
                                     </Link>
                                 </li>
 
@@ -85,8 +96,8 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/airbunker">
-                                        <a>Gallery</a>
+                                    <Link href="/designArenas">
+                                        <a>Designing of Arenas</a>
                                     </Link>
                                 </li>
 

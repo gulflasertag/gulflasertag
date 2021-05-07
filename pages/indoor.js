@@ -51,27 +51,28 @@ export default function header() {
                             </div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
+                                    <h4>CAPACITIVE HAND SENSOR</h4>
+                                    <p>Prevents players from swinging a blaster or shooting one-handed.</p>
                                 </div>
                             </div>
 
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
+                                    <h4>RECOIL IMITATION
+                                    </h4>
+                                    <p>Vibration in the buttstock blaster lets players feel every shot.</p>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
+                                    <h4>HALO TECHNOLOGY</h4>
+                                    <p>Double illumination of the shot accompanied by the team color</p>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>LENGTH - 40 CM</h4>
-                                    <p>Makes the game comfortable even for children from 5 years old.</p>
+                                    <h4>COLOR IPS SCREEN</h4>
+                                    <p>Displays kit parameters and game statistics.</p>
                                 </div>
                             </div>
 
@@ -216,7 +217,7 @@ export default function header() {
                     </svg>
                 </div>
             </section>
-            <div class="video">
+            <div class="video" id="video">
                 <h2>
                     How to play ?
                 </h2>
