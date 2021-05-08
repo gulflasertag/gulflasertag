@@ -2,14 +2,10 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-import {
-    GiAk47U,
-    GiAbstract002,
-    GiAfterburn,
-    GiAbstract092,
-    GiDiscussion
-} from "react-icons/gi";
 import {FaFacebookF, FaTwitter, FaYoutube} from "react-icons/fa"
+import {RiInstagramFill} from "react-icons/ri";
+import {MdChat} from "react-icons/md";
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -19,6 +15,14 @@ import {useEffect} from 'react';
 export default function about() {
     return (
         <>
+            <div class="language">
+                <Link href="#">
+                    <a>
+                        <MdChat/>
+                        English
+                    </a>
+                </Link>
+            </div>
             <section class="heroBanner aboutHeroBanner">
                 <div class="background-overlay"></div>
 
@@ -104,9 +108,8 @@ export default function about() {
                 </div>
 
                 <div class="container">
-                    <h2 class="sectionHeading">Share your flights</h2>
-                    <p class="secDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-                        <br/>luctus nec ullamcorper mattis, pulvinar dapibus leo. Praesent feugiat eleifend nisi quis scelerisque.</p>
+                    <h2 class="sectionHeading">Follow Us In Social Media</h2>
+                    <p class="secDescription">We are ready to connect with you!</p>
                     <ul class="socialIcons">
                         <li>
                             <a href="#" target="_blank"><FaFacebookF/></a>
@@ -116,6 +119,9 @@ export default function about() {
                         </li>
                         <li>
                             <a href="#" target="_blank"><FaYoutube/></a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank"><RiInstagramFill/></a>
                         </li>
 
                     </ul>

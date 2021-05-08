@@ -23,40 +23,19 @@ import emailjs from 'emailjs-com';
 
 export default function contact() {
 
-    const {register, formState: {
-            errors
-        }, handleSubmit} = useForm();
-
 
     function onSubmitForm(values) {
 
         console.log(values)
-        console.log(values.name)
+        values.preventDefault();
 
-        // let config = {
-        //     method: 'post',
-        //     url: '/api/contact',
-        //     headers: {
-        //         'Content-Type': 'application/json'
-        //     },
-        //     data: values
-        // };
+
         emailjs.sendForm('service_xcjnfz9', 'template_2ym61o2', values.target, 'user_5YvxbkhSC6ysNKWIY2G3n').then((result) => {
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
-
-        // try {
-        //     const response = await axios(config);
-        //     console.log(response);
-        //     console.log(response.data.status);
-        //     if (response.data.status == 200) {
-        //         console.log('suces');
-        //     }
-        // } catch (err) {
-        //     console.log(err)
-        // }
+        values.target.reset();
 
     }
 
@@ -107,11 +86,8 @@ export default function contact() {
                                 <div class="formGroup">
                                     <label>Full Name</label>
 
-                                    <input required name="fullName" {...register("fullName", { required: true })} class="inputField form-control"/>
-                                    <span class="fieldError">
-                                        {
-                                        errors.fullName && "Full name is required"
-                                    } </span>
+                                    <input required name="fullName" class="inputField form-control"/>
+
                                 </div>
 
                                 <div class="formGroup">
@@ -119,20 +95,14 @@ export default function contact() {
                                         Your Email
                                     </label>
 
-                                    <input type='email' name="email" {...register("email", { required: true })} class="inputField form-control"/>
-                                    <span class="fieldError">
-                                        {
-                                        errors.email && "Email is required"
-                                    }</span>
+                                    <input required type='email' name="email" class="inputField form-control"/>
+
                                 </div>
 
                                 <div class="formGroup">
                                     <label>Your Message</label>
-                                    <textarea name="message" {...register("message", { required: true })} class="inputField form-control"></textarea>
-                                    <span class="fieldError">
-                                        {
-                                        errors.message && "Message cannot be empty"
-                                    }</span>
+                                    <textarea name="message" class="inputField form-control" required></textarea>
+
                                 </div>
                                 <input type='submit' class="btn btn-primary btnMain"/>
                             </form>
