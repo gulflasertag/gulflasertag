@@ -120,25 +120,36 @@ export default function contact() {
                             <h3>
                                 Have Any Questions? ​
                             </h3>
-                            <p>hi@abc.com<br/>
+                            <p>
+                                <b>Gulf Sales Representative</b><br/>
+                                Mohammed Yussuf
+                                <br/>gulflasertag@gmail.com
                             </p>
+                            <br/>
+                            <p>
+                                <b>Business Development Representative</b><br/>
+                                Halim Behroz
+                                <br/>Behroz.lasertag.net@gmail.com</p>
                         </div>
                         <div class="col-md-4">
                             <div class="icon"><FaPhone/></div>
                             <h3>
-                                Call us
+                                Call us or WhatsApp
                             </h3>
 
                             <p>
-                                +01 409 320 6305<br/>
-                                Sales Department
+                                <b>United Arab Emirates:</b><br/>
+                                +971558349291
+                                <br/>
+                                <br/>
+                                <b>Estonia:</b>
+                                <br/>+37258662265
                             </p>
                         </div>
                         <div class="col-md-4">
                             <div class="icon"><FaLocationArrow/></div>
                             <h3>Location</h3>
-                            <p>NO.8 West Ru Rong Rd,
-                                <br/>City, Country​</p>
+                            <p>United Arab Emirates</p>
                         </div>
                     </div>
                 </div>
@@ -161,16 +172,13 @@ export default function contact() {
                     <p class="secDescription">We are ready to connect with you!</p>
                     <ul class="socialIcons">
                         <li>
-                            <a href="#" target="_blank"><FaFacebookF/></a>
+                            <a href="https://www.facebook.com/gulf.lasertag/" target="_blank"><FaFacebookF/></a>
                         </li>
                         <li>
-                            <a href="#" target="_blank"><FaTwitter/></a>
+                            <a href="https://www.instagram.com/gulflasertag/" target="_blank"><RiInstagramFill/></a>
                         </li>
                         <li>
-                            <a href="#" target="_blank"><FaYoutube/></a>
-                        </li>
-                        <li>
-                            <a href="#" target="_blank"><RiInstagramFill/></a>
+                            <a href="https://www.youtube.com/channel/UCvKscjsK_AVhpQyiRZrezVg" target="_blank"><FaYoutube/></a>
                         </li>
 
 

@@ -98,7 +98,7 @@ export default function header() {
                             <div class="row">
 
                                 <div class="col-md-12">
-                                    <img src="/img/repeater.png"/>
+                                    <img src="/img/Repeater.png"/>
                                 </div>
 
                             </div>
