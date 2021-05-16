@@ -1,16 +1,7 @@
-import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../../styles/Home.module.css'
-
 import {FaFacebookF, FaTwitter, FaYoutube} from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri";
 import {MdChat} from "react-icons/md";
-
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import {useEffect} from 'react';
-
 
 export default function about() {
     return (

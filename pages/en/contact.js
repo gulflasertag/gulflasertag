@@ -38,10 +38,10 @@ export default function contact() {
         <>
 
             <div class="language">
-                <Link href="en/contact">
+                <Link href="/contact">
                     <a>
                         <MdChat/>
-                        English
+                        العربيــة
                     </a>
                 </Link>
             </div>
@@ -147,7 +147,7 @@ export default function contact() {
 
             <section class="preFooter"
                 style={
-                    {backgroundImage: "url('img/sky.jpeg')"}
+                    {backgroundImage: "url('../img/sky.jpeg')"}
             }>
                 <div class="shape shape-top" data-negative="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
