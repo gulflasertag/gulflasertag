@@ -38,13 +38,19 @@ export default function Home() {
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
                             {/* <img src="img/hero-img.jpg" /> */} </div>
-                        <div class="col-md-6 col-sm-6 col-12">
+                        <div class="col-md-6 col-sm-6 col-12 rtl">
                             <h2>
-                                <strong>Gulf
+                                <strong>الخليج
                                 </strong>
-                                &nbsp;LaserTag</h2>
-                            <p class="secDescription">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Praesent feugiat eleifend nisi quis scelerisque.
+                                &nbsp;علامة ليزر</h2>
+                            <p class="secDescription"
+                                style={
+                                    {"margin-bottom": "15px"}
+                            }>
+                                شركة Gulf Laser Tag تسهل وتساعد أصحاب الأعمال في الحصول على أفضل وأحدث معدات الليزر في العالم
+                            </p>
+                            <p>
+                                نحن نساعد أيضًا في تصميم الساحة وخطة العمل يمكن لأخصائيينا مساعدتك في اختيار الحزمة وتدريب الموظفين والتخليص الجمركي
                             </p>
                         </div>
 
@@ -56,24 +62,29 @@ export default function Home() {
                     </svg>
                 </div>
             </section>
-            <section class="outdoorSec" data-aos="fade-up" data-aos-delay="50" data-aos-once="false">
+            <section class="outdoorSec rtl" data-aos="fade-up" data-aos-delay="50" data-aos-once="false">
                 <div class="container">
-                    <h4 class="subheading">THE GAME IS JUST BEGINNING</h4>
-                    <h2 class="sectionHeading">Outdoor Laser Tag System</h2>
-                    <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. Unique modes that make players superheroes.</p>
+                    <h4 class="subheading">اللعبة بدأت للتو</h4>
+                    <h2 class="sectionHeading">نظام ألعاب الليزر تاغ الخارجي</h2>
+                    <p class="secDescription">تصميم طموح يلهم العمل. لعبة آمنة لا مكان فيها للعدوان. أوضاع فريدة تجعل اللاعبين أبطالًا خارقين.
+                    </p>
                     <div class="row">
+
+
                         <div class="col-md-4 col-sm-4 col-12">
 
                             <div class="outdoorSec_item">
-                                <Link href="/outdoor/taggers">
+                                <Link href="/outdoor/softwares">
                                     <a>
                                         <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiAk47U/></div>
-                                            </div>
+
                                             <div class="col-md-10">
-                                                <h4>TAGGERS</h4>
-                                                <p>Basic, Standard, Premium and Tactical Pro Falcon F1 and F2, Glock 19, Colt M4, Ak-47.</p>
+                                                <h4>البرامج</h4>
+                                                <p>راوتر واي فاي ، نظام مكرر ، أندرويد بوكس ​​، باور بانك ، برمجيات مجانية
+                                                </p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiAbstract092/></div>
                                             </div>
                                         </div>
                                     </a>
@@ -81,31 +92,16 @@ export default function Home() {
                             </div>
 
                             <div class="outdoorSec_item">
-                                <Link href="/outdoor/additional-devices-with-taggers">
+                                <Link href="/#services">
                                     <a>
                                         <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiAbstract002/></div>
-                                            </div>
-                                            <div class="col-md-10">
-                                                <h4>ADDITIONAL DEVICES WITH TAGGERS</h4>
-                                                <p>Headband Netronic Black / Pixel, Vest Netronic Black / Pixel, Shock-band</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </Link>
-                            </div>
 
-                            <div class="outdoorSec_item">
-                                <Link href="/outdoor/game-scenario-devices">
-                                    <a>
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiAfterburn/></div>
-                                            </div>
                                             <div class="col-md-10">
-                                                <h4>GAME SCENARIO DEVICES</h4>
-                                                <p>Sirius, Multistation, SMART  Domination Box, Laser tag Grenade, Red dot sight,Protective tip, Shipping bag 6x, «Vortex» charger, SMART  remote control</p>
+                                                <h4>تقديم خدمات
+                                                </h4>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiDiscussion/></div>
                                             </div>
                                         </div>
                                     </a>
@@ -119,15 +115,17 @@ export default function Home() {
                         <div class="col-md-4 col-sm-4 col-12">
 
                             <div class="outdoorSec_item">
-                                <Link href="/outdoor/softwares">
+                                <Link href="/outdoor/taggers">
                                     <a>
                                         <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiAbstract092/></div>
-                                            </div>
+
                                             <div class="col-md-10">
-                                                <h4>SOFTWARES</h4>
-                                                <p>Wi-Fi router, Repeater system, Android Box, Powerbank, Free Software</p>
+                                                <h4>TAGGERS</h4>
+                                                <p>الأساسية والقياسية والمتميزة والتكتيكية Pro Falcon F1 و F2 و Glock 19 و Colt M4 و Ak-47.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiAk47U/></div>
                                             </div>
                                         </div>
                                     </a>
@@ -135,15 +133,37 @@ export default function Home() {
                             </div>
 
                             <div class="outdoorSec_item">
-                                <Link href="/#services">
+                                <Link href="/outdoor/additional-devices-with-taggers">
                                     <a>
                                         <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiDiscussion/></div>
-                                            </div>
+
                                             <div class="col-md-10">
-                                                <h4>SERVICES PROVIDED</h4>
-                                                <p>Technical support, Business Development Assistance,Informational support, Certified Equipment,Service Center Network, Advanced equipment</p>
+                                                <h4>أجهزة إضافية مع TAGGERS
+                                                </h4>
+                                                <p>عقال Netronic Black / Pixel ، Vest Netronic Black / Pixel ، حزام الصدمات
+                                                </p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiAbstract002/></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </Link>
+                            </div>
+
+                            <div class="outdoorSec_item">
+                                <Link href="/outdoor/game-scenario-devices">
+                                    <a>
+                                        <div class="row">
+
+                                            <div class="col-md-10">
+                                                <h4>أجهزة سيناريو اللعبة
+                                                </h4>
+                                                <p>Sirius ، Multistation ، SMART Domination Box ، قنبلة ليزر ، مشهد نقطة حمراء ، طرف واقي ، حقيبة شحن 6x ، شاحن «Vortex» ، وحدة تحكم عن بعد ذكية
+                                                </p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiAfterburn/></div>
                                             </div>
                                         </div>
                                     </a>
@@ -154,7 +174,8 @@ export default function Home() {
                     </div>
                     <div class="text-center">
                         <Link href="/outdoor">
-                            <a class="btn btn-primary btnMain">View More</a>
+                            <a class="btn btn-primary btnMain">عرض المزيد
+                            </a>
                         </Link>
                     </div>
 
@@ -162,7 +183,7 @@ export default function Home() {
 
             </section>
 
-            <section class="indoorSec">
+            <section class="indoorSec rtl">
                 <div class="shape shape-top" data-negative="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                         <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
@@ -172,9 +193,10 @@ export default function Home() {
 
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
-                            <h2 class="sectionHeading">Indoor Galaxy Eclipse</h2>
-                            <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Unique modes that make players superheroes.</p>
+                            <h2 class="sectionHeading">غالاكسي إكليبس</h2>
+                            <p class="secDescription">الدعم الفني ، المساعدة في تطوير الأعمال ، الدعم المعلوماتي ، المعدات المعتمدة ، شبكة مركز الخدمة ، المعدات المتقدمة
+                            </p>
+
                             <hr/>
                             <div class="indoorSec_item">
                                 <Link href="/indoor/#video">

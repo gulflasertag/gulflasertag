@@ -512,6 +512,7 @@ section {
 
 .rtl, .rtl p, .rtl h6{
   direction: rtl;
+  font-family: DIN Next LT Arabic;
 }
 .rtl p{
   font-size: 21px;
