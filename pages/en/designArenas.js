@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 
-import {MdChat} from "react-icons/md";
+import {FaFacebookF, FaTwitter, FaYoutube} from "react-icons/fa"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -12,14 +12,6 @@ import 'aos/dist/aos.css';
 export default function contact() {
     return (
         <>
-            <div class="language">
-                <Link href="#">
-                    <a>
-                        <MdChat/>
-                        English
-                    </a>
-                </Link>
-            </div>
             <section class="heroBanner aboutHeroBanner"
                 style={
                     {backgroundImage: "url('/img/img59.jpg')"}

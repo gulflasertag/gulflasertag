@@ -1,11 +1,13 @@
+import Link from 'next/link'
+import {MdChat} from "react-icons/md";
 export default function header() {
     return (
         <>
             <div class="language">
-                <Link href="#">
+                <Link href="/outdoor/additional-devices-with-taggers">
                     <a>
                         <MdChat/>
-                        English
+                        العربيــة
                     </a>
                 </Link>
             </div>

@@ -3,14 +3,6 @@ import Link from 'next/link'
 export default function header() {
     return (
         <>
-            <div class="language">
-                <Link href="#">
-                    <a>
-                        <MdChat/>
-                        English
-                    </a>
-                </Link>
-            </div>
             <section class="indoorbanner">
                 <div class="container">
                     <img src="/img/eclips-indoor.jpg"/></div>

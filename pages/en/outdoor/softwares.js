@@ -4,10 +4,10 @@ export default function header() {
     return (
         <>
             <div class="language">
-                <Link href="../en/outdoor/softwares">
+                <Link href="/outdoor/softwares">
                     <a>
                         <MdChat/>
-                        English
+                        العربيــة
                     </a>
                 </Link>
             </div>

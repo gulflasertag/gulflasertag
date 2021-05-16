@@ -4,10 +4,10 @@ export default function header() {
     return (
         <>
             <div class="language">
-                <Link href="/en/airbunker">
+                <Link href="/airbunker">
                     <a>
                         <MdChat/>
-                        English
+                        العربيــة
                     </a>
                 </Link>
             </div>
@@ -20,7 +20,7 @@ export default function header() {
                     <div class="airbunkerBannerContent">
                         <div class="row">
                             <div class="col-md-6">
-                                <h2 class="whiteTitle">Paintball Laser tag Archeritag Nerf Drone racing</h2>
+                                <h2 class="whiteTitle">Paintball, Laser tag, Archeritag & Nerf drone racing</h2>
                             </div>
 
                             <div class="col-md-6"></div>

@@ -12,17 +12,15 @@ import {
     GiDiscussion
 } from "react-icons/gi";
 import {FaVideo, FaGamepad} from "react-icons/fa"
-import {MdChat} from "react-icons/md";
-
 export default function Home() {
 
     return (
         <>
             <div class="language">
-                <Link href="/en/outdoor">
+                <Link href="/outdoor">
                     <a>
                         <MdChat/>
-                        English
+                        العربيــة
                     </a>
                 </Link>
             </div>

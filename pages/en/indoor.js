@@ -6,10 +6,10 @@ export default function header() {
 
         <>
             <div class="language">
-                <Link href="/en/indoor">
+                <Link href="indoor">
                     <a>
                         <MdChat/>
-                        English
+                        العربيــة
                     </a>
                 </Link>
             </div>
@@ -17,31 +17,22 @@ export default function header() {
                 <div class="container">
                     <img src="/img/eclips-indoor.jpg"/></div>
             </section>
-            <section class="indoorbanner gradientBlack rtl">
+            <section class="indoorbanner gradientBlack">
                 <div class="container">
                     <div class="inDoorBannerDes">
-                        <p>
-                            .نیبعلالا عجشیو سامحلاب مستی میمصت<br/>
-                            .ةیئادعلل اھیف ناكم لا ةنمآ
-                            <br/>
-                            طرق لعب فریدة تصنع أبطا ًلا خارقین.</p>
+                        <p>An ambitious design that inspires action. A safe game in which there is no place for aggression. Unique modes that make players superheroes.</p>
                     </div>
                 </div>
             </section>
-            <section class="gameKitSec rtl">
-                <div class="gameKitDesc"
-                    style={
-                        {
-                            backgroundImage: "url(/img/background-left-bottom.png), url(/img/background-top-left.png)",
-                            backgroundPosition: "left bottom, left top"
-                        }
-                }>
+            <section class="gameKitSec">
+                <div class="gameKitDesc">
                     <h2 class="greyBlackTitle">
-                        <span>مجموعة الألعاب</span>غالاكسي إكليبس</h2>
-                    <h6>غالاكسي إكليبس</h6>
+                        <span>Game kit
+                        </span>Galaxy ECLIPSE</h2>
+                    <h6>GALAXY ECLIPSE</h6>
                     <p>
-                        هي جيل جديد من مجموعات ألعاب الليزر-تاغ الداخلية، وتتميز بأجهزة استشعار ذكية للتحكم في الإضاءة والحركة وطرق اللعب الفريدة مما يمكن أي شخص من أن يكون بطلًا خارقًا.
-
+                        <strong></strong>
+                        Is a new generation of indoor laser tag game kits with smart sensor illumination, motion control, and unique game modes that make everyone a superhero
                     </p>
 
                 </div>
@@ -51,52 +42,47 @@ export default function header() {
 
             </section>
 
-            <section class="blasterSec rtl"
-                style={
-                    {backgroundImage: "url(/img/bg-outdoor2.png) !important"}
-            }>
+            <section class="blasterSec">
                 <div class="container">
                     <div class="blasterKitDesc">
                         <img src="/img/gun.png"/>
 
-                        <h2 class="skyblueTitle">سدسم
-                            <span>سبیلكإ يسكلااغ</span>
+                        <h2 class="skyblueTitle">BLASTER
+                            <span>Galaxy ECLIPSE
+                            </span>
                         </h2>
 
                         <div class="row">
-                            <div class="col-md-2 col-sm-6"></div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>شاشة آي-بي-إس (IPS) ملونة</h4>
-                                    <p>تعرض بيانات المجموعة القياسية وإحصائيات اللعبة.</p>
+                                    <h4>LENGTH - 40 CM</h4>
+                                    <p>Makes the game comfortable even for children from 5 years old.</p>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>تقنية هالو</h4>
-                                    <p>إضاءة مزدوجة للطلقة مصحوبةتقنية هالوتقنية هالو بلونالفريق.
-                                    </p>
+                                    <h4>CAPACITIVE HAND SENSOR</h4>
+                                    <p>Prevents players from swinging a blaster or shooting one-handed.</p>
                                 </div>
                             </div>
 
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>محاكاة الارتداد
+                                    <h4>RECOIL IMITATION
                                     </h4>
-                                    <p>الاهتزاز في مؤخرة المسدس يتيح للاعبين الشعور بكل طلقة.</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-2 col-sm-6">
-                                <div class="whiteTitleTextNoBorder">
-                                    <h4>جهاز الاستشعار بسعة اليد</h4>
-                                    <p>مما يمنع اللاعبين من أرجحة المسدس أو إطلاق النار بيد واحدة</p>
+                                    <p>Vibration in the buttstock blaster lets players feel every shot.</p>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>الطول - 40 سم</h4>
-                                    <p>مما يجعل اللعب مريح حتى للأطفال بدئًا من سن 5 سنوات.</p>
+                                    <h4>HALO TECHNOLOGY</h4>
+                                    <p>Double illumination of the shot accompanied by the team color</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-6">
+                                <div class="whiteTitleTextNoBorder">
+                                    <h4>COLOR IPS SCREEN</h4>
+                                    <p>Displays kit parameters and game statistics.</p>
                                 </div>
                             </div>
 
@@ -107,52 +93,45 @@ export default function header() {
 
 
             </section>
-            <section class="brightShotTeamColorSec rtl">
+            <section class="brightShotTeamColorSec">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="whiteTitleTextNoBorder">
-                                <h4>تقنية هالو</h4>
-                                <p>
-                                    بفضل تقنية هالو (HALO)، المسدس يرسل شعاعًا أحمر اللون بالإضافة وللمحة من لون الفريق مع كل طلقة.&nbsp;الإضاءة المزدوجة تجعل اللعبة أكثر أمانًا وتسمح أيضًا للاعبين بالتمييز بشكل أفضل بين الحلفاء والأعداء.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
                             <h2 class="skyblueTitle">
-                                <span>طلقات مشرقة</span>
-                                مميزة بلون الفريق
+                                <span>Bright shots &nbsp;
+                                </span>
+                                with team color
                             </h2>
                         </div>
-
+                        <div class="col-md-6">
+                            <div class="whiteTitleTextNoBorder">
+                                <h4>HALO TECHNOLOGY</h4>
+                                <p>Thanks to the HALO technology, a shooting blaster sends a red beam and a flesh of the team color. Double shot illumination makes the game safer and also allows players to better distinguish between allies and opponents.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <img src="/img/indoor-team-shot.jpg"/>
             </section>
 
-            <section class="gameKitSec eclipsVest rtl">
-                <div class="gameKitDesc"
-                    style={
-                        {
-                            backgroundImage: "url(/img/background-left-bottom.png), url(/img/background-top-left.png)",
-                            backgroundPosition: "left bottom, left top"
-                        }
-                }>
+            <section class="gameKitSec eclipsVest">
+                <div class="gameKitDesc">
 
                     <h2 class="skyblueTitle">
-                        <span>إكليبس</span>
-                        سترة</h2>
+                        <span>ECLIPSE</span>
+                        Vest</h2>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>5 وحدات للإشارة الاهتزازية</h4>
-                                <p>اهتزاز مركز بالمنطقة الجسدية التي ضربها العدو محاكاة قوية للصدمات عندما يتم إلغاء اللاعب تمامًا.</p>
+                                <h4>5 VIBRATION INDICATION MODULES</h4>
+                                <p>Spot vibration of the zone hit by an enemy and a powerful shock imitation when the player is completely deactivated.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>الطول - 42 سم
+                                <h4>LENGTH - 42 CM
                                 </h4>
-                                <p>بسبب مساحة ملامسة الجسم الصغيرة، جسم اللاعب لا يسخن أثناء دورة اللعبة.</p>
+                                <p>Due to the small area of contact with the body, the player does not overheat during the session</p>
                             </div>
                         </div>
 
@@ -160,14 +139,14 @@ export default function header() {
                     <div class="row">
                         <div class="col-md-6">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>الوزن - 1200 جرام</h4>
-                                <p>يسمح الوزن شديد الخفة للسترة للجميع باللعب، حتى للأطفال الصغار بعمر 5 سنوات.</p>
+                                <h4>WEIGHT - 1200 G</h4>
+                                <p>The minimal weight of the vest allows even the smallest children of 5 years to play.</p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>2 من مكبرات الصوت</h4>
-                                <p>مكبرات الصوت مثبتة في أكتاف السترة حتى يظل الزوار على اطلاع دائم بجميع تطورات اللعبة.</p>
+                                <h4>2 SPEAKERS</h4>
+                                <p>The speakers are installed in the shoulders of the vest so that visitors stay informed about all game.</p>
                             </div>
                         </div>
 
@@ -180,42 +159,33 @@ export default function header() {
                 </div>
 
             </section>
-            <section class="gameKitSec rtl">
-                <div class="gameKitDesc"
-                    style={
-                        {
-                            backgroundImage: "url(/img/background-left-bottom.png), url(/img/background-top-left.png)",
-                            backgroundPosition: "left bottom, left top"
-                        }
-                }>
+            <section class="gameKitSec">
+                <div class="gameKitDesc">
 
                     <h2 class="skyblueTitle"
                         style={
                             {color: '#222'}
                     }>
-
-                        اشعر
-                        <span>إكليبس</span>
+                        Feel
+                        <span>ECLIPSE</span>
                     </h2>
                     <div class="row">
+                        <div class="col-md-5">
+                            <div class="">
+                                <h6>SMART LIGHT INDICATION</h6>
+                                <p>The Eclipse kit will intuitively and immersively display every game event, injury, change of lead, or virtual explosion. This solution is realized due to the complex geometry of the sensors and the wellcoordinated work of more than 50 LEDs</p>
+                            </div>
+                        </div>
                         <div class="col-md-1"></div>
 
                         <div class="col-md-5">
-                            <h6>محاكاة الصدمات
+                            <h6>SIMULATION OF SHOCK
                             </h6>
-                            <p>وحدة محاكاة الصدمات المدمجة في الجزء الخلفي من السترة تعطي الاعب الذي تم إلغائه اهتزازًا قويًا، وذلك بفضل قدرة السترة الاهتزازية العالية. أيضًا عند الإصابة، فسيتم تشغيل إشارة اهتزازية مركزة في المنطقة الجسدية التي ضربها الخصم.
+                            <p>A shock imitation module built into the back of the vest gives a real shake to the deactivated player due to its powerful vibration. Also, when injured, a spot vibration indication is triggered in the sensor that the opponent hit.
                             </p>
                         </div>
 
                         <div class="col-md-1"></div>
-
-
-                        <div class="col-md-5">
-                            <div class="">
-                                <h6>مؤشر ضوء ذكي</h6>
-                                <p>مجموعة ألعاب إكليبس ستعرض بشكل بسيط وحدسي وجاذب كل حدث في اللعبة، بما في ذلك الإصابات وتغييرالقيادة والانفجارات الافتراضية. هذه الميزة الهامة ممكنة فقط بفضل التركيب الهندسي المعقد لأجهزة الاستشعار والعمل المنسق بشكل جيد بين أكثر من 50 مؤشر ليد ضوئي.</p>
-                            </div>
-                        </div>
 
 
                     </div>
@@ -227,30 +197,27 @@ export default function header() {
 
             </section>
 
-            <section class="threeSoundSec rtl">
+            <section class="threeSoundSec">
                 <div class="container">
                     <div class="row">
-
-
-                        <div class="col-md-3 col-sm-6">
-                            <div class="whiteTitleTextNoBorder">
-                                <p>بفضل التشغيل المحيطي والمتوازي للأصوات، الزائر سيسمع كل إشعار.</p>
-                                <p>تتوفر مجموعات الألعاب بست لغات مختلفة.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-
-                            <div class="whiteTitleTextNoBorder">
-                                <p>السماعة الموجودة في المسدس مسئولة عن الإشارة الصوتية للطلقات.</p>
-                                <p>مكبري الصوت الاثنين المتواجدين على أكتاف السترة ينبهان اللاعب حول الجروح والإمساك بالعلم والعودة للحياة وأحداث اللعبة الأخرى</p>
-                            </div>
-                        </div>
                         <div class="col-md-6">
                             <h2 class="skyblueTitle">
-                                <span>3 مصادر &nbsp;
+                                <span>3 sound &nbsp;
                                 </span>
-                                للصوت
+                                sources
                             </h2>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="whiteTitleTextNoBorder">
+                                <p>The speaker in the blaster is responsible for the sound indication of shots.</p>
+                                <p>2 speakers on the shoulders of the vest alert players about wounds, flag capturing, respawn, and other game events</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="whiteTitleTextNoBorder">
+                                <p>Thanks to surround and parallel playback of sounds, the visitor hears each notification.</p>
+                                <p>Game kits come in 6 available languages.</p>
+                            </div>
                         </div>
                     </div>
                     <img src="/img/3sound.jpg"/>
@@ -261,25 +228,23 @@ export default function header() {
                     </svg>
                 </div>
             </section>
-            <div class="video rtl" id="video">
+            <div class="video" id="video">
                 <h2>
-                    كيف ألعب ؟
-
+                    How to play ?
                 </h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LkMO_chGWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             {/* super power */}
-            <section class="superPowerSec rtl">
+            <section class="superPowerSec">
 
                 <div class="powerSecLeft">
                     <h2 class="greyBlackTitle">
-                        <span>اختر قوتك
+                        <span>Choose your
                         </span>
-                        الخارقة!</h2>
+                        superpower!</h2>
                     <div class="row">
-                        <div class="col-md-5"></div>
                         <div class="col-md-7">
-                            <p>بإمكان اللاعب أن يضع يده على جهاز الاستشعار الموجود بمنطقة البطن على السترة لتنشيط إحدى القوى الخارقة لفترة محدودة من الوقت.</p>
+                            <p>By placing a hand on the sensor on the stomach, the player can activate one of the superpowers for a limited time.</p>
                         </div>
                     </div>
                     <div class="imageBottom">
@@ -294,8 +259,8 @@ export default function header() {
                         </div>
                         <div class="col-md-5">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>المعالِج</h4>
-                                <p>تسمح لك قوة المعالِج باستعادة صحتك وصحة جميع الحلفاء القريبين منك.</p>
+                                <h4>HEALER</h4>
+                                <p>Allows you to restore health for yourself and all allies nearby.</p>
                             </div>
                         </div>
                     </div>
@@ -306,8 +271,8 @@ export default function header() {
                         </div>
                         <div class="col-md-5">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>النينجا</h4>
-                                <p>تقوم قوة النينجا بإطفاء إضاءة سترتك، مما يسمح لك بالتسلل خلف ومداهمة خصومك.</p>
+                                <h4>NINJA</h4>
+                                <p>Turns off the vest illumination, allowing you to sneak up on opponents.</p>
                             </div>
                         </div>
                     </div>
@@ -318,7 +283,7 @@ export default function header() {
                         </div>
                         <div class="col-md-5">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>درع القوة</h4>
+                                <h4>POWER SHIELD</h4>
                                 <p>Temporarily makes a player invulnerable to all types of damage.</p>
                             </div>
                         </div>
@@ -352,7 +317,7 @@ export default function header() {
 
 
             </section>
-            <section class="indoorSoftwareSec rtl">
+            <section class="indoorSoftwareSec">
 
                 <div class="indoorSoftwareLeft">
                     <img src="/img/mobile.png"/>
@@ -373,7 +338,7 @@ export default function header() {
                     </div>
                 </div>
             </section>
-            <section class="scriptPointsSec rtl">
+            <section class="scriptPointsSec">
                 <div class="container">
                     <h2 class="skyblueTitle">Use &nbsp;
                         <span style={
@@ -519,8 +484,7 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon12.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>VAMPIRE FEUD
-                                    </h4>
+                                    <h4>VAMPIRE FEUD</h4>
                                     <p>Striking opponents, just like a vampire, you take away their health units and restore yours</p>
                                 </div>
                             </div>

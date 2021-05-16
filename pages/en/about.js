@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
 import {FaFacebookF, FaTwitter, FaYoutube} from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri";
@@ -16,10 +16,10 @@ export default function about() {
     return (
         <>
             <div class="language">
-                <Link href="en/about">
+                <Link href="about">
                     <a>
                         <MdChat/>
-                        English
+                        العربيــة
                     </a>
                 </Link>
             </div>
@@ -37,6 +37,8 @@ export default function about() {
                                 &nbsp;Us</h2>
                             <p class="secDescription">
                                 “Gulf laser tag is the official representative of lasertag.net in United Arab Emirates and Kingdom of Saudi Arabia.
+
+
                             </p>
 
                         </div>
@@ -58,12 +60,13 @@ export default function about() {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="img/airbunker2.png" alt="Airbunker"/>
+                            <img src="../img/airbunker2.png" alt="Airbunker"/>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
                             <p class="subheading">
-                                <h2 class="sectionHeading">Our Passion</h2>
-                                <p class="secDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Praesent feugiat eleifend nisi quis scelerisque. Ut elit tellus, luctus nec ullamcorper mattis.
+                                <p class="secDescription">Gulf laser tag facilitate and help business owners to get the best and latest laser tag equipment in the world.
+
+
                                 </p>
 
                             </p>
@@ -82,14 +85,14 @@ export default function about() {
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
                             <p class="subheading">
-                                <h2 class="sectionHeading">Make It Different</h2>
-                                <p class="secDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Praesent feugiat eleifend nisi quis scelerisque. Ut elit tellus, luctus nec ullamcorper mattis.
+                                <p class="secDescription">We also help with design of the Arena and Business plan Our specialists can help you with package choice, staff training and custom clearance”
+
                                 </p>
                             </p>
 
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="img/airbunker.jpeg" alt="Airbunker"/>
+                            <img src="../img/airbunker.jpeg" alt="Airbunker"/>
                         </div>
                     </div>
 

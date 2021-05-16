@@ -39,6 +39,14 @@ export default function contact() {
 
     return (
         <>
+            <div class="language">
+                <Link href="#">
+                    <a>
+                        <MdChat/>
+                        English
+                    </a>
+                </Link>
+            </div>
             <section class="heroBanner aboutHeroBanner"
                 style={
                     {backgroundImage: "url('/img/droneview.jpg')"}
