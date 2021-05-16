@@ -6,7 +6,7 @@ export default function header() {
 
         <>
             <div class="language">
-                <Link href="indoor">
+                <Link href="/indoor">
                     <a>
                         <MdChat/>
                         العربيــة

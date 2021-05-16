@@ -1,8 +1,17 @@
 import Link from 'next/link'
+import {MdChat} from "react-icons/md";
 
 export default function header() {
     return (
         <>
+            <div class="language">
+                <Link href="/indoor/game-scenario">
+                    <a>
+                        <MdChat/>
+                        العربيــة
+                    </a>
+                </Link>
+            </div>
             <section class="indoorbanner">
                 <div class="container">
                     <img src="/img/eclips-indoor.jpg"/></div>

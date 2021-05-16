@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import {MdChat} from "react-icons/md";
 
 import {AiOutlineSafety} from "react-icons/ai"
 import {
@@ -29,7 +30,7 @@ export default function Home() {
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <img src="img/netronicLogo.jpg" width="100px"/>
+                                <img src="../img/netronicLogo.jpg" width="100px"/>
                                 <h2 class="sectionHeading">Outdoor
                                     <br/>laser tag system</h2>
                                 <h4 class="subheading">THE GAME IS JUST BEGINNING</h4>

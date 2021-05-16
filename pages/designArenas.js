@@ -1,19 +1,11 @@
-import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-
-
 import {MdChat} from "react-icons/md";
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 
 export default function contact() {
     return (
         <>
             <div class="language">
-                <Link href="#">
+                <Link href="en/designArenas">
                     <a>
                         <MdChat/>
                         English

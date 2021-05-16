@@ -1,17 +1,18 @@
-import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-
-
-import {FaFacebookF, FaTwitter, FaYoutube} from "react-icons/fa"
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import {MdChat} from "react-icons/md";
 
 
 export default function contact() {
     return (
         <>
+            <div class="language">
+                <Link href="/designArenas">
+                    <a>
+                        <MdChat/>
+                        العربيــة
+                    </a>
+                </Link>
+            </div>
             <section class="heroBanner aboutHeroBanner"
                 style={
                     {backgroundImage: "url('/img/img59.jpg')"}

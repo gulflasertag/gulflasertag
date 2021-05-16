@@ -16,7 +16,7 @@ export default function about() {
     return (
         <>
             <div class="language">
-                <Link href="about">
+                <Link href="/about">
                     <a>
                         <MdChat/>
                         العربيــة
@@ -101,7 +101,7 @@ export default function about() {
 
             <section class="preFooter"
                 style={
-                    {backgroundImage: "url('img/sky.jpeg')"}
+                    {backgroundImage: "url('../img/sky.jpeg')"}
             }>
 
                 <div class="shape shape-top" data-negative="true">
