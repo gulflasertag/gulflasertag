@@ -202,14 +202,13 @@ export default function Home() {
                                 <Link href="/indoor/#video">
                                     <a>
                                         <div class="row">
+
+                                            <div class="col-md-10">
+                                                <h4>كيف ألعب</h4>
+                                                <p>التعليمات: كيف تلعب بطاقة الليزر في الأماكن المغلقة؟ موجز فيديو بالليزر بدقة 4K</p>
+                                            </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><FaVideo/></div>
-                                            </div>
-                                            <div class="col-md-10">
-
-                                                <h4>How To Play</h4>
-                                                <p>Instructions: how to play indoor laser tag? A laser tag video briefing in 4K!</p>
-
                                             </div>
                                         </div>
                                     </a>
@@ -220,12 +219,12 @@ export default function Home() {
                                 <Link href="/indoor/game-scenario">
                                     <a>
                                         <div class="row">
+                                            <div class="col-md-10">
+                                                <h4>سيناريو اللعبة</h4>
+                                                <p>سيريوس ، التعدد ، صندوق الهيمنة الذكي</p>
+                                            </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><FaGamepad/></div>
-                                            </div>
-                                            <div class="col-md-10">
-                                                <h4>Game Scenario</h4>
-                                                <p>SIRIUS, MULTISTATION, SMART DOMINATION BOX</p>
                                             </div>
                                         </div>
                                     </a>
@@ -235,7 +234,7 @@ export default function Home() {
                             <br/>
                             <br/>
                             <Link href="/indoor">
-                                <a class="btn btn-primary btnMain btnMainWhite">View More</a>
+                                <a class="btn btn-primary btnMain btnMainWhite">عرض المزيد</a>
                             </Link>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
@@ -251,30 +250,30 @@ export default function Home() {
                 </div>
             </section>
 
-            <section class="airBunker">
+            <section class="airBunker rtl">
 
                 <div class="container">
-                    <h2 class="sectionHeading">Air Bunkers</h2>
-                    <p class="subheading">Paintball Laser tag Archeritag Nerf Drone racing</p>
+                    <h2 class="sectionHeading">المخابئ الجوية</h2>
+                    <p class="subheading">بينت بول ، ليزر تاج ، آرتشريتاج ونيرف درون ريسينغ.</p>
                     <div class="row">
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <img src="img/airbunker6.png" alt="Airbunker"/>
+                        </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <img src="img/airbunker2.png" alt="Airbunker"/>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <img src="img/airbunker.jpeg" alt="Airbunker"/>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/airbunker6.png" alt="Airbunker"/>
-                        </div>
                     </div>
 
                     <Link href="/airbunker">
-                        <a class="btn btn-primary btnMain">Read More</a>
+                        <a class="btn btn-primary btnMain">اقرأ أكثر</a>
                     </Link>
                 </div>
             </section>
 
-            <section class="preFooter" id="services">
+            <section class="preFooter rtl" id="services">
                 {/* <div class="background-overlay"></div> */}
                 <div class="shape shape-top" data-negative="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
@@ -283,46 +282,46 @@ export default function Home() {
                 </div>
 
                 <div class="container">
-                    <p class="secDescription">SERVICES PROVIDED</p>
-                    <h2 class="sectionHeading">More than just laser tag equipment</h2>
+                    <p class="secDescription">تقديم خدمات</p>
+                    <h2 class="sectionHeading">أكثر من مجرد معدات وسم الليزر</h2>
 
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>Technical support</h5>
-                                <p>Consultation and assistance 7 days a week</p>
+                                <h5>دعم فني</h5>
+                                <p>استشارة ومساعدة 7 أيام في الأسبوع</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>Business Development Assistance</h5>
-                                <p>A range of services for the construction and promotion of laser tag centers</p>
+                                <h5>المساعدة في تطوير الأعمال</h5>
+                                <p>مجموعة من الخدمات لبناء وتعزيز مراكز العلامات بالليزر</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>Informational support</h5>
-                                <p>Training materials, graphic layouts, consultations</p>
+                                <h5>الدعم المعلوماتي</h5>
+                                <p>مواد تدريبية ، تخطيطات بيانية ، استشارات</p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>Certified Equipment</h5>
-                                <p>Safe use in the CIS and the European Union</p>
+                                <h5>معدات معتمدة</h5>
+                                <p>الاستخدام الآمن في رابطة الدول المستقلة والاتحاد الأوروبي</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>Service Center Network</h5>
-                                <p>Post warranty service. Replacement equipment during repair</p>
+                                <h5>شبكة مركز الخدمة</h5>
+                                <p>خدمة ما بعد الضمان. استبدال المعدات أثناء الإصلاح</p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>Advanced equipment</h5>
-                                <p>Patented engineering and software solutions</p>
+                                <h5>معدات متطورة</h5>
+                                <p>حلول هندسية وبرمجية حاصلة على براءة اختراع</p>
                             </div>
                         </div>
 

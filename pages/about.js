@@ -23,7 +23,7 @@ export default function about() {
                     </a>
                 </Link>
             </div>
-            <section class="heroBanner aboutHeroBanner">
+            <section class="heroBanner aboutHeroBanner rtl">
                 <div class="background-overlay"></div>
 
                 <div class="container">
@@ -32,11 +32,11 @@ export default function about() {
 
                         <div class="col-md-8 col-sm-8 col-12">
                             <h2>
-                                <strong>About
+                                <strong>حول
                                 </strong>
-                                &nbsp;Us</h2>
+                                &nbsp;نحن</h2>
                             <p class="secDescription">
-                                “Gulf laser tag is the official representative of lasertag.net in United Arab Emirates and Kingdom of Saudi Arabia.
+                                “جلف ليزر تاغ هو الممثل الرسمي لموقع lasertag.net في الإمارات العربية المتحدة والمملكة العربية السعودية.
                             </p>
 
                         </div>
@@ -53,27 +53,27 @@ export default function about() {
             </section>
 
 
-            <section class="airBunker">
+            <section class="airBunker rtl">
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-12">
-                            <img src="img/airbunker2.png" alt="Airbunker"/>
-                        </div>
+
                         <div class="col-md-6 col-sm-6 col-12">
                             <p class="subheading">
-                                <h2 class="sectionHeading">Our Passion</h2>
-                                <p class="secDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Praesent feugiat eleifend nisi quis scelerisque. Ut elit tellus, luctus nec ullamcorper mattis.
+                                <h2 class="sectionHeading"></h2>
+                                <p class="secDescription">شركة Gulf Laser Tag تسهل وتساعد أصحاب الأعمال في الحصول على أفضل وأحدث معدات الليزر في العالم
                                 </p>
-
                             </p>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-12">
+                            <img src="img/airbunker2.png" alt="Airbunker"/>
                         </div>
                     </div>
                 </div>
             </section>
 
 
-            <section class="airBunker"
+            <section class="airBunker rtl"
                 style={
                     {paddingTop: 0}
             }>
@@ -81,16 +81,16 @@ export default function about() {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
-                            <p class="subheading">
-                                <h2 class="sectionHeading">Make It Different</h2>
-                                <p class="secDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Praesent feugiat eleifend nisi quis scelerisque. Ut elit tellus, luctus nec ullamcorper mattis.
-                                </p>
-                            </p>
-
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-12">
                             <img src="img/airbunker.jpeg" alt="Airbunker"/>
                         </div>
+                        <div class="col-md-6 col-sm-6 col-12">
+                            <p class="subheading">
+                                <h2 class="sectionHeading"></h2>
+                                <p class="secDescription">نحن نساعد أيضًا في تصميم الحلبة وخطة العمل يمكن لأخصائيينا مساعدتك في اختيار الحزمة وتدريب الموظفين والتخليص الجمركي "
+                                </p>
+                            </p>
+                        </div>
+
                     </div>
 
                 </div>
@@ -108,8 +108,8 @@ export default function about() {
                 </div>
 
                 <div class="container">
-                    <h2 class="sectionHeading">Follow Us In Social Media</h2>
-                    <p class="secDescription">We are ready to connect with you!</p>
+                    <h2 class="sectionHeading">تابعنا في وسائل التواصل الاجتماعي</h2>
+                    <p class="secDescription">نحن على استعداد للتواصل معك!</p>
                     <ul class="socialIcons">
                         <li>
                             <a href="https://www.facebook.com/gulf.lasertag/" target="_blank"><FaFacebookF/></a>

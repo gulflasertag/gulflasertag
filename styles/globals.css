@@ -515,7 +515,8 @@ section {
   font-family: DIN Next LT Arabic;
 }
 .rtl p{
-  font-size: 21px;
+  font-size: 20px;
+  font-weight: 400;
 }
 .rtl h6{
   font-size: 23px;
@@ -1487,6 +1488,9 @@ margin-bottom:15px;
     color: #777;
     text-transform: uppercase;
     padding-bottom: 5px;
+  }
+  .formGroup.rtl label{
+    float:right;
   }
   .formGroup input, .formGroup textarea{
     height:40px;

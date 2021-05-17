@@ -24,16 +24,17 @@ export default function contact() {
 
                         <div class="col-md-8 col-sm-8 col-12">
                             <h2>
-                                Designing of
+                                تصميم
+
                                 <br/><strong>
-                                    Arenas
+                                    الساحات
                                 </strong>
                             </h2>
                             <p class="secDescription"
                                 style={
                                     {fontSize: "40px"}
                             }>
-                                Coming Soon
+                                قريبا
                             </p>
 
                         </div>
