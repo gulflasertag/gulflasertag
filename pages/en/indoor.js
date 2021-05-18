@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import {MdChat} from "react-icons/md";
+import Layout from '/components/en/layout'
 
 export default function header() {
     return (
 
-        <>
+        <Layout>
             <div class="language">
                 <Link href="/indoor">
                     <a>
@@ -493,10 +494,10 @@ export default function header() {
                 </div>
             </section>
             <div class="indoorBtn">
-                <Link href="/indoor/game-scenario">
+                <Link href="/en/indoor/game-scenario">
                     <a class="btn btn-primary btnMain">See Game scenario</a>
                 </Link>
             </div>
-        </>
+        </Layout>
     )
 }

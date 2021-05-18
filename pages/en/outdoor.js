@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import {MdChat} from "react-icons/md";
+import Layout from '/components/en/layout'
 
 import {AiOutlineSafety} from "react-icons/ai"
 import {
@@ -16,7 +17,7 @@ import {FaVideo, FaGamepad} from "react-icons/fa"
 export default function Home() {
 
     return (
-        <>
+        <Layout>
             <div class="language">
                 <Link href="/outdoor">
                     <a>
@@ -88,7 +89,7 @@ export default function Home() {
                         <div class="col-md-6 col-sm-6 col-12">
 
                             <div class="outdoorSec_item">
-                                <Link href="/outdoor/taggers">
+                                <Link href="/en/outdoor/taggers">
                                     <a>
                                         <div class="row">
                                             <div class="col-md-2">
@@ -104,7 +105,7 @@ export default function Home() {
                             </div>
 
                             <div class="outdoorSec_item">
-                                <Link href="/outdoor/additional-devices-with-taggers">
+                                <Link href="/en/outdoor/additional-devices-with-taggers">
                                     <a>
                                         <div class="row">
                                             <div class="col-md-2">
@@ -120,7 +121,7 @@ export default function Home() {
                             </div>
 
                             <div class="outdoorSec_item">
-                                <Link href="/outdoor/game-scenario-devices">
+                                <Link href="/en/outdoor/game-scenario-devices">
                                     <a>
                                         <div class="row">
                                             <div class="col-md-2">
@@ -140,7 +141,7 @@ export default function Home() {
                         <div class="col-md-6 col-sm-6 col-12">
 
                             <div class="outdoorSec_item">
-                                <Link href="/outdoor/softwares">
+                                <Link href="/en/outdoor/softwares">
                                     <a>
                                         <div class="row">
                                             <div class="col-md-2">
@@ -156,7 +157,7 @@ export default function Home() {
                             </div>
 
                             <div class="outdoorSec_item">
-                                <Link href="/#services">
+                                <Link href="/en/#services">
                                     <a>
                                         <div class="row">
                                             <div class="col-md-2">
@@ -179,6 +180,6 @@ export default function Home() {
 
             </section>
 
-        </>
+        </Layout>
     )
 }

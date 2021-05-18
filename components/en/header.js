@@ -13,7 +13,7 @@ export default function header() {
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <Link href="/">
+                        <Link href="/en">
                             <a class="navbar-brand">
                                 <img src="/img/logo.png" alt="logo-lasrertag"/>
                             </a>
@@ -25,7 +25,7 @@ export default function header() {
                         <ul class="nav navbar-nav">
 
                             <li>
-                                <Link href="/">
+                                <Link href="/en">
                                     <a title="home">Home</a>
                                 </Link>
                             </li>
@@ -36,17 +36,17 @@ export default function header() {
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <Link href="/outdoor">
+                                        <Link href="/en/outdoor">
                                             <a title="Outdoor">OutDoor</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/indoor">
+                                        <Link href="/en/indoor">
                                             <a title="Indoor">Indoor</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/airbunker">
+                                        <Link href="/en/airbunker">
                                             <a title="Air Bunker">Air Bunker</a>
                                         </Link>
                                     </li>
@@ -54,14 +54,14 @@ export default function header() {
                             </li>
 
                             <li>
-                                <Link href="/designArenas">
+                                <Link href="/en/designArenas">
                                     <a title="Designing of Arenas ">Designing of Arenas
                                     </a>
                                 </Link>
                             </li>
 
                             <li>
-                                <Link href="/about">
+                                <Link href="/en/about">
                                     <a title="about us">
                                         About us
                                     </a>
@@ -69,7 +69,7 @@ export default function header() {
                             </li>
 
                             <li>
-                                <Link href="/contact">
+                                <Link href="/en/contact">
                                     <a title="contact us">Contact us</a>
                                 </Link>
                             </li>

@@ -5,13 +5,14 @@ import Head from 'next/head'
 
 function MyApp({Component, pageProps}) {
     return (
-
-        <Layout>
+        <>
             <Head>
                 <title>Gulf LaserTag</title>
             </Head>
             <Component {...pageProps}/>
-        </Layout>
+
+
+        </>
     )
 }
 

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import {MdChat} from "react-icons/md";
+import Layout from '../components/ar/layout'
 
 import {
     FaFacebookF,
@@ -35,9 +36,9 @@ export default function contact() {
     }
 
     return (
-        <>
+        <Layout>
 
-            <div class="language">
+            <div class="language rtl">
                 <Link href="en/contact">
                     <a>
                         <MdChat/>
@@ -189,6 +190,6 @@ export default function contact() {
                 <div class="background-overlay"></div>
 
             </section>
-        </>
+        </Layout>
     )
 }

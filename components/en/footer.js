@@ -9,13 +9,13 @@ export default function Footer() {
                         <div class="col-md-3 col-sm-6">
                             <h2 class="footerTitle">About</h2>
                             <div class="footerLogo">
-                                <Link href="/">
+                                <Link href="/en">
                                     <a>
                                         <img src="/img/logo.png" alt="logo-lasrertag"/>
                                     </a>
                                 </Link>
                             </div>
-                            <p>An ambitious design that inspires action. A safe game in which there is no place for aggression. Unique modes that make players superheroes.
+                            <p>“Gulf laser tag is the official representative of lasertag.net in United Arab Emirates and Kingdom of Saudi Arabia.
                             </p>
                         </div>
                         <div class="col-md-3 col-sm-6">
@@ -52,29 +52,29 @@ export default function Footer() {
                             <h2 class="footerTitle">Quick Links</h2>
                             <ul>
                                 <li>
-                                    <Link href="/outdoor">
+                                    <Link href="/en/outdoor">
                                         <a>Netronic Outdoor Laser tag System
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/indoor">
+                                    <Link href="/en/indoor">
                                         <a>Indoor Galaxy Eclipse</a>
                                     </Link>
                                 </li>
 
                                 <li>
-                                    <Link href="/indoor/game-scenario">
+                                    <Link href="/en/indoor/game-scenario">
                                         <a>Indoor Galaxy Eclipse Game Scenario</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/airbunker">
+                                    <Link href="/en/airbunker">
                                         <a>Airbunker</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/designArenas">
+                                    <Link href="/en/designArenas">
                                         <a>Designing of Arenas</a>
                                     </Link>
                                 </li>
@@ -85,18 +85,18 @@ export default function Footer() {
                             <h2 class="footerTitle">Pages</h2>
                             <ul>
                                 <li>
-                                    <Link href="/outdoor">
+                                    <Link href="/en/outdoor">
                                         <a>About
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/indoor">
+                                    <Link href="/en/indoor">
                                         <a>Contact</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/designArenas">
+                                    <Link href="/en/designArenas">
                                         <a>Designing of Arenas</a>
                                     </Link>
                                 </li>

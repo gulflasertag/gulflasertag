@@ -11,14 +11,14 @@ import {
     GiAbstract092,
     GiDiscussion
 } from "react-icons/gi";
-import {FaVideo, FaGamepad} from "react-icons/fa"
 import {MdChat} from "react-icons/md";
+import Layout from '../components/ar/layout'
 
 export default function Home() {
 
     return (
-        <>
-            <div class="language">
+        <Layout>
+            <div class="language rtl">
                 <Link href="/en/outdoor">
                     <a>
                         <MdChat/>
@@ -180,6 +180,6 @@ export default function Home() {
 
             </section>
 
-        </>
+        </Layout>
     )
 }

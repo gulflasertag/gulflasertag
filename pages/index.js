@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import Layout from '../components/ar/layout'
 
 import {
     GiAk47U,
@@ -23,12 +24,13 @@ export default function Home() {
         AOS.init({duration: 2000});
     }, []);
     return (
-        <>
-            <div class="language">
+        <Layout>
+            <div class="language rtl">
                 <Link href="/en/">
                     <a>
                         <MdChat/>
                         English
+
                     </a>
                 </Link>
             </div>
@@ -99,6 +101,8 @@ export default function Home() {
                                             <div class="col-md-10">
                                                 <h4>تقديم خدمات
                                                 </h4>
+                                                <p>الدعم الفني ، المساعدة في تطوير الأعمال ، الدعم المعلوماتي ، المعدات المعتمدة ، شبكة مركز الخدمة ، المعدات المتقدمة
+                                                </p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiDiscussion/></div>
@@ -334,6 +338,6 @@ export default function Home() {
                     </svg>
                 </div>
             </section>
-        </>
+        </Layout>
     )
 }

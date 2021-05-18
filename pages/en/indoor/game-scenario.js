@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import {MdChat} from "react-icons/md";
+import Layout from '/components/en/layout'
 
 export default function header() {
     return (
-        <>
+        <Layout>
             <div class="language">
                 <Link href="/indoor/game-scenario">
                     <a>
@@ -261,10 +262,10 @@ export default function header() {
 
 
             <div class="indoorBtn">
-                <Link href="/indoor">
+                <Link href="/en/indoor">
                     <a class="btn btn-primary btnMain">More on Indoor Galaxy Eclipse</a>
                 </Link>
             </div>
-        </>
+        </Layout>
     )
 }

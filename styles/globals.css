@@ -456,6 +456,7 @@ h6,
 .navbar-default .navbar-nav>li>a .caret{
   padding-top: 0;
   margin-left: 8px;
+  margin-right: 8px;
   border-top: 6px dashed;
     border-right: 6px solid transparent;
     border-left: 6px solid transparent;
@@ -510,6 +511,7 @@ section {
   padding: 9rem 0;
 }
 
+/* rtl */
 .rtl, .rtl p, .rtl h6{
   direction: rtl;
   font-family: DIN Next LT Arabic;
@@ -523,6 +525,22 @@ section {
 }
 .rtl .whiteTitleTextNoBorder h4{
   font-size: 20px;
+}
+.rtl .navbar-header{
+  float:right;
+}
+.rtl.navbar-default .navbar-collapse{
+  width: 80%;
+    float: left;
+    margin: 0 auto;
+}
+.rtl.language{
+  left: 30px;
+  right:auto;
+}
+.rtl.topFooter p{
+  padding-left:40px;
+  padding-right:0;
 }
 /* shape */
 .shape {
@@ -739,7 +757,7 @@ section {
   font-size: 26px;
 }
 .footerLogo{
-  max-width:180px;
+  max-width:150px;
   margin-top:30px;
 }
 .topFooter p{
@@ -1523,12 +1541,13 @@ margin-bottom:15px;
   .language a{
     border:1px solid #ccc;
     display: inline-block;
-    padding:10px;
+    padding:10px ;
     border-radius: 5px;
     font-size: 16px;
   }
   .language svg{
     margin-right:5px;
+    margin-left:5px;
     margin-bottom: -6px;
     font-size: 21px;
     color:var(--primary_color)

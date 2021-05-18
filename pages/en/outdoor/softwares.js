@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import {MdChat} from "react-icons/md";
+import Layout from '/components/en/layout'
+
 export default function header() {
     return (
-        <>
+        <Layout>
             <div class="language">
                 <Link href="/outdoor/softwares">
                     <a>
@@ -303,6 +305,6 @@ export default function header() {
                 </div>
 
             </section>
-        </>
+        </Layout>
     )
 }

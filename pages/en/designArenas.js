@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import {MdChat} from "react-icons/md";
-
+import Layout from '/components/en/layout'
 
 export default function contact() {
     return (
-        <>
+        <Layout>
             <div class="language">
                 <Link href="/designArenas">
                     <a>
@@ -51,6 +51,6 @@ export default function contact() {
             </section>
 
 
-        </>
+        </Layout>
     )
 }

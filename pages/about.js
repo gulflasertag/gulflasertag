@@ -1,21 +1,16 @@
-import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
-
 import {FaFacebookF, FaTwitter, FaYoutube} from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri";
 import {MdChat} from "react-icons/md";
+import Layout from '../components/ar/layout'
 
-
-import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {useEffect} from 'react';
 
 
 export default function about() {
     return (
-        <>
-            <div class="language">
+        <Layout>
+            <div class="language rtl">
                 <Link href="en/about">
                     <a>
                         <MdChat/>
@@ -128,6 +123,6 @@ export default function about() {
                 <div class="background-overlay"></div>
 
             </section>
-        </>
+        </Layout>
     )
 }

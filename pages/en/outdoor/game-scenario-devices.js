@@ -1,8 +1,10 @@
 import Link from 'next/link'
 import {MdChat} from "react-icons/md";
+import Layout from '/components/en/layout'
+
 export default function header() {
     return (
-        <>
+        <Layout>
             <div class="language">
                 <Link href="/outdoor/game-scenario-devices">
                     <a>
@@ -603,7 +605,7 @@ export default function header() {
                                         <p>This device is for setting up and controlling game sets and additional devices. With the help of the remote control you can choose the team color, game mode, as well as set the players’ parameters
                                         </p>
                                         <p>The 18 tactical buttons are grouped according to their purpose, which allows you to instantly send commands. Using a handy clip, you can fix the remote control
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                on your belt.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        on your belt.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -631,6 +633,6 @@ export default function header() {
                 </div>
 
             </section>
-        </>
+        </Layout>
     )
 }

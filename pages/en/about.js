@@ -2,10 +2,12 @@ import Link from 'next/link'
 import {FaFacebookF, FaTwitter, FaYoutube} from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri";
 import {MdChat} from "react-icons/md";
+import Layout from '/components/en/layout'
+
 
 export default function about() {
     return (
-        <>
+        <Layout>
             <div class="language">
                 <Link href="/about">
                     <a>
@@ -123,6 +125,6 @@ export default function about() {
                 <div class="background-overlay"></div>
 
             </section>
-        </>
+        </Layout>
     )
 }
