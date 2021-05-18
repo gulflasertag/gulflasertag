@@ -106,7 +106,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div class="bottomFooter">
+            <div class="bottomFooter rtl">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">@ حقوق الطبع والنشر 2021. جلف ليزر تاغ

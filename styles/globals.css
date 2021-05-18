@@ -517,7 +517,7 @@ section {
   font-family: DIN Next LT Arabic;
 }
 .rtl p{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
 }
 .rtl h6{
@@ -541,6 +541,10 @@ section {
 .rtl.topFooter p{
   padding-left:40px;
   padding-right:0;
+  font-size: 16px;
+}
+.rtl .taggerGroupItemSpec ul li span{
+  float: left;
 }
 /* shape */
 .shape {

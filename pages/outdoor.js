@@ -26,15 +26,14 @@ export default function Home() {
                     </a>
                 </Link>
             </div>
-            <section class="outdoorBanner">
+            <section class="outdoorBanner rtl">
                 <div class="outdoorBannerTop">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
                                 <img src="img/netronicLogo.jpg" width="100px"/>
-                                <h2 class="sectionHeading">Outdoor
-                                    <br/>laser tag system</h2>
-                                <h4 class="subheading">THE GAME IS JUST BEGINNING</h4>
+                                <h2 class="sectionHeading">نظام ألعاب الليزر تاغ الخارجي</h2>
+                                <h4 class="subheading">اللعبة بدأت للتو</h4>
 
                             </div>
                         </div>
@@ -51,22 +50,23 @@ export default function Home() {
                                 <div class="outdoorBannerBottomItem">
                                     <div class="icon"><GiAerialSignal/></div>
                                     <hr/>
-                                    <h5>Advanced laser tag equipment</h5>
+                                    <h5>معدات ألعاب ليزر تاغ متقدمة
+                                    </h5>
                                 </div>
                                 <div class="outdoorBannerBottomItem">
                                     <div class="icon"><GiCloudDownload/></div>
                                     <hr/>
-                                    <h5>Free software</h5>
+                                    <h5>نظام سوفت-وير مجاني</h5>
                                 </div>
                                 <div class="outdoorBannerBottomItem">
                                     <div class="icon"><GiFullFolder/></div>
                                     <hr/>
-                                    <h5>Materials on starting and running a business</h5>
+                                    <h5>مواد إرشادية عن كيفية بدء وإدارة الأعمال</h5>
                                 </div>
                                 <div class="outdoorBannerBottomItem">
                                     <div class="icon"><AiOutlineSafety/></div>
                                     <hr/>
-                                    <h5>A 2 year warranty</h5>
+                                    <h5>ضمان لمدة سنتين</h5>
                                 </div>
 
                             </div>
@@ -80,76 +80,26 @@ export default function Home() {
                 </div>
             </section>
 
-            <section class="outdoorSec">
+            <section class="outdoorSec rtl">
                 <div class="container">
-                    <h4 class="subheading">THE GAME IS JUST BEGINNING</h4>
-                    <h2 class="sectionHeading">Outdoor Laser Tag System</h2>
-                    <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. Unique modes that make players superheroes.</p>
+                    <h2 class="sectionHeading">نظام ألعاب الليزر تاغ الخارجي</h2>
+                    <p class="secDescription">تصميم طموح يلهم العمل. لعبة آمنة لا مكان فيها للعدوان. أوضاع فريدة تجعل اللاعبين أبطالًا خارقين.
+                    </p>
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-12">
-
-                            <div class="outdoorSec_item">
-                                <Link href="/outdoor/taggers">
-                                    <a>
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiAk47U/></div>
-                                            </div>
-                                            <div class="col-md-10">
-                                                <h4>TAGGERS</h4>
-                                                <p>Basic Falcon F1 and F2, Standard Falcon F1 and F2, Premium Falcon F1 and F2, Tactical Pro Falcon F1 and F2, Glock 19, Colt M4, Ak-47.</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div class="outdoorSec_item">
-                                <Link href="/outdoor/additional-devices-with-taggers">
-                                    <a>
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiAbstract002/></div>
-                                            </div>
-                                            <div class="col-md-10">
-                                                <h4>ADDITIONAL DEVICES WITH TAGGERS</h4>
-                                                <p>Headband Netronic Black / Pixel, Vest Netronic Black / Pixel, Shock-band</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </Link>
-                            </div>
-
-                            <div class="outdoorSec_item">
-                                <Link href="/outdoor/game-scenario-devices">
-                                    <a>
-                                        <div class="row">
-                                            <div class="col-md-2">
-                                                <div class="icon"><GiAfterburn/></div>
-                                            </div>
-                                            <div class="col-md-10">
-                                                <h4>GAME SCENARIO DEVICES</h4>
-                                                <p>Sirius, Multistation, SMART  Domination Box, Laser tag Grenade, Red dot sight,Protective tip, Shipping bag 6x, «Vortex» charger, SMART  remote control</p>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </Link>
-                            </div>
-
-                        </div>
-
                         <div class="col-md-6 col-sm-6 col-12">
 
                             <div class="outdoorSec_item">
                                 <Link href="/outdoor/softwares">
                                     <a>
                                         <div class="row">
+
+                                            <div class="col-md-10">
+                                                <h4>البرمجيات</h4>
+                                                <p>راوتر واي فاي ، نظام مكرر ، أندرويد بوكس ​​، باور بانك ، برمجيات مجانية
+                                                </p>
+                                            </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract092/></div>
-                                            </div>
-                                            <div class="col-md-10">
-                                                <h4>SOFTWARES</h4>
-                                                <p>Wi-Fi router, Repeater system, Android Box, Powerbank, Free Software</p>
                                             </div>
                                         </div>
                                     </a>
@@ -160,12 +110,70 @@ export default function Home() {
                                 <Link href="/#services">
                                     <a>
                                         <div class="row">
+
+                                            <div class="col-md-10">
+                                                <h4>تقديم خدمات</h4>
+                                                <p>الدعم الفني ، المساعدة في تطوير الأعمال ، الدعم المعلوماتي ، المعدات المعتمدة ، شبكة مركز الخدمة ، المعدات المتقدمة
+                                                </p>
+                                            </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiDiscussion/></div>
                                             </div>
+                                        </div>
+                                    </a>
+                                </Link>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-12">
+
+                            <div class="outdoorSec_item">
+                                <Link href="/outdoor/taggers">
+                                    <a>
+                                        <div class="row">
+
                                             <div class="col-md-10">
-                                                <h4>SERVICES PROVIDED</h4>
-                                                <p>Technical support, Business Development Assistance,Informational support, Certified Equipment,Service Center Network, Advanced equipment</p>
+                                                <h4>تاجرز</h4>
+                                                <p>الأساسية والقياسية والمتميزة والتكتيكية برو فالكون F1 و F2 و Glock 19 و Colt M4 و Ak-47.</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiAk47U/></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </Link>
+                            </div>
+
+                            <div class="outdoorSec_item">
+                                <Link href="/outdoor/additional-devices-with-taggers">
+                                    <a>
+                                        <div class="row">
+
+                                            <div class="col-md-10">
+                                                <h4>
+                                                    إضافية مع تاجرز أجهزة</h4>
+                                                <p>عقال نيترونيك أسود / بكسل, سترة نترونيك أسود / بكسل, صدمة الفرقة
+                                                </p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiAbstract002/></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </Link>
+                            </div>
+
+                            <div class="outdoorSec_item">
+                                <Link href="/outdoor/game-scenario-devices">
+                                    <a>
+                                        <div class="row">
+
+                                            <div class="col-md-10">
+                                                <h4>أجهزة سيناريو اللعبة</h4>
+                                                <p>Sirius ، تعدد ، صندوق الهيمنة SMART ، قنبلة ليزر ، مشهد نقطة حمراء ، طرف واقي ، حقيبة شحن 6x ، شاحن «Vortex» ، وحدة تحكم عن بعد ذكية</p>
+                                            </div>
+                                            <div class="col-md-2">
+                                                <div class="icon"><GiAfterburn/></div>
                                             </div>
                                         </div>
                                     </a>
