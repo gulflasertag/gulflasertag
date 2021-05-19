@@ -333,8 +333,8 @@ export default function header() {
                         </div>
                         <div class="col-md-5">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>BOMBER-MAN</h4>
-                                <p>deactivates all the enemies nearby with an explosion.</p>
+                                <h4>قاذف القنابل</h4>
+                                <p>تقضي هذه القوة على جميع الأعداء القريبين عبر انفجار حيث تقوم بإلغاء هؤلاء اللاعبين.</p>
                             </div>
                         </div>
                     </div>
@@ -345,8 +345,8 @@ export default function header() {
                         </div>
                         <div class="col-md-5">
                             <div class="whiteTitleTextNoBorder">
-                                <h4>MAX DAMAGE</h4>
-                                <p>Increases blaster damage up to 100 units</p>
+                                <h4>أقصى ضرر</h4>
+                                <p>تزيد هذه القوة من الضرر الذي تسببه الأسلحة بما يصل إلى 100 وحدة.</p>
                             </div>
                         </div>
                     </div>
