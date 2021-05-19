@@ -321,7 +321,8 @@ export default function header() {
                         <div class="col-md-5">
                             <div class="whiteTitleTextNoBorder">
                                 <h4>درع القوة</h4>
-                                <p>Temporarily makes a player invulnerable to all types of damage.</p>
+                                <p>يجعل اللاعب غير معرض لأي خطر  أو أي نوع من الضرر بشكل مؤقت.
+</p>
                             </div>
                         </div>
                     </div>
