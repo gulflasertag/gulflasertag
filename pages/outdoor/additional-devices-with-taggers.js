@@ -90,7 +90,7 @@ export default function header() {
             <div class="taggerGroup">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle blackPreTitle">Accessories</div>
+                        <div class="taggerGroupHeaderPreTitle blackPreTitle">الملحقات</div>
                     </div>
                 </div>
                 <div class="taggerGroupBody">
@@ -102,8 +102,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>Vest Netronic&nbsp;</strong>
-                                                    Black / Pixel</h2>
+                                                    <strong>سترة نيترونيك سوداء/بشكل مبكسل</h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <img src="/img/acceVest.jpg"/>
@@ -114,19 +113,19 @@ export default function header() {
                                         </div>
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemPrice"></div>
-                                            <div class="ItemSubTitle">“Black” & “Pixel”
+                                            <div class="ItemSubTitle">سوداء و لون مبكسل
                                             </div>
 
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>The laser tag vests “Black” and “Pixel” are an alternative to the NETRONIC headband.A vest and headband can also be used together</p>
+                                                    <p>تعتبر سترات الليزر تاغ بالألوان "الأسود" و "المبكسل" بديلاً عن عصابة الرأس نيترونيك. يمكن أيضًا استخدام السترة وعصابة الرأس معًا.</p>
                                                     <p>
-                                                        Using both of them significantly increases the area for a hit, making the game special. The NETRONIC vest, as well as the headband, can work autonomously, without a laser tag gun</p>
+                                                        استخدام كلاهما يؤدي إلى زيادة المساحة المتاحة للضرب بشكل كبير، مما يجعل اللعبة مميزة أكثر. يمكن لسترة نيترونيك وكذلك عصابة الرأس العمل بشكل مستقل بدون مسدس ليزر تاغ.</p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>Hit sensors are installed on the chest, shoulders, and back.
+                                                    <p>أجهزة استشعار الضرب يتم تثبيتها على الصدر والكتفين والظهر
                                                     </p>
-                                                    <p>The straps allow adjusting the vest size, while the water-resistant fabric allows active and comfortable usage at any time of the year</p>
+                                                    <p>الأحزمة تسمح بتعديل حجم السترة، بينما يسمح القماش المقاوم للماء باستخدام نشط ومريح في أي وقت من السنة.</p>
                                                 </div>
                                             </div>
                                             <br/><br/>
@@ -134,9 +133,9 @@ export default function header() {
                                                 <div class="col-md-6">
                                                     <img src="/img/vest.jpg"/></div>
                                                 <div class="col-md-6">
-                                                    <div class="ItemSubTitle">Game realism
+                                                    <div class="ItemSubTitle">واقعية اللعبة
                                                     </div>
-                                                    <p>The NETRONIC vest has a differential damage function. The software allows you to set different damage settings for 4 sectors of damage: head, chest, back, shoulders. Due to the technology of zonal vibro-indication of a hit, the player understands where the shot was fired from. New interactive functions are implemented in the vest: “exit wound”, “regeneration”, “bleeding”
+                                                    <p>تتميز سترة نيترونيك بميزة مستويات الضرر المختلفة. يسمح لك البرنامج باختيار إعدادات ضرر مختلفة لأربعة نطاقات للإصابة: الرأس والصدر والظهر والكتفين. بفضل تكنولوجيا الإشارة الاهتزازية للمنطقة المصابة، يمكن للاعب أن يعرف من أين أطلقت عليه الطلقة، كما أنه قد تم تنفيذ وظائف تفاعلية جديدة في السترة، مثل: جرح الخروج و التعافي و النزيف"yer understands where the shot was fired from. New interactive functions are implemented in the vest: “exit wound”, “regeneration”, “bleeding”
                                                     </p>
                                                 </div>
                                             </div>
@@ -155,7 +154,7 @@ export default function header() {
             <div class="taggerGroup">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle blackPreTitle">Accessories</div>
+                        <div class="taggerGroupHeaderPreTitle blackPreTitle">الملحقات</div>
                     </div>
                 </div>
                 <div class="taggerGroupBody">
@@ -168,7 +167,7 @@ export default function header() {
                                             <div class="taggerGroupItemName">
                                                 <h2>
                                                     <img src="/img/scorpion.png"/>
-                                                    Shock-band</h2>
+                                                    سوار صدمات سكوربيون</h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <img src="/img/shokewave.jpg"/>
@@ -182,7 +181,7 @@ export default function header() {
                                                 <h4></h4>
                                             </div>
                                             <div class="ItemSubTitle">
-                                                Specifications
+                                                المواصفات
                                             </div>
 
                                             <div class="taggerGroupItemSpec">
@@ -190,7 +189,7 @@ export default function header() {
                                                     <tbody>
                                                         <tr>
                                                             <th scope="row">1</th>
-                                                            <td>Number of Modes</td>
+                                                            <td>عدد الأوضاع</td>
                                                             <td>5</td>
 
                                                         </tr>
