@@ -397,9 +397,9 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon2.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>THE VIRUS ELIMINATION
+                                    <h4>القضاء على الفيروسات
                                     </h4>
-                                    <p>Destroy all the virus sources faster than opponents by freezing their weapons with shots.</p>
+                                    <p>قم بتدمير جميع مصادر الفيروسات أسرع من الخصم المنافس عن طريق تجميد أسلحتهم بطلقات.</p>
                                 </div>
                             </div>
                         </div>
@@ -408,9 +408,9 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon3.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>BASE ASSAULT
+                                    <h4>الهجوم على القاعدة
                                     </h4>
-                                    <p>Storm the base which is actively protected by the enemy team, while not forgetting about your own defense</p>
+                                    <p>قم باقتحام القاعدة التي دائمًا تكون محمية من قبل فريق العدو، ولا تنسى جبهات الدفاع لديك.</p>
                                 </div>
                             </div>
                         </div>
@@ -421,9 +421,8 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon4.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>DEATHMATCH
-                                    </h4>
-                                    <p>Combat with automatic respawn and a limited number of ammo magazines.</p>
+                                    <h4>مباراة الموت </h4>
+                                    <p>معركة الموت بخاصية العودة للحياة تلقائيًا حيث يتم القتال بعدد محدود من خزينة الذخائر.</p>
                                 </div>
                             </div>
                         </div>
@@ -432,9 +431,10 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon5.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>ENCOUNTER
+                                    <h4>المواجهة
+
                                     </h4>
-                                    <p>Team mode with simple rules for beginners and young players.</p>
+                                    <p>وضع جماعي باللعبة له قواعد بسيطة للمبتدئين واللاعبين الشباب.</p>
                                 </div>
                             </div>
                         </div>
