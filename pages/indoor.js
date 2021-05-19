@@ -443,9 +443,8 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon6.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>ULTIMATIVE WEAPON
-                                    </h4>
-                                    <p>Your blaster becomes your ultimate weapon that fires single shots with high damage.</p>
+                                    <h4>السلاح المُطلق</h4>
+                                    <p>بندقيتك هب سلاحك المطلق فائق التأثير، حيث أن الطلقة الواحدة تتسبب في أضرار فادحة.</p>
                                 </div>
                             </div>
                         </div>
@@ -456,9 +455,9 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon7.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>ARENA KING
+                                    <h4>ملك الساحة
                                     </h4>
-                                    <p>A battle in which the last player wins</p>
+                                    <p>معركة يفوز فيها آخر لاعب على قيد الحياة.</p>
                                 </div>
                             </div>
                         </div>
@@ -467,10 +466,10 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon8.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>TEAM DEATHMATCH
+                                    <h4>مباراة موت الفريق
 
                                     </h4>
-                                    <p>Team battle with automatic respawn</p>
+                                    <p>معركة موت الفريق بخاصية العودة للحياة تلقائيًا.</p>
                                 </div>
                             </div>
                         </div>
@@ -480,9 +479,9 @@ export default function header() {
                                     <img src="/img/sicon9.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>
-                                        MIND CONTROL
+                                       السيطرة على العقول
                                     </h4>
-                                    <p>You capture the minds of deactivated opponents and they become a part of your team.
+                                    <p>تقوم بأسر عقول خصومك المهزومين بحيث يصبحون جزءًا من فريقك.
                                     </p>
                                 </div>
                             </div>
@@ -494,9 +493,9 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon10.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>EXPLORATION
+                                    <h4>سيناريو الاستكشاف
                                     </h4>
-                                    <p>Find ancient artifacts faster than the opposing team.</p>
+                                    <p>قم بالعثور على القطع الأثرية القديمة أسرع من الفريق المنافس.</p>
                                 </div>
                             </div>
                         </div>
@@ -505,9 +504,9 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon11.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>DOMINATION
+                                    <h4>الهيمنة
                                     </h4>
-                                    <p>A game with a limited amount of ammo and the ability to replenish health and supplies only at the base.</p>
+                                    <p>لعبة بكمية محدودة من الذخيرة حيث يمكن استعادة الصحة وتجديد الإمدادات فقط في القاعدة.</p>
                                 </div>
                             </div>
                         </div>
@@ -516,9 +515,9 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon12.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>VAMPIRE FEUD
+                                    <h4>عداء مصاصي الدماء
                                     </h4>
-                                    <p>Striking opponents, just like a vampire, you take away their health units and restore yours</p>
+                                    <p>هاجم خصومك وكأنك مصاص دماء. استولى على وحداتهم الصحية وقم باستعادة وتجديد صحتك.</p>
                                 </div>
                             </div>
                         </div>
@@ -527,7 +526,7 @@ export default function header() {
             </section>
             <div class="indoorBtn">
                 <Link href="/indoor/game-scenario">
-                    <a class="btn btn-primary btnMain">See Game scenario</a>
+                    <a class="btn btn-primary btnMain">انظر سيناريو اللعبة</a>
                 </Link>
             </div>
         </Layout>
