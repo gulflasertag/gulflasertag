@@ -22,27 +22,27 @@ export default function Footer() {
                             <h2 class="footerTitle">Quick Links</h2>
                             <ul>
                                 <li>
-                                    <Link href="/outdoor/taggers">
+                                    <Link href="/en/outdoor/taggers">
                                         <a>Taggers</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/outdoor/additional-devices-with-taggers">
+                                    <Link href="/en/outdoor/additional-devices-with-taggers">
                                         <a>Additional Devices With Taggers</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/outdoor/game-scenario-devices">
+                                    <Link href="/en/outdoor/game-scenario-devices">
                                         <a>Game Scenario Devices</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/outdoor/softwares">
+                                    <Link href="/en/outdoor/softwares">
                                         <a>Softwares</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/#services">
+                                    <Link href="/en/#services">
                                         <a>Services Provided</a>
                                     </Link>
                                 </li>
