@@ -60,19 +60,19 @@ export default function header() {
                                                     <th scope="row">2</th>
                                                     <td>طريقة التنشيط
                                                     </td>
-                                                    <td>by shot, by touch</td>
+                                                    <td>عن طريق الطلقة أو اللمس</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
-                                                    <td>Sound indication
+                                                    <td>مؤشر الصوت
                                                     </td>
-                                                    <td>no</td>
+                                                    <td>لا يوجد</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">4</th>
-                                                    <td>Battery life
+                                                    <td>عمر بطارية
                                                     </td>
-                                                    <td>up to 24h</td>
+                                                    <td>يصل إلى 24 ساعة</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -83,43 +83,43 @@ export default function header() {
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="whiteTitleText">
-                                        <p>An interactive device for implementing exciting scenarios. Activation by touch or shot, which increases the interest of players and completely immerses into the game.
+                                        <p>جهاز تفاعلي لتنفيذ سيناريوهات لعب مثيرة. يمكن تنشيط الجهاز عن طريق اللمس أو الطلقات، مما يزيد من مستوى اهتمام اللاعبين وانغماسهم التام في اللعبة.  
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="whiteTitleText">
-                                        <p>Light weight, compact size (radius 19 cm), waterproof body and autonomous power supply make it possible to install it in a variety of locations. A couple of minutes and the site is adapted to any scenario and any wish of customers.</p>
+                                        <p>وزن الجهاز الخفيف وحجمه الصغير (نصف قطره يبلغ 19 سم) بالإضافة لجسمه المقاوم للماء واعتماده على مصدر طاقة مستقل يجعلون من الممكن تثبيته في مجموعة متنوعة من المواقع. الأمر كله مجرد دقيقتان حتى يتكيف الموقع مع أي سيناريو وأي رغبة لدى عملائك.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="whiteTitleText">
-                                <h4>8 modes</h4>
+                                <h4>8 أنماط</h4>
                             </div>
                             <div class="row">
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon1.jpg" width="60px"/>
-                                        <h2>RADIATION</h2>
+                                        <h2>الإشعاع</h2>
                                     </div>
 
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon2.jpg" width="60px"/>
-                                        <h2>MEDKIT</h2>
+                                        <h2>العدة الطبية</h2>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon3.jpg" width="60px"/>
-                                        <h2>AMMO</h2>
+                                        <h2>الذخيرة</h2>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon4.jpg" width="60px"/>
-                                        <h2>RESPAWN</h2>
+                                        <h2>العودة للحياة</h2>
                                     </div>
                                 </div>
 
@@ -127,28 +127,28 @@ export default function header() {
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon5.jpg" width="60px"/>
-                                        <h2>DIGITAL FLAG</h2>
+                                        <h2>العَلَم الرقمي</h2>
                                     </div>
 
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon6.jpg" width="60px"/>
-                                        <h2>RANDOM</h2>
+                                        <h2>عشوائي</h2>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon7.jpg" width="60px"/>
                                         <h2>
-                                            BONUS
+                                           بونص
                                         </h2>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon8.jpg" width="60px"/>
-                                        <h2>BASE</h2>
+                                        <h2>القاعدة</h2>
                                     </div>
                                 </div>
                             </div>
