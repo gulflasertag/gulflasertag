@@ -229,12 +229,12 @@ export default function header() {
                     <div class="bunker">
                         <div class="row">
                             <div class="col-md-6">
-                                <h4>Utility set</h4>
-                                <h2>of a 20 Bunker set</h2>
+                                <h4>المجموعة العملية</h4>
+                                <h2>ذات الـ20 مخبئ</h2>
                                 <h4 class="smallTitleWhite"
                                     style={
                                         {color: "#202331"}
-                                }>(paintball, laser tag, nerf, archeritag)</h4>
+                                }>((كرات الطلاء، الليزر  تاغ، مسدسات النيرف، ألعاب الرماية))</h4>
                             </div>
                             <div class="col-md-6">
                                 <img src="/img/img77.jpg"/>
@@ -250,12 +250,12 @@ export default function header() {
                                 <br/>
                                 <br/>
                                 <br/>
-                                <h4>Set</h4>
-                                <h2>for away games</h2>
+                               
+                             <h2>مجموعة الألعاب الخارجية</h2>
                                 <h4 class="smallTitleWhite"
                                     style={
                                         {color: "#202331"}
-                                }>and laser tag tournaments</h4>
+                                }>وبطولات الليزر تاغ</h4>
                             </div>
 
                         </div>
@@ -267,11 +267,11 @@ export default function header() {
                     <div class="row">
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">2 х 1,2 m</div>
+                                <div class="dimentionTitle">الأبعاد:</div>
+                                <div class="dimentionValue">2 × 1،2 م</div>
                                 <img src="/img/dimentions1.png"/>
                                 <div class="dimentionName">
-                                    <h4>Cylinder</h4>
+                                    <h4>الاسطوانة</h4>
                                 </div>
                             </div>
 
