@@ -278,11 +278,11 @@ export default function header() {
                         </div>
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">1,5 х 1 m</div>
+                                <div class="dimentionTitle">الأبعاد</div>
+                                <div class="dimentionValue">1,5 х 1 م</div>
                                 <img src="/img/dimentions2.png"/>
                                 <div class="dimentionName">
-                                    <h4>Tree</h4>
+                                    <h4>الشجرة</h4>
                                 </div>
                             </div>
                         </div>
@@ -290,21 +290,21 @@ export default function header() {
                     <div class="row">
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">2,1 х 2,5 х 2,75 m</div>
+                                <div class="dimentionTitle">الأبعاد</div>
+                                <div class="dimentionValue">2,1 х 2,5 х 2,75 م</div>
                                 <img src="/img/dimentions3.png"/>
                                 <div class="dimentionName">
-                                    <h4>Dorito medium</h4>
+                                    <h4>الدوريتو المتوسط</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">1,7 х 1,7 х 1,7 m</div>
+                                <div class="dimentionTitle">الأبعاد</div>
+                                <div class="dimentionValue">1,7 х 1,7 х 1,7م</div>
                                 <img src="/img/dimentions4.png"/>
                                 <div class="dimentionName">
-                                    <h4>Dorito small</h4>
+                                    <h4>الدوريتو الصغير</h4>
                                 </div>
                             </div>
                         </div>
@@ -313,21 +313,21 @@ export default function header() {
                     <div class="row">
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">1,5 х 1 х 1 m</div>
+                                <div class="dimentionTitle">الأبعاد</div>
+                                <div class="dimentionValue">1,5 х 1 х 1 م</div>
                                 <img src="/img/dimentions5.png"/>
                                 <div class="dimentionName">
-                                    <h4>Tall Cakе</h4>
+                                    <h4>الكيك الطويل</h4>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">1 х 1 х 1 m</div>
+                                <div class="dimentionTitle">الأبعاد</div>
+                                <div class="dimentionValue">1 х 1 х 1 م</div>
                                 <img src="/img/dimentions6.png"/>
                                 <div class="dimentionName">
-                                    <h4>Cakе</h4>
+                                    <h4>الكيك</h4>
                                 </div>
                             </div>
                         </div>
@@ -335,11 +335,11 @@ export default function header() {
                     <div class="row">
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">1,95 х 1,5 х 0,5 m</div>
+                                <div class="dimentionTitle">الأبعاد</div>
+                                <div class="dimentionValue">1,95 х 1,5 х 0,5م</div>
                                 <img src="/img/dimentions7.png"/>
                                 <div class="dimentionName">
-                                    <h4>Wing</h4>
+                                    <h4>الجناح</h4>
                                 </div>
                             </div>
                         </div>
