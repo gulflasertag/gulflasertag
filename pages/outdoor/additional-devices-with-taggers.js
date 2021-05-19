@@ -18,7 +18,7 @@ export default function header() {
                     <div class="row">
                         <div class="col-12">
                             <img src="/img/netronicLogo.jpg" width="100px"/>
-                            <h2 class="sectionHeading">ADDITIONAL DEVICES WITH TAGGERS</h2>
+                            <h2 class="sectionHeading">أجهزة إضافية مع TAGGERS</h2>
 
                         </div>
                     </div>
@@ -35,12 +35,12 @@ export default function header() {
                     }>Features</div>
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="whiteTitle">Headband Netronic Black / Pixel</h2>
+                            <h2 class="whiteTitle">عصابة رأس نيترونيك سوداء/بشكل مبكسل</h2>
                             <img src="/img/headband.jpg" class="hideDesktop"/></div>
                         <div class="col-md-6">
                             <div class="taggerGroupItemPrice blck">
                                 <h4></h4>
-                                <p>The headband kit includes 2 sweatbands made of breathable Air Mesh material.</p>
+                                <p>مجموعة عصابة الرأس تتضمن عصاباتي عرق مصنوعتان من مادة شبكة الهواء المسامية.</p>
                                 <hr/>
                             </div>
                             <h4 style={
@@ -50,34 +50,34 @@ export default function header() {
                                     borderBottom: '1px solid #ccc'
 
                                 }
-                            }>Features</h4>
+                            }>المميزات</h4>
 
                             <div class="row">
                                 <div class="col-sm-6">
 
                                     <div class="whiteTitleText">
-                                        <h4>Weight</h4>
-                                        <p>The NETRONIC headband’s weight is reduced by 25%. Now it weighs only 150 grams, and is not felt on the head, so the player does not feel discomfort even during a long game.</p>
+                                        <h4>الوزن</h4>
+                                        <p>تم تقليل وزن عصابة الرأس نيترونيك بنسبة 25٪، فالآن وزنها 150 جرام فقط ولن يشعر اللاعب حتى بوجودها على رأسه، ذلك لكي لا يشعر اللاعب بأي عدم إرتياح حتى أثناء اللعب لفترة طويلة..</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Impact resistant materials</h4>
-                                        <p>The polycarbonate sensor body protects the internal electronics from damage, moisture, and dust, and a special bumper prevents the sensors from wearing out.</p>
+                                        <h4>مواد مقاومة للصدمات</h4>
+                                        <p>يحمي جسم جهاز استشعار من مادة البولي-كربونات الأجهزة الإلكترونية الداخلية من التلف والرطوبة والغبار، كما يوجد مصد خاص يمنع أجهزة الاستشعار من التلف.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Practicality and automation</h4>
-                                        <p>The new generation headband is made of CORDURA MAXI material. The density of this fabric is 50% higher than that of analogues and is 1200g / m.sq. The superbright inversion light indication for games on the street and indoors in any lighting. Auto power off after 10 minutes of inactivity reduces power consumption. For quick access to electronics, the headband is equipped with a moisture-proof zipper.</p>
+                                        <h4>العملية والأتمتة</h4>
+                                        <p>عصابة الرأس من الجيل الجديد مصنوعة من مادة كوردورا ماكسي، وكثافة هذا النسيج أعلى بنسبة 50٪ من نظائرها وهي 1200 جم لكل متر مربع. عصابة الرأس أيضًا مزودة بمؤشر ضوئي عاكس وفائق السطوع للعب في الشارع وفي الداخل تحت أي إضاءة. إيقاف تلقائي للتشغيل بعد 10 دقائق من عدم الاستخدام مما يساهم بتقليل استهلاك الطاقة. للوصول السريع إلى الإلكترونيات، تم تزويد عصابة الرأس بسحّاب مقاوم للرطوبة.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Immersion in the game</h4>
-                                        <p>The NETRONIC headband implements a zonal vibration indication of a hit. Now the player will understand from which side he was hit. Each hit sensor is equipped with an infrared emitter, due to which interactive functions are available: “exit wound”, “regeneration”, “bleeding”. The NETRONIC headband can work autonomously without a blaster in the modes: Zombie Walker, Medic, Hostage.Now there is no need to buy a separate device for these roles.</p>
+                                        <h4>الانغماس في اللعبة</h4>
+                                        <p>عصابة الرأس نيترونيك تعطي إشارة للإصابة عبارة عن اهتزاز نطاقي، مما يعني أن اللاعب سوف يعرف الجانب المحدد الذي قد أصيب منه. تم تجهيز كل جهاز استشعار إصابة بجهاز باعث للأشعة تحت الحمراء، والذي بفضله تتوفر الوظائف التفاعلية، مثل: "جرح الخروج" و "التعافي" و "النزيف". عصابة الرأس نيترونيك يمكن أن تعمل بشكل مستقل دون استخدام بندقية في الأوضاع: زومبي ووكر (مشي الأموات) و ميديك (الطبيب) و هوستيج (الرهينة). ليست هناك حاجة الآن لشراء جهاز منفصل لأي من هذه الأدوار..</p>
                                     </div>
                                 </div>
                             </div>
