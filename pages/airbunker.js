@@ -345,11 +345,11 @@ export default function header() {
                         </div>
                         <div class="col-md-6">
                             <div class="dimentionItem">
-                                <div class="dimentionTitle">Dimensions</div>
-                                <div class="dimentionValue">0,75 х 0,5 х 3 m</div>
+                                <div class="dimentionTitle">الأبعاد</div>
+                                <div class="dimentionValue">0,75 х 0,5 х 3م</div>
                                 <img src="/img/dimentions8.png"/>
                                 <div class="dimentionName">
-                                    <h4>Snake Beam</h4>
+                                    <h4>شعاع الأفعى</h4>
                                 </div>
                             </div>
                         </div>
@@ -373,8 +373,8 @@ export default function header() {
                         <div class="row">
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
-                                    <span>Set of Bunkers</span><br/>
-                                    for Drone Racing</h2>
+                                    <span>مجموعة مخابئ</span><br/>
+                                   سباق الطائرات الآلية</h2>
                             </div>
 
                             <div class="col-md-6"></div>
@@ -392,21 +392,21 @@ export default function header() {
                         </div>
                         <div class="col-md-6">
                             <br/><br/>
-                            <h2>for away games</h2>
+                            <h2>مجموعة الألعاب الخارجية</h2>
                             <h5 class="smallTitleWhite"
                                 style={
                                     {color: "#202331"}
-                            }>(for drawing a logo on the figure)</h5>
+                            }>(لرسم شعار على الشكل)</h5>
                             <ul>
-                                <li>Formats:
-                                    <b>cdr, ai, eps, svg</b>
+                                <li>الصيغ المقبولة:
+                                    <b>cdr و ai و eps و svg</b>
                                 </li>
-                                <li>Vector image only (bitmap images disguised as vector format are not accepted)</li>
+                                <li>صورة فيكتور فقط (صور بيت-ماب المتخفية على هيئة فيكتور غير مقبولة)</li>
 
                                 <li>
-                                    All layers must be merged into one (not grouped, but merged)</li>
-                                <li>The logo must be of one solid color (the color is not important)</li>
-                                <li>Lines must be at least 1mm thin</li>
+                                   يجب دمج كل الطبقات في طبقة واحدة  (مدمجة ليس مجمعة)</li>
+                                <li>يجب أن يكون الشعار من لون واحد خالص (اللون غير مهم)</li>
+                                <li>يجب أن يكون سُمك الخطوط 1 مم على الأقل</li>
 
                             </ul>
                         </div>
