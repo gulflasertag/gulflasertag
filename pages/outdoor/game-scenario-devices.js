@@ -593,23 +593,22 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>SMART &nbsp;</strong>
-                                    remote control</h2>
+                                    <strong>الريموت الذكي</h2>
                             </div>
                             <div class="whiteTitleText"></div>
 
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="whiteTitleText">
-                                        <p>This device is for setting up and controlling game sets and additional devices. With the help of the remote control you can choose the team color, game mode, as well as set the players’ parameters
+                                        <p>هذا جهاز لإعداد مجموعات اللعبة والأجهزة إضافية والتحكم بهم. بمساعدة جهاز التحكم عن بعد، يمكنك اختيار لون الفريق ونمط اللعبة وكذلك ضبط بيانات اللاعبين القياسية.
                                         </p>
-                                        <p>The 18 tactical buttons are grouped according to their purpose, which allows you to instantly send commands. Using a handy clip, you can fix the remote control
+                                        <p>الأزرار التكتيكية الـ 18 تم تقسيمهم لمجموعات وفقًا للغرضهم، مما يتيح لك إرسال الأوامر على الفور. باستخدام مشبك سهل الاستخدام، يمكنك تثبيت جهاز التحكم عن بعد على حزامك.
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 on your belt.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="whiteTitleText">
-                                        <p>Each button is programmable for any command (from turning off the gaming kit tochanging a preset) and, if necessary, you can quickly return to the factory settings.</p>
+                                        <p>كل من الأزرار قابل للبرمجة لأي أمر (بدئًا من إيقاف تشغيل مجموعة ألعاب معينة إلى تغيير الإعداد المسبق)، وإذا لزم الأمر، يمكنك العودة بسرعة إلى إعدادات المصنع.</p>
                                     </div>
                                 </div>
                             </div>
