@@ -108,22 +108,23 @@ export default function header() {
                                 marginBottom: '10px'
                             }
                     }>
-                        MULTISTATION</h2>
-                    <p>A cross-functional scenario device that can give bonuses to players, or act as a target for capture. A 27-cm LED panel animatedly displays the operating mode</p>
+                       ملتي-ستايشن</h2>
+                    <p>جهاز سيناريو متعدد الوظائف يمكنه منح مكافآت للاعبين أو العمل كهدف للإمساك به.
+لوحة الإضاءة ليد بمقاس 27 سم تعرض وضع التشغيل بشكل متحرك.</p>
                     <div class="row">
                         <div class="col-xs-6">
                             <ul>
-                                <li><img src="/img/gsicon1.png"/>RADIATION</li>
-                                <li><img src="/img/gsicon3.png"/>MEDKIT</li>
-                                <li><img src="/img/gsicon5.png"/>BASE</li>
-                                <li><img src="/img/gsicon7.png"/>DOMINATION BOX</li>
+                                <li><img src="/img/gsicon1.png"/>إشعاع</li>
+                                <li><img src="/img/gsicon3.png"/>العدة الطبية</li>
+                                <li><img src="/img/gsicon5.png"/>القاعدة</li>
+                                <li><img src="/img/gsicon7.png"/>صندوق الهيمنة</li>
                             </ul>
                         </div>
                         <div class="col-xs-6">
                             <ul>
-                                <li><img src="/img/gsicon2.png"/>AMMO</li>
-                                <li><img src="/img/gsicon4.png"/>RESPAWN</li>
-                                <li><img src="/img/gsicon6.png"/>BOMB</li>
+                                <li><img src="/img/gsicon2.png"/>الذخيرة</li>
+                                <li><img src="/img/gsicon4.png"/>العودة للحياة</li>
+                                <li><img src="/img/gsicon6.png"/>قنبلة</li>
                             </ul>
                         </div>
                     </div>
@@ -131,31 +132,31 @@ export default function header() {
                         <div class="col-md-12">
                             <table class="normalTable">
                                 <tr>
-                                    <td>Activation by shots</td>
+                                    <td>التنشيط بالطلقات</td>
                                     <td>+</td>
                                 </tr>
                                 <tr>
-                                    <td>Activation by touch
+                                    <td>التنشيط باللمس
                                     </td>
                                     <td>+</td>
                                 </tr>
                                 <tr>
-                                    <td>Battery life
+                                    <td>عمر البطارية
                                     </td>
                                     <td>up to 24 hours</td>
                                 </tr>
                                 <tr>
-                                    <td>Size</td>
+                                    <td>الحجم</td>
                                     <td>39х37х7,5 cm</td>
                                 </tr>
                                 <tr>
-                                    <td>Weight</td>
+                                    <td>الوزن</td>
                                     <td>1600 grams</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Control</td>
-                                    <td>Android</td>
+                                    <td>طريقة التحكم</td>
+                                    <td>أندرويد</td>
                                 </tr>
 
                             </table>
@@ -193,23 +194,22 @@ export default function header() {
                         }>
                             <b style={
                                 {color: '#fff'}
-                            }>SMART&nbsp;</b>
-                            DOMINATION BOX</h2>
-                        <p>The Domination box is placed on the floor or ceiling in the center of the arena, the goal of each team is to capture it. It has three dynamic scales for vivid and effective visualization of the degree of capture.</p>
+                            }>صندوق الهيمنة الذكي</h2>
+                        <p>يتم وضع صندوق الهيمنة على الأرض أو السقف في وسط ساحة اللعبة، حيث يكون هدف كل فريق هو الإمساك به. يحتوي الصندوق على ثلاثة مقاييس ديناميكية لتصوير حيوي وفعال لدرجة الإمساك.</p>
                     </div>
                     <div class="row">
                         <div class="col-xs-6">
                             <ul>
-                                <li><img src="/img/dbox-icon1.jpg"/>TIME CAPTURE</li>
-                                <li><img src="/img/dbox-icon5.jpg"/>TRIPLE CAPTURE</li>
-                                <li><img src="/img/dbox-icon2.jpg"/>TUG-OF-WAR</li>
+                                <li><img src="/img/dbox-icon1.jpg"/>الإمساك بوقت محدد</li>
+                                <li><img src="/img/dbox-icon5.jpg"/>الإمساك الثلاثي</li>
+                                <li><img src="/img/dbox-icon2.jpg"/>شد الحبل</li>
 
                             </ul>
                         </div>
                         <div class="col-xs-6">
                             <ul>
-                                <li><img src="/img/dbox-icon4.jpg"/>FLAG RAISE</li>
-                                <li><img src="/img/dbox-icon3.jpg"/>SHOOTING CAPTURE</li>
+                                <li><img src="/img/dbox-icon4.jpg"/>رفع العلم</li>
+                                <li><img src="/img/dbox-icon3.jpg"/>الإمساك بالطلقات</li>
 
                             </ul>
                         </div>
@@ -218,36 +218,36 @@ export default function header() {
                         <div class="col-md-12">
                             <table class="normalTable">
                                 <tr>
-                                    <td>Activation by shots</td>
+                                    <td>التنشيط بالطلقات</td>
                                     <td>+</td>
                                 </tr>
                                 <tr>
-                                    <td>Activation by touch
+                                    <td>التنشيط باللمس
                                     </td>
                                     <td>+</td>
                                 </tr>
                                 <tr>
-                                    <td>Sound indication</td>
-                                    <td>1 speaker</td>
+                                    <td>الإشارة الصوتية</td>
+                                    <td>1 مكبر صوت واحد</td>
                                 </tr>
                                 <tr>
-                                    <td>Battery life
+                                    <td>عمر البطارية
                                     </td>
                                     <td>up to 24 hours</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Size</td>
+                                    <td>الحجم</td>
                                     <td>22х22х32 cm</td>
                                 </tr>
                                 <tr>
-                                    <td>Weight</td>
+                                    <td>الوزن</td>
                                     <td>1600 grams</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Control</td>
-                                    <td>Android</td>
+                                    <td>طريقة التحكم</td>
+                                    <td>أندرويد</td>
                                 </tr>
 
                             </table>
@@ -263,7 +263,7 @@ export default function header() {
 
             <div class="indoorBtn">
                 <Link href="/indoor">
-                    <a class="btn btn-primary btnMain">More on Indoor Galaxy Eclipse</a>
+                    <a class="btn btn-primary btnMain">المزيد عن داخلي Galaxy Eclipse</a>
                 </Link>
             </div>
         </Layout>
