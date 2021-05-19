@@ -164,7 +164,7 @@ export default function header() {
                     {background: "#080808"}
             }>
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle">Accessories</div>
+                    <div class="taggerGroupHeaderPreTitle">اكسسوارات</div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
@@ -174,7 +174,7 @@ export default function header() {
                             <div class="whiteTitleText">
                                 <h4 style={
                                     {border: 'none'}
-                                }>Arena Scenario Device</h4>
+                                }>جهاز سيناريوهات الساحة</h4>
                             </div>
 
                             <img src="/img/multistation-image.png"/>
@@ -184,31 +184,31 @@ export default function header() {
 
                                 <div class="col-md-12">
                                     <div class="whiteTitleText">
-                                        <h4>Specifications</h4>
+                                        <h4>المواصفات</h4>
                                         <table class="table table-striped darktable">
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">1</th>
-                                                    <td>The number of game modes</td>
+                                                    <td>عدد أنماط اللعبة</td>
                                                     <td>7</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
-                                                    <td>Activation method
+                                                    <td>طريقة التفعيل
                                                     </td>
-                                                    <td>shot</td>
+                                                    <td>طلقة</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">3</th>
-                                                    <td>Sound indication
+                                                    <td>الإشارة الصوتية
                                                     </td>
-                                                    <td>Yes</td>
+                                                    <td>نعم</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">4</th>
-                                                    <td>Battery life
+                                                    <td>عمر البطارية
                                                     </td>
-                                                    <td>Mains Power</td>
+                                                    <td>مصدر الطاقة الرئيسي</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -219,63 +219,63 @@ export default function header() {
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="whiteTitleText">
-                                        <p>A device that makes laser tag even more interesting, and also gives the arena personality and recognition. A 27 cm LED panel animatedly displays the selected game mode</p>
+                                        <p>جهاز يجعل ألعاب الليزر تاغ أكثر إثارة ويعطي ساحة اللعب الشخصية المميزة والتعريف.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="whiteTitleText">
-                                        <p>A large size of the panel allows you to display high-quality detailed animations, distinguishable from a large distance even with high game dynamics. Scenarios will play out with fresh colors!</p>
+                                        <p>حجم الشاشة الكبير يسمح لك بعرض صور متحركة مفصلة وعالية الجودة، بحيث يمكن تمييزها من مسافة بعيدة حتى مع ديناميكيات اللعبة سريعة التغي.السيناريوهات يام عرضها بألوان نقية!</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="whiteTitleText">
-                                <h4>8 modes</h4>
+                                <h4>8 أنماط</h4>
                             </div>
                             <div class="row">
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon1.jpg" width="60px"/>
-                                        <h2>RADIATION</h2>
+                                        <h2>الإشعاع</h2>
                                     </div>
 
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon2.jpg" width="60px"/>
-                                        <h2>MEDKIT</h2>
+                                        <h2>العدة الطبية</h2>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon3.jpg" width="60px"/>
-                                        <h2>AMMO</h2>
+                                        <h2>الذخيرة</h2>
                                     </div>
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon4.jpg" width="60px"/>
-                                        <h2>RESPAWN</h2>
+                                        <h2>العودة للحياة</h2>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon5.jpg" width="60px"/>
-                                        <h2>BASE</h2>
+                                        <h2>صندوق الهيمنة</h2>
                                     </div>
 
                                 </div>
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon6.jpg" width="60px"/>
-                                        <h2>BOMB</h2>
+                                        <h2>القنبلة</h2>
                                     </div>
                                 </div>
 
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon8.jpg" width="60px"/>
-                                        <h2>BASE</h2>
+                                        <h2>القاعدة</h2>
                                     </div>
                                 </div>
 
@@ -291,7 +291,7 @@ export default function header() {
             <section class="taggerGroup">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle blackPreTitle">Accessories</div>
+                        <div class="taggerGroupHeaderPreTitle blackPreTitle">اكسسوارات</div>
                     </div>
                 </div>
                 <div class="taggerGroupBody">
@@ -303,8 +303,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>SMART &nbsp;</strong>
-                                                    Domination Box</h2>
+                                                    <strong>صندوق الهيمنة الذكي</h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <img src="/img/img154.jpg"/>
@@ -315,7 +314,7 @@ export default function header() {
                                         </div>
                                         <div class="col-md-6">
                                             <div class="ItemSubTitle">
-                                                Specifications
+                                                المواصفات
                                             </div>
 
                                             <div class="taggerGroupItemSpec">
@@ -323,25 +322,25 @@ export default function header() {
                                                     <tbody>
                                                         <tr>
                                                             <th scope="row">1</th>
-                                                            <td>The number of game modes</td>
+                                                            <td>عدد أنماط اللعبة</td>
                                                             <td>5</td>
 
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">2</th>
-                                                            <td>Activation method</td>
-                                                            <td>shot</td>
+                                                            <td>طريقة التفعيل</td>
+                                                            <td>طلقة</td>
 
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">3</th>
-                                                            <td>Control</td>
-                                                            <td>Sound indication</td>
+                                                            <td>التحكم</td>
+                                                            <td>إشارة صوتية</td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">3</th>
-                                                            <td>Battery life</td>
-                                                            <td>up to 24 hours</td>
+                                                            <td>عمر البطارية</td>
+                                                            <td>يصل إلى 24 ساعة</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -350,11 +349,11 @@ export default function header() {
                                             <br/><br/>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>Domination box capture is one of the mostpopular game mechanics in laser tag. Smart Domination box offers participants a new level of gaming event dynamics.</p>
-                                                    <p>The scenario device is set in the center of the arena, as the place of greatest activity</p>
+                                                    <p>الإمساك بصندوق الهيمنة هو واحد من ديناميكيات اللعبة الأكثر شعبية في ألعاب الليزر تاغ، فصندوق الهيمنة الذكي يقدم للمشاركين باللعبة مستوى جديد من الديناميكية بأحداث اللعبة.</p>
+                                                    <p>جهاز السيناريوهات يتم وضعه في وسط الساحة، بما أنه المكان ذا أكبر مستوى من النشاط.</p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>The device has 5 modes, based on which you can create exciting scenarios or modify existing ones. Indication of the degree of capture is shown on 3 dynamic scales, which allows players to observe the progress of their team and think through tactical actions.</p>
+                                                    <p>الجهاز يحتوي على 5 أنماط، ويمكنك إنشاء سيناريوهات مثيرة بناءً عليها أو تعديل الأنماط الحالية. يتم عرض إشارة تصف درجة الهيمنة على 3 مقاييس ديناميكية، مما يسمح للاعبين بمتابعة تقدم فريقهم والتفكير في خططهم بشكل تكتيكي.</p>
                                                 </div>
                                             </div>
                                             <br/>
@@ -363,32 +362,32 @@ export default function header() {
                                                 <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon1.jpg"/>
-                                                        <h2>CAPTURE BY TIME
+                                                        <h2>الامساك قبل الوقت
                                                         </h2>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon2.jpg"/>
-                                                        <h2>TUG-OF-WAR</h2>
+                                                        <h2>شد الحبل</h2>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon3.jpg"/>
-                                                        <h2>CAPTURE BY SHOTS</h2>
+                                                        <h2>الامساك بالطلقات</h2>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon4.jpg"/>
-                                                        <h2>RAISE THE FLAG</h2>
+                                                        <h2>رفع العلم</h2>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-4 col-xs-6">
                                                     <div class="dboxIconItem">
                                                         <img src="/img/dbox-icon5.jpg"/>
-                                                        <h2>TRIPLE CAPTURE</h2>
+                                                        <h2>الامساك الثلاثي</h2>
                                                     </div>
                                                 </div>
                                             </div>
