@@ -405,7 +405,7 @@ export default function header() {
             <section class="taggerGroup">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle blackPreTitle">Accessories</div>
+                        <div class="taggerGroupHeaderPreTitle blackPreTitle">اكسسوارات</div>
                     </div>
                 </div>
                 <div class="taggerGroupBody">
@@ -417,7 +417,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>Laser tag Grenade &nbsp;</strong>
+                                                    <strong>قنبلة الليزر تاغ اليدوية</strong>
                                                 </h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
@@ -430,10 +430,10 @@ export default function header() {
                                             <hr/>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>The body of the laser tag grenade is made of impact-resistant polymer  materials, two rubber bumpers soften drops and bumps. To activate the grenade, you need to hold the button and, when ready, release it by throwing the grenade towards the enemy.</p>
+                                                    <p>جسم قنبلة الليزر تاغ اليدوية مصنوع من مادة بوليمر مقاومة للصدمات، بالإضافة لاثنين من المصدات المطاطية تعملان على تليين السقطات والصدمات. لتنشيط القنبلة اليدوية، تحتاج إلى الضغط على الزر بشكل مستمر، وعندما تكون جاهزًا للإلقاء، عليك القيام بتحرير ضغطتك عن طريق رمي القنبلة باتجاه العدو.</p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>The device is equipped with an  infrared emitter, and after 4 seconds the grenade strikes all the enemies within a radius of 5 meters. The “explosion” of the laser tag grenade is accompanied by sound and light indication.</p>
+                                                    <p>الجهاز مزود بباعث للأشعة تحت الحمراء، وبعد 4 ثوانٍ تصيب القنبلة كل الأعداء في نطاق 5 أمتار من مكان الجهاز. "انفجار" قنبلة الليزر تاغ اليدوية يرافقه إشارة صوتية وضوئية.</p>
                                                 </div>
                                             </div>
 
@@ -444,7 +444,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>Red dot sight &nbsp;</strong>
+                                                    <strong>عدسة النقطة الحمراء</strong>
                                                 </h2>
                                             </div>
                                             <div class="row">
@@ -454,9 +454,9 @@ export default function header() {
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>The red dot sight simplifies the aiming process and makes it more accurate. Adds realism to the game.
+                                                    <p>عدسة النقطة الحمراء تبسط عملية التصويب وتجعلها أكثر دقة، كما تضيف المزيد من الواقعية للعبة..
                                                     </p>
-                                                    <p>Horizontal and vertical adjustment of corrections are done by clicks.
+                                                    <p>الضبط الأفقي والرأسي للتصحيحات تتم عن طريق الضغطات.
                                                     </p>
                                                 </div>
                                             </div>
@@ -465,7 +465,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>Protective tip &nbsp;</strong>
+                                                    <strong>طرف حماية</strong>
                                                 </h2>
                                             </div>
                                             <div class="row">
@@ -475,8 +475,8 @@ export default function header() {
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>Protective rubber tip for the Falcon game kit protects players from injuries and prevents damage to the optical system. It makes laser tag rifles look really attractive and can also be used to mark teams</p>
-                                                    <p>It’s 8-mm thick and covers the front part of the Falcon for 10 mm</p>
+                                                    <p>رأس مطاطي واقي لمجموعة ألعاب مسدسات فالكون لحماية اللاعبين من الإصابات ومنع تلف النظام الرؤية، كما يجعل بنادق الليزر تاغ تبدو جذابة جدًا ويمكن أيضًا استخدامها لتمييز الفرق.</p>
+                                                    <p>يبلغ سمكه 8 مم ويغطي 10 مم من الجزء الأمامي من مسدسات فالكون.</p>
                                                 </div>
                                             </div>
 
@@ -494,7 +494,7 @@ export default function header() {
             <section class="taggerGroup">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle blackPreTitle">Accessories</div>
+                        <div class="taggerGroupHeaderPreTitle blackPreTitle">ملحقات</div>
                     </div>
                 </div>
                 <div class="taggerGroupBody">
@@ -506,7 +506,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>Shipping bag 6x</strong>
+                                                    <strong>حقيبة شحن 6×</strong>
                                                 </h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
@@ -519,13 +519,13 @@ export default function header() {
                                             <hr/>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>The bag is aimed at transportation of the laser tag equipment and is meant for 6 game kits and there are also special pockets for the chargers and remotes.</p>
-                                                    <p>The bag is made of thick Cordura cloth of black color, durable and resistant to dirt and soaking.</p>
+                                                    <p>تهدف الحقيبة إلى تسهيل نقل معدات ألعاب الليزر تاغ وهي مخصصة لـ 6 مجموعات ألعاب، كما أن هناك أيضًا جيوب خاصة لأجهزة الشحن وأجهزة التحكم عن بُعد.</p>
+                                                    <p>الحقيبة مصنوعة من قماش كوردورا السميك باللون الأسود، وهي مادة متينة ومقاومة للأوساخ والنقع.</p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>Thick and at the same time soft outer walls and inner divisions of the bag provide the secure equipment transportation.</p>
+                                                    <p>الإطار الخارجي السميك ولين بنفس الوقت وكذلك التقسيم الداخلي للحقيبة يوفران نقلًا آمنًا للمعدات.</p>
 
-                                                    <p>The interior space is organized so that you can change the arrangement of the partitions according to your needs. The partitions are removable and fixed with Velcro.
+                                                    <p>المساحة الداخلية منظمة بحيث يمكنك تغيير ترتيب الأقسام حسب احتياجاتك. الأقسام قابلة للإزالة ومثبتة باستخدام الفيلكرو..
                                                     </p>
                                                 </div>
                                             </div>
@@ -545,7 +545,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>«Vortex» charger</strong>
+                                                    <strong>شاحن فورتيكس «Vortex»</strong>
                                                 </h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
@@ -558,15 +558,15 @@ export default function header() {
                                             <hr/>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>The «Vortex» Charger makes charging your game sets much easier and faster.</p>
+                                                    <p>شاحن فورتيكس «Vortex» يجعل شحن مجموعات الألعاب الخاصة بك أسهل وأسرع.</p>
                                                     <p>
-                                                        If you have 6 or more laser tag gaming kits in your club, this device is just what you need!
+                                                       إذا كان لديك 6 أو أكثر من مجموعات ألعاب الليزر تاغ في ناديك، فهذا الجهاز هو ما تحتاجه تمامًا!
                                                     </p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>The device can simultaneously charge 10 game sets (20 devices). This eliminates the need for alternate charging or the use of multiple surge protectors and tees, which is extremely inconvenient and sometimes unsafe.</p>
+                                                    <p>يمكن للجهاز شحن 10 مجموعات ألعاب (20 جهاز) في نفس الوقت، وهذا يلغي الحاجة إلى التبديل بأدوار الشحن أو استخدام أدوات للحماية من زيادة التيار ومحاذاة المحملات، وهو أمر غير مريح للغاية وغير آمن في بعض الأحيان.</p>
                                                     <p>
-                                                        The «Vortex» charger has 2A power, a drop-resistant shockproof case, and long cables (3-6 m).</p>
+                                                        شاحن فورتيكس «Vortex» يعمل بقوة 2 أمبير، ويتميز بعلبة مقاومة للسقوط والصدمات وكابلات طويلة (بين 3 و6 متر).</p>
 
 
                                                 </div>
@@ -588,7 +588,7 @@ export default function header() {
                     {background: "#070b0c"}
             }>
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle">Accessories</div>
+                    <div class="taggerGroupHeaderPreTitle">اكسسوارات</div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
