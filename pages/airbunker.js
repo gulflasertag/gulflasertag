@@ -22,7 +22,11 @@ export default function header() {
                     <div class="airbunkerBannerContent">
                         <div class="row">
                             <div class="col-md-6">
-                                <h2 class="whiteTitle">Paintball Laser tag Archeritag Nerf Drone racing</h2>
+                                <h2 class="whiteTitle">كرة الطلاء 
+ليزر تاغ
+ألعاب الرماية
+مسدسات نيرف
+سباق الطائرات الآلية</h2>
                             </div>
 
                             <div class="col-md-6"></div>
@@ -45,8 +49,8 @@ export default function header() {
                         <div class="row">
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
-                                    <span>Set of bunkers</span><br/>
-                                    for the NXL 2021 field</h2>
+                                    <span>مجموعة المخابئ</span><br/>
+                                   لحقل إن-إكس-إل 2021</h2>
                             </div>
 
                             <div class="col-md-6"></div>
@@ -71,8 +75,8 @@ export default function header() {
                         <div class="row">
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
-                                    <span>Set of Bunkers</span><br/>
-                                    for the “PSP / NXL” field</h2>
+                                    <span>مجموعة المخابئ</span><br/>
+                                   لحقول بي-إس-بي أو إن-إكس-إل (PSP / NXL)</h2>
                             </div>
 
                             <div class="col-md-6"></div>
@@ -209,9 +213,9 @@ export default function header() {
                         <div class="row">
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
-                                    <span>Set of bunkers</span><br/>
-                                    for training</h2>
-                                <h4 class="smallTitleWhite">(paintball, laser tag, nerf, archeritag)</h4>
+                                    <span>مجموعة المخابئ</span><br/>
+                                   للتدريب</h2>
+                                <h4 class="smallTitleWhite">((كرات الطلاء، الليزر  تاغ، مسدسات النيرف، ألعاب الرماية))</h4>
                             </div>
 
                             <div class="col-md-6"></div>
