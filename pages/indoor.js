@@ -364,27 +364,21 @@ export default function header() {
                     <h2 class="skyblueTitle">
                         <span style={
                             {color: "#fff"}
-                        }>Software</span>for a quick solution to every task!
-                    </h2>
+                        }>برنامج</span>لحل سريع لكل مهمة!</h2>
                     <div class="whiteTitleTextNoBorder">
-                        <p>Remote control and disconnection of game sets in 2 clicks.</p>
-                        <p>Ready-made game scenarios and a flexible constructor to create unique modes.</p>
-                        <p>A set of characters and over 40 parameters to create your own heroes.</p>
-                        <p>Team and personal statistics of players with unique achievements.</p>
-                        <p>All this allows one person to easily conduct a game for more than 30 participants.</p>
+                        <p>التحكم عن بعد في الألعاب وإنهائها فقط في ضغطتين.</p>
+                        <p>سيناريوهات جاهزة للاستخدام وبرنامج تصميم مرن لتعديل المهام الحالية أو إنشاء سيناريو فريد خاص بك.</p>
+                        <p>
+مجموعة من الشخصيات وأكثر من 40 مؤشر قياسي لإنشاء الأبطال المطابقة لهويتك.</p>
+                        <p>إحصاءات لكل من الفريق والاعبين، والعديد من الإنجازات الفريدة.</p>
+                        <p>كل هذه الامتيازات تسمح لشخص واحد بإجراء وتنظيم لعبة لأكثر من 30 مشاركًا بكل سهولة.</p>
 
                     </div>
                 </div>
             </section>
             <section class="scriptPointsSec rtl">
                 <div class="container">
-                    <h2 class="skyblueTitle">Use &nbsp;
-                        <span style={
-                            {display: "inline"}
-                        }>
-                            ready-made
-                            <br/>scripts
-                        </span>
+                    <h2 class="skyblueTitle">استخدم السيناريوهات الجاهزة
                     </h2>
                     <div class="row">
                         <div class="col-md-4 col-sm-6">
@@ -392,9 +386,9 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon1.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>WARM-UP
+                                    <h4> سيناريو الاستعداد
                                     </h4>
-                                    <p>A simple game to familiarize yourself with the arena maze and game kit before more interesting scenarios.</p>
+                                    <p>لعبة سهلة وبسيطة تساعدك أن تتعرف على متاهة الساحة وعلى مجموعة الألعاب قبل أن تخوض المزيد من السيناريوهات المشوقة.</p>
                                 </div>
                             </div>
                         </div>
