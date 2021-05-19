@@ -19,8 +19,8 @@ export default function header() {
             </section>
             <section class="indoorbanner gradientBlack">
                 <div class="container">
-                    <h2 class="skyblueTitle text-center">Game
-                        <span>Scenario
+                    <h2 class="skyblueTitle text-center">لعبه
+                        <span>سيناريو
                         </span>
                     </h2>
                 </div>
@@ -35,23 +35,23 @@ export default function header() {
                                 marginBottom: '10px'
                             }
                     }>
-                        SIRIUS</h2>
-                    <p>A portable scenario device that gives the players bonuses. The active mode of operation is displayed by the animated backlighting of the diodes.</p>
+                       سيريوس</h2>
+                    <p>جهاز سيناريو محمول يمنح اللاعبين مكافآت. وضع التشغيل النشط يتم عرضه من خلال الإضاءة الخلفية المتحركة للديودات.</p>
                     <div class="row">
                         <div class="col-xs-6">
                             <ul>
-                                <li><img src="/img/gsicon1.png"/>RADIATION</li>
-                                <li><img src="/img/gsicon3.png"/>MEDKIT</li>
-                                <li><img src="/img/gsicon5.png"/>BASE</li>
-                                <li><img src="/img/gsicon7.png"/>BONUS</li>
+                                <li><img src="/img/gsicon1.png"/>إشعاع</li>
+                                <li><img src="/img/gsicon3.png"/>العدة الطبية</li>
+                                <li><img src="/img/gsicon5.png"/>القاعدة</li>
+                                <li><img src="/img/gsicon7.png"/>بونص</li>
                             </ul>
                         </div>
                         <div class="col-xs-6">
                             <ul>
-                                <li><img src="/img/gsicon2.png"/>AMMO</li>
-                                <li><img src="/img/gsicon4.png"/>RESPAWN</li>
-                                <li><img src="/img/gsicon6.png"/>RANDOM</li>
-                                <li><img src="/img/gsicon8.png"/>DIGITAL FLAG</li>
+                                <li><img src="/img/gsicon2.png"/>ذخيرة</li>
+                                <li><img src="/img/gsicon4.png"/>العودة للحياة</li>
+                                <li><img src="/img/gsicon6.png"/>عشوائي</li>
+                                <li><img src="/img/gsicon8.png"/>العلم الرقمي</li>
                             </ul>
                         </div>
                     </div>
@@ -59,31 +59,31 @@ export default function header() {
                         <div class="col-md-12">
                             <table class="normalTable">
                                 <tr>
-                                    <td>Activation by shots</td>
+                                    <td>التنشيط بالطلقات</td>
                                     <td>+</td>
                                 </tr>
                                 <tr>
-                                    <td>Activation by touch
+                                    <td>التنشيط باللمس
                                     </td>
                                     <td>+</td>
                                 </tr>
                                 <tr>
-                                    <td>Battery life
+                                    <td>عمر البطارية
                                     </td>
                                     <td>up to 24 hours</td>
                                 </tr>
                                 <tr>
-                                    <td>Size</td>
+                                    <td>الحجم</td>
                                     <td>19х19х5,5 cm</td>
                                 </tr>
                                 <tr>
-                                    <td>Weight</td>
+                                    <td>الوزن</td>
                                     <td>520 grams</td>
                                 </tr>
 
                                 <tr>
-                                    <td>Control</td>
-                                    <td>Android</td>
+                                    <td>طريقة التحكم</td>
+                                    <td>أندرويد</td>
                                 </tr>
 
                             </table>
