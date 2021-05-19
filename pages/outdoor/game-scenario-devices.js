@@ -18,7 +18,7 @@ export default function header() {
                     <div class="row">
                         <div class="col-12">
                             <img src="/img/netronicLogo.jpg" width="100px"/>
-                            <h2 class="sectionHeading">GAME SCENARIO DEVICES</h2>
+                            <h2 class="sectionHeading">أجهزة سيناريو اللعبة</h2>
 
                         </div>
                     </div>
@@ -27,7 +27,7 @@ export default function header() {
             </div>
             <section class="headbandSec sceneSec">
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle">Accessories</div>
+                    <div class="taggerGroupHeaderPreTitle">الملحقات</div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
@@ -37,7 +37,7 @@ export default function header() {
                             <div class="whiteTitleText">
                                 <h4 style={
                                     {border: 'none'}
-                                }>Portable scenario device</h4>
+                                }>جهاز سيناريو المحمول</h4>
                             </div>
 
                             <img src="/img/serious-img.jpg"/>
@@ -47,18 +47,18 @@ export default function header() {
 
                                 <div class="col-md-12">
                                     <div class="whiteTitleText">
-                                        <h4>Specifications</h4>
+                                        <h4>المواصفات</h4>
                                         <table class="table table-striped darktable">
                                             <tbody>
                                                 <tr>
                                                     <th scope="row">1</th>
-                                                    <td>The number of game modes
+                                                    <td>عدد أوضاع اللعبة
                                                     </td>
                                                     <td>8</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
-                                                    <td>Activation method
+                                                    <td>طريقة التنشيط
                                                     </td>
                                                     <td>by shot, by touch</td>
                                                 </tr>
