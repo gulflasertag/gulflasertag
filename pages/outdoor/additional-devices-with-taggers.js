@@ -195,19 +195,19 @@ export default function header() {
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">2</th>
-                                                            <td>Control</td>
-                                                            <td>manual</td>
+                                                            <td>التحكم</td>
+                                                            <td>يدوي</td>
 
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">3</th>
-                                                            <td>Method of data transfer</td>
-                                                            <td>radio channel</td>
+                                                            <td>طريقة نقل البيانات</td>
+                                                            <td>عبر قناة الراديو</td>
                                                         </tr>
                                                         <tr>
                                                             <th scope="row">4</th>
-                                                            <td>Battery life</td>
-                                                            <td>12 hours</td>
+                                                            <td>عمر البطارية</td>
+                                                            <td>12 ساعة</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -216,13 +216,13 @@ export default function header() {
                                             <br/><br/>
                                             <div class="row">
                                                 <div class="col-md-6">
-                                                    <p>The bracelet captures the hitt, after which it sends an electric impulse of adjustable power to the player’s body</p>
-                                                    <p>An electrical impulse causes a short-term contraction of the muscles, due to which a pain effect is achieved.
+                                                    <p>السوار يلتقط ويسجل الضربة، ثم يرسل نبضة صعق كهربائي قابلة للضبط إلى جسم اللاعب.</p>
+                                                    <p>يتسبب الصعق الكهربائي في تقلص العضلات على لفترة وجيزة، مما يؤدي إلى حدوث إحساس بالألم..
                                                     </p>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <p>The bracelet attracts a more adult audience of players seeking for more realism in laser tag.</p>
-                                                    <p>The bracelet is certified and its use is absolutely safe for the player*.</p>
+                                                    <p>السوار يجذب جمهورًا أكثر من اللاعبين البالغين الذين يسعون إلى ألعاب الليزر تاغ شديدة الواقعية.</p>
+                                                    <p>السوار معتمد تمامًا واستخدامه آمن بشكل كامل للاعب*.</p>
                                                 </div>
                                             </div>
                                             <img src="/img/hand.jpg"/></div>
