@@ -252,10 +252,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
+                                                    <li>Length
                                                         <span>54 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>900 gr</span>
                                                     </li>
                                                     <li>Battey life
@@ -291,10 +291,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
+                                                    <li>Lenth
                                                         <span>66 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>
                                                             1000 gr</span>
                                                     </li>
@@ -450,10 +450,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
+                                                    <li>Length
                                                         <span>54 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>
                                                             1100 gr</span>
                                                     </li>
@@ -491,10 +491,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
+                                                    <li>Length
                                                         <span>66 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>1200 gr</span>
                                                     </li>
                                                     <li>Battery life
@@ -643,10 +643,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
+                                                    <li>Length
                                                         <span>54 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>1300 gr</span>
                                                     </li>
                                                     <li>Battey life
@@ -681,10 +681,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
+                                                    <li>Lenth
                                                         <span>66 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>
                                                             1400 gr</span>
                                                     </li>
@@ -824,10 +824,10 @@ export default function header() {
                                                         {width: '300px'}
                                                     }/>
                                                 <ul class="inlineList">
-                                                    <li>Weight
+                                                    <li>Length
                                                         <span>18.6 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>
                                                             0.5 kg</span>
                                                     </li>
@@ -863,10 +863,10 @@ export default function header() {
                                             <img src="/img/COLT-M4.jpg"/>
                                             <div class="taggerGroupItemSpec">
                                                 <ul class="inlineList">
-                                                    <li>Weight
+                                                    <li>Lenth
                                                         <span>85 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>
                                                             2.5 kg</span>
                                                     </li>
@@ -892,10 +892,10 @@ export default function header() {
                                             <img src="/img/ak.jpg"/>
                                             <div class="taggerGroupItemSpec">
                                                 <ul class="inlineList">
-                                                    <li>Weight
+                                                    <li>Lenth
                                                         <span>97 cm</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>Weight
                                                         <span>
                                                             3.1 kg</span>
                                                     </li>
