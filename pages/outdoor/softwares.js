@@ -18,7 +18,7 @@ export default function header() {
                     <div class="row">
                         <div class="col-12">
                             <img src="/img/netronicLogo.jpg" width="100px"/>
-                            <h2 class="sectionHeading">SOFTWARES</h2>
+                            <h2 class="sectionHeading">البرامج</h2>
                         </div>
                     </div>
                 </div>
@@ -28,29 +28,29 @@ export default function header() {
                     {background: "#0b0b0b"}
             }>
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle">Accessories</div>
+                    <div class="taggerGroupHeaderPreTitle">الملحقات</div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>Wi-Fi router &nbsp;</strong>
+                                    <strong>جهاز راوتر الواي-فاي </strong>
                                 </h2>
                             </div>
                             <div class="whiteTitleText">
                                 <h4 style={
                                     {border: 'none'}
-                                }>Features</h4>
+                                }>الميزات</h4>
                             </div>
 
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <p>Set wireless router to cover the operation of laser tag club of the whole football field size. It features optimal characteristics to run all kinds of laser tag games. Data rate is up to 300 Mbps. on your belt.</p>
+                                        <p>يمكنك إعداد جهاز راوتر الواي-فاي لتغطية عمليات نادي الليزر تاغ بالكامل بمساحة تبلغ حجم ملعب كرة قدم. يتميز الجهاز بخصائص مثالية لتشغيل جميع أنواع ألعاب الليزر تاغ. معدل نقل البيانات يصل إلى 300 ميجابت في الثانية.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <p>The router provides fast operation of the software and online stats reading. Two highly efficient removable antennas are used for long-term transmission of signals. Repeater can be used if the extension of coverage area is needed</p>
+                                        <p>يوفر جهاز راوتر الواي-فاي التشغيل السريع للبرنامج وقراءة الإحصائيات عبر الإنترنت. يتم استخدام قرني استشعار هوائيين قابلين للإزالة وعالي الكفاءة لنقل الإشارات على المدى الطويل. يمكن أيضًا استخدام مكرر إذا كانت هناك حاجة لتمديد منطقة التغطية.Repeater can be used if the extension of coverage area is needed</p>
                                     </div>
                                 </div>
                             </div>
@@ -72,26 +72,25 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>Repeater
-                                        <br/>system &nbsp;</strong>
+                                    <strong>نظام تكرير الإشارة</strong>
                                 </h2>
                             </div>
                             <div class="whiteTitleText">
                                 <h4 style={
                                     {border: 'none'}
-                                }>Features</h4>
+                                }>الميزات</h4>
                             </div>
 
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <p>Wireless repeaters increase the coverage area of the Wi-Fi router up to 560000 m2. The system consists of a central access point and 4 repeaters with a range of up to 150 meters.
+                                        <p>أجهزة تكرير الإشارة اللاسلكية تعمل على زيادة مساحة تغطية موجه الواي-فاي حتى 560,000 متر مربع. يتكون النظام من نقطة وصول مركزية و 4 مكررات بمدى يصل إلى 150 مترًا.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <p>All the devices are equipped with a 4200 mAh battery, to ensure a battery life of 9-10 hours.</p>
+                                        <p>جميع الأجهزة مزودة ببطارية بسعة 4200 مللي أمبير، لضمان عمر البطارية حتى 9 لـ 10 ساعات.</p>
                                     </div>
                                 </div>
                             </div>
@@ -124,28 +123,28 @@ export default function header() {
                     }
             }>
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle">Accessories</div>
+                    <div class="taggerGroupHeaderPreTitle">ملحقات</div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>Android Box &nbsp;</strong>
+                                    <strong>صندوق أندرويد </strong>
                                 </h2>
                             </div>
                             <div class="whiteTitleText">
-                                <h4>Features</h4>
+                                <h4>الميزات</h4>
                             </div>
 
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <p>A device with (deleted) a mode for Lasertag Statistics (deleted) installed, which allows you to broadcast online statistics to a TV screen.</p>
+                                        <p>جهاز مثبت عليه (محذوف) نمط لجمع وعرض إحصائيات الليزر تاغ (محذوف)، وهو يسمح لك ببث الإحصائيات عبر الإنترنت إلى شاشة تلفزيون.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
                                         <p>
-                                            It can be connected to a TV (Android) using an HDMI cable. The connection of the Lasertag Operator for managing the game is done via a wi-fi channel.</p>
+                                            يمكن توصيله بجهاز تلفزيون (أندرويد) باستخدام كابل شاشة (HDMI). يتم توصيل مشغل الليزر تاغ لإدارة اللعبة عبر قناة واي-فاي.</p>
                                     </div>
                                 </div>
                             </div>
@@ -165,25 +164,25 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>Powerbank</strong>
+                                    <strong>شاحن باور بانك</strong>
                                 </h2>
                             </div>
                             <div class="whiteTitleText">
-                                <h4>Features</h4>
+                                <h4>الميزات</h4>
                             </div>
 
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <p>External battery that can be used mainly with a Wi-Fi router. It makes it possible to turn your club into a mobile one - software operation is no longer dependent on the presence of a power outlet close to the club
+                                        <p>بطارية خارجية يمكن استخدامها بشكل أساسي مع جهاز راوتر الواي-فاي، مما يمكنك من تحويل ناديك إلى نادي متنقل؛ تشغيل البرنامج لا يحتاج أن يعتمد على وجود منفذ طاقة قريب من النادي.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <p>Hold away games, control the game directly from the playground, record statistics online and everything - absolutely autonomously.
+                                        <p>استضف الألعاب بأماكن بعيدة، وتحكم فيها مباشرة من أرض الملعب، وسجل الإحصائيات عبر الإنترنت وقم بكل شيء - بشكل مستقل تمامًا.
                                         </p>
-                                        <p>Current up to 1.5 A / 12 V Autonomous operation: 12 hours Range of coverage of the router with a power bank - 100 m.
+                                        <p>تيار يصل حتى 1.5 أمبير/12 فولت التشغيل الذاتي: 12 ساعة نطاق تغطية جهاز الراوتر مع جهاز الشحن الخارجي - 100 متر.
                                         </p>
                                     </div>
                                 </div>
@@ -209,12 +208,12 @@ export default function header() {
                     {backgroundColor: "#0b0b0b"}
             }>
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle">Accessories</div>
+                    <div class="taggerGroupHeaderPreTitle">ملحقات</div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>Free Software
+                                    <strong>برنامج السوفت وير مجاني
                                     </strong>
                                 </h2>
                             </div>
@@ -223,29 +222,29 @@ export default function header() {
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Game scenarios</h4>
-                                        <p>Together with the equipment you get a package of ready-made scripts, tested in real conditions, so that every day passes in a new way. Using the script designer, you can modify existing missions or create your own unique script.</p>
+                                        <h4>سيناريوهات اللعبة</h4>
+                                        <p>سوف تحصل على مجموعة من النصوص التصورية الجاهزة مرفقة مع معدات اللعب، والتي تم اختبارها في ظروف حقيقية محاكية للواقع، وذلك كي  تمضي كل يوم جديد بطريقة مبتكرة ومختلفة. باستخدام برنامج تصميم سيناريوهات اللعبة، يمكنك تعديل المهام الحالية أو إنشاء سيناريو فريد خاص بك.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Online statistics</h4>
-                                        <p>The software allows you to get game statistics in real time and see a chat of game events on a computer or smartphone screen. The event Chat displays the actions of players throughout the match. Statistics in real time displays the performance of each player, and the team performance in general.</p>
+                                        <h4>إحصائيات أونلاين</h4>
+                                        <p>يتيح لك البرنامج أن تحصل على إحصائيات وبيانات لحظية خاصة باللعبة و أن ترى دردشة أحداث اللعبة على شاشة الكمبيوتر أو على شاشة الهاتف لديك. تقوم خاصية دردشة الأحداث بعرض تصرفات وخطوات اللاعبين طوال المباراة. كما أن هذه الإحصائيات اللحظية تعرض لك أداء كل لاعب على حدى وأداء الفريق بشكل عام.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Easy operation
+                                        <h4>سهل التشغيل
                                         </h4>
-                                        <p>To control the game devices, use the free application for Windows or Android. We put extensive functionality in the software,and took care of simplicity and convenience.</p>
+                                        <p>للتحكم في أجهزة اللعبة، قم باستخدام التطبيق المجاني لنظام التشغيل ويندوز أو أندرويد. لقد حرصنا على  إتاحة وظائف تشغيلية واسعة النطاق في البرنامج واعتنينا بتوفير عناصر بسيطة ومريحة.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Battle royale</h4>
-                                        <p>Battle Royale is one of the main gaming trends of the recent years. People all over the world dream of playing in real conditions, and now it has become possible. Battle Royale is not just a new mode, but a full-fledged game that best matches the iconic computer counterparts.</p>
+                                        <h4>باتل رويال (المعركة الملكية)</h4>
+                                        <p>تعد باتل رويال أحد اتجاهات الألعاب الرئيسية الأكثر شيوعًا في السنوات الأخيرة، حيث يحلم معظم اللاعبين في جميع أنحاء العالم بخوض تجارب حقيقية محاكية للواقع. والآن أصبح الأمر ممكنًا. ليست باتل رويال (المعركة الملكية) مجرد وضع جديد فقط، ,وإنما هي لعبة شمولية متكاملة تواكب نظائرها من ألعاب الكمبيوتر الشهيرة الأخرى بشكل أفضل.</p>
                                     </div>
                                 </div>
                             </div>
@@ -270,33 +269,33 @@ export default function header() {
             }>
 
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle topAbsolute">Software</div>
+                    <div class="taggerGroupHeaderPreTitle topAbsolute">البرنامج</div>
                     <div class="row">
 
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h3>Achievements</h3>
-                                        <p>At the end of the round, the participants are awarded special ranks according to their skills and style of playing. Each participant will be able to be proud of his rank, even if his team did not manage to win.</p>
+                                        <h3>الإنجازات</h3>
+                                        <p>يتم منح المشاركين رتبًا خاصة في نهاية الجولة حسب مهاراتهم وأسلوبهم في اللعب. وبالتالي سيتمكن كل مشارك من إحراز رتبة جيدة وأن يكون فخورًا بذلك، حتى في حال عدم تمكن فريقه من الفوز.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h3>Score board</h3>
-                                        <p>The recoil module is fully synchronized with shots and is capable of reaching 565 beats per minute. If a player fires one shot, one impulse is tactile, and if it is a turn of three shots, there are three impulses.</p>
+                                        <h3>لوحة النتائج</h3>
+                                        <p>وحدة دفع الارتداد متزامنة تمامًا مع الطلقات وهي قادرة على الوصول إلى تردد 565 نبضة في الدقيقة. إذا أطلق لاعب طلقة واحدة، يتم إطلاق نبضة ارتدادية واحدة، وإذا أطلق مجموعة متتالية من ثلاث طلقات، فسيشعر بثلاث نبضات.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h3>Kids mode</h3>
-                                        <p>Kids Mode is a game mode adapted for the youngest players (children under 8 years old). Simplified control allows you to quickly understand the principles of the game and enjoy an exciting laser tag battle.</p>
+                                        <h3>خاصية وضع الأطفال</h3>
+                                        <p>إن وضع الأطفال هو خاصية باللعبة تم تهيئتها لكي تُستخدم من قبل اللاعبين الصغار (الأطفال دون سن 8 سنوات). يسمح هذا التحكم المُبسَّط لك أن تفهم أساسيات اللعبة بشكل أسرع وأن تستمتع بمعركة ليزر تاغ مشوقة.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h3>Fiscal statistics</h3>
-                                        <p>Separate statistics are available for the business owner due to which he can track the time, date and duration of each set, excluding the possibility of unauthorized games.</p>
+                                        <h3>إحصاءات المستحقات العامة</h3>
+                                        <p>يتم توفير إحصاءات منفصلة لصاحب العمل والتي من خلالها يمكنه تتبع وقت وتاريخ ومدة استخدام كل مجموعة، وذلك باستثناء الألعاب غير المصرح بها.</p>
                                     </div>
                                 </div>
                             </div>
