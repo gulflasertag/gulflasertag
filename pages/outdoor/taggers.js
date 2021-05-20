@@ -93,23 +93,22 @@ export default function header() {
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h4>FALCON F2</h4>
+                                                <h4>فالكون إف-2</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
-                                                        <span>66 cm</span>
+                                                    <li>الوزن
+                                                        <span>950 غرام</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>الطول
                                                         <span>
-                                                            950 gr</span>
+                                                            66 سم</span>
                                                     </li>
-                                                    <li>Battery life
+                                                    <li>عمر البطارية
                                                         <span>
-                                                            24 h</span>
+                                                           24 ساعة</span>
                                                     </li>
-                                                    <li>Control with PC &<br/>
-                                                        ANDROID
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد +
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -154,7 +153,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Two hand sensor +45 dollars</p>
+                                                <p>أجهزة استشعار لليدين 45 دولار إضافية dollars</p>
                                             </div>
                                         </div>
                                     </div>
@@ -164,7 +163,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Multicoloured IPS-screen</p>
+                                                <p>شاشة آي-بي-إس (IPS) متعددة الألوان</p>
                                             </div>
                                         </div>
                                     </div>
@@ -174,7 +173,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Built-in hit sensors</p>
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
                                             </div>
                                         </div>
                                     </div>
