@@ -327,7 +327,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Shockproof ABS plastic</p>
+                                                <p>بلاستيك مقاوم للصدمات من مادة ABS</p>
                                             </div>
                                         </div>
                                     </div>
@@ -337,37 +337,38 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Protective rubber tip</p>
+                                                <p>طرف مطاطي واقي
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Two hand sensor +45 dollars</p>
+                                                <p>أجهزة استشعار لليدين 45 دولار إضافية dollars</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Multicoloured IPS-screen</p>
+                                                <p>شاشة آي-بي-إس (IPS) متعددة الألوان</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Built-in hit sensors</p>
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
                                             </div>
                                         </div>
                                     </div>
@@ -377,7 +378,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Impulse recoil</p>
+                                                <p>دفع الارتداد</p>
                                             </div>
                                         </div>
                                     </div>
@@ -387,7 +388,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Pixel print</p>
+                                                <p>طباعة بكسل</p>
                                             </div>
                                         </div>
                                     </div>
@@ -397,7 +398,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Red dot sight</p>
+                                                <p>رؤية النقطة الحمراء</p>
                                             </div>
                                         </div>
                                     </div>
@@ -523,7 +524,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Shockproof ABS plastic</p>
+                                                <p>بلاستيك مقاوم للصدمات من مادة ABS</p>
                                             </div>
                                         </div>
                                     </div>
@@ -533,47 +534,48 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Protective rubber tip</p>
+                                                <p>طرف مطاطي واقي
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Two hand sensor +45 dollars</p>
+                                                <p>أجهزة استشعار لليدين 45 دولار إضافية dollars</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Multicoloured IPS-screen</p>
+                                                <p>شاشة آي-بي-إس (IPS) متعددة الألوان</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Built-in hit sensors</p>
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem ">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Impulse recoil</p>
+                                                <p>دفع الارتداد</p>
                                             </div>
                                         </div>
                                     </div>
@@ -583,7 +585,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Pixel print</p>
+                                                <p>طباعة بكسل</p>
                                             </div>
                                         </div>
                                     </div>
@@ -593,7 +595,7 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Red dot sight</p>
+                                                <p>رؤية النقطة الحمراء</p>
                                             </div>
                                         </div>
                                     </div>
@@ -718,7 +720,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                                 <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Shockproof ABS plastic</p>
+                                                <p>بلاستيك مقاوم للصدمات من مادة ABS</p>
                                             </div>
                                         </div>
                                     </div>
@@ -728,67 +730,68 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                                 <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Protective rubber tip</p>
+                                                <p>طرف مطاطي واقي
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Two hand sensor +45 dollars</p>
+                                                <p>أجهزة استشعار لليدين 45 دولار إضافية dollars</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Multicoloured IPS-screen</p>
+                                                <p>شاشة آي-بي-إس (IPS) متعددة الألوان</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Built-in hit sensors</p>
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem ">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Impulse recoil</p>
+                                                <p>دفع الارتداد</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Pixel print</p>
+                                                <p>طباعة بكسل</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem">
+                                    <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>Red dot sight</p>
+                                                <p>رؤية النقطة الحمراء</p>
                                             </div>
                                         </div>
                                     </div>
