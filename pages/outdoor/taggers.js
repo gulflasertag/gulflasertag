@@ -108,7 +108,7 @@ export default function header() {
                                                         <span>
                                                            24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد +
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -255,13 +255,12 @@ export default function header() {
                                                         <span>54 سم</span>
                                                     </li>
                                                     <li>الوزن
-                                                        <span>900 gr</span>
+                                                        <span>900 مارغ</span>
                                                     </li>
-                                                    <li>Battey life
-                                                        <span>24 h</span>
+                                                    <li>رمع ةيراطبلا
+                                                        <span>24 ةعاس</span>
                                                     </li>
-                                                    <li>Control with PC &<br/>
-                                                        ANDROID
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -286,23 +285,22 @@ export default function header() {
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h4>FALCON F2</h4>
+                                                <h4>نوكلاف فإ -2</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
-                                                        <span>66 cm</span>
+                                                    <li>لوطلا
+                                                        <span>66 مس</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>نزولا
                                                         <span>
-                                                            1000 gr</span>
+                                                            1000 مارغ</span>
                                                     </li>
-                                                    <li>Battery life
+                                                    <li>رمع ةيراطبلا
                                                         <span>
-                                                            24 h</span>
+                                                            24 ةعاس</span>
                                                     </li>
-                                                    <li>Control with PC &<br/>
-                                                        ANDROID
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -416,21 +414,18 @@ export default function header() {
             <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle">Falcon
-                            <br/>Modifications</div>
+                        <div class="taggerGroupHeaderPreTitle">تلايدعت نوكلاف </div>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="taggerGroupHeaderTitle">
-                                    <h3>Premium</h3>
+                                    <h3>إصدار بريميوم المميز</h3>
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="taggerGroupHeaderDescription">
-                                    <p>The set for exciting laser tag battles. The blaster is equipped with impulse recoil which is much more realistic than usual vibration. The color
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        IPS screen does not only attracts the attention of players, but also displays all the game and server
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        statistics. Hit sensors built-in the body are the key to an honest and safe game.
+                                    <p>الإصدار المناسب لمعارك الليزر المثيرة. تم تزويد البندقية بنظام دفع الارتداد والذي يعد أكثر واقعية من نظم الاهتزاز المعتادة. شاشة آي-بي-إس (IPS) الملونة لا تجذب انتباه اللاعبين فحسب، بل تعرض أيضًا جميع إحصاءات اللعبة والسيرفر. أجهزة استشعار الضربات المدمجة في جسم البندقية هي المفتاح للاستمتاع بلعبة صادقة وآمنة.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     statistics. Hit sensors built-in the body are the key to an honest and safe game.
                                     </p>
                                 </div>
                             </div>
@@ -446,23 +441,22 @@ export default function header() {
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h4>FALCON F1</h4>
+                                                <h4>فالكون إف-1</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
-                                                        <span>54 cm</span>
+                                                    <li>الطول 
+                                                        <span>54 سم</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>الوزن
                                                         <span>
-                                                            1100 gr</span>
+                                                            1100 غرام</span>
                                                     </li>
-                                                    <li>Battey life
+                                                    <li>عمر البطارية
                                                         <span>
-                                                            24 h</span>
+                                                            24 ساعة</span>
                                                     </li>
-                                                    <li>Control with PC &<br/>
-                                                        ANDROID
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -487,27 +481,28 @@ export default function header() {
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h4>FALCON F2</h4>
+                                                <h4>فالكون إف-2</h4>
                                             </div>
-                                            <div class="taggerGroupItemSpec">
+                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
-                                                        <span>66 cm</span>
+                                                    <li>الطول 
+                                                        <span>66 سم</span>
                                                     </li>
-                                                    <li>Length
-                                                        <span>1200 gr</span>
+                                                    <li>الوزن
+                                                        <span>
+                                                            1200 غرام</span>
                                                     </li>
-                                                    <li>Battery life
-                                                        <span>24 h</span>
+                                                    <li>عمر البطارية
+                                                        <span>
+                                                            24 ساعة</span>
                                                     </li>
-                                                    <li>Control with PC &<br/>
-                                                        ANDROID
-                                                        <span>+</span>
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                        <span>
+                                                            +</span>
                                                     </li>
                                                 </ul>
 
                                             </div>
-
                                         </div>
                                         <div class="col-md-8">
                                             <img src="/img/falcon-f1.jpg"/>
@@ -612,20 +607,18 @@ export default function header() {
             <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle">Falcon
-                            <br/>Modifications</div>
+                        <div class="taggerGroupHeaderPreTitle">تعديلات فالكون</div>
                     </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="taggerGroupHeaderTitle">
-                                    <h3>Tactical Pro</h3>
+                                    <h3>الإصدار التكتيكي للمحترفين</h3>
                                 </div>
                             </div>
                             <div class="col-md-8">
                                 <div class="taggerGroupHeaderDescription">
-                                    <p>The most advanced set of Falcon. The maximum functionality gives the players a wow-effect and the desire to return to your club again. The original
-print looks impressive and the weapon special, and the red dot scope increases the accuracy of the shot.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 statistics. Hit sensors built-in the body are the key to an honest and safe game.
+                                    <p>الإصدار الأكثر تقدمًا من فالكون. الحد الأقصى من الخصائص والمميزات يمنح تأثيرًا رائعًا للاعبين ويملئهم بالرغبة في العودة إلى ناديك مرة أخرى. الطبعة الأصلية تبدو مثيرة للإعجاب والسلاح يبدو مميز، كما أن نطاق النقطة الحمراء يزيد من دقة الطلقة.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 statistics. Hit sensors built-in the body are the key to an honest and safe game.
                                     </p>
                                 </div>
                             </div>
@@ -641,22 +634,24 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h4>FALCON F1</h4>
+                                                <h4>فالكون إف-1</h4>
                                             </div>
-                                            <div class="taggerGroupItemSpec">
+                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
-                                                        <span>54 cm</span>
+                                                    <li>الطول 
+                                                        <span>54 سم</span>
                                                     </li>
-                                                    <li>Length
-                                                        <span>1300 gr</span>
+                                                    <li>الوزن
+                                                        <span>
+                                                            1300 غرام</span>
                                                     </li>
-                                                    <li>Battey life
-                                                        <span>24 h</span>
+                                                    <li>عمر البطارية
+                                                        <span>
+                                                            24 ساعة</span>
                                                     </li>
-                                                    <li>Control with PC &<br/>
-                                                        ANDROID
-                                                        <span>+</span>
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                        <span>
+                                                            +</span>
                                                     </li>
                                                 </ul>
 
@@ -679,23 +674,22 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h4>FALCON F2</h4>
+                                                <h4>فالكون إف-2</h4>
                                             </div>
-                                            <div class="taggerGroupItemSpec">
+                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>Weight
-                                                        <span>66 cm</span>
+                                                    <li>الطول 
+                                                        <span>66 سم</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>الوزن
                                                         <span>
-                                                            1400 gr</span>
+                                                            1400 غرام</span>
                                                     </li>
-                                                    <li>Battery life
+                                                    <li>عمر البطارية
                                                         <span>
-                                                            24 h</span>
+                                                            24 ساعة</span>
                                                     </li>
-                                                    <li>Control with PC &<br/>
-                                                        ANDROID
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -808,7 +802,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
             <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle">Tactical guns</div>
+                        <div class="taggerGroupHeaderPreTitle">بنادق تكتيكية</div>
                     </div>
                 </div>
                 <div class="taggerGroupBody">
@@ -819,7 +813,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
-                                                <h2>Glock 19</h2>
+                                                <h2>جلوك 19</h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <img src="/img/Glock.jpg"
@@ -843,7 +837,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             <div class="taggerGroupItemPrice"></div>
                                             <br/>
                                             <br/>
-                                            <p>Glock 19 is a laser tag gun that works on the NETRONIC platform. The gun is made based on a licensed case from the German company UMAREX. All markings correspond to the combat prototype. Most elements of the original design are retained in the gun: trigger, fuse and Picatinny rail. Ammunition reload cycle is carried out by changing the magazine. Glock 19 uses a dual emitter, which makes shooting at close and long-range more realistic.
+                                            <p>جلوك 19 هو مسدس ليزر تاغ يعمل على منصة نيترونيك. تم صنع المسدس بناءً على ترخيص من شركة يوماريكس الألمانية. جميع العلامات متطابقة مع النموذج القتالي، كما تم الاحتفاظ بمعظم عناصر التصميم الأصلي في هذا المسدس، مثل: الزناد والصمام ومسطرة بكتيني.
                                             </p>
                                         </div>
                                     </div>
@@ -852,7 +846,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
-                                                <h2>COLT M4
+                                                <h2>كولت إم-4
                                                     <span style={
                                                         {
                                                             color: '#1a73e8',
@@ -866,16 +860,16 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             <img src="/img/COLT-M4.jpg"/>
                                             <div class="taggerGroupItemSpec">
                                                 <ul class="inlineList">
-                                                    <li>Weight
-                                                        <span>85 cm</span>
+                                                    <li>الطول
+                                                        <span>85 سم</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>الوزن
                                                         <span>
-                                                            2.5 kg</span>
+                                                            2.5 كجم</span>
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <p>COLT M4 A1 is a laser tag gun that implements the most authentic ammunition reload cycle. The gun is made based on a high-quality airsoft casing and maximally corresponds to the original. All electronics are securely fixed in the mounting modules.
+                                            <p>كولت إم-4 إيه-1 عبارة عن مسدس ليزر تاغ يتيح الدورة الأكثر واقعية لإعادة تعمير الذخيرة. صُنع المسدس على أساس غلاف آير-سوفت عالي الجودة ويتوافق إلى أقصى حد مع المسدس الأصلي. جميع الأجهزة الإلكترونية يتم تثبيتها بشكل آمن في وحدات التركيب.
                                             </p>
 
                                         </div>
