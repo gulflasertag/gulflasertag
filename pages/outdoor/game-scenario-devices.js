@@ -593,7 +593,7 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>الريموت الذكي</h2>
+                                    الريموت الذكي</h2>
                             </div>
                             <div class="whiteTitleText"></div>
 
