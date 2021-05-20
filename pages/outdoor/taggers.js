@@ -963,25 +963,25 @@ export default function header() {
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
                                         <h4>الانغماس في اللعبة</h4>
-                                        <p>When fired, impulses directed to the shoulder pass along the body, imitating the real recoil from the weapon. The recoil effect is much more realistic than the usual vibration of the body, which enhances the involvement in the gameplay.</p>
+                                        <p>عند إطلاق النار، النبضات الموجهة إلى الكتف تمر على طول الجسم كله، وذلك لتقليد الارتداد الناتج من إطلاق السلاح الحقيقي. تأثير الارتداد واقعي أكثر  من اهتزاز الجسم المعتاد، مما يعمق من انغماس اللاعبين في المغامرة.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h4>Realistic shot</h4>
-                                        <p>The recoil module is fully synchronized with shots and is capable of reaching 565 beats per minute. If a player fires one shot, one impulse is tactile, and if it is a turn of three shots, there are three impulses.</p>
+                                        <h4>لقطة واقعية</h4>
+                                        <p>وحدة دفع الارتداد متزامنة تمامًا مع الطلقات وهي قادرة على الوصول إلى تردد 565 نبضة في الدقيقة. إذا أطلق لاعب طلقة واحدة، يتم إطلاق نبضة ارتدادية واحدة، وإذا أطلق مجموعة متتالية من ثلاث طلقات، فسيشعر بثلاث نبضات.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h4>Better than vibration</h4>
-                                        <p>The player clearly feels the hits towards the shoulder, and not the steady trembling throughout the body which is created when using the vibro-motor. A tactile sense of real impact gives players more emotions.</p>
+                                        <h4>أفضل من الاهتزاز</h4>
+                                        <p>يشعر اللاعب بوضوح بضربات تجاه كتفه، وليس مجرد ارتعاش مستمر في جميع أنحاء الجسم كالذي يحدث عند استخدام محرك اهتزازي. الإحساس بتأثير اللمس الحقيقي يمنح اللاعبين المزيد من المشاعر.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h4>Autonomy</h4>
-                                        <p>Due to the autonomous power supply system with a separate battery, impulse recoil does not affect the operating time of the blaster itself.</p>
+                                        <h4>الاستقلالية</h4>
+                                        <p>بفضل النظام المستقل للإمداد بالطاقة عن طريق بطارية منفصلة، دفع الارتداد لا يؤثر على وقت تشغيل المسدس نفسه.</p>
                                     </div>
                                 </div>
                             </div>
