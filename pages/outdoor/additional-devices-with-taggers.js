@@ -102,7 +102,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>سترة نيترونيك سوداء/بشكل مبكسل</h2>
+                                                    <strong>سترة نيترونيك سوداء/بشكل مبكسل</strong></h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <img src="/img/acceVest.jpg"/>
