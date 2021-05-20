@@ -875,7 +875,7 @@ export default function header() {
                                         </div>
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
-                                                <h2>AK-74
+                                                <h2>ايه-كيه-74
                                                     <span style={
                                                         {
                                                             color: '#1a73e8',
@@ -889,16 +889,16 @@ export default function header() {
                                             <img src="/img/ak.jpg"/>
                                             <div class="taggerGroupItemSpec">
                                                 <ul class="inlineList">
-                                                    <li>Weight
-                                                        <span>97 cm</span>
+                                                    <li>الطول 
+                                                        <span>97 سم</span>
                                                     </li>
-                                                    <li>Length
+                                                    <li>الوزن
                                                         <span>
-                                                            3.1 kg</span>
+                                                            3.1 كجم</span>
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <p>AK-74 is a laser tag gun that works on the NETRONIC platform. A reliable, metal shockproof case is used as a basis. The loudspeaker, which is integrated into the magazine, provides a sound shot indication.
+                                            <p>ايه-كيه-74 هو مسدس ليزر يعمل على منصة نيترونيك. يتم استخدام إطار معدني مقاوم للصدمات يمكن الاعتماد عليه كأساس، ومكبر الصوت المدمج في الخزنة يوفر أيضًا مؤشرًا صوتيًا لكل طلقة.
                                             </p>
 
                                         </div>
@@ -913,36 +913,36 @@ export default function header() {
 
             <section class="multicolouredSection rtl">
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle topAbsolute">Features</div>
+                    <div class="taggerGroupHeaderPreTitle topAbsolute">المميزات</div>
                     <div class="row">
                         <div class="col-md-6"></div>
                         <div class="col-md-6">
-                            <h2 class="whiteTitle">Multicoloured IPS screen</h2>
+                            <h2 class="whiteTitle">شاشة آي-بي-إس (IPS) متعددة الألوان</h2>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Durability</h4>
-                                        <p>The screen is integrated in special mounting racks and protected with 6 mm glass, which eliminates mechanical damage and displacement when falling.</p>
+                                        <h4>المتانة</h4>
+                                        <p>تم دمج الشاشة في رفوف تركيب خاصة ومحمية بزجاج سمكه 6 مم، مما يزيل الضرر الميكانيكي والإزاحة عند السقوط.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Usability</h4>
-                                        <p>The wide viewing angle without glare ensures clear visibility of all indicators from any angle. Bright backlighting allows visitors to clearly see all game indicators even in sunny weather.</p>
+                                        <h4>سهولة الاستخدام</h4>
+                                        <p>زاوية الرؤية الواسعة التي لا تسبب وهج تضمن رؤية واضحة لجميع المؤشرات من أي زاوية. تسمح الإضاءة الخلفية الساطعة للزوار برؤية جميع مؤشرات اللعبة بوضوح حتى في ظل الطقس المشمس.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Gamefication</h4>
-                                        <p>30 coloured indicators are intuitive for players of any age and allows them to perceive the information easily even in high dynamic of the game</p>
+                                        <h4>التلعيب</h4>
+                                        <p>30 مؤشر لوني بديهيون للاعبين من أي عمر مما يسمح لهم لإدراك المعلومات بسهولة حتى في أثناء الأوقات شديدة الديناميكية للعبة.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="whiteTitleText">
-                                        <h4>Convenience</h4>
-                                        <p>Service indicators of the screen allow immediate game sets customizing. Information displayed in boot-mode optimizes the process of updating the equipment up to the new version in a few minutes.</p>
+                                        <h4>الراحة</h4>
+                                        <p>مؤشرات الخدمة الخاصة بالشاشة تسمح بالتخصيص الفوري لمجموعات الألعاب. المعلومات المعروضة في وضع التمهيد تعمل على تحسين عملية تحديث المعدات بما يناسب الإصدار الجديد في دقائق معدودة.</p>
                                     </div>
                                 </div>
                             </div>
@@ -954,15 +954,15 @@ export default function header() {
             <section class="impulseRecoilSec rtl">
 
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle topAbsolute">Features</div>
+                    <div class="taggerGroupHeaderPreTitle topAbsolute">ميزات</div>
                     <div class="row">
 
                         <div class="col-md-12">
-                            <h2 class="whiteTitle">Impulse recoil</h2>
+                            <h2 class="whiteTitle">دفع الارتداد</h2>
                             <div class="row">
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
-                                        <h4>Immersion in the game</h4>
+                                        <h4>الانغماس في اللعبة</h4>
                                         <p>When fired, impulses directed to the shoulder pass along the body, imitating the real recoil from the weapon. The recoil effect is much more realistic than the usual vibration of the body, which enhances the involvement in the gameplay.</p>
                                     </div>
                                 </div>
