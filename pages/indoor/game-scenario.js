@@ -70,15 +70,15 @@ export default function header() {
                                 <tr>
                                     <td>عمر البطارية
                                     </td>
-                                    <td>up to 24 hours</td>
+                                    <td>يصل إلى 24 ساعة</td>
                                 </tr>
                                 <tr>
                                     <td>الحجم</td>
-                                    <td>19х19х5,5 cm</td>
+                                    <td>19х19х5.5 سم</td>
                                 </tr>
                                 <tr>
                                     <td>الوزن</td>
-                                    <td>520 grams</td>
+                                    <td>520 جرام</td>
                                 </tr>
 
                                 <tr>
@@ -143,15 +143,15 @@ export default function header() {
                                 <tr>
                                     <td>عمر البطارية
                                     </td>
-                                    <td>up to 24 hours</td>
+                                    <td>يصل إلى 24 ساعة</td>
                                 </tr>
                                 <tr>
                                     <td>الحجم</td>
-                                    <td>39х37х7,5 cm</td>
+                                    <td>39х37х7.5 سم</td>
                                 </tr>
                                 <tr>
                                     <td>الوزن</td>
-                                    <td>1600 grams</td>
+                                    <td>1600 جرام</td>
                                 </tr>
 
                                 <tr>
@@ -233,16 +233,16 @@ export default function header() {
                                 <tr>
                                     <td>عمر البطارية
                                     </td>
-                                    <td>up to 24 hours</td>
+                                    <td>يصل إلى 24 ساعة</td>
                                 </tr>
 
                                 <tr>
                                     <td>الحجم</td>
-                                    <td>22х22х32 cm</td>
+                                    <td>22х22х32 سم</td>
                                 </tr>
                                 <tr>
                                     <td>الوزن</td>
-                                    <td>1600 grams</td>
+                                    <td>1600 جرام</td>
                                 </tr>
 
                                 <tr>
