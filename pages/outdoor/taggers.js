@@ -342,7 +342,7 @@ export default function header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
@@ -352,7 +352,7 @@ export default function header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
@@ -362,7 +362,7 @@ export default function header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
@@ -539,7 +539,7 @@ export default function header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
@@ -549,7 +549,7 @@ export default function header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
@@ -559,7 +559,7 @@ export default function header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
@@ -569,7 +569,7 @@ export default function header() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
@@ -735,7 +735,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
@@ -745,7 +745,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
@@ -755,7 +755,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
@@ -765,7 +765,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
@@ -775,7 +775,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
@@ -785,7 +785,7 @@ print looks impressive and the weapon special, and the red dot scope increases t
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
+                                    <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
                                                 <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
