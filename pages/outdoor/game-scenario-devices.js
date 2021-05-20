@@ -303,7 +303,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>صندوق الهيمنة الذكي</h2>
+                                                    <strong>صندوق الهيمنة الذكي</strong></h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <img src="/img/img154.jpg"/>
