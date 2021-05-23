@@ -119,7 +119,7 @@ export default function contact() {
                         <div class="col-md-4">
                             <div class="icon"><FaLocationArrow/></div>
                             <h3>موقع</h3>
-                            <p>United Arab Emirates</p>
+                            <p>الإمارات العربية المتحدة</p>
                         </div>
                         <div class="col-md-4">
                             <div class="icon"><FaPhone/></div>
@@ -128,11 +128,11 @@ export default function contact() {
                             </h3>
 
                             <p>
-                                <b>United Arab Emirates:</b><br/>
+                                <b>الإمارات العربية المتحدة:</b><br/>
                                 +971558349291
                                 <br/>
                                 <br/>
-                                <b>Estonia:</b>
+                                <b>استونیا:</b>
                                 <br/>+37258662265
                             </p>
                         </div>
@@ -143,14 +143,14 @@ export default function contact() {
                                 لديك أي أسئلة؟ ​
                             </h3>
                             <p>
-                                <b>Gulf Sales Representative</b><br/>
-                                Mohammed Yussuf
+                                <b>مندوب مبيعات الخليج</b><br/>
+                               محمد یوسف
                                 <br/>gulflasertag@gmail.com
                             </p>
                             <br/>
                             <p>
-                                <b>Business Development Representative</b><br/>
-                                Halim Behroz
+                                <b>ممثل فریق تطوير الأعمال</b><br/>
+                               بيهروز حاليم 
                                 <br/>Behroz.lasertag.net@gmail.com</p>
                         </div>
                     </div>
