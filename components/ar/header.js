@@ -19,7 +19,7 @@ export default function header() {
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                    علامة ليزر
+                                    ليزر تاج
                                     <span class="caret"></span>
                                 </a>
                                 <ul class="dropdown-menu">
