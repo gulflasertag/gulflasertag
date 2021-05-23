@@ -61,7 +61,7 @@ export default function about() {
                             </p>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="img/airbunker2.png" alt="Airbunker"/>
+                            <img src="img/about1.jpg" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@ export default function about() {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="img/airbunker.jpeg" alt="Airbunker"/>
+                            <img src="img/about2.jpg" alt=""/>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
                             <p class="subheading">
