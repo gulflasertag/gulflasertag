@@ -10,13 +10,13 @@ export default function Footer() {
                             <h2 class="footerTitle">الصفحات</h2>
                             <ul>
                                 <li>
-                                    <Link href="/outdoor">
+                                    <Link href="/about">
                                         <a>حول
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/indoor">
+                                    <Link href="/contact">
                                         <a>اتصال</a>
                                     </Link>
                                 </li>
@@ -96,7 +96,10 @@ export default function Footer() {
                             <div class="footerLogo">
                                 <Link href="/">
                                     <a>
-                                        <img src="/img/logo.png" alt="logo-lasrertag"/>
+                                        <img src="/img/logo.png" alt="logo-lasrertag"
+                                            style={
+                                                {"transform": "none"}
+                                            }/>
                                     </a>
                                 </Link>
                             </div>

@@ -197,6 +197,12 @@ export default function Home() {
 
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
+                            <img src="img/galaxy-kit.png" alt="Indoor Galaxy Eclipse"
+                                style={
+                                    {"transform": "none"}
+                                }/>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-12">
                             <h2 class="sectionHeading">غالاكسي إكليبس</h2>
                             <p class="secDescription">الدعم الفني ، المساعدة في تطوير الأعمال ، الدعم المعلوماتي ، المعدات المعتمدة ، شبكة مركز الخدمة ، المعدات المتقدمة
                             </p>
@@ -240,9 +246,6 @@ export default function Home() {
                             <Link href="/indoor">
                                 <a class="btn btn-primary btnMain btnMainWhite">عرض المزيد</a>
                             </Link>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-12">
-                            <img src="img/galaxy-kit.png" alt="Indoor Galaxy Eclipse"/>
                         </div>
 
                     </div>

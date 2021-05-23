@@ -13,7 +13,7 @@ export default function header() {
                     </a>
                 </Link>
             </div>
-            <section class="airbunkerBanner">
+            <section class="airbunkerBanner rtl">
                 <div class="background-overlay-red"></div>
                 <div class="container">
                     <div class="airbunkerLogo">
@@ -21,21 +21,17 @@ export default function header() {
                     </div>
                     <div class="airbunkerBannerContent">
                         <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="whiteTitle">كرة الطلاء 
-ليزر تاغ
-ألعاب الرماية
-مسدسات نيرف
-سباق الطائرات الآلية</h2>
-                            </div>
 
                             <div class="col-md-6"></div>
 
+                            <div class="col-md-6">
+                                <h2 class="whiteTitle">كرة الطلاء ليزر تاغ ألعاب الرماية  مسدسات نيرف  سباق الطائرات الآلية</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="airbunkerTableIntro">
+            <section class="airbunkerTableIntro rtl">
                 <div class="background-overlay"
                     style={
                         {opacity: '0.25'}
@@ -47,13 +43,14 @@ export default function header() {
 
                     <div class="airbunkerBannerContent">
                         <div class="row">
+
+
+                            <div class="col-md-6"></div>
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
                                     <span>مجموعة المخابئ</span><br/>
-                                   لحقل إن-إكس-إل 2021</h2>
+                                    لحقل إن-إكس-إل 2021</h2>
                             </div>
-
-                            <div class="col-md-6"></div>
 
                         </div>
                     </div>
@@ -61,7 +58,7 @@ export default function header() {
             </section>
 
             {/* page 7 */}
-            <section class="airbunkerTableIntro airbunkerPspSec">
+            <section class="airbunkerTableIntro airbunkerPspSec rtl">
                 <div class="background-overlay"
                     style={
                         {opacity: '0.25'}
@@ -73,13 +70,12 @@ export default function header() {
 
                     <div class="airbunkerBannerContent">
                         <div class="row">
+                            <div class="col-md-6"></div>
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
                                     <span>مجموعة المخابئ</span><br/>
-                                   لحقول بي-إس-بي أو إن-إكس-إل (PSP / NXL)</h2>
+                                    لحقول بي-إس-بي أو إن-إكس-إل (PSP / NXL)</h2>
                             </div>
-
-                            <div class="col-md-6"></div>
 
                         </div>
                     </div>
@@ -199,7 +195,7 @@ export default function header() {
             </section> */}
 
             {/* section 9 */}
-            <section class="airbunkerTableIntro airbunkerTrainSec">
+            <section class="airbunkerTableIntro airbunkerTrainSec rtl">
                 <div class="background-overlay"
                     style={
                         {opacity: '0.3'}
@@ -211,23 +207,25 @@ export default function header() {
 
                     <div class="airbunkerBannerContent">
                         <div class="row">
+                            <div class="col-md-6"></div>
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
                                     <span>مجموعة المخابئ</span><br/>
-                                   للتدريب</h2>
+                                    للتدريب</h2>
                                 <h4 class="smallTitleWhite">((كرات الطلاء، الليزر  تاغ، مسدسات النيرف، ألعاب الرماية))</h4>
                             </div>
-
-                            <div class="col-md-6"></div>
-
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="utilitySet">
+            <section class="utilitySet rtl">
                 <div class="container">
                     <div class="bunker">
                         <div class="row">
+
+                            <div class="col-md-6">
+                                <img src="/img/img77.jpg"/>
+                            </div>
                             <div class="col-md-6">
                                 <h4>المجموعة العملية</h4>
                                 <h2>ذات الـ20 مخبئ</h2>
@@ -236,33 +234,31 @@ export default function header() {
                                         {color: "#202331"}
                                 }>((كرات الطلاء، الليزر  تاغ، مسدسات النيرف، ألعاب الرماية))</h4>
                             </div>
-                            <div class="col-md-6">
-                                <img src="/img/img77.jpg"/>
-                            </div>
                         </div>
                     </div>
                     <div class="bunker">
                         <div class="row">
-                            <div class="col-md-6">
-                                <img src="/img/img93.jpg"/>
-                            </div>
+
                             <div class="col-md-6">
                                 <br/>
                                 <br/>
                                 <br/>
-                               
-                             <h2>مجموعة الألعاب الخارجية</h2>
+
+                                <h2>مجموعة الألعاب الخارجية</h2>
                                 <h4 class="smallTitleWhite"
                                     style={
                                         {color: "#202331"}
                                 }>وبطولات الليزر تاغ</h4>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="/img/img93.jpg"/>
                             </div>
 
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="utilitySet">
+            <section class="utilitySet rtl">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -359,7 +355,7 @@ export default function header() {
             </section>
 
             {/* section 23 */}
-            <section class="airbunkerTableIntro airbunkerDroneRaceSec">
+            <section class="airbunkerTableIntro airbunkerDroneRaceSec rtl">
                 <div class="background-overlay"
                     style={
                         {opacity: '0.3'}
@@ -371,25 +367,20 @@ export default function header() {
 
                     <div class="airbunkerBannerContent">
                         <div class="row">
+                            <div class="col-md-6"></div>
                             <div class="col-md-6">
                                 <h2 class="whiteTitle">
                                     <span>مجموعة مخابئ</span><br/>
-                                   سباق الطائرات الآلية</h2>
+                                    سباق الطائرات الآلية</h2>
                             </div>
-
-                            <div class="col-md-6"></div>
-
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="airbunkerRequirement">
+            <section class="airbunkerRequirement rtl">
                 <div class="bunker">
                     <div class="row">
-                        <div class="col-md-6">
-                            <img src="/img/airbunker-require.png"/>
 
-                        </div>
                         <div class="col-md-6">
                             <br/><br/>
                             <h2>مجموعة الألعاب الخارجية</h2>
@@ -404,11 +395,14 @@ export default function header() {
                                 <li>صورة فيكتور فقط (صور بيت-ماب المتخفية على هيئة فيكتور غير مقبولة)</li>
 
                                 <li>
-                                   يجب دمج كل الطبقات في طبقة واحدة  (مدمجة ليس مجمعة)</li>
+                                    يجب دمج كل الطبقات في طبقة واحدة  (مدمجة ليس مجمعة)</li>
                                 <li>يجب أن يكون الشعار من لون واحد خالص (اللون غير مهم)</li>
                                 <li>يجب أن يكون سُمك الخطوط 1 مم على الأقل</li>
 
                             </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="/img/airbunker-require.png"/>
                         </div>
 
                     </div>

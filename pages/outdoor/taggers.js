@@ -32,15 +32,15 @@ export default function header() {
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-4">
-                                <div class="taggerGroupHeaderTitle">
-                                    <h3>الإصدار الأساسي</h3>
-                                </div>
-                            </div>
                             <div class="col-md-8">
                                 <div class="taggerGroupHeaderDescription">
                                     <p>بندقية علامة الليزر الأساسية من طراز فالكون للاستخدام في ظروف الإيجار القاسية. الجسم المقاوم للصدمات يقاوم أي اختبار: الصدمة والسقوط. يسمح لك الجسم خفيف الوزن باللعب بشكل مريح لفترة طويلة.
                                     </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="taggerGroupHeaderTitle">
+                                    <h3>الإصدار الأساسي</h3>
                                 </div>
                             </div>
                         </div>
@@ -49,9 +49,105 @@ export default function header() {
                 <div class="taggerGroupBody">
                     <div class="container">
                         <div class="row">
+                            <div class="col-md-3">
+                                <div class="taggerGroupSidebar">
+                                    <div class="taggerGroupSidebarItem">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>بلاستيك مقاوم للصدمات من مادة ABS</p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="taggerGroupSidebarItem">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>طرف مطاطي واقي
+                                                </p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="taggerGroupSidebarItem opacityLess">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>أجهزة استشعار لليدين 45 دولار إضافية dollars</p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="taggerGroupSidebarItem opacityLess">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>شاشة آي-بي-إس (IPS) متعددة الألوان</p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="taggerGroupSidebarItem opacityLess">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة
+                                                </p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="taggerGroupSidebarItem opacityLess">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>دفع الارتداد</p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="taggerGroupSidebarItem opacityLess">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>طباعة بكسل</p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="taggerGroupSidebarItem opacityLess">
+                                        <div class="row">
+                                            <div class="col-xs-8">
+                                                <p>رؤية النقطة الحمراء</p>
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                             <div class="col-md-9">
                                 <div class="taggerGroupItem">
                                     <div class="row">
+                                        <div class="col-md-8">
+                                            <img src="/img/falcon-f1.jpg"
+                                                style={
+                                                    {
+                                                        width: '440px',
+                                                        float: 'right'
+                                                    }
+                                                }/>
+                                        </div>
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
@@ -77,19 +173,15 @@ export default function header() {
                                             </div>
 
                                         </div>
-                                        <div class="col-md-8">
-                                            <img src="/img/falcon-f1.jpg"
-                                                style={
-                                                    {
-                                                        width: '440px',
-                                                        float: 'right'
-                                                    }
-                                                }/>
-                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="taggerGroupItem">
                                     <div class="row">
+                                        <div class="col-md-8">
+                                            <img src="/img/falcon-f1.jpg"/>
+                                            <p class="taggerGroupNotice opacityLess"></p>
+                                        </div>
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
@@ -106,110 +198,21 @@ export default function header() {
                                                     </li>
                                                     <li>عمر البطارية
                                                         <span>
-                                                           24 ساعة</span>
+                                                            24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
                                                             +</span>
                                                     </li>
                                                 </ul>
 
                                             </div>
+                                        </div>
 
-                                        </div>
-                                        <div class="col-md-8">
-                                            <img src="/img/falcon-f1.jpg"/>
-                                            <p class="taggerGroupNotice opacityLess"></p>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="taggerGroupSidebar">
-                                    <div class="taggerGroupSidebarItem">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>بلاستيك مقاوم للصدمات من مادة ABS</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>طرف مطاطي واقي
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>أجهزة استشعار لليدين 45 دولار إضافية dollars</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>شاشة آي-بي-إس (IPS) متعددة الألوان</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>دفع الارتداد</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>طباعة بكسل</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                <p>رؤية النقطة الحمراء</p>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -231,8 +234,8 @@ export default function header() {
                             <div class="col-md-8">
                                 <div class="taggerGroupHeaderDescription">
                                     <p>يتميز هذا الإصدار من فالكون إف-1، والمتوافر منه عدد محدود بالمخزون، بشاشة آي-بي-إس (IPS) متعددة الألوان ومقاومة للصدمات لعرض الإحصائيات الخاصة باللعبة والخدمة، ذلك كما تم دمج أجهزة استشعار الضربات أيضًا في جسم البندقية لتوفير ظروف لعب عادلة ومثيرة، حيث أن دمج 3 أجهزة لاستشعار الضربات يزيد من تفاعلية وإثارة اللعبة، كما أن شاشة آي-بي-إس (IPS) متعددة الألوان المعززة بزجاج واقي تضيف ما يصل إلى 30 قيمة للعبة والخدمة.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                interactivity and interest level of the game. And multicolored IPS-screen, strengthened with a protective glass, indicates
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                up to 30 game & service values.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                interactivity and interest level of the game. And multicolored IPS-screen, strengthened with a protective glass, indicates
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                up to 30 game & service values.</p>
                                 </div>
                             </div>
                         </div>
@@ -251,7 +254,7 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>الطول 
+                                                    <li>الطول
                                                         <span>54 سم</span>
                                                     </li>
                                                     <li>الوزن
@@ -260,7 +263,7 @@ export default function header() {
                                                     <li>رمع ةيراطبلا
                                                         <span>24 ةعاس</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -300,7 +303,7 @@ export default function header() {
                                                         <span>
                                                             24 ةعاس</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -366,7 +369,8 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -414,7 +418,8 @@ export default function header() {
             <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle">تلايدعت نوكلاف </div>
+                        <div class="taggerGroupHeaderPreTitle">تلايدعت نوكلاف
+                        </div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -445,7 +450,7 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>الطول 
+                                                    <li>الطول
                                                         <span>54 سم</span>
                                                     </li>
                                                     <li>الوزن
@@ -456,7 +461,7 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -483,9 +488,9 @@ export default function header() {
                                             <div class="taggerGroupItemPrice">
                                                 <h4>فالكون إف-2</h4>
                                             </div>
-                                             <div class="taggerGroupItemSpec">
+                                            <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>الطول 
+                                                    <li>الطول
                                                         <span>66 سم</span>
                                                     </li>
                                                     <li>الوزن
@@ -496,7 +501,7 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -560,7 +565,8 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -636,9 +642,9 @@ export default function header() {
                                             <div class="taggerGroupItemPrice">
                                                 <h4>فالكون إف-1</h4>
                                             </div>
-                                             <div class="taggerGroupItemSpec">
+                                            <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>الطول 
+                                                    <li>الطول
                                                         <span>54 سم</span>
                                                     </li>
                                                     <li>الوزن
@@ -649,7 +655,7 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -676,9 +682,9 @@ export default function header() {
                                             <div class="taggerGroupItemPrice">
                                                 <h4>فالكون إف-2</h4>
                                             </div>
-                                             <div class="taggerGroupItemSpec">
+                                            <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>الطول 
+                                                    <li>الطول
                                                         <span>66 سم</span>
                                                     </li>
                                                     <li>الوزن
@@ -689,7 +695,7 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد 
+                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
                                                             +</span>
                                                     </li>
@@ -755,7 +761,8 @@ export default function header() {
                                                 <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
                                             </div>
                                             <div class="col-xs-8">
-                                                <p>أجهزة مدمجة للاستشعار بالإصابة </p>
+                                                <p>أجهزة مدمجة للاستشعار بالإصابة
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -889,7 +896,7 @@ export default function header() {
                                             <img src="/img/ak.jpg"/>
                                             <div class="taggerGroupItemSpec">
                                                 <ul class="inlineList">
-                                                    <li>الطول 
+                                                    <li>الطول
                                                         <span>97 سم</span>
                                                     </li>
                                                     <li>الوزن

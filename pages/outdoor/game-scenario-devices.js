@@ -13,7 +13,7 @@ export default function header() {
                     </a>
                 </Link>
             </div>
-            <div class="outdoorBannerTop">
+            <div class="outdoorBannerTop rtl">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -23,25 +23,12 @@ export default function header() {
                         </div>
                     </div>
                 </div>
-
             </div>
-            <section class="headbandSec sceneSec">
+            <section class="headbandSec sceneSec rtl">
                 <div class="container">
                     <div class="taggerGroupHeaderPreTitle">الملحقات</div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="taggerGroupItemName">
-                                <h2 class="whiteTitle">
-                                    <img src="/img/sirius-logo.jpg"/></h2>
-                            </div>
-                            <div class="whiteTitleText">
-                                <h4 style={
-                                    {border: 'none'}
-                                }>جهاز سيناريو المحمول</h4>
-                            </div>
 
-                            <img src="/img/serious-img.jpg"/>
-                        </div>
                         <div class="col-md-6">
                             <div class="row">
 
@@ -83,7 +70,7 @@ export default function header() {
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="whiteTitleText">
-                                        <p>جهاز تفاعلي لتنفيذ سيناريوهات لعب مثيرة. يمكن تنشيط الجهاز عن طريق اللمس أو الطلقات، مما يزيد من مستوى اهتمام اللاعبين وانغماسهم التام في اللعبة.  
+                                        <p>جهاز تفاعلي لتنفيذ سيناريوهات لعب مثيرة. يمكن تنشيط الجهاز عن طريق اللمس أو الطلقات، مما يزيد من مستوى اهتمام اللاعبين وانغماسهم التام في اللعبة.
                                         </p>
                                     </div>
                                 </div>
@@ -141,7 +128,7 @@ export default function header() {
                                     <div class="siriusIconItem">
                                         <img src="/img/sirius-icon7.jpg" width="60px"/>
                                         <h2>
-                                           بونص
+                                            بونص
                                         </h2>
                                     </div>
                                 </div>
@@ -154,31 +141,32 @@ export default function header() {
                             </div>
 
                         </div>
+                        <div class="col-md-6">
+                            <div class="taggerGroupItemName">
+                                <h2 class="whiteTitle">
+                                    <img src="/img/sirius-logo.jpg"/></h2>
+                            </div>
+                            <div class="whiteTitleText">
+                                <h4 style={
+                                    {border: 'none'}
+                                }>جهاز سيناريو المحمول</h4>
+                            </div>
+
+                            <img src="/img/serious-img.jpg"/>
+                        </div>
                     </div>
                 </div>
 
             </section>
 
-            <section class="headbandSec sceneSec"
+            <section class="headbandSec sceneSec rtl"
                 style={
                     {background: "#080808"}
             }>
                 <div class="container">
                     <div class="taggerGroupHeaderPreTitle">اكسسوارات</div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <div class="taggerGroupItemName">
-                                <h2 class="whiteTitle">
-                                    <img src="/img/multistation-logo.png"/></h2>
-                            </div>
-                            <div class="whiteTitleText">
-                                <h4 style={
-                                    {border: 'none'}
-                                }>جهاز سيناريوهات الساحة</h4>
-                            </div>
 
-                            <img src="/img/multistation-image.png"/>
-                        </div>
                         <div class="col-md-6">
                             <div class="row">
 
@@ -283,12 +271,25 @@ export default function header() {
 
 
                         </div>
+                        <div class="col-md-6">
+                            <div class="taggerGroupItemName">
+                                <h2 class="whiteTitle">
+                                    <img src="/img/multistation-logo.png"/></h2>
+                            </div>
+                            <div class="whiteTitleText">
+                                <h4 style={
+                                    {border: 'none'}
+                                }>جهاز سيناريوهات الساحة</h4>
+                            </div>
+
+                            <img src="/img/multistation-image.png"/>
+                        </div>
                     </div>
                 </div>
 
             </section>
 
-            <section class="taggerGroup">
+            <section class="taggerGroup rtl">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle blackPreTitle">اكسسوارات</div>
@@ -300,18 +301,7 @@ export default function header() {
                             <div class="col-md-12">
                                 <div class="taggerGroupItem">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="taggerGroupItemName">
-                                                <h2>
-                                                    <strong>صندوق الهيمنة الذكي</strong></h2>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <img src="/img/img154.jpg"/>
 
-
-                                            </div>
-
-                                        </div>
                                         <div class="col-md-6">
                                             <div class="ItemSubTitle">
                                                 المواصفات
@@ -392,6 +382,16 @@ export default function header() {
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName">
+                                                <h2>
+                                                    <strong>صندوق الهيمنة الذكي</strong>
+                                                </h2>
+                                            </div>
+                                            <div class="taggerGroupItemSpec">
+                                                <img src="/img/img154.jpg"/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -402,7 +402,7 @@ export default function header() {
                 </div>
             </section>
 
-            <section class="taggerGroup">
+            <section class="taggerGroup rtl">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle blackPreTitle">اكسسوارات</div>
@@ -414,17 +414,7 @@ export default function header() {
                             <div class="col-md-12">
                                 <div class="taggerGroupItem">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="taggerGroupItemName">
-                                                <h2>
-                                                    <strong>قنبلة الليزر تاغ اليدوية</strong>
-                                                </h2>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <img src="/img/img451.jpg"/>
-                                            </div>
 
-                                        </div>
                                         <div class="col-md-6">
 
                                             <hr/>
@@ -438,9 +428,40 @@ export default function header() {
                                             </div>
 
                                         </div>
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName">
+                                                <h2>
+                                                    <strong>قنبلة الليزر تاغ اليدوية</strong>
+                                                </h2>
+                                            </div>
+                                            <div class="taggerGroupItemSpec">
+                                                <img src="/img/img451.jpg"/>
+                                            </div>
+
+                                        </div>
                                     </div>
 
                                     <div class="row">
+
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName">
+                                                <h2>
+                                                    <strong>طرف حماية</strong>
+                                                </h2>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="taggerGroupItemSpec">
+                                                        <img src="/img/img456.jpg"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>رأس مطاطي واقي لمجموعة ألعاب مسدسات فالكون لحماية اللاعبين من الإصابات ومنع تلف النظام الرؤية، كما يجعل بنادق الليزر تاغ تبدو جذابة جدًا ويمكن أيضًا استخدامها لتمييز الفرق.</p>
+                                                    <p>يبلغ سمكه 8 مم ويغطي 10 مم من الجزء الأمامي من مسدسات فالكون.</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
@@ -462,25 +483,6 @@ export default function header() {
                                             </div>
 
                                         </div>
-                                        <div class="col-md-6">
-                                            <div class="taggerGroupItemName">
-                                                <h2>
-                                                    <strong>طرف حماية</strong>
-                                                </h2>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="taggerGroupItemSpec">
-                                                        <img src="/img/img456.jpg"/>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <p>رأس مطاطي واقي لمجموعة ألعاب مسدسات فالكون لحماية اللاعبين من الإصابات ومنع تلف النظام الرؤية، كما يجعل بنادق الليزر تاغ تبدو جذابة جدًا ويمكن أيضًا استخدامها لتمييز الفرق.</p>
-                                                    <p>يبلغ سمكه 8 مم ويغطي 10 مم من الجزء الأمامي من مسدسات فالكون.</p>
-                                                </div>
-                                            </div>
-
-                                        </div>
                                     </div>
                                 </div>
 
@@ -491,7 +493,7 @@ export default function header() {
                 </div>
             </section>
 
-            <section class="taggerGroup">
+            <section class="taggerGroup rtl">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle blackPreTitle">ملحقات</div>
@@ -503,17 +505,7 @@ export default function header() {
                             <div class="col-md-12">
                                 <div class="taggerGroupItem">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="taggerGroupItemName">
-                                                <h2>
-                                                    <strong>حقيبة شحن 6×</strong>
-                                                </h2>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <img src="/img/img476.jpg"/>
-                                            </div>
 
-                                        </div>
                                         <div class="col-md-6">
 
                                             <hr/>
@@ -531,6 +523,16 @@ export default function header() {
                                             </div>
 
                                         </div>
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName">
+                                                <h2>
+                                                    <strong>حقيبة شحن 6×</strong>
+                                                </h2>
+                                            </div>
+                                            <div class="taggerGroupItemSpec">
+                                                <img src="/img/img476.jpg"/>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -542,17 +544,7 @@ export default function header() {
                             <div class="col-md-12">
                                 <div class="taggerGroupItem">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="taggerGroupItemName">
-                                                <h2>
-                                                    <strong>شاحن فورتيكس «Vortex»</strong>
-                                                </h2>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <img src="/img/img485.jpg"/>
-                                            </div>
 
-                                        </div>
                                         <div class="col-md-6">
 
                                             <hr/>
@@ -560,7 +552,7 @@ export default function header() {
                                                 <div class="col-md-6">
                                                     <p>شاحن فورتيكس «Vortex» يجعل شحن مجموعات الألعاب الخاصة بك أسهل وأسرع.</p>
                                                     <p>
-                                                       إذا كان لديك 6 أو أكثر من مجموعات ألعاب الليزر تاغ في ناديك، فهذا الجهاز هو ما تحتاجه تمامًا!
+                                                        إذا كان لديك 6 أو أكثر من مجموعات ألعاب الليزر تاغ في ناديك، فهذا الجهاز هو ما تحتاجه تمامًا!
                                                     </p>
                                                 </div>
                                                 <div class="col-md-6">
@@ -570,6 +562,17 @@ export default function header() {
 
 
                                                 </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName">
+                                                <h2>
+                                                    <strong>شاحن فورتيكس «Vortex»</strong>
+                                                </h2>
+                                            </div>
+                                            <div class="taggerGroupItemSpec">
+                                                <img src="/img/img485.jpg"/>
                                             </div>
 
                                         </div>
@@ -583,13 +586,25 @@ export default function header() {
                 </div>
             </section>
 
-            <section class="headbandSec sceneSec"
+            <section class="headbandSec sceneSec rtl"
                 style={
                     {background: "#070b0c"}
             }>
                 <div class="container">
                     <div class="taggerGroupHeaderPreTitle">اكسسوارات</div>
                     <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <img src="/img/img507.jpg"
+                                        style={
+                                            {maxWidth: "300px"}
+                                        }/>
+                                </div>
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
@@ -603,7 +618,7 @@ export default function header() {
                                         <p>هذا جهاز لإعداد مجموعات اللعبة والأجهزة إضافية والتحكم بهم. بمساعدة جهاز التحكم عن بعد، يمكنك اختيار لون الفريق ونمط اللعبة وكذلك ضبط بيانات اللاعبين القياسية.
                                         </p>
                                         <p>الأزرار التكتيكية الـ 18 تم تقسيمهم لمجموعات وفقًا للغرضهم، مما يتيح لك إرسال الأوامر على الفور. باستخدام مشبك سهل الاستخدام، يمكنك تثبيت جهاز التحكم عن بعد على حزامك.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                on your belt.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    on your belt.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -612,20 +627,6 @@ export default function header() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-
-                                <div class="col-md-12">
-                                    <img src="/img/img507.jpg"
-                                        style={
-                                            {maxWidth: "300px"}
-                                        }/>
-                                </div>
-
-                            </div>
-
-
                         </div>
                     </div>
                 </div>

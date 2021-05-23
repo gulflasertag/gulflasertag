@@ -13,7 +13,7 @@ export default function header() {
                     </a>
                 </Link>
             </div>
-            <div class="outdoorBannerTop">
+            <div class="outdoorBannerTop rtl">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -23,17 +23,28 @@ export default function header() {
                     </div>
                 </div>
             </div>
-            <section class="headbandSec sceneSec"
+            <section class="headbandSec sceneSec rtl"
                 style={
                     {background: "#0b0b0b"}
             }>
                 <div class="container">
                     <div class="taggerGroupHeaderPreTitle">الملحقات</div>
                     <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="row">
+
+                                <div class="col-md-12">
+                                    <img src="/img/img568.jpg"/>
+                                </div>
+
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>جهاز راوتر الواي-فاي </strong>
+                                    <strong>جهاز راوتر الواي-فاي
+                                    </strong>
                                 </h2>
                             </div>
                             <div class="whiteTitleText">
@@ -55,20 +66,18 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
+
+                    </div>
+
+                    <div class="row">
                         <div class="col-md-6">
                             <div class="row">
 
                                 <div class="col-md-12">
-                                    <img src="/img/img568.jpg"/>
+                                    <img src="/img/Repeater.png"/>
                                 </div>
-
                             </div>
-
-
                         </div>
-                    </div>
-
-                    <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
@@ -95,17 +104,7 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="row">
 
-                                <div class="col-md-12">
-                                    <img src="/img/Repeater.png"/>
-                                </div>
-
-                            </div>
-
-
-                        </div>
                     </div>
                 </div>
 
@@ -113,7 +112,7 @@ export default function header() {
             </section>
 
             {/* section 21 */}
-            <section class="headbandSec sceneSec"
+            <section class="headbandSec sceneSec rtl"
                 style={
                     {
                         backgroundColor: "#070906",
@@ -128,7 +127,8 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <strong>صندوق أندرويد </strong>
+                                    <strong>صندوق أندرويد
+                                    </strong>
                                 </h2>
                             </div>
                             <div class="whiteTitleText">
@@ -203,13 +203,16 @@ export default function header() {
 
             </section>
             {/* section 24 */}
-            <section class="headbandSec sceneSec"
+            <section class="headbandSec sceneSec rtl"
                 style={
                     {backgroundColor: "#0b0b0b"}
             }>
                 <div class="container">
                     <div class="taggerGroupHeaderPreTitle">ملحقات</div>
                     <div class="row">
+                        <div class="col-md-6">
+                            <img src="/img/free-software.png"/>
+                        </div>
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
@@ -249,15 +252,13 @@ export default function header() {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <img src="/img/free-software.png"/>
-                        </div>
+
                     </div>
                 </div>
             </section>
 
             {/* section software slide 25 */}
-            <section class="impulseRecoilSec"
+            <section class="impulseRecoilSec rtl"
                 style={
                     {
                         backgroundImage: "url('/img/Page-25-Image-44.jpg')",

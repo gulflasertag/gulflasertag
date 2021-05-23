@@ -13,7 +13,7 @@ export default function header() {
                     </a>
                 </Link>
             </div>
-            <div class="outdoorBannerTop">
+            <div class="outdoorBannerTop rtl">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
@@ -24,7 +24,7 @@ export default function header() {
                     </div>
                 </div>
             </div>
-            <section class="headbandSec">
+            <section class="headbandSec rtl">
                 <div class="container">
                     <div class="taggerGroupHeaderPreTitle topAbsolute"
                         style={
@@ -32,11 +32,12 @@ export default function header() {
                                 position: 'relative',
                                 left: '0'
                             }
-                    }>Features</div>
+                    }>سمات</div>
                     <div class="row">
                         <div class="col-md-6">
                             <h2 class="whiteTitle">عصابة رأس نيترونيك سوداء/بشكل مبكسل</h2>
-                            <img src="/img/headband.jpg" class="hideDesktop"/></div>
+                            <img src="/img/headband.jpg" class="hideDesktop"/>
+                        </div>
                         <div class="col-md-6">
                             <div class="taggerGroupItemPrice blck">
                                 <h4></h4>
@@ -87,7 +88,7 @@ export default function header() {
 
             </section>
 
-            <div class="taggerGroup">
+            <div class="taggerGroup rtl">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle blackPreTitle">الملحقات</div>
@@ -99,18 +100,7 @@ export default function header() {
                             <div class="col-md-12">
                                 <div class="taggerGroupItem">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="taggerGroupItemName">
-                                                <h2>
-                                                    <strong>سترة نيترونيك سوداء/بشكل مبكسل</strong></h2>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <img src="/img/acceVest.jpg"/>
 
-
-                                            </div>
-
-                                        </div>
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemPrice"></div>
                                             <div class="ItemSubTitle">سوداء و لون مبكسل
@@ -136,10 +126,23 @@ export default function header() {
                                                     <div class="ItemSubTitle">واقعية اللعبة
                                                     </div>
                                                     <p>تتميز سترة نيترونيك بميزة مستويات الضرر المختلفة. يسمح لك البرنامج باختيار إعدادات ضرر مختلفة لأربعة نطاقات للإصابة: الرأس والصدر والظهر والكتفين. بفضل تكنولوجيا الإشارة الاهتزازية للمنطقة المصابة، يمكن للاعب أن يعرف من أين أطلقت عليه الطلقة، كما أنه قد تم تنفيذ وظائف تفاعلية جديدة في السترة، مثل: جرح الخروج و التعافي و النزيف
-                                                 
-                                                  </p>
+
+                                                    </p>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName">
+                                                <h2>
+                                                    <strong>سترة نيترونيك سوداء/بشكل مبكسل</strong>
+                                                </h2>
+                                            </div>
+                                            <div class="taggerGroupItemSpec">
+                                                <img src="/img/acceVest.jpg"/>
+
+
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -152,7 +155,7 @@ export default function header() {
             </div>
             <hr/>
 
-            <div class="taggerGroup">
+            <div class="taggerGroup rtl">
                 <div class="accessoriesGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle blackPreTitle">الملحقات</div>
@@ -164,19 +167,7 @@ export default function header() {
                             <div class="col-md-12">
                                 <div class="taggerGroupItem">
                                     <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="taggerGroupItemName">
-                                                <h2>
-                                                    <img src="/img/scorpion.png"/>
-                                                    سوار صدمات سكوربيون</h2>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <img src="/img/shokewave.jpg"/>
 
-
-                                            </div>
-
-                                        </div>
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemPrice">
                                                 <h4></h4>
@@ -226,7 +217,21 @@ export default function header() {
                                                     <p>السوار معتمد تمامًا واستخدامه آمن بشكل كامل للاعب*.</p>
                                                 </div>
                                             </div>
-                                            <img src="/img/hand.jpg"/></div>
+                                            <img src="/img/hand.jpg"/>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName">
+                                                <h2>
+                                                    <img src="/img/scorpion.png"/>
+                                                    سوار صدمات سكوربيون</h2>
+                                            </div>
+                                            <div class="taggerGroupItemSpec">
+                                                <img src="/img/shokewave.jpg"/>
+
+
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
 

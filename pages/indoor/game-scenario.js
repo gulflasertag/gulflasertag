@@ -13,11 +13,11 @@ export default function header() {
                     </a>
                 </Link>
             </div>
-            <section class="indoorbanner">
+            <section class="indoorbanner rtl">
                 <div class="container">
                     <img src="/img/eclips-indoor.jpg"/></div>
             </section>
-            <section class="indoorbanner gradientBlack">
+            <section class="indoorbanner gradientBlack rtl">
                 <div class="container">
                     <h2 class="skyblueTitle text-center">لعبه
                         <span>سيناريو
@@ -26,7 +26,7 @@ export default function header() {
                 </div>
             </section>
 
-            <section class="gameKitSec">
+            <section class="gameKitSec rtl">
                 <div class="siriusDesc">
                     <h2 class="skyblueTitle"
                         style={
@@ -35,7 +35,7 @@ export default function header() {
                                 marginBottom: '10px'
                             }
                     }>
-                       سيريوس</h2>
+                        سيريوس</h2>
                     <p>جهاز سيناريو محمول يمنح اللاعبين مكافآت. وضع التشغيل النشط يتم عرضه من خلال الإضاءة الخلفية المتحركة للديودات.</p>
                     <div class="row">
                         <div class="col-xs-6">
@@ -96,7 +96,7 @@ export default function header() {
                     <img src="/img/sirius.png"/>
                 </div>
             </section>
-            <section class="gameKitSec">
+            <section class="gameKitSec rtl">
                 <div class="siriusImg">
                     <img src="/img/multistation.png"/>
                 </div>
@@ -108,9 +108,9 @@ export default function header() {
                                 marginBottom: '10px'
                             }
                     }>
-                       ملتي-ستايشن</h2>
+                        ملتي-ستايشن</h2>
                     <p>جهاز سيناريو متعدد الوظائف يمكنه منح مكافآت للاعبين أو العمل كهدف للإمساك به.
-لوحة الإضاءة ليد بمقاس 27 سم تعرض وضع التشغيل بشكل متحرك.</p>
+                                                                        لوحة الإضاءة ليد بمقاس 27 سم تعرض وضع التشغيل بشكل متحرك.</p>
                     <div class="row">
                         <div class="col-xs-6">
                             <ul>
@@ -171,7 +171,7 @@ export default function header() {
             </section>
 
             {/* super power */}
-            <section class="superPowerSec">
+            <section class="superPowerSec rtl">
                 <div class="dominationSecLeft xs-hide">
 
                     <div class="imageBottom">
@@ -194,7 +194,8 @@ export default function header() {
                         }>
                             <b style={
                                 {color: '#fff'}
-                            }>صندوق الهيمنة الذكي</b></h2>
+                            }>صندوق الهيمنة الذكي</b>
+                        </h2>
                         <p>يتم وضع صندوق الهيمنة على الأرض أو السقف في وسط ساحة اللعبة، حيث يكون هدف كل فريق هو الإمساك به. يحتوي الصندوق على ثلاثة مقاييس ديناميكية لتصوير حيوي وفعال لدرجة الإمساك.</p>
                     </div>
                     <div class="row">

@@ -113,6 +113,11 @@ body {
 body.ar {
   direction: rtl;
 }
+.rtl img{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
 .site-holder {
   background: #fff;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1281,6 +1286,9 @@ background-image: url(/img/background-bottom-right.png), url(/img/background-top
   left:0;
   max-width:40%;
 }
+.rtl .imageBottom{
+  right: 0
+}
 .powerSecLeft{
   padding: 30px 60px;
 }
@@ -1381,6 +1389,9 @@ background-image: url(/img/background-left-bottom.png), url(/img/background-top-
   display: inline;
   width:50px;
   margin-right:15px;
+}
+.rtl .siriusDesc li img{
+  margin-left:15px;
 }
 .siriusIconItem{
 text-align: center;
