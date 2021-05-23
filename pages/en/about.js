@@ -53,7 +53,7 @@ export default function about() {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="../img/about1.jpg" alt=""/>
+                            <img src="../img/about1.JPG" alt=""/>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
                             <p class="subheading">
