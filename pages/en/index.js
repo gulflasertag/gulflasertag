@@ -49,11 +49,9 @@ export default function Home() {
                                 style={
                                     {"margin-bottom": "15px"}
                             }>
-                                Gulf Laser Tag Facilitate And Help Business Owners To Get The Best And Latest Laser Tag Equipment In The World.
+                               An innovative laser tag equipment that provides lifelong business support at every stage from consulting on the choice of game sets to opening a laser tag center with its further promotion..
                             </p>
-                            <p>
-                                We Also Help With Design Of The Arena And Business Plan Our Specialists Can Help You With Package Choice, Staff Training And Custom Clearance
-                            </p>
+                 
                         </div>
 
                     </div>
