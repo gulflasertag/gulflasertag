@@ -13,7 +13,7 @@ export default function header() {
 
                             <li>
                                 <Link href="/">
-                                    <a title="home">منزل، بيت
+                                    <a title="home">الصفحة ‏الرئيسية
                                     </a>
                                 </Link>
                             </li>
@@ -25,18 +25,18 @@ export default function header() {
                                 <ul class="dropdown-menu">
                                     <li>
                                         <Link href="/outdoor">
-                                            <a title="Outdoor">في الخارج
+                                            <a title="Outdoor">ليزر تاج الخارجي
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/indoor">
-                                            <a title="Indoor">داخلي</a>
+                                            <a title="Indoor">ليزر تاج الداخلي</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/airbunker">
-                                            <a title="Air Bunker">بنكر الهواء</a>
+                                            <a title="Air Bunker">المخابئ الهوائية  </a>
                                         </Link>
                                     </li>
                                 </ul>
