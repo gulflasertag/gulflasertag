@@ -27,9 +27,9 @@ export default function about() {
 
                         <div class="col-md-8 col-sm-8 col-12">
                             <h2>
-                                <strong>حول
+                                <strong>عن ليزر تاج الخليج
                                 </strong>
-                                &nbsp;نحن</h2>
+                                </h2>
                             <p class="secDescription">
                                 “جلف ليزر تاغ هو الممثل الرسمي لموقع lasertag.net في الإمارات العربية المتحدة والمملكة العربية السعودية.
                             </p>
