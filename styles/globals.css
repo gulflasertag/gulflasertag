@@ -117,6 +117,10 @@ body.ar {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
+.nortlimg{
+  -webkit-transform: scaleX(1) !important;
+  transform: scaleX(1) !important;
+}
 
 .site-holder {
   background: #fff;
@@ -632,6 +636,7 @@ section {
 }
 .indoorSec .icon svg {
   color: #fff;
+  margin-top:10px;
 }
 .indoorSec h4 {
   color: #fff;
@@ -658,7 +663,6 @@ section {
 }
 .icon svg {
   font-size: 40px;
-  margin-top: 15px;
   color: #000;
 }
 .outdoorSec_item,
@@ -828,6 +832,7 @@ section {
   max-width:100px;
   color:#fff;
   font-size: 60px;
+  margin-top:15px;
 }
 .outdoorBannerBottomItem h5{
   color:#fff;
@@ -1495,6 +1500,7 @@ margin-bottom:15px;
   .contactInfo .icon svg{
     font-size: 25px;
     margin:0;
+    margin-top:15px;
   }
   .contactInfo h3{
     font-size: 25px;

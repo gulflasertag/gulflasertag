@@ -17,16 +17,16 @@ export default function header() {
             </div>
             <section class="indoorbanner">
                 <div class="container">
-                    <img src="/img/eclips-indoor.jpg"/></div>
+                    <img src="/img/eclips-indoor-flip.jpg"/></div>
             </section>
             <section class="indoorbanner gradientBlack rtl">
                 <div class="container">
                     <div class="inDoorBannerDes">
                         <p>
-                            .نیبعلالا عجشیو سامحلاب مستی میمصت<br/>
-                            .ةیئادعلل اھیف ناكم لا ةنمآ
-                            <br/>
-                            طرق لعب فریدة تصنع أبطا ًلا خارقین.</p>
+                            تصميم يتسم بالحماس ويشجع اللاعبين. 
+                                                                                                                                                                                                                                                                                                                                                                            لعبة آمنة لا مكان فيها للعدائية.
+                                                                                                                                                                                                                                                                                                                                                                            طرق لعب فريدة تصنع أبطالًا خارقين.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -61,8 +61,9 @@ export default function header() {
                     <div class="blasterKitDesc">
                         <img src="/img/gun.png"/>
 
-                        <h2 class="skyblueTitle">سدسم
-                            <span>سبیلكإ يسكلااغ</span>
+                        <h2 class="skyblueTitle">مسدس
+                            <span>غالاكسي إكليبس
+                            </span>
                         </h2>
 
                         <div class="row">
@@ -322,7 +323,7 @@ export default function header() {
                             <div class="whiteTitleTextNoBorder">
                                 <h4>درع القوة</h4>
                                 <p>يجعل اللاعب غير معرض لأي خطر  أو أي نوع من الضرر بشكل مؤقت.
-</p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -360,16 +361,21 @@ export default function header() {
                 <div class="indoorSoftwareLeft">
                     <img src="/img/mobile.png"/>
                 </div>
-                <div class="indoorSoftwareRight">
+                <div class="indoorSoftwareRight"
+                    style={
+                        {"padding": "120px 120px 120px 60px"}
+                }>
                     <h2 class="skyblueTitle">
                         <span style={
                             {color: "#fff"}
-                        }>برنامج</span>لحل سريع لكل مهمة!</h2>
+                        }>برنامج</span>
+                        سوفت-وير  لحل سريع لكل المهام!
+                    </h2>
                     <div class="whiteTitleTextNoBorder">
                         <p>التحكم عن بعد في الألعاب وإنهائها فقط في ضغطتين.</p>
                         <p>سيناريوهات جاهزة للاستخدام وبرنامج تصميم مرن لتعديل المهام الحالية أو إنشاء سيناريو فريد خاص بك.</p>
                         <p>
-مجموعة من الشخصيات وأكثر من 40 مؤشر قياسي لإنشاء الأبطال المطابقة لهويتك.</p>
+                            مجموعة من الشخصيات وأكثر من 40 مؤشر قياسي لإنشاء الأبطال المطابقة لهويتك.</p>
                         <p>إحصاءات لكل من الفريق والاعبين، والعديد من الإنجازات الفريدة.</p>
                         <p>كل هذه الامتيازات تسمح لشخص واحد بإجراء وتنظيم لعبة لأكثر من 30 مشاركًا بكل سهولة.</p>
 
@@ -386,7 +392,8 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon1.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4> سيناريو الاستعداد
+                                    <h4>
+                                        سيناريو الاستعداد
                                     </h4>
                                     <p>لعبة سهلة وبسيطة تساعدك أن تتعرف على متاهة الساحة وعلى مجموعة الألعاب قبل أن تخوض المزيد من السيناريوهات المشوقة.</p>
                                 </div>
@@ -421,7 +428,8 @@ export default function header() {
                                 <div class="scriptpointItemImg">
                                     <img src="/img/sicon4.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>مباراة الموت </h4>
+                                    <h4>مباراة الموت
+                                    </h4>
                                     <p>معركة الموت بخاصية العودة للحياة تلقائيًا حيث يتم القتال بعدد محدود من خزينة الذخائر.</p>
                                 </div>
                             </div>
@@ -479,7 +487,7 @@ export default function header() {
                                     <img src="/img/sicon9.png"/></div>
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>
-                                       السيطرة على العقول
+                                        السيطرة على العقول
                                     </h4>
                                     <p>تقوم بأسر عقول خصومك المهزومين بحيث يصبحون جزءًا من فريقك.
                                     </p>

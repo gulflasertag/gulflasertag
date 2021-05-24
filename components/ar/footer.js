@@ -11,7 +11,7 @@ export default function Footer() {
                             <ul>
                                 <li>
                                     <Link href="/about">
-                                        <a>حول
+                                        <a>عن ليزر تاج الخليج
                                         </a>
                                     </Link>
                                 </li>
@@ -33,13 +33,15 @@ export default function Footer() {
                             <ul>
                                 <li>
                                     <Link href="/outdoor">
-                                        <a>نظام علامة ليزر خارجي نيترونيك
+                                        <a>
+                                            ليزر تاج الخارجي
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/indoor">
-                                        <a>مجرة الكسوف الداخلي</a>
+                                        <a>
+                                            ليزر تاج الداخلي</a>
                                     </Link>
                                 </li>
 
@@ -50,7 +52,9 @@ export default function Footer() {
                                 </li>
                                 <li>
                                     <Link href="/airbunker">
-                                        <a>القبو الجوي</a>
+                                        <a>
+                                            المخابئ الهوائية
+                                        </a>
                                     </Link>
                                 </li>
                                 <li>
@@ -66,7 +70,7 @@ export default function Footer() {
                             <ul>
                                 <li>
                                     <Link href="/outdoor/taggers">
-                                        <a>العلامات</a>
+                                        <a>البنادق</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -112,7 +116,7 @@ export default function Footer() {
             <div class="bottomFooter rtl">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-12">@ حقوق الطبع والنشر 2021. جلف ليزر تاغ
+                        <div class="col-md-12">@ 2021 حقوق الطبع والنشر.ليزر تاج الخليج
                         </div>
                     </div>
                 </div>

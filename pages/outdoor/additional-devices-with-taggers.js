@@ -222,7 +222,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <img src="/img/scorpion.png"/>
+                                                    <img src="/img/scorpion.png" class="nortlimg"/>
                                                     سوار صدمات سكوربيون</h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">

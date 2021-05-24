@@ -15,7 +15,7 @@ export default function header() {
             </div>
             <section class="indoorbanner rtl">
                 <div class="container">
-                    <img src="/img/eclips-indoor.jpg"/></div>
+                    <img src="/img/eclips-indoor-flip.jpg" class="nortlimg"/></div>
             </section>
             <section class="indoorbanner gradientBlack rtl">
                 <div class="container">
@@ -110,7 +110,7 @@ export default function header() {
                     }>
                         ملتي-ستايشن</h2>
                     <p>جهاز سيناريو متعدد الوظائف يمكنه منح مكافآت للاعبين أو العمل كهدف للإمساك به.
-                                                                        لوحة الإضاءة ليد بمقاس 27 سم تعرض وضع التشغيل بشكل متحرك.</p>
+                                                                                                                                                                        لوحة الإضاءة ليد بمقاس 27 سم تعرض وضع التشغيل بشكل متحرك.</p>
                     <div class="row">
                         <div class="col-xs-6">
                             <ul>

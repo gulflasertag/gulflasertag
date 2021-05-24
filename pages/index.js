@@ -34,25 +34,31 @@ export default function Home() {
                     </a>
                 </Link>
             </div>
-            <section class="heroBanner">
+            <section class="heroBanner"
+                style={
+                    {
+                        "background": "URL('/img/banner-original-flip.JPG')",
+                        "backgroundPosition": "center"
+                    }
+            }>
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-12">
-                            {/* <img src="img/hero-img.jpg" /> */} </div>
+
                         <div class="col-md-6 col-sm-6 col-12 rtl">
                             <h2>
-                                <strong>الخليج
+                                <strong>ليزر تاج الخليج
                                 </strong>
-                                &nbsp; ليزر تاج </h2>
+                            </h2>
                             <p class="secDescription"
                                 style={
                                     {"margin-bottom": "15px"}
                             }>
-                                      مبتكرو ليزر تاج يوفر دعمًا لأعمالكم على المدى الطويل في كل المراحل بدءًا من الاستشارات بشأن اختيار مجموعات الألعاب إلى فتح مراكز الالعاب.”          
-</p>
-                            
-                        </div>
+                                مبتكرو ليزر تاج يوفر دعمًا لأعمالكم على المدى الطويل في كل المراحل بدءًا من الاستشارات بشأن اختيار مجموعات الألعاب إلى فتح مراكز الالعاب.”
+                            </p>
+                            <br/></div>
+                        <div class="col-md-6 col-sm-6 col-12">
+                            {/* <img src="img/hero-img.jpg" /> */} </div>
 
                     </div>
                 </div>
@@ -66,8 +72,6 @@ export default function Home() {
                 <div class="container">
                     <h4 class="subheading">اللعبة بدأت للتو</h4>
                     <h2 class="sectionHeading">نظام ألعاب الليزر تاغ الخارجي</h2>
-                    <p class="secDescription">تصميم طموح يلهم العمل. لعبة آمنة لا مكان فيها للعدوان. أوضاع فريدة تجعل اللاعبين أبطالًا خارقين.
-                    </p>
                     <div class="row">
 
 
@@ -80,8 +84,6 @@ export default function Home() {
 
                                             <div class="col-md-10">
                                                 <h4>البرامج</h4>
-                                                <p>راوتر واي فاي ، نظام مكرر ، أندرويد بوكس ​​، باور بانك ، برمجيات مجانية
-                                                </p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract092/></div>
@@ -99,8 +101,6 @@ export default function Home() {
                                             <div class="col-md-10">
                                                 <h4>تقديم خدمات
                                                 </h4>
-                                                <p>الدعم الفني ، المساعدة في تطوير الأعمال ، الدعم المعلوماتي ، المعدات المعتمدة ، شبكة مركز الخدمة ، المعدات المتقدمة
-                                                </p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiDiscussion/></div>
@@ -122,9 +122,7 @@ export default function Home() {
                                         <div class="row">
 
                                             <div class="col-md-10">
-                                                <h4>TAGGERS</h4>
-                                                <p>الأساسية والقياسية والمتميزة والتكتيكية Pro Falcon F1 و F2 و Glock 19 و Colt M4 و Ak-47.
-                                                </p>
+                                                <h4>البنادق</h4>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAk47U/></div>
@@ -142,8 +140,7 @@ export default function Home() {
                                             <div class="col-md-10">
                                                 <h4>أجهزة إضافية مع TAGGERS
                                                 </h4>
-                                                <p>عقال Netronic Black / Pixel ، Vest Netronic Black / Pixel ، حزام الصدمات
-                                                </p>
+
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract002/></div>
@@ -161,8 +158,7 @@ export default function Home() {
                                             <div class="col-md-10">
                                                 <h4>أجهزة سيناريو اللعبة
                                                 </h4>
-                                                <p>Sirius ، Multistation ، SMART Domination Box ، قنبلة ليزر ، مشهد نقطة حمراء ، طرف واقي ، حقيبة شحن 6x ، شاحن «Vortex» ، وحدة تحكم عن بعد ذكية
-                                                </p>
+
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAfterburn/></div>
@@ -202,7 +198,9 @@ export default function Home() {
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
                             <h2 class="sectionHeading">غالاكسي إكليبس</h2>
-                            <p class="secDescription">الدعم الفني ، المساعدة في تطوير الأعمال ، الدعم المعلوماتي ، المعدات المعتمدة ، شبكة مركز الخدمة ، المعدات المتقدمة
+                            <p class="secDescription">تصميم يتسم بالحماس ويشجع اللاعبين. 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                لعبة آمنة لا مكان فيها للعدائية.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                طرق لعب فريدة تصنع أبطالًا خارقين.
                             </p>
 
                             <hr/>

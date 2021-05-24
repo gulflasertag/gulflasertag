@@ -84,7 +84,6 @@ export default function Home() {
                 <div class="container">
                     <h4 class="subheading">THE GAME IS JUST BEGINNING</h4>
                     <h2 class="sectionHeading">Outdoor Laser Tag System</h2>
-                    <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. Unique modes that make players superheroes.</p>
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
 
@@ -97,7 +96,6 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>TAGGERS</h4>
-                                                <p>Basic Falcon F1 and F2, Standard Falcon F1 and F2, Premium Falcon F1 and F2, Tactical Pro Falcon F1 and F2, Glock 19, Colt M4, Ak-47.</p>
                                             </div>
                                         </div>
                                     </a>
@@ -113,7 +111,6 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>ADDITIONAL DEVICES WITH TAGGERS</h4>
-                                                <p>Headband Netronic Black / Pixel, Vest Netronic Black / Pixel, Shock-band</p>
                                             </div>
                                         </div>
                                     </a>
@@ -129,7 +126,6 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>GAME SCENARIO DEVICES</h4>
-                                                <p>Sirius, Multistation, SMART  Domination Box, Laser tag Grenade, Red dot sight,Protective tip, Shipping bag 6x, «Vortex» charger, SMART  remote control</p>
                                             </div>
                                         </div>
                                     </a>
@@ -149,7 +145,6 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>SOFTWARES</h4>
-                                                <p>Wi-Fi router, Repeater system, Android Box, Powerbank, Free Software</p>
                                             </div>
                                         </div>
                                     </a>
@@ -165,7 +160,6 @@ export default function Home() {
                                             </div>
                                             <div class="col-md-10">
                                                 <h4>SERVICES PROVIDED</h4>
-                                                <p>Technical support, Business Development Assistance,Informational support, Certified Equipment,Service Center Network, Advanced equipment</p>
                                             </div>
                                         </div>
                                     </a>

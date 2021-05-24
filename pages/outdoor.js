@@ -31,7 +31,7 @@ export default function Home() {
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <img src="img/netronicLogo.jpg" width="100px"/>
+                                <img src="img/netronicLogo.jpg" width="100px" class="nortlimg"/>
                                 <h2 class="sectionHeading">نظام ألعاب الليزر تاغ الخارجي</h2>
                                 <h4 class="subheading">اللعبة بدأت للتو</h4>
 
@@ -83,8 +83,6 @@ export default function Home() {
             <section class="outdoorSec rtl">
                 <div class="container">
                     <h2 class="sectionHeading">نظام ألعاب الليزر تاغ الخارجي</h2>
-                    <p class="secDescription">تصميم طموح يلهم العمل. لعبة آمنة لا مكان فيها للعدوان. أوضاع فريدة تجعل اللاعبين أبطالًا خارقين.
-                    </p>
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
 
@@ -95,8 +93,6 @@ export default function Home() {
 
                                             <div class="col-md-10">
                                                 <h4>البرمجيات</h4>
-                                                <p>راوتر واي فاي ، نظام مكرر ، أندرويد بوكس ​​، باور بانك ، برمجيات مجانية
-                                                </p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract092/></div>
@@ -113,8 +109,6 @@ export default function Home() {
 
                                             <div class="col-md-10">
                                                 <h4>تقديم خدمات</h4>
-                                                <p>الدعم الفني ، المساعدة في تطوير الأعمال ، الدعم المعلوماتي ، المعدات المعتمدة ، شبكة مركز الخدمة ، المعدات المتقدمة
-                                                </p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiDiscussion/></div>
@@ -134,7 +128,6 @@ export default function Home() {
 
                                             <div class="col-md-10">
                                                 <h4>تاجرز</h4>
-                                                <p>الأساسية والقياسية والمتميزة والتكتيكية برو فالكون F1 و F2 و Glock 19 و Colt M4 و Ak-47.</p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAk47U/></div>
@@ -152,8 +145,6 @@ export default function Home() {
                                             <div class="col-md-10">
                                                 <h4>
                                                     إضافية مع تاجرز أجهزة</h4>
-                                                <p>عقال نيترونيك أسود / بكسل, سترة نترونيك أسود / بكسل, صدمة الفرقة
-                                                </p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract002/></div>
@@ -170,7 +161,6 @@ export default function Home() {
 
                                             <div class="col-md-10">
                                                 <h4>أجهزة سيناريو اللعبة</h4>
-                                                <p>Sirius ، تعدد ، صندوق الهيمنة SMART ، قنبلة ليزر ، مشهد نقطة حمراء ، طرف واقي ، حقيبة شحن 6x ، شاحن «Vortex» ، وحدة تحكم عن بعد ذكية</p>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAfterburn/></div>

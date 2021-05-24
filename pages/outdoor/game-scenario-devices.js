@@ -17,7 +17,7 @@ export default function header() {
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <img src="/img/netronicLogo.jpg" width="100px"/>
+                            <img src="/img/netronicLogo.jpg" width="100px" class="nortlimg"/>
                             <h2 class="sectionHeading">أجهزة سيناريو اللعبة</h2>
 
                         </div>
@@ -86,7 +86,7 @@ export default function header() {
                             <div class="row">
                                 <div class="col-sm-3 col-xs-4">
                                     <div class="siriusIconItem">
-                                        <img src="/img/sirius-icon1.jpg" width="60px"/>
+                                        <img src="/img/sirius-icon1.jpg" width="60px" class="nortlimg"/>
                                         <h2>الإشعاع</h2>
                                     </div>
 
@@ -144,7 +144,7 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <img src="/img/sirius-logo.jpg"/></h2>
+                                    <img src="/img/sirius-logo.jpg" class="nortlimg"/></h2>
                             </div>
                             <div class="whiteTitleText">
                                 <h4 style={
@@ -274,7 +274,7 @@ export default function header() {
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
-                                    <img src="/img/multistation-logo.png"/></h2>
+                                    <img src="/img/multistation-logo.png" class="nortlimg"/></h2>
                             </div>
                             <div class="whiteTitleText">
                                 <h4 style={
@@ -618,7 +618,7 @@ export default function header() {
                                         <p>هذا جهاز لإعداد مجموعات اللعبة والأجهزة إضافية والتحكم بهم. بمساعدة جهاز التحكم عن بعد، يمكنك اختيار لون الفريق ونمط اللعبة وكذلك ضبط بيانات اللاعبين القياسية.
                                         </p>
                                         <p>الأزرار التكتيكية الـ 18 تم تقسيمهم لمجموعات وفقًا للغرضهم، مما يتيح لك إرسال الأوامر على الفور. باستخدام مشبك سهل الاستخدام، يمكنك تثبيت جهاز التحكم عن بعد على حزامك.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    on your belt.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                on your belt.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
