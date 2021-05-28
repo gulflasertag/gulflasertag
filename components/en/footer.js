@@ -6,8 +6,7 @@ export default function Footer() {
             <div class="topFooter">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <h2 class="footerTitle">About</h2>
+                        <div class="col-md-4 col-sm-12">
                             <div class="footerLogo">
                                 <Link href="/en">
                                     <a>
@@ -18,7 +17,7 @@ export default function Footer() {
                             <p>“Gulf laser tag is the official representative of lasertag.net in United Arab Emirates and Kingdom of Saudi Arabia.
                             </p>
                         </div>
-                        <div class="col-md-3 col-sm-6">
+                        <div class="col-md-4 col-sm-12">
                             <h2 class="footerTitle">Quick Links</h2>
                             <ul>
                                 <li>
@@ -32,29 +31,13 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/en/outdoor/game-scenario-devices">
-                                        <a>Game Scenario Devices</a>
-                                    </Link>
-                                </li>
-                                <li>
                                     <Link href="/en/outdoor/softwares">
                                         <a>Softwares</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="/en/#services">
-                                        <a>Services Provided</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <h2 class="footerTitle">Quick Links</h2>
-                            <ul>
-                                <li>
-                                    <Link href="/en/outdoor">
-                                        <a>Netronic Outdoor Laser tag System
-                                        </a>
+                                    <Link href="/en/outdoor/game-scenario-devices">
+                                        <a>Outdoor Game Scenario Devices</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -62,10 +45,26 @@ export default function Footer() {
                                         <a>Indoor Galaxy Eclipse</a>
                                     </Link>
                                 </li>
-
                                 <li>
                                     <Link href="/en/indoor/game-scenario">
                                         <a>Indoor Galaxy Eclipse Game Scenario</a>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <h2 class="footerTitle">Pages</h2>
+                            <ul>
+                                <li>
+                                    <Link href="/en/about">
+                                        <a>About Us
+                                        </a>
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link href="/en/contact">
+                                        <a>Contact Us</a>
                                     </Link>
                                 </li>
                                 <li>
@@ -78,28 +77,12 @@ export default function Footer() {
                                         <a>Designing of Arenas</a>
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link href="/en/#services">
+                                        <a>Service Provided</a>
+                                    </Link>
+                                </li>
 
-                            </ul>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <h2 class="footerTitle">Pages</h2>
-                            <ul>
-                                <li>
-                                    <Link href="/en/about">
-                                        <a>About
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/en/contact">
-                                        <a>Contact</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/en/designArenas">
-                                        <a>Designing of Arenas</a>
-                                    </Link>
-                                </li>
 
                             </ul>
                         </div>

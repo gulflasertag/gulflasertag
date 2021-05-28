@@ -18,7 +18,7 @@ export default function header() {
                     <div class="row">
                         <div class="col-12">
                             <img src="/img/netronicLogo.jpg" width="100px"/>
-                            <h2 class="sectionHeading">أجهزة إضافية مع TAGGERS</h2>
+                            <h2 class="sectionHeading">أجهزة إضافية مع البنادق</h2>
 
                         </div>
                     </div>

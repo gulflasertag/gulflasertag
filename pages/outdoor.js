@@ -127,7 +127,7 @@ export default function Home() {
                                         <div class="row">
 
                                             <div class="col-md-10">
-                                                <h4>تاجرز</h4>
+                                                <h4>البنادق</h4>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAk47U/></div>
@@ -144,7 +144,7 @@ export default function Home() {
 
                                             <div class="col-md-10">
                                                 <h4>
-                                                    إضافية مع تاجرز أجهزة</h4>
+                                                    أجهزة إضافية مع البنادق</h4>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract002/></div>

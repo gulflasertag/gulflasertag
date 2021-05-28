@@ -19,7 +19,7 @@ export default function header() {
                     <div class="row">
                         <div class="col-12">
                             <img src="/img/netronicLogo.jpg" width="100px" class="nortlimg"/>
-                            <h2 class="sectionHeading">تاجرز</h2>
+                            <h2 class="sectionHeading">البنادق</h2>
 
                         </div>
                     </div>
