@@ -17,7 +17,7 @@ export default function header() {
                 <div class="background-overlay-red"></div>
                 <div class="container">
                     <div class="airbunkerLogo">
-                        <img src="/img/airbunker-logo.png"/>
+                        <img src="/img/airbunker-logo.png" class="nortlimg"/>
                     </div>
                     <div class="airbunkerBannerContent">
                         <div class="row">
@@ -25,7 +25,16 @@ export default function header() {
                             <div class="col-md-6"></div>
 
                             <div class="col-md-6">
-                                <h2 class="whiteTitle">كرة الطلاء ليزر تاغ ألعاب الرماية  مسدسات نيرف  سباق الطائرات الآلية</h2>
+                                <h2 class="whiteTitle">كرة الطلاء
+                                    <br/>
+                                    ليزر تاغ
+                                    <br/>
+                                    ألعاب الرماية مسدسات
+                                    <br/>
+                                    نيرف
+                                    <br/>
+                                    سباق الطائرات الآلية
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -38,7 +47,7 @@ export default function header() {
                 }></div>
                 <div class="container">
                     <div class="airbunkerLogo">
-                        <img src="/img/airbunker-logo.png"/>
+                        <img src="/img/airbunker-logo.png" class="nortlimg"/>
                     </div>
 
                     <div class="airbunkerBannerContent">
@@ -65,7 +74,7 @@ export default function header() {
                 }></div>
                 <div class="container">
                     <div class="airbunkerLogo">
-                        <img src="/img/airbunker-logo.png"/>
+                        <img src="/img/airbunker-logo.png" class="nortlimg"/>
                     </div>
 
                     <div class="airbunkerBannerContent">
@@ -202,7 +211,7 @@ export default function header() {
                 }></div>
                 <div class="container">
                     <div class="airbunkerLogo">
-                        <img src="/img/airbunker-logo.png"/>
+                        <img src="/img/airbunker-logo.png" class="nortlimg"/>
                     </div>
 
                     <div class="airbunkerBannerContent">
@@ -224,7 +233,7 @@ export default function header() {
                         <div class="row">
 
                             <div class="col-md-6">
-                                <img src="/img/img77.jpg"/>
+                                <img src="/img/img77.jpg" class="nortlimg"/>
                             </div>
                             <div class="col-md-6">
                                 <h4>المجموعة العملية</h4>
@@ -232,7 +241,8 @@ export default function header() {
                                 <h4 class="smallTitleWhite"
                                     style={
                                         {color: "#202331"}
-                                }>((كرات الطلاء، الليزر  تاغ، مسدسات النيرف، ألعاب الرماية))</h4>
+                                }>(سلسلة تكتيكية لألعاب الليزر تاغ ومسدسات النيرف)
+                                </h4>
                             </div>
                         </div>
                     </div>
@@ -251,7 +261,7 @@ export default function header() {
                                 }>وبطولات الليزر تاغ</h4>
                             </div>
                             <div class="col-md-6">
-                                <img src="/img/img93.jpg"/>
+                                <img src="/img/img93.jpg" class="nortlimg"/>
                             </div>
 
                         </div>
@@ -362,7 +372,7 @@ export default function header() {
                 }></div>
                 <div class="container">
                     <div class="airbunkerLogo">
-                        <img src="/img/airbunker-logo.png"/>
+                        <img src="/img/airbunker-logo.png" class="nortlimg"/>
                     </div>
 
                     <div class="airbunkerBannerContent">
@@ -402,7 +412,7 @@ export default function header() {
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <img src="/img/airbunker-require.png"/>
+                            <img src="/img/airbunker-require.png" class="nortlimg"/>
                         </div>
 
                     </div>

@@ -19,9 +19,7 @@ export default function header() {
             </section>
             <section class="indoorbanner gradientBlack rtl">
                 <div class="container">
-                    <h2 class="skyblueTitle text-center">لعبه
-                        <span>سيناريو
-                        </span>
+                    <h2 class="skyblueTitle text-center">ملتي-ستایشن
                     </h2>
                 </div>
             </section>
@@ -110,7 +108,7 @@ export default function header() {
                     }>
                         ملتي-ستايشن</h2>
                     <p>جهاز سيناريو متعدد الوظائف يمكنه منح مكافآت للاعبين أو العمل كهدف للإمساك به.
-                                                                                                                                                                        لوحة الإضاءة ليد بمقاس 27 سم تعرض وضع التشغيل بشكل متحرك.</p>
+                                                                                                                                                                                                                                                                                                لوحة الإضاءة ليد بمقاس 27 سم تعرض وضع التشغيل بشكل متحرك.</p>
                     <div class="row">
                         <div class="col-xs-6">
                             <ul>
@@ -264,7 +262,7 @@ export default function header() {
 
             <div class="indoorBtn">
                 <Link href="/indoor">
-                    <a class="btn btn-primary btnMain">المزيد عن داخلي Galaxy Eclipse</a>
+                    <a class="btn btn-primary btnMain">غالاكسي إكليبس الداخلي</a>
                 </Link>
             </div>
         </Layout>

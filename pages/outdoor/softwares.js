@@ -274,7 +274,7 @@ export default function header() {
             }>
 
                 <div class="container">
-                    <div class="taggerGroupHeaderPreTitle topAbsolute">البرنامج</div>
+                    <div class="taggerGroupHeaderPreTitle topAbsolute">السوفت-وير</div>
                     <div class="row">
 
                         <div class="col-md-12">
@@ -296,7 +296,8 @@ export default function header() {
                                 <div class="col-sm-3">
                                     <div class="whiteTitleText">
                                         <h3>لوحة النتائج</h3>
-                                        <p>وحدة دفع الارتداد متزامنة تمامًا مع الطلقات وهي قادرة على الوصول إلى تردد 565 نبضة في الدقيقة. إذا أطلق لاعب طلقة واحدة، يتم إطلاق نبضة ارتدادية واحدة، وإذا أطلق مجموعة متتالية من ثلاث طلقات، فسيشعر بثلاث نبضات.</p>
+                                        <p>يمكن عرض أحداث اللعبة على شاشات عرض كبيرة موجودة في الأماكن المخصصة للانتظار. وبذلك تستطبع أن تتابع تقدم اللعبة وأن تشجع بكل حماسة وتهتف لأحد الفرق. وأيضًا نتيح لك الفرصة لتفاجئ عملائك بالنتائج مطبوعة على مقدمة النماذج الورقية الخاصة بك.
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
