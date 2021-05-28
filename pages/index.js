@@ -37,7 +37,7 @@ export default function Home() {
             <section class="heroBanner"
                 style={
                     {
-                        "background": "URL('/img/banner-original-flip.JPG')",
+                        "background": "URL('/img/banner-original-flip.jpg')",
                         "backgroundPosition": "center"
                     }
             }>
@@ -199,8 +199,8 @@ export default function Home() {
                         <div class="col-md-6 col-sm-6 col-12">
                             <h2 class="sectionHeading">غالاكسي إكليبس</h2>
                             <p class="secDescription">تصميم يتسم بالحماس ويشجع اللاعبين. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                لعبة آمنة لا مكان فيها للعدائية.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                طرق لعب فريدة تصنع أبطالًا خارقين.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                لعبة آمنة لا مكان فيها للعدائية.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                طرق لعب فريدة تصنع أبطالًا خارقين.
                             </p>
 
                             <hr/>
