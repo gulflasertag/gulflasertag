@@ -75,7 +75,7 @@ export default function header() {
                         </button>
                         <Link href="/">
                             <a class="navbar-brand">
-                                <img src="/img/logo.png" alt="logo-lasrertag"/>
+                                <img src="/img/logo.png" alt="logo-lasrertag" class="nortlimg"/>
                             </a>
                         </Link>
                     </div>

@@ -930,6 +930,11 @@ section {
 .inlineList li span{
   padding-left:20px
 }
+.rtl .inlineList li span{
+  padding-left:0px;
+  padding-right:20px
+
+}
 .multicolouredSection{
   background-color:#000;
   background-image: url('/img/multicolored.jpg');

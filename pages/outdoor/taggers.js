@@ -359,10 +359,10 @@ export default function header() {
                                                         <span>54 سم</span>
                                                     </li>
                                                     <li>الوزن
-                                                        <span>900 مارغ</span>
+                                                        <span>900 غرام</span>
                                                     </li>
                                                     <li>رمع ةيراطبلا
-                                                        <span>24 ةعاس</span>
+                                                        <span>24 ساعة</span>
                                                     </li>
                                                     <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
@@ -391,15 +391,15 @@ export default function header() {
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
                                                     <li>لوطلا
-                                                        <span>66 مس</span>
+                                                        <span>66 سم</span>
                                                     </li>
                                                     <li>نزولا
                                                         <span>
-                                                            1000 مارغ</span>
+                                                            1000 غرام</span>
                                                     </li>
                                                     <li>رمع ةيراطبلا
                                                         <span>
-                                                            24 ةعاس</span>
+                                                            24 ساعة</span>
                                                     </li>
                                                     <li>تحكم من خلال أنظمة ويندوز و أندرويد
                                                         <span>
@@ -854,12 +854,12 @@ export default function header() {
                                                             {width: '300px'}
                                                         }/>
                                                     <ul class="inlineList">
-                                                        <li>Weight
-                                                            <span>18.6 cm</span>
+                                                        <li>الطول
+                                                            <span>18.6 سم</span>
                                                         </li>
-                                                        <li>Length
+                                                        <li>الوزن
                                                             <span>
-                                                                0.5 kg</span>
+                                                                0.5 كجم</span>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -941,7 +941,7 @@ export default function header() {
 
                 <section class="multicolouredSection rtl">
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle topAbsolute">المميزات</div>
+                        <div class="taggerGroupHeaderPreTitle topAbsolute">الميزات</div>
                         <div class="row">
                             <div class="col-md-6"></div>
                             <div class="col-md-6">
@@ -982,7 +982,7 @@ export default function header() {
                 <section class="impulseRecoilSec rtl">
 
                     <div class="container">
-                        <div class="taggerGroupHeaderPreTitle topAbsolute">ميزات</div>
+                        <div class="taggerGroupHeaderPreTitle topAbsolute">الميزات</div>
                         <div class="row">
 
                             <div class="col-md-12">
