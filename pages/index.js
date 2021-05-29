@@ -68,14 +68,11 @@ export default function Home() {
                     </svg>
                 </div>
             </section>
-            <section class="outdoorSec rtl" data-aos="fade-up" data-aos-delay="50" data-aos-once="false">
+            <section class="outdoorSec rtl">
                 <div class="container">
-                    <h4 class="subheading">اللعبة بدأت للتو</h4>
                     <h2 class="sectionHeading">نظام ألعاب الليزر تاغ الخارجي</h2>
                     <div class="row">
-
-
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-6 col-sm-6 col-12">
 
                             <div class="outdoorSec_item">
                                 <Link href="/outdoor/softwares">
@@ -83,7 +80,7 @@ export default function Home() {
                                         <div class="row">
 
                                             <div class="col-md-10">
-                                                <h4>البرامج</h4>
+                                                <h4>البرمجيات</h4>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract092/></div>
@@ -99,8 +96,7 @@ export default function Home() {
                                         <div class="row">
 
                                             <div class="col-md-10">
-                                                <h4>تقديم خدمات
-                                                </h4>
+                                                <h4>تقديم خدمات</h4>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiDiscussion/></div>
@@ -111,10 +107,7 @@ export default function Home() {
                             </div>
 
                         </div>
-                        <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/laser.png" alt="Outdoor Laser Tag System"/>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-12">
+                        <div class="col-md-6 col-sm-6 col-12">
 
                             <div class="outdoorSec_item">
                                 <Link href="/outdoor/taggers">
@@ -138,9 +131,8 @@ export default function Home() {
                                         <div class="row">
 
                                             <div class="col-md-10">
-                                                <h4>أجهزة إضافية مع TAGGERS
-                                                </h4>
-
+                                                <h4>
+                                                    أجهزة إضافية مع البنادق</h4>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAbstract002/></div>
@@ -156,9 +148,7 @@ export default function Home() {
                                         <div class="row">
 
                                             <div class="col-md-10">
-                                                <h4>أجهزة سيناريو اللعبة
-                                                </h4>
-
+                                                <h4>أجهزة سيناريو اللعبة</h4>
                                             </div>
                                             <div class="col-md-2">
                                                 <div class="icon"><GiAfterburn/></div>
@@ -170,12 +160,7 @@ export default function Home() {
 
                         </div>
                     </div>
-                    <div class="text-center">
-                        <Link href="/outdoor">
-                            <a class="btn btn-primary btnMain">عرض المزيد
-                            </a>
-                        </Link>
-                    </div>
+
 
                 </div>
 
@@ -197,10 +182,11 @@ export default function Home() {
                                 }/>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
-                            <h2 class="sectionHeading">غالاكسي إكليبس</h2>
+                            <h2 class="sectionHeading">
+                                غالاكسي إكليبس الداخلي</h2>
                             <p class="secDescription">تصميم يتسم بالحماس ويشجع اللاعبين. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                لعبة آمنة لا مكان فيها للعدائية.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                طرق لعب فريدة تصنع أبطالًا خارقين.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                لعبة آمنة لا مكان فيها للعدائية.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                طرق لعب فريدة تصنع أبطالًا خارقين.
                             </p>
 
                             <hr/>
@@ -256,8 +242,9 @@ export default function Home() {
             <section class="airBunker rtl">
 
                 <div class="container">
-                    <h2 class="sectionHeading">المخابئ الجوية</h2>
-                    <p class="subheading">بينت بول ، ليزر تاج ، آرتشريتاج ونيرف درون ريسينغ.</p>
+                    <h2 class="sectionHeading">المخابئ الهوائية</h2>
+                    <p class="subheading">بينتبول، ليزر تاج، ألعاب الرماية،
+                        <br/>مسدسات نيرف، سباق الطائرات الآلية</p>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-12">
                             <img src="img/airbunker6.png" alt="Airbunker"/>
@@ -286,45 +273,50 @@ export default function Home() {
 
                 <div class="container">
                     <p class="secDescription">تقديم خدمات</p>
-                    <h2 class="sectionHeading">أكثر من مجرد معدات وسم الليزر</h2>
 
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>دعم فني</h5>
-                                <p>استشارة ومساعدة 7 أيام في الأسبوع</p>
+                                <h5>دعم المعلومات</h5>
+                                <p>نوفر مواد تدريبية وتصاميم رسومية واستشارات
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>المساعدة في تطوير الأعمال</h5>
-                                <p>مجموعة من الخدمات لبناء وتعزيز مراكز العلامات بالليزر</p>
+                                <h5>فرص مساعدة تطوير الأعمال</h5>
+                                <p>نقدم مجموعة من الخدمات لمساعدة بناء وتعزيز مراكز ألعاب الليزر تاغ
+                                </p>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>الدعم المعلوماتي</h5>
-                                <p>مواد تدريبية ، تخطيطات بيانية ، استشارات</p>
+                                <h5>الدعم الفني</h5>
+                                <p>نوفر فرص للاستشارة ونقدم المساعدة 7 أيام في الأسبوع
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-12">
                             <div class="preFooterItem">
-                                <h5>معدات معتمدة</h5>
-                                <p>الاستخدام الآمن في رابطة الدول المستقلة والاتحاد الأوروبي</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-12">
-                            <div class="preFooterItem">
-                                <h5>شبكة مركز الخدمة</h5>
-                                <p>خدمة ما بعد الضمان. استبدال المعدات أثناء الإصلاح</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-12">
-                            <div class="preFooterItem">
                                 <h5>معدات متطورة</h5>
-                                <p>حلول هندسية وبرمجية حاصلة على براءة اختراع</p>
+                                <p>مبنية على حلول هندسية وبرامج مبتكرة ومسجلة</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <div class="preFooterItem">
+                                <h5>شبكة مركز الخدمة
+                                </h5>
+                                <p>نوفر خدمات ما بعد الضمان. ونقوم باستبدال المعدات أثناء الصيانة
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-12">
+                            <div class="preFooterItem">
+                                <h5>معداتنا معتمدة</h5>
+                                <p>يمكن استخدام معداتنا بشكل آمن وفقًا لرابطة الدول المستقلة والاتحاد الأوروبي
+                                </p>
                             </div>
                         </div>
 

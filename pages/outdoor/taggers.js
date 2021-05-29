@@ -386,7 +386,7 @@ export default function header() {
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h4>نوكلاف فإ -2</h4>
+                                                <h4>فالكون إف -2</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
