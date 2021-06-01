@@ -29,9 +29,9 @@ export default function about() {
                             <h2>
                                 <strong>عن ليزر تاج الخليج
                                 </strong>
-                                </h2>
+                            </h2>
                             <p class="secDescription">
-                                “جلف ليزر تاغ هو الممثل الرسمي لموقع lasertag.net في الإمارات العربية المتحدة والمملكة العربية السعودية.
+                                هو الممثل الرسمي لموقع lasertag.net في الإمارات العربية المتحدة والمملكة العربية السعودية.
                             </p>
 
                         </div>
@@ -56,7 +56,8 @@ export default function about() {
                         <div class="col-md-6 col-sm-6 col-12">
                             <p class="subheading">
                                 <h2 class="sectionHeading"></h2>
-                                <p class="secDescription">شركة Gulf Laser Tag تسهل وتساعد أصحاب الأعمال في الحصول على أفضل وأحدث معدات الليزر في العالم
+                                <p class="secDescription">شركة ليزر تاج الخليج تسهل وتساعد أصحاب الأعمال في الحصول على أفضل وأحدث معدات الليزر في العالم
+
                                 </p>
                             </p>
                         </div>

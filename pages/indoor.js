@@ -24,8 +24,8 @@ export default function header() {
                     <div class="inDoorBannerDes">
                         <p>
                             تصميم يتسم بالحماس ويشجع اللاعبين. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    لعبة آمنة لا مكان فيها للعدائية.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    طرق لعب فريدة تصنع أبطالًا خارقين.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            لعبة آمنة لا مكان فيها للعدائية.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            طرق لعب فريدة تصنع أبطالًا خارقين.
                         </p>
                     </div>
                 </div>
@@ -70,14 +70,14 @@ export default function header() {
                             <div class="col-md-2 col-sm-6"></div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
-                                    <h4>شاشة آي-بي-إس (IPS) ملونة</h4>
+                                    <h4>شاشة آي بي إس (IPS) ملونة</h4>
                                     <p>تعرض بيانات المجموعة القياسية وإحصائيات اللعبة.</p>
                                 </div>
                             </div>
                             <div class="col-md-2 col-sm-6">
                                 <div class="whiteTitleTextNoBorder">
                                     <h4>تقنية هالو</h4>
-                                    <p>إضاءة مزدوجة للطلقة مصحوبةتقنية هالوتقنية هالو بلونالفريق.
+                                    <p>إضاءة مزدوجة للطلقة مصحوبة بلون الفريق.
                                     </p>
                                 </div>
                             </div>
@@ -142,8 +142,9 @@ export default function header() {
                 }>
 
                     <h2 class="skyblueTitle">
+                        سترة
                         <span>إكليبس</span>
-                        سترة</h2>
+                    </h2>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="whiteTitleTextNoBorder">
@@ -266,7 +267,7 @@ export default function header() {
             </section>
             <div class="video rtl" id="video">
                 <h2>
-                    التعليمات: كيف تلعب ليزر تاج الداخلي؟”
+                    كيف ألعب؟
                 </h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LkMO_chGWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>

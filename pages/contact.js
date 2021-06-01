@@ -101,6 +101,13 @@ export default function contact() {
                                 </div>
 
                                 <div class="formGroup rtl">
+                                    <label>
+                                        رقم الهاتف
+                                    </label>
+                                    <input required type='number' name="phone" class="inputField form-control"/>
+                                </div>
+
+                                <div class="formGroup rtl">
                                     <label>رسالتك</label>
                                     <textarea name="message" class="inputField form-control" required></textarea>
                                 </div>
@@ -144,13 +151,13 @@ export default function contact() {
                             </h3>
                             <p>
                                 <b>مندوب مبيعات الخليج</b><br/>
-                               محمد یوسف
+                                محمد یوسف
                                 <br/>gulflasertag@gmail.com
                             </p>
                             <br/>
                             <p>
                                 <b>ممثل فریق تطوير الأعمال</b><br/>
-                               بيهروز حاليم 
+                                بيهروز حاليم
                                 <br/>Behroz.lasertag.net@gmail.com</p>
                         </div>
                     </div>

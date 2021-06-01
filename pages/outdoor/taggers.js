@@ -168,7 +168,8 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
                                                         <span>+</span>
                                                     </li>
                                                 </ul>
@@ -203,9 +204,9 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
-                                                        <span>
-                                                            +</span>
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
+                                                        <span>+</span>
                                                     </li>
                                                 </ul>
 
@@ -364,9 +365,9 @@ export default function header() {
                                                     <li>رمع ةيراطبلا
                                                         <span>24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
-                                                        <span>
-                                                            +</span>
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
+                                                        <span>+</span>
                                                     </li>
                                                 </ul>
 
@@ -401,9 +402,9 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
-                                                        <span>
-                                                            +</span>
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
+                                                        <span>+</span>
                                                     </li>
                                                 </ul>
 
@@ -568,9 +569,9 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
-                                                        <span>
-                                                            +</span>
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
+                                                        <span>+</span>
                                                     </li>
                                                 </ul>
 
@@ -603,9 +604,9 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
-                                                        <span>
-                                                            +</span>
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
+                                                        <span>+</span>
                                                     </li>
                                                 </ul>
 
@@ -766,9 +767,9 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
-                                                        <span>
-                                                            +</span>
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
+                                                        <span>+</span>
                                                     </li>
                                                 </ul>
 
@@ -802,9 +803,9 @@ export default function header() {
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
-                                                    <li>تحكم من خلال أنظمة ويندوز و أندرويد
-                                                        <span>
-                                                            +</span>
+                                                    <li>تحكم من خلال أنظمة<br/>
+                                                        ويندوز و أندرويد
+                                                        <span>+</span>
                                                     </li>
                                                 </ul>
 

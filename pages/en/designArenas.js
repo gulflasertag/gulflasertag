@@ -30,12 +30,7 @@ export default function contact() {
                                     Arenas
                                 </strong>
                             </h2>
-                            <p class="secDescription"
-                                style={
-                                    {fontSize: "40px"}
-                            }>
-                                Coming Soon
-                            </p>
+
 
                         </div>
                         <div class="col-md-2 col-sm-2 col-0"></div>
@@ -47,6 +42,22 @@ export default function contact() {
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                         <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
                     </svg>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="arena_img_box">
+                        <img src="/img/arena1.jpeg"/>
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena2.jpeg"/>
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena3.jpeg"/>
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena4.jpeg"/>
+                    </div>
                 </div>
             </section>
 

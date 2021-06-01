@@ -99,6 +99,12 @@ export default function contact() {
                                     </label>
                                     <input required type='email' name="email" class="inputField form-control"/>
                                 </div>
+                                <div class="formGroup">
+                                    <label>
+                                        Phone Number
+                                    </label>
+                                    <input required type='number' name="phone" class="inputField form-control"/>
+                                </div>
 
                                 <div class="formGroup">
                                     <label>Your Message</label>

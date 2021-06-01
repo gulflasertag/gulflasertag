@@ -31,12 +31,6 @@ export default function contact() {
                                     الساحات
                                 </strong>
                             </h2>
-                            <p class="secDescription"
-                                style={
-                                    {fontSize: "40px"}
-                            }>
-                                قريبا
-                            </p>
 
                         </div>
                         <div class="col-md-2 col-sm-2 col-0"></div>
@@ -50,7 +44,22 @@ export default function contact() {
                     </svg>
                 </div>
             </section>
-
+            <section>
+                <div class="container">
+                    <div class="arena_img_box">
+                        <img src="/img/arena1.jpeg"/>
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena2.jpeg"/>
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena3.jpeg"/>
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena4.jpeg"/>
+                    </div>
+                </div>
+            </section>
 
         </Layout>
     )

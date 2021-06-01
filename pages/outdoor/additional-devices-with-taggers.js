@@ -231,10 +231,7 @@ export default function header() {
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
                                                 <h2>
-                                                    <strong>
-                                                        سـكـوربـيـون
-                                                    </strong>
-                                                    سوار صدمات
+                                                    سوار صدمات  سـكـوربـيـون
                                                 </h2>
                                             </div>
                                             <div class="taggerGroupItemSpec">
