@@ -17,14 +17,14 @@ export default function header() {
                 <div class="container">
                     <img src="/img/eclips-indoor.jpg"/></div>
             </section>
-            <section class="indoorbanner gradientBlack">
+            {/* <section class="indoorbanner gradientBlack">
                 <div class="container">
                     <h2 class="skyblueTitle text-center">Game
                         <span>Scenario
                         </span>
                     </h2>
                 </div>
-            </section>
+            </section> */}
 
             <section class="gameKitSec">
                 <div class="siriusDesc">

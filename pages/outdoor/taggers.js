@@ -362,7 +362,7 @@ export default function header() {
                                                     <li>الوزن
                                                         <span>900 غرام</span>
                                                     </li>
-                                                    <li>رمع ةيراطبلا
+                                                    <li>عمر البطارية
                                                         <span>24 ساعة</span>
                                                     </li>
                                                     <li>تحكم من خلال أنظمة<br/>
@@ -398,7 +398,7 @@ export default function header() {
                                                         <span>
                                                             1000 غرام</span>
                                                     </li>
-                                                    <li>رمع ةيراطبلا
+                                                    <li>عمر البطارية
                                                         <span>
                                                             24 ساعة</span>
                                                     </li>
