@@ -193,10 +193,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>الوزن
+                                                    <li>الطول
                                                         <span>950 غرام</span>
                                                     </li>
-                                                    <li>الطول
+                                                    <li>الوزن
                                                         <span>
                                                             66 سم</span>
                                                     </li>
@@ -391,10 +391,10 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    <li>لوطلا
+                                                    <li>الطول
                                                         <span>66 سم</span>
                                                     </li>
-                                                    <li>نزولا
+                                                    <li>الوزن
                                                         <span>
                                                             1000 غرام</span>
                                                     </li>
