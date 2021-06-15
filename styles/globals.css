@@ -1598,6 +1598,42 @@ margin-bottom:15px;
     background:#333;
     box-shadow: 0 0 55px 5px rgba(0, 0, 0, 0.4);
   }
+  /****************************************
+  ************** mars section *************
+  *****************************************/
+  .mars_features_item{
+    margin-bottom:60px;
+  }
+  .mars_features_item img{
+    max-width: 80px;
+    margin-bottom: 5px;
+  }
+  .mars_features_item p{
+    color:#fff
+  }
+  .mars_section_title {
+    font-size: 45px;
+    color:#fff;
+    padding-bottom:30px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .mars_h4{
+    color:#fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .mars_color{
+    color:#fe2a08;
+  }
+  .mars_p{
+    color:#ddd;
+    font-weight: 400;
+  }
+  .mars_p b{
+    color:#fff;
+    font-weight: 700;
+  }
 @media (max-width: 1000px) {
   .brightShotTeamColorSec{
     text-align: center;
