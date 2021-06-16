@@ -41,62 +41,63 @@ export default function contact() {
                             borderBottom: "1px solid red",
                             marginBottom: "30px"
                         }
-                }>The features of the attraction</h2>
+                }>مميزات النظام</h2>
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-12">
                         <div class="mars_features_item">
                             <img src="/img/mar_icon1.png"/>
-                            <p>PvP mode
+                            <p>وضع PVP 
                                 <br/>
-                                (players vs players).</p>
+                                (لاعبين ضد لاعبين).</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
                         <div class="mars_features_item">
                             <img src="/img/mar_icon2.png"/>
-                            <p>Fun for any number
+                            <p>يمكن أن يكون ممتع لأي عدد من الزوار، 
                                 <br/>
-                                of visitors from 1 to 30 players.
+                                بدئًا من 1 إلى 30 لاعب.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
                         <div class="mars_features_item">
                             <img src="/img/mar_icon3.png"/>
-                            <p>VR makes an 80 m2 indoor<br/>
-                                arena seem like the size<br/>
-                                of a basketball court.
+                            <p>الواقع الافتراضي يمكن أن يحول مساحة <br/>
+                                داخلية قدرها 80 متر مربع لتبدو بحجم <br/>
+                               ملعب كرة سلة.
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
                         <div class="mars_features_item">
                             <img src="/img/mar_icon4.png"/>
-                            <p>No costs for decoration
+                            <p>لا يوجد أي تكاليف مطلوبة للديكور 
                                 <br/>
-                                or construction required
+                               أو بناء الملاجئ في منطقة اللعب.
+
                                 <br/>
-                                for shelters in the play area.
+                                
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
                         <div class="mars_features_item">
                             <img src="/img/mar_icon5.png"/>
-                            <p>Moving to and launching
+                            <p>يستغرق الانتقال إلى مكان جديد وبدء التشغيل 
                                 <br/>
-                                at a new location takes 1 day.
+                               فيه يوم واحد فقط.
+                           
                             </p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
                         <div class="mars_features_item">
                             <img src="/img/mar_icon6.png"/>
-                            <p>Entertainment that is interesting
+                            <p>ترفيه ممتع للكبار والأطفال من سن 5 
                                 <br/>
-                                for adults and children from
-                                <br/>
-                                5 to 99 years old.
+                               إلى 99 عامًا. <br/>
+                              
                             </p>
                         </div>
                     </div>
