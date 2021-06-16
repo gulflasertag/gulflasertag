@@ -122,18 +122,19 @@ export default function contact() {
                         <img src="/img/mars-eq.jpg"/>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
-                        <h2 class="mars_section_title">equipment</h2>
-                        <h4 class="mars_h4">MARS VR Player Kit</h4>
+                        <h2 class="mars_section_title">المعدات</h2>
+                        <h4 class="mars_h4">مجموعة ألعاب المريخ للواقع الافتراضي
+</h4>
                         <br/>
                         <br/>
                         <p class="mars_p">
-                            <b>VR Headset
-                            </b>— lightweight,          wireless, high resolution</p>
+                            <b>سماعة الواقع الافتراضي 
+                            </b>— خفيفة الوزن، لاسلكية، عالية الدقة.</p>
                         <br/>
 
                         <p class="mars_p">
-                            <b>VR Headset
-                            </b>— lightweight,          wireless, high resolution</p>
+                            <b>فالكون للواقع الافتراضي 
+                            </b>— مسدس مزود بمحاكاة لدفع ارتداد الطلقات ومؤشرات اهتزازية للضربات</p>
                     </div>
 
 
