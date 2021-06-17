@@ -499,8 +499,8 @@ export default function contact() {
                             style={
                                 {textAlign: 'center'}
                         }>
-                            <span class="mars_color">PVP
-                            </span>&nbsp;سيناريوهات ألعاب 
+                            سيناريوهات ألعاب&nbsp; <span class="mars_color">PVP
+                            </span>
                         </h2>
                         <br/>
                         <p>
