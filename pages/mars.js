@@ -500,7 +500,7 @@ export default function contact() {
                                 {textAlign: 'center'}
                         }>
                             <span class="mars_color">PVP
-                            </span>&nbsp;GAME scenarios
+                            </span>&nbsp;سيناريوهات ألعاب 
                         </h2>
                         <br/>
                         <p>
@@ -520,8 +520,8 @@ export default function contact() {
                                             margin: "o auto"
                                         }
                                     }/>
-                                <p class="mars_p">All scenarios and game modes are available.<br/>
-                                    in each of the locations.</p>
+                                <h4 class="mars_h4">ملك الساحة</h4>
+                                <p class="mars_p">كل لاعب يقاتل لنفسه وواحد فقط سيصبح الفائز.</p>
                             </div>
                         </p>
                         <br/>
@@ -543,8 +543,8 @@ export default function contact() {
                                             margin: "o auto"
                                         }
                                     }/>
-                                <p class="mars_p">All scenarios and game modes are available.<br/>
-                                    in each of the locations.</p>
+                                <h4 class="mars_h4">قتال الفريق</h4>
+                                <p class="mars_p">وضع مثير يتقاتل فيه فريقان ضد بعضهما البعض.</p>
                             </div>
                         </p>
                     </div>
