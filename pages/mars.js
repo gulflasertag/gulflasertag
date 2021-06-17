@@ -156,37 +156,36 @@ export default function contact() {
                             }/>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
-                        <h2 class="mars_section_title">Software</h2>
-                        <h4 class="mars_h4">A tablet with the &nbsp;
-                            <span class="mars_color">VR OPERATOR</span>
-                            <br/>application for setting up
-                            <br/>
-                            and controlling game sets</h4>
+                        <h2 class="mars_section_title">برنامج السوفت-وير</h2>
+                        <h4 class="mars_h4">جهاز لوحي مزود بتطبيق  &nbsp;
+                            <span class="mars_color">تشغيل الواقع الافتراضي</span>
+                            <br/> لإعداد مجموعات الألعاب والتحكم فيها
+</h4>
                         <br/>
                         <br/>
                         <p class="mars_p">
-                            Automates the process of playing games
-                            <br/>in the VR arena as much as possible.</p>
-                        <p class="mars_p">Allows you to quickly change scenarios
-                            <br/>and game locations.
+                           يقوم بأتمتة عملية ممارسة الألعاب في ساحة الواقع 
+                            <br/>الافتراضي بقدر الإمكان.</p>
+                        <p class="mars_p">يسمح لك بتغيير السيناريوهات ومواقع الألعاب 
+                            <br/>بسرعة.
                         </p>
                         <br/>
                         <br/>
                         <br/>
                         <br/>
                         <h4 class="mars_h4">
-                            <span class="mars_color">VR SCOREBOARD
+                            <span class="mars_color">شاشة نتائج الواقع الافتراضي 
                             </span>&nbsp; an application
-                            <br/>for displaying game information
-                            <br/>on a big screen
-                        </h4>
+                            <br/>تطبيق لعرض معلومات اللعبة على شاشة كبيرة
+
+                      </h4>
                         <br/>
                         <br/>
                         <p class="mars_p">
-                            Displays detailed team statistics
-                            <br/>and personal stats of players.</p>
-                        <p class="mars_p">Broadcasts the session for the<br/>
-                            player in real-time
+                            يعرض إحصائيات مفصلة عن الفريق وإحصائيات شخصية للاعبين.
+</p>
+                        <p class="mars_p">يبث دورة اللعب لكل لاعب مباشرةً.
+
                         </p>
                     </div>
                 </div>
