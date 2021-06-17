@@ -355,36 +355,28 @@ export default function contact() {
                         <img src="/img/mars_picture6.jpg"/>
                     </div>
                     <div class="col-md-6 col-sm-6 col-12">
-                        <h2 class="mars_section_title">Game
+                        <h2 class="mars_section_title">اللعبة
                             <br/>
-                            <span class="mars_color">locations
+                            <span class="mars_color">مواقع
                             </span>
 
                         </h2>
-                        <h4 class="mars_h4">The Depot</h4>
+                        <h4 class="mars_h4"المستودع</h4>
                         <br/>
                         <p class="mars_p">
-                            The map takes players to the industrial area:
+                           الخريطة تأخذ اللاعبين إلى منطقة صناعية: مكاتب وعربات شحن ومستودعات أسلحة.  Players
                             <br/>
-                            offices, cargo wagons and the armory. Players
-                            <br/>
-                            take part in a special operation to eliminate a
-                            <br/>
-                            terrorist group in a railroad depot.</p>
+                            يشارك اللاعبون في عملية خاصة للقضاء على مجموعة إرهابية في مستودع للسكك الحديدية.</p>
                         <br/>
                         <br/>
                         <br/>
                         <br/><br/>
-                        <h4 class="mars_h4">The Office</h4>
+                        <h4 class="mars_h4">المكتب</h4>
                         <br/>
                         <p class="mars_p">
-                            The location is designed as an office building
+                           تم تصميم الموقع كمبنى مكاتب به غرف وممرات طويلة وجميع السمات الضرورية للحياة المكتبية.  A perfect place to hold
                             <br/>
-                            with rooms, long corridors and all the necessary
-                            <br/>
-                            attributes of office life. A perfect place to hold
-                            <br/>
-                            “corporate battles”.
+                            . مكان مثالي لعقد معارك الشركات.
                         </p>
                     </div>
                 </div>
@@ -410,14 +402,11 @@ export default function contact() {
                                 flexDirection: "column"
                             }
                         }>
-                            <h4 class="mars_h4">The nuclear storage facility</h4>
+                            <h4 class="mars_h4">منشأة التخزين النووية</h4>
                             <br/>
                             <p class="mars_p">
-                                A highly detailed secret bunker will excite fans of cult computer
-                                <br/>
-                                games and evoke a lot of vivid memories. The players will fight
-                                <br/>
-                                for the control of the strategic object.
+                                المخبأ السري المفصل للغاية سيثير عشاق ألعاب الكمبيوتر وسيسترجع الكثير من الذكريات الحية. سيقاتل اللاعبون من أجل السيطرة على الهدف الاستراتيجي.
+
                             </p>
                         </div>
                     </div>
@@ -442,8 +431,7 @@ export default function contact() {
                                             margin: "o auto"
                                         }
                                     }/>
-                                <p class="mars_p">All scenarios and game modes are available.<br/>
-                                    in each of the locations.</p>
+                                <p class="mars_p">جميع السيناريوهات وأوضاع اللعبة متوفرة في كل من المواقع.</p>
                             </div>
                         </p>
                     </div>
@@ -465,9 +453,7 @@ export default function contact() {
                                             margin: "o auto"
                                         }
                                     }/>
-                                <p class="mars_p">Regular increase of the detail of terrain
-                                    <br/>
-                                    elements and game models.</p>
+                                <p class="mars_p">زيادة منتظمة في تفاصيل عناصر التضاريس ونماذج الألعاب.</p>
                             </div>
                         </p>
                     </div>
@@ -488,8 +474,7 @@ export default function contact() {
                                         margin: "o auto"
                                     }
                                 }/>
-                            <p class="mars_p">The set of game locations is<br/>
-                                replenished every 2 months.</p>
+                            <p class="mars_p">يتم تجديد مجموعة مواقع اللعبة كل شهرين.</p>
                         </div>
                     </div>
 
