@@ -195,9 +195,9 @@ export default function contact() {
         <section class="rtl">
             <div class="container">
                 <h2>
-                    <span class="mars_color">Falcon VR
+                    <span class="mars_color">للواقع الافتراضي 
                     </span>
-                    &nbsp;Blaster</h2>
+                    &nbsp;مسدس فالكون </h2>
                 <img src="/img/mars_Picture2.jpg"/>
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-12">
@@ -206,15 +206,16 @@ export default function contact() {
                                 color: "black",
                                 paddingBottom: "25px"
                             }
-                        }>Impulse recoil – the realistic<br/>
-                            feel of every shot</p>
+                        }>دفع الارتداد - الإحساس الواقعي <br/>
+                            بكل طلقة.
+</p>
                         <p style={
                             {
                                 color: "black",
                                 paddingBottom: "25px"
                             }
-                        }>High impact resistant ABS plastic body —<br/>
-                            withstands the weight of the vehicle.</p>
+                        }>هيكل بلاستيكي من مادةABS  عالية المقاومة  —<br/>
+                           للصدمات - يتحمل وزن سيارة.</p>
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
                         <p style={
@@ -222,15 +223,15 @@ export default function contact() {
                                 color: "black",
                                 paddingBottom: "25px"
                             }
-                        }>14+ hours of battery life — more than<br/>
-                            one gaming day on a single charge.</p>
+                        }>عمر بطارية يزيد عن 14 ساعة - أكثر من يوم <br/>
+                            كامل من اللعب بشحنة واحدة.</p>
                         <p style={
                             {
                                 color: "black",
                                 paddingBottom: "25px"
                             }
-                        }>The rubber bumper softens<br/>
-                            the impact from careless players.</p>
+                        }>يلين الجزء  المطاطي ممتص الصدمات من <br/>
+                           صدمات اللاعبين المهملين.</p>
 
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
@@ -239,16 +240,16 @@ export default function contact() {
                                 color: "black",
                                 paddingBottom: "25px"
                             }
-                        }>Vibration in the handle —
+                        }>اهتزاز في المقبض - اشعر 
                             <br/>
-                            feel the virtual wound</p>
+                           بالجرح الافتراضي.</p>
                         <p style={
                             {
                                 color: "black",
                                 paddingBottom: "25px"
                             }
-                        }>Weighs 800 grams — a comfortable<br/>
-                            game even for the youngest players!</p>
+                        }>يزن 800 جرام - لعبة مريحة حتى لأصغر <br/>
+                          اللاعبين!</p>
 
                     </div>
                 </div>
