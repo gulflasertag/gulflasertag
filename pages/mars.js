@@ -271,37 +271,21 @@ export default function contact() {
                 <div class="row">
                     <div class="col-md-8 col-sm-8 col-12"></div>
                     <div class="col-md-4 col-sm-4 col-12">
-                        <h2 class="mars_section_title">Software</h2>
-                        <h4 class="mars_h4">A tablet with the &nbsp;
-                            <span class="mars_color">VR OPERATOR</span>
-                            <br/>application for setting up
-                            <br/>
-                            and controlling game sets</h4>
-                        <br/>
+                        <h2 class="mars_section_title">سوار الصدماتســكــوربــيــون</h2>
+                  
                         <br/>
                         <p class="mars_p">
-                            Automates the process of playing games
-                            <br/>in the VR arena as much as possible.</p>
-                        <p class="mars_p">Allows you to quickly change scenarios
-                            <br/>and game locations.
-                        </p>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        <h4 class="mars_h4">
-                            <span class="mars_color">VR SCOREBOARD
-                            </span>&nbsp; an application
-                            <br/>for displaying game information
-                            <br/>on a big screen
-                        </h4>
-                        <br/>
+                            كل جرح من اللعبة يصاحبه صعقة كهربائية تؤدي إلى تقلص عضلي قصير المدى.
+                                </p><br/>
+                        <p class="mars_p">5 أوضاع للتشغيل والاهتزاز، و 4 مستويات من قوة الصدمة. </p>
                         <br/>
                         <p class="mars_p">
-                            Displays detailed team statistics
-                            <br/>and personal stats of players.</p>
-                        <p class="mars_p">Broadcasts the session for the<br/>
-                            player in real-time
+                           الإحساس الجسدي بالضربات هو المفتاح لتحقيق الواقعية القصوى للعبة.</p>
+                        <p class="mars_p">الصعقة غير مؤذية تمامًا - لا تترك أي كدمات أو علامات.
+
+                        </p> 
+                        <p class="mars_p">هذا الجهاز معتمد بالكامل لممارسة الألعاب.
+
                         </p>
                     </div>
 
@@ -324,41 +308,35 @@ export default function contact() {
                     </div>
                     <div class="col-md-4 col-sm-4 col-12">
                         <h2 class="mars_section_title">
-                            <span class="mars_color">MARS
+                            <span class="mars_color">خوذة المريخ 
                             </span>
-                            &nbsp;VR-helmet
+                            &nbsp;للواقع الافتراضي
                         </h2>
-                        <h4 class="mars_h4">All-in-One</h4>
+                        <h4 class="mars_h4">كل شيء في جهاز واحد</h4>
                         <br/>
                         <br/>
                         <p class="mars_p">
-                            All the electronics and sensors in one<br/>
-                            helmet - no need to carry a computer<br/>
-                            and other additional equipment with you.</p>
+                            جميع الأجهزة الإلكترونية وأجهزة الاستشعار في خوذة واحدة - لا داعي لحمل جهاز كمبيوتر ومعدات إضافية أخرى معك.
+</p>
                         <br/>
 
-                        <p class="mars_p">High resolution images 1832 x 1920 px -<br/>
-                            full immersion in the virtual arena.
+                        <p class="mars_p">صور عالية الدقة 1832 × 1920 بكسل - انغمار كامل في الساحة الافتراضية.
+
                         </p>
                         <br/>
                         <p class="mars_p">
-                            The helmet weight is less than
-                            <br/>
-                            550 grams - play more than 2 hours<br/>
-                            straight without fatigue.
+                           وزن الخوذة أقل من 550 جرام - العب أكثر من ساعتين متتاليتين دون تعب.
+
                         </p>
                         <br/>
                         <p class="mars_p">
-                            The blaster is connected to the helmet<br/>
-                            wirelessly - movement without
-                            <br/>
-                            restrictions.
+                            يتم توصيل المسدس بالخوذة لاسلكيًا - حركة بدون قيود.
+
                         </p>
                         <br/>
                         <p class="mars_p">
-                            Protector technology - prevents collisions
-                            <br/>
-                            with physical obstacles during the game.
+                           تقنية الحماية - تمنع الاصطدامات مع العوائق المادية أثناء اللعبة.
+
                         </p>
                     </div>
 
