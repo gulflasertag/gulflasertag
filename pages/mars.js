@@ -361,7 +361,7 @@ export default function contact() {
                             </span>
 
                         </h2>
-                        <h4 class="mars_h4"المستودع</h4>
+                        <h4 class="mars_h4">المستودع</h4>
                         <br/>
                         <p class="mars_p">
                            الخريطة تأخذ اللاعبين إلى منطقة صناعية: مكاتب وعربات شحن ومستودعات أسلحة.  Players
