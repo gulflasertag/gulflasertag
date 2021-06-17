@@ -195,9 +195,9 @@ export default function contact() {
         <section class="rtl">
             <div class="container">
                 <h2>
-                    <span class="mars_color">للواقع الافتراضي 
+                    <span class="mars_color">مسدس فالكون 
                     </span>
-                    &nbsp;مسدس فالكون </h2>
+                    &nbsp;للواقع الافتراضي  </h2>
                 <img src="/img/mars_Picture2.jpg"/>
                 <div class="row">
                     <div class="col-md-4 col-sm-4 col-12">
