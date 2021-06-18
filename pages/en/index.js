@@ -174,7 +174,7 @@ export default function Home() {
                         <div class="col-md-6 col-sm-6 col-12">
                             <h2 class="sectionHeading">Indoor Galaxy Eclipse</h2>
                             <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Unique modes that make players superheroes.</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Unique modes that make players superheroes.</p>
                             <hr/>
                             <div class="indoorSec_item">
                                 <Link href="/en/indoor/#video">
@@ -212,7 +212,7 @@ export default function Home() {
 
                             <br/>
                             <br/>
-                            <Link href="/indoor">
+                            <Link href="/en/indoor">
                                 <a class="btn btn-primary btnMain btnMainWhite">View More</a>
                             </Link>
                         </div>
@@ -246,19 +246,60 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <Link href="/airbunker">
+                    <Link href="/en/airbunker">
                         <a class="btn btn-primary btnMain">Read More</a>
                     </Link>
                 </div>
             </section>
-
-            <section class="preFooter" id="services">
-                {/* <div class="background-overlay"></div> */}
+            <section class="indoorSec">
                 <div class="shape shape-top" data-negative="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                         <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
                     </svg>
                 </div>
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-12">
+                            <img src="/img/logo-mars.png"
+                                style={
+                                    {maxWidth: "100px"}
+                            }></img>
+                            <br/>
+                            <br/>
+                            <h2 class="mars_section_title">
+                                <span class="mars_color">VR attraction</span>&nbsp;for your business.</h2>
+                            <p class="secDescription">
+                                Forget the limits, all you need is a blaster and a headset.
+                            </p>
+
+
+                            <br/>
+                            <br/>
+                            <br/>
+                            <Link href="/en/mars">
+                                <a class="btn btn-primary btnMain btnMainWhite">View More</a>
+                            </Link>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-12">
+                            <img src="/img/mars_picture4.jpg"/>
+                        </div>
+
+                    </div>
+                </div>
+                {/* <div class="shape shape-bottom" data-negative="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                        <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
+                    </svg>
+                </div> */} </section>
+
+            <section class="preFooter" id="services">
+                {/* <div class="background-overlay"></div> */}
+                {/* <div class="shape shape-top" data-negative="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+                        <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
+                    </svg>
+                </div> */}
 
                 <div class="container">
                     <p class="secDescription">SERVICES PROVIDED</p>
