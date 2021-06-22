@@ -24,10 +24,21 @@ export default function contact() {
                         <div class="col-md-4 col-sm-5 col-0"></div>
 
                         <div class="col-md-4 col-sm-3 col-8">
-                            <img src="/img/logo-mars.png" width="300px"/>
+                            <img src="/img/logo-mars.png"
+                                style={
+                                    {
+                                        width: "250px",
+                                        margin: "0 auto 30px"
+                                    }
+                                }/>
                         </div>
                         <div class="col-md-4 col-sm-4 col-0"></div>
                     </div>
+                    <br/>
+                    <h4 style={
+                            {fontWeight: "600"}
+                        }
+                        class="mars_section_title">BATTLE VR SYSTEM</h4>
                 </div>
 
             </section>
@@ -123,12 +134,12 @@ export default function contact() {
                             <br/>
                             <p class="mars_p">
                                 <b>VR Headset
-                                </b>— lightweight,          wireless, high resolution</p>
+                                </b>— lightweight, wireless, high resolution</p>
                             <br/>
 
                             <p class="mars_p">
-                                <b>VR Headset
-                                </b>— lightweight,          wireless, high resolution</p>
+                                <b>Falcon-VR
+                                </b>— blaster with an impulse simulation of recoil and vibration indication of hits.</p>
                         </div>
                         <div class="col-md-8 col-sm-8 col-12">
                             <img src="/img/mars-eq.jpg"/>

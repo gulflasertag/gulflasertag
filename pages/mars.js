@@ -24,10 +24,21 @@ export default function contact() {
                         <div class="col-md-4 col-sm-5 col-0"></div>
 
                         <div class="col-md-4 col-sm-3 col-8">
-                            <img src="/img/logo-mars.png" width="300px"/>
+                            <img src="/img/logo-mars.png"
+                                style={
+                                    {
+                                        width: "250px",
+                                        margin: "0 auto 30px"
+                                    }
+                                }/>
                         </div>
                         <div class="col-md-4 col-sm-4 col-0"></div>
                     </div>
+                    <h4 style={
+                            {fontWeight: "600"}
+                        }
+                        class="mars_section_title">نظام معركة الواقع الافتراضي
+                    </h4>
                 </div>
 
             </section>
@@ -374,9 +385,7 @@ export default function contact() {
                             <h4 class="mars_h4">المستودع</h4>
                             <br/>
                             <p class="mars_p">
-                                الخريطة تأخذ اللاعبين إلى منطقة صناعية: مكاتب وعربات شحن ومستودعات أسلحة.  Players
-                                <br/>
-                                يشارك اللاعبون في عملية خاصة للقضاء على مجموعة إرهابية في مستودع للسكك الحديدية.</p>
+                                الخريطة تأخذ اللاعبين إلى منطقة صناعية: مكاتب وعربات شحن ومستودعات أسلحة. يشارك اللاعبون في عملية خاصة للقضاء على مجموعة إرهابية في مستودع للسكك الحديدية.</p>
                             <br/>
                             <br/>
                             <br/>
@@ -384,9 +393,7 @@ export default function contact() {
                             <h4 class="mars_h4">المكتب</h4>
                             <br/>
                             <p class="mars_p">
-                                تم تصميم الموقع كمبنى مكاتب به غرف وممرات طويلة وجميع السمات الضرورية للحياة المكتبية.  A perfect place to hold
-                                <br/>
-                                . مكان مثالي لعقد معارك الشركات.
+                                تم تصميم الموقع كمبنى مكاتب به غرف وممرات طويلة وجميع السمات الضرورية للحياة المكتبية. مكان مثالي لعقد معارك الشركات.
                             </p>
                         </div>
                     </div>
