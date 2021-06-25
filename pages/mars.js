@@ -37,7 +37,7 @@ export default function contact() {
                     <h4 style={
                             {fontWeight: "600"}
                         }
-                        class="mars_section_title">نظام معركة الواقع الافتراضي
+                        class="mars_section_title">نظام معارك الواقع الافتراضي
                     </h4>
                 </div>
 
