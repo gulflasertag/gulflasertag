@@ -22,7 +22,7 @@ export default function contact() {
     function onSubmitForm(values) {
         values.preventDefault();
 
-        emailjs.sendForm('service_xcjnfz9', 'template_2ym61o2', values.target, 'user_5YvxbkhSC6ysNKWIY2G3n').then((result) => {
+        emailjs.sendForm('service_ih1avft', 'template_am47gj9', values.target, 'user_HTKNh5MfWtr6Gi2tSHDIi').then((result) => {
             console.log(result.text);
             const currentDiv = document.getElementById("formMsg");
             currentDiv.innerHTML = "<p style='color:green'>Congraz ! Your Message has been sent Successfully</p>";
