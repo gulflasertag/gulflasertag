@@ -48,7 +48,7 @@ export default function header() {
 
                 </div>
                 <div class="gameKitImg">
-                    <img src="/img/game-kit.png"/>
+                    <img src="/img/game-kit.png" class="nortlimg"/>
                 </div>
 
             </section>
@@ -180,7 +180,7 @@ export default function header() {
 
                 </div>
                 <div class="gameKitImg">
-                    <img src="/img/galaxy-kit2.png"/>
+                    <img src="/img/galaxy-kit2.png" class="nortlimg"/>
                 </div>
 
             </section>
