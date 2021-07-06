@@ -359,7 +359,7 @@ export default function header() {
             <section class="indoorSoftwareSec rtl">
 
                 <div class="indoorSoftwareLeft">
-                    <img src="/img/mobile.png"/>
+                    <img src="/img/mobile.png" class="nortlimg"/>
                 </div>
                 <div class="indoorSoftwareRight"
                     style={
