@@ -1,0 +1,22 @@
+{
+  "name": "gulf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^2.6.4",
+    "history": "^5.0.0",
+    "next": "^13.5.3",
+    "nodemailer": "^6.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^6.0.0-beta.0"
+  }
+}
