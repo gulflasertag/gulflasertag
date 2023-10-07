@@ -45,17 +45,49 @@ export default function contact() {
             <section>
                 <div class="container">
                     <div class="arena_img_box">
-                        <img src="/img/arena1.jpeg"/>
+                        <img src="/img/arena/arena-1.jpg" />
                     </div>
                     <div class="arena_img_box">
-                        <img src="/img/arena2.jpeg"/>
+                        <img src="/img/arena/arena-2.jpg" />
                     </div>
                     <div class="arena_img_box">
-                        <img src="/img/arena3.jpeg"/>
+                        <img src="/img/arena/arena-3.jpg" />
                     </div>
                     <div class="arena_img_box">
-                        <img src="/img/arena4.jpeg"/>
+                        <img src="/img/arena/arena-4.jpg" />
                     </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena/arena-5.jpg" />
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena/arena-6.jpg" />
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena/arena-7.jpg" />
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena/arena-8.jpg" />
+                    </div>
+                    <div class="arena_img_box">
+                        <img src="/img/arena/arena-9.jpg" />
+                    </div>
+                    
+                </div>
+                <div class="video" id="video">
+                    <h2>
+                        Arenas VIDEO 1
+                    </h2>
+                    <video controls style={{ width: '500px', height: '500px' }}>
+                        <source src="/img/video/VIDEO-1.mp4" />
+                    </video>
+                </div>
+                <div class="video" id="video">
+                    <h2>
+                    Arenas VIDEO 2
+                    </h2>
+                    <video controls style={{ width: '500px', height: '500px' }}>
+                        <source src="/img/video/VIDEO-2.mp4" />
+                    </video>
                 </div>
             </section>
 

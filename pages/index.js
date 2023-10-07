@@ -272,14 +272,14 @@ export default function Home() {
 
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="/img/mars_picture4.jpg" class="nortlimg"/>
+                            <img src="/img/logo-mars.png" class="nortlimg"/>
                         </div>
 
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="/img/logo-mars.png" class="nortlimg"
+                            {/* <img src="/img/logo-mars.png" class="nortlimg"
                                 style={
                                     {maxWidth: "100px"}
-                            }></img>
+                            }></img> */}
                             <br/>
                             <br/>
                             <h2 class="mars_section_title">
