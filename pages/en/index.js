@@ -259,10 +259,10 @@ export default function Home() {
 
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="/img/logo-mars.png"
+                            {/* <img src="/img/logo-mars.png"
                                 style={
                                     {maxWidth: "100px"}
-                            }></img>
+                            }></img> */}
                             <br/>
                             <br/>
                             <h2 class="mars_section_title">
@@ -280,7 +280,7 @@ export default function Home() {
                             </Link>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="/img/mars_picture4.jpg"/>
+                            <img src="/img/logo-mars.png"/>
                         </div>
 
                     </div>

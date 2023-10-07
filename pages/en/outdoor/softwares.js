@@ -23,12 +23,19 @@ export default function header() {
             </div>
             <section class="headbandSec sceneSec"
                 style={
-                    {background: "#0b0b0b"}
+                    {background: "#ffffff"}
             }>
                 <div class="container">
                     <div class="taggerGroupHeaderPreTitle">Accessories</div>
                     <div class="row">
-                        <div class="col-md-6">
+                    <img src="/img/pages/router.png"
+                    style={
+                        {
+                            width: "100%",
+                            margin: "0 auto 30px"
+                        }
+                    }/>
+                        {/* <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
                                     <strong>Wi-Fi router &nbsp;</strong>
@@ -52,8 +59,8 @@ export default function header() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
+                        </div> */}
+                        {/* <div class="col-md-6">
                             <div class="row">
 
                                 <div class="col-md-12">
@@ -63,10 +70,10 @@ export default function header() {
                             </div>
 
 
-                        </div>
+                        </div> */}
                     </div>
 
-                    <div class="row">
+                    {/* <div class="row">
                         <div class="col-md-6">
                             <div class="taggerGroupItemName">
                                 <h2 class="whiteTitle">
@@ -105,7 +112,7 @@ export default function header() {
 
 
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
 

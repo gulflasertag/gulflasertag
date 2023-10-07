@@ -436,7 +436,7 @@ export default function header() {
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                                <h3>FALCON F1</h3>
+                                            <h4>FALCON F1</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                             <ul>
@@ -498,6 +498,39 @@ export default function header() {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="taggerGroupItem">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="taggerGroupItemName"></div>
+                                            <div class="taggerGroupItemPrice">
+                                                <h4>FALCON LUX</h4>
+                                            </div>
+                                            <div class="taggerGroupItemSpec">
+                                                <ul>
+                                                    
+                                                    <li>Weight
+                                                        <span>38,8 oz</span>
+                                                    </li>
+                                                    <li>Operating time
+                                                        <span>24 hours</span>
+                                                    </li>
+                                                    <li>Warranty
+                                                        <span>1 years</span>
+                                                    </li>
+                                                    
+                                                </ul>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="/img/falcon-lux.jpg"/>
+
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                             <div class="col-md-3">
                                 <div class="taggerGroupSidebar">
@@ -788,7 +821,7 @@ export default function header() {
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="taggerGroupItem">
+                                {/* <div class="taggerGroupItem">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
@@ -820,8 +853,8 @@ export default function header() {
                                             </p>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="taggerGroupItem">
+                                </div> */}
+                                {/* <div class="taggerGroupItem">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="taggerGroupItemName">
@@ -882,7 +915,7 @@ export default function header() {
 
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
                         </div>
