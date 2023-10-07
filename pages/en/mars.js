@@ -50,41 +50,35 @@ export default function contact() {
             <section style={
                 { background: "#ffffff" }
             }>
-                <div class="container">
-                    <img src="/img/logo-mars.png"
+                <img src="/img/logo-mars.png"
                         style={
                             {
                                 width: "100%",
                                 margin: "0 auto 30px"
                             }
                         } />
-                </div>
             </section>
             <section style={
                 { background: "#d22e2e" }
             }>
-                <div class="container">
-                    <img src="/img/vr-system-img.png"
-                        style={
-                            {
-                                width: "100%",
-                                margin: "0 auto 30px"
-                            }
-                        } />
-                </div>
+                <img src="/img/vr-system-img.png"
+                    style={
+                        {
+                            width: "90%",
+                            margin: "0 auto 30px"
+                        }
+                    } />
             </section>
             <section style={
                 { background: "#f1f1f1" }
             }>
-                <div class="container">
-                    <img src="/img/vr-system-attraction.png"
-                        style={
-                            {
-                                width: "100%",
-                                margin: "0 auto 30px"
-                            }
-                        } />
-                </div>
+                <img src="/img/vr-system-attraction.png"
+                    style={
+                        {
+                            width: "100%",
+                            margin: "0 auto 30px"
+                        }
+                    } />
             </section>
             {/* <section style={
                 {background: "#000000"}
@@ -97,16 +91,13 @@ export default function contact() {
                 { background: "#ffffff" }
             }>
                 <div class="container">
-                    <div class="row">
-                        <img src="/img/why-vr.png"
-                            style={
-                                {
-                                    width: "100%",
-                                    margin: "0 auto 30px"
-                                }
-                            } />
-                    </div>
-
+                    <img src="/img/why-vr.png"
+                        style={
+                            {
+                                width: "100%",
+                                margin: "0 auto 30px"
+                            }
+                        } />
                 </div>
                 <div class="container">
                     <div class="row">
