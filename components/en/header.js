@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function header() {
     return (
         <div>
-            <nav class="main_menu navbar navbar-default">
+            <nav className="main_menu navbar navbar-default">
                 <div class="container"> {/* <!-- Brand and toggle get grouped for better mobile display --> */}
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

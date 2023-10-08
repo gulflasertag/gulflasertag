@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function header() {
     return (
         <div>
-            <nav class="main_menu navbar navbar-default rtl">
+            <nav className="main_menu navbar navbar-default rtl">
                 <div class="container"> {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">

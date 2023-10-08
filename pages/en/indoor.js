@@ -230,7 +230,7 @@ export default function header() {
                 <h2>
                 Galaxy Eclipse Superpowers
                 </h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2LLLGILzvf4?si=vmmNioxFZ6-n95eT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2LLLGILzvf4?si=vmmNioxFZ6-n95eT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
             {/* super power */}
             <section class="superPowerSec">

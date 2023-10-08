@@ -894,6 +894,13 @@ section {
   border-bottom:1px solid #000;
   padding-bottom:15px;
 }
+.taggerFalconLux h4{
+  font-weight:600;
+  font-size: 40px;
+  color:#1a73e8;
+  border-bottom:1px solid #000;
+  padding-bottom:15px;
+}
 .taggerGroupItemSpec ul li{
   list-style: none;
   padding:5px 0;
@@ -987,7 +994,7 @@ section {
   background-repeat: no-repeat;
   background-position: top right;
   position: relative;
-  padding-top:400px;
+  padding-top:100px;
   background-attachment: fixed;
 }
 
