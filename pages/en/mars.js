@@ -125,6 +125,21 @@ export default function contact() {
                 </div>
                 <div class="container">
                     <div class="row">
+                        <img src="/img/pages/vion-vr-offers.png"
+                            style={
+                                {
+                                    width: "100%",
+                                    margin: "0 auto 30px"
+                                }
+                            } />
+                    </div>
+
+                </div>
+                <br/>
+                            <br/>
+                            <br/>
+                <div class="container">
+                    <div class="row">
                         <img src="/img/pages/last-train.png"
                             style={
                                 {
@@ -135,6 +150,9 @@ export default function contact() {
                     </div>
 
                 </div>
+                <br/>
+                            <br/>
+                            <br/>
                 <div class="container">
                     <div class="row">
                         <img src="/img/pages/wall-street.png"

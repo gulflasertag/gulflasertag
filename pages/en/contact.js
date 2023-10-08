@@ -128,7 +128,7 @@ export default function contact() {
                             <p>
                                 <b>Gulf Sales Representative</b><br/>
                                 Mohammed Yussuf
-                                <br/>gulflasertag@gmail.com
+                                <br/>Mohammedyussuf@gulflasertag.net
                             </p>
                             <br/>
                             <p>

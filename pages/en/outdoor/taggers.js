@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {MdChat} from "react-icons/md";
+import { MdChat } from "react-icons/md";
 import Layout from '/components/en/layout'
 
 
@@ -9,28 +9,28 @@ export default function header() {
             <div class="language">
                 <Link href="/outdoor/taggers">
 
-                    <MdChat/>العربيــة
+                    <MdChat />العربيــة
                 </Link>
             </div>
             <div class="outdoorBannerTop">
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <img src="/img/netronicLogo.jpg" width="100px"/>
+                            <img src="/img/netronicLogo.jpg" width="100px" />
                             <h2 class="sectionHeading">TAGGERS</h2>
 
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             {/* group two */}
-            <hr/>
+            <hr />
             <div class="taggerGroup">
                 <div class="taggerGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle">Falcon
-                            <br/>Modifications</div>
+                            <br />Modifications</div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -60,7 +60,7 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    
+
                                                     <li>Weight
                                                         <span>32 oz</span>
                                                     </li>
@@ -70,7 +70,7 @@ export default function header() {
                                                     <li>Warranty
                                                         <span>1 years</span>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
@@ -83,7 +83,7 @@ export default function header() {
                                                         width: '440px',
                                                         float: 'right'
                                                     }
-                                                }/>
+                                                } />
                                         </div>
                                     </div>
                                 </div>
@@ -95,8 +95,8 @@ export default function header() {
                                                 <h4>FALCON F2</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
-                                            <ul>
-                                                    
+                                                <ul>
+
                                                     <li>Weight
                                                         <span>39 oz</span>
                                                     </li>
@@ -106,14 +106,14 @@ export default function header() {
                                                     <li>Warranty
                                                         <span>1 years</span>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
 
                                         </div>
                                         <div class="col-md-8">
-                                            <img src="/img/falcon-f2.jpg"/>
+                                            <img src="/img/falcon-f2.jpg" />
                                             <p class="taggerGroupNotice"></p>
 
                                         </div>
@@ -125,7 +125,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon1.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Shockproof ABS plastic</p>
@@ -135,7 +135,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon2.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Protective rubber tip</p>
@@ -145,7 +145,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon3.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Two hand sensor +45 dollars</p>
@@ -155,7 +155,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon4.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Multicoloured IPS-screen</p>
@@ -165,7 +165,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon5.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Built-in hit sensors</p>
@@ -175,7 +175,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon6.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Impulse recoil</p>
@@ -185,7 +185,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon7.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Pixel print</p>
@@ -195,7 +195,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon8.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Red dot sight</p>
@@ -212,12 +212,12 @@ export default function header() {
 
             {/* premium */}
 
-            <hr/>
+            <hr />
             <div class="taggerGroup">
                 <div class="taggerGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle">Falcon
-                            <br/>Modifications</div>
+                            <br />Modifications</div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -229,8 +229,8 @@ export default function header() {
                             <div class="col-md-8">
                                 <div class="taggerGroupHeaderDescription">
                                     <p>The set for exciting laser tag battles. The blaster is equipped with impulse recoil which is much more realistic than usual vibration. The color
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                IPS screen does not only attracts the attention of players, but also displays all the game and server
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                statistics. Hit sensors built-in the body are the key to an honest and safe game.
+                                        IPS screen does not only attracts the attention of players, but also displays all the game and server
+                                        statistics. Hit sensors built-in the body are the key to an honest and safe game.
                                     </p>
                                 </div>
                             </div>
@@ -246,11 +246,11 @@ export default function header() {
                                         <div class="col-md-4">
                                             <div class="taggerGroupItemName"></div>
                                             <div class="taggerGroupItemPrice">
-                                            <h4>FALCON F1</h4>
+                                                <h4>FALCON F1</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
-                                            <ul>
-                                                    
+                                                <ul>
+
                                                     <li>Weight
                                                         <span>39 oz</span>
                                                     </li>
@@ -260,7 +260,7 @@ export default function header() {
                                                     <li>Warranty
                                                         <span>1 years</span>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
@@ -273,7 +273,7 @@ export default function header() {
                                                         width: '440px',
                                                         float: 'right'
                                                     }
-                                                }/>
+                                                } />
                                         </div>
                                     </div>
                                 </div>
@@ -286,7 +286,7 @@ export default function header() {
                                             </div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    
+
                                                     <li>Weight
                                                         <span>42,5 oz</span>
                                                     </li>
@@ -296,26 +296,26 @@ export default function header() {
                                                     <li>Warranty
                                                         <span>1 years</span>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
 
                                         </div>
                                         <div class="col-md-8">
-                                            <img src="/img/falcon-f2.jpg"/>
+                                            <img src="/img/falcon-f2.jpg" />
 
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="taggerGroupItem">
+                                {/* <div class="taggerGroupItem">
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="taggerFalconLux"><h4>FALCON LUX</h4></div>
                                             <div class="taggerGroupItemSpec">
                                                 <ul>
-                                                    
+
                                                     <li>Weight
                                                         <span>38,8 oz</span>
                                                     </li>
@@ -325,18 +325,18 @@ export default function header() {
                                                     <li>Warranty
                                                         <span>1 years</span>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
 
                                         </div>
                                         <div class="col-md-8">
-                                            <img src="/img/falcon-lux.jpg"/>
+                                            <img src="/img/falcon-lux.jpg" />
 
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                             </div>
                             <div class="col-md-3">
@@ -344,7 +344,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon1.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Shockproof ABS plastic</p>
@@ -354,7 +354,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon2.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Protective rubber tip</p>
@@ -364,7 +364,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon3.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Two hand sensor +45 dollars</p>
@@ -374,7 +374,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon4.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Multicoloured IPS-screen</p>
@@ -384,7 +384,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon5.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Built-in hit sensors</p>
@@ -394,7 +394,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem ">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon6.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Impulse recoil</p>
@@ -404,7 +404,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon7.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Pixel print</p>
@@ -414,7 +414,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem opacityLess">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon8.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Red dot sight</p>
@@ -430,12 +430,12 @@ export default function header() {
             </div>
 
             {/* tactical pro */}
-            <hr/>
+            <hr />
             <div class="taggerGroup">
                 <div class="taggerGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle">Falcon
-                            <br/>Modifications</div>
+                            <br />Modifications</div>
                     </div>
                     <div class="container">
                         <div class="row">
@@ -465,8 +465,8 @@ export default function header() {
                                                 <h4>FALCON F1</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
-                                            <ul>
-                                                    
+                                                <ul>
+
                                                     <li>Weight
                                                         <span>46 oz</span>
                                                     </li>
@@ -476,7 +476,7 @@ export default function header() {
                                                     <li>Warranty
                                                         <span>1 years</span>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
@@ -489,7 +489,7 @@ export default function header() {
                                                         width: '440px',
                                                         float: 'right'
                                                     }
-                                                }/>
+                                                } />
                                         </div>
                                     </div>
                                 </div>
@@ -501,8 +501,8 @@ export default function header() {
                                                 <h4>FALCON F2</h4>
                                             </div>
                                             <div class="taggerGroupItemSpec">
-                                            <ul>
-                                                    
+                                                <ul>
+
                                                     <li>Weight
                                                         <span>50 oz</span>
                                                     </li>
@@ -512,14 +512,14 @@ export default function header() {
                                                     <li>Warranty
                                                         <span>1 years</span>
                                                     </li>
-                                                    
+
                                                 </ul>
 
                                             </div>
 
                                         </div>
                                         <div class="col-md-8">
-                                            <img src="/img/tacticalf2.png"/>
+                                            <img src="/img/tacticalf2.png" />
                                             <p class="taggerGroupNotice"></p>
 
                                         </div>
@@ -531,7 +531,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon1.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon1.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Shockproof ABS plastic</p>
@@ -541,7 +541,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon2.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon2.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Protective rubber tip</p>
@@ -551,7 +551,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon3.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon3.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Two hand sensor +45 dollars</p>
@@ -561,7 +561,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon4.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon4.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Multicoloured IPS-screen</p>
@@ -571,7 +571,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon5.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon5.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Built-in hit sensors</p>
@@ -581,7 +581,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem ">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon6.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon6.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Impulse recoil</p>
@@ -591,7 +591,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon7.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon7.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Pixel print</p>
@@ -601,7 +601,7 @@ export default function header() {
                                     <div class="taggerGroupSidebarItem">
                                         <div class="row">
                                             <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon8.png"/></div>
+                                                <div class="icon"><img src="/img/taggersidebar-icon8.png" /></div>
                                             </div>
                                             <div class="col-xs-8">
                                                 <p>Red dot sight</p>
@@ -615,19 +615,31 @@ export default function header() {
                     </div>
                 </div>
             </div>
-
-            {/* tactical guns */}
-            <hr/>
-            <div class="taggerGroup">
-                {/* <div class="taggerGroupHeader">
-                    <div class="container">
-                        <div class="taggerGroupHeaderPreTitle">Tactical guns</div>
+            {/* <div class="taggerGroup">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                        <div class="taggerGroupHeaderTitle">
+                                    <h3>Falcon Lux </h3>
+                                </div>
+                        <img src="/img/pages/falcon-lux.png"/>
+                        </div>
                     </div>
-                </div> */}
+                </div>
+            </div> */}
+            {/* tactical guns */}
+            <hr />
+            <div class="taggerGroup">
+                <div class="taggerGroupHeader">
+                    <div class="container">
+                        <div class="taggerGroupHeaderPreTitle">Falcon Lux</div>
+                    </div>
+                </div>
                 <div class="taggerGroupBody">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
+                            <img src="/img/pages/falcon-lux.png"/>
                                 {/* <div class="taggerGroupItem">
                                     <div class="row">
                                         <div class="col-md-6">
@@ -773,9 +785,9 @@ export default function header() {
             <section class="impulseRecoilSec">
 
                 <div class="container">
-                    
+
                     <div class="row">
-<div class="taggerGroupHeaderPreTitle topAbsolute">Features</div>
+                        <div class="taggerGroupHeaderPreTitle topAbsolute">Features</div>
                         <div class="col-md-12">
                             <h2 class="whiteTitle">Impulse recoil</h2>
                             <div class="row">

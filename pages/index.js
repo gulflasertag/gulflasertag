@@ -295,9 +295,9 @@ export default function Home() {
                             <br/>
                             <br/>
                             <br/>
-                            <Link href="/mars" class="btn btn-primary btnMain btnMainWhite">
+                            {/* <Link href="/mars" class="btn btn-primary btnMain btnMainWhite">
                                 اقرأ أكثر
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </div>

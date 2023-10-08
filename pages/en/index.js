@@ -275,9 +275,9 @@ export default function Home() {
                             <br/>
                             <br/>
                             <br/>
-                            <Link href="/en/mars" class="btn btn-primary btnMain btnMainWhite">
+                            {/* <Link href="/en/mars" class="btn btn-primary btnMain btnMainWhite">
                                 View More
-                            </Link>
+                            </Link> */}
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
                             <img src="/img/logo-mars.png"/>

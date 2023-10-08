@@ -150,7 +150,7 @@ export default function contact() {
                             <p>
                                 <b>مندوب مبيعات الخليج</b><br/>
                                 محمد یوسف
-                                <br/>gulflasertag@gmail.com
+                                <br/>Mohammedyussuf@gulflasertag.net
                             </p>
                             <br/>
                             <p>
