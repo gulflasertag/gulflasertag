@@ -14,7 +14,7 @@ export default function header() {
             </div>
             <section class="indoorbanner">
                 <div class="container">
-                    <img src="/img/eclips-indoor-flip.jpg"/></div>
+                    <img src="/img/arabic/eclipse-arabic-logo.png"/></div>
             </section>
             <section class="indoorbanner gradientBlack rtl">
                 <div class="container">
@@ -264,9 +264,9 @@ export default function header() {
             </section>
             <div class="video rtl" id="video">
                 <h2>
-                    كيف ألعب؟
+                ‏القوة الخارقة لى غالاكسي إكليبس
                 </h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LkMO_chGWv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2LLLGILzvf4?si=5wpbGD2ornlxnZM0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             {/* super power */}
             <section class="superPowerSec rtl">

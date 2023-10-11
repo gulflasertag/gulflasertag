@@ -11,42 +11,7 @@ export default function contact() {
                     <MdChat />العربيــة
                 </Link>
             </div>
-            {/* <section class="heroBanner aboutHeroBanner"
-                style={
-                    {background: "#d22e2e"}
-            }>
-                <div class="background-overlay"></div>
-
-                <div class="container">
-                     <div class="row">
-                        <div class="col-md-4 col-sm-5 col-0"></div>
-
-                        <div class="col-md-4 col-sm-3 col-8">
-                            <img src="/img/logo-mars.png"
-                                style={
-                                    {
-                                        width: "100%",
-                                        margin: "0 auto 30px"
-                                    }
-                                }/>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-0"></div>
-                    </div>
-                    <br/>
-                    <h4 style={
-                            {fontWeight: "600"}
-                        }
-                        class="mars_section_title">BATTLE VR SYSTEM</h4> 
-                        <img src="/img/logo-mars.png"
-                        style={
-                            {
-                                width: "100%"
-                            }
-                        }/>
-                        
-                </div>
-
-            </section> */}
+           
             <section style={
                 { background: "#ffffff" }
             }>
@@ -80,13 +45,7 @@ export default function contact() {
                         }
                     } />
             </section>
-            {/* <section style={
-                {background: "#000000"}
-            }>
-                <div class="container">
-                    <img src="/img/mars_on_off.jpg"/>
-                </div>
-            </section> */}
+            
             <section style={
                 { background: "#ffffff" }
             }>
@@ -283,7 +242,7 @@ export default function contact() {
                     <h2>
                         Game Modes
                     </h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pmvTsTlV7nE?si=mOk7HBaoZKGkk7vf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pmvTsTlV7nE?si=mOk7HBaoZKGkk7vf" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </div>
             </section>
             <section style={
