@@ -30,14 +30,12 @@ export default function contact() {
                     style={
                         {
                             width: "90%",
-                            margin: "0 auto 30px"
+                            margin: "0 auto 10px"
                         }
                     } />
-            </section>
-            <section style={
-                { background: "#f1f1f1" }
-            }>
-                <img src="/img/vr-system-attraction.png"
+                    <br/>
+                    <br/>
+                    <img src="/img/vr-system-attraction.png"
                     style={
                         {
                             width: "100%",
@@ -45,16 +43,46 @@ export default function contact() {
                         }
                     } />
             </section>
-            
+            {/* <section style={
+                { background: "#ffffff" }
+            }>
+                <img src="/img/vr-system-attraction.png"
+                    style={
+                        {
+                            width: "100%",
+                            margin: "0 auto 10px"
+                        }
+                    } />
+            </section>
+            <section style={
+                { background: "#ffffff", marginTop: 0, marginBottom: 1 }
+            }>
+                <img src="/img/why-vr.png"
+                    style={
+                        {
+                            width: "80%",
+                            marginBottom: 2
+                        }
+                    } />
+            </section> */}
             <section style={
                 { background: "#ffffff" }
             }>
+                {/* <div class="container">
+                <img src="/img/vr-system-attraction.png"
+                    style={
+                        {
+                            width: "100%",
+                            margin: "0 auto 10px"
+                        }
+                    } />
+                </div> */} 
                 <div class="container">
                     <img src="/img/why-vr.png"
                         style={
                             {
                                 width: "100%",
-                                margin: "0 auto 30px"
+                                margin: "0 auto 40px"
                             }
                         } />
                 </div>
@@ -64,7 +92,7 @@ export default function contact() {
                             style={
                                 {
                                     width: "100%",
-                                    margin: "0 auto 10px"
+                                    margin: "0 auto 40px"
                                 }
                             } />
                     </div>
@@ -268,14 +296,7 @@ export default function contact() {
                     </div>
 
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-5 col-0"></div>
-                        <img src="/img/pages/service-and-support.png" />
-
-                    </div>
-
-                </div>
+                
                 <div class="container">
                     <div class="row">
                         <div class="col-md-2"></div>
@@ -288,6 +309,14 @@ export default function contact() {
                     <div class="row">
                         <div class="col-md-2"></div>
                         <img src="/img/pages/additional-requirement.png" />
+
+                    </div>
+
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-5 col-0"></div>
+                        <img src="/img/pages/service-and-support.png" />
 
                     </div>
 

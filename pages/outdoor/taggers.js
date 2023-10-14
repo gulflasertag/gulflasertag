@@ -23,205 +23,52 @@ export default function header() {
                     </div>
                 </div>
             </div>
-            <div class="taggerGroup rtl">
-                <div class="taggerGroupHeader">
-                    <div class="container">
-                        <div class="taggerGroupHeaderPreTitle">
-                            تعديلات فالكون</div>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-8">
-                                <div class="taggerGroupHeaderDescription">
-                                    <p>بندقية فالكون ليزر تاغ الأساسية للاستخدام في الظروف القاسية . جسم البندقية المضاد للصدمات يقاوم أي اختبار: مثل الاصطدام والسقوط. الجسم خفيف الوزن يسمح لك باللعب بشكل مريح لفترة طويلة.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="taggerGroupHeaderTitle">
-                                    <h3>
-                                        الإصدار الأساسي
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="taggerGroup">
+                <div class="col-md-12">
+                <img src="/img/arabic/outdoor/outdoor-1.png"
+                    style={
+                        {
+                            width: "70%",
+                            margin: "0 auto 30px"
+                        }
+                    } />
                 </div>
-                <div class="taggerGroupBody">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="taggerGroupSidebar">
-                                    <div class="taggerGroupSidebarItem">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>بلاستيك مقاوم للصدمات من مادة ABS</p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon1.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>طرف مطاطي واقي
-                                                </p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon2.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>أجهزة استشعار لليدين 45 دولار إضافية</p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon3.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>شاشة آي-بي-إس (IPS) متعددة الألوان</p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon4.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>أجهزة مدمجة للاستشعار بالإصابة
-                                                </p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon5.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>دفع الارتداد</p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon6.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>طباعة بكسل</p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon7.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="taggerGroupSidebarItem opacityLess">
-                                        <div class="row">
-                                            <div class="col-xs-8">
-                                                <p>رؤية النقطة الحمراء</p>
-                                            </div>
-                                            <div class="col-xs-4">
-                                                <div class="icon"><img src="/img/taggersidebar-icon8.png" /></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="col-md-9">
-                                <div class="taggerGroupItem">
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <img src="/img/falcon-f1.jpg"
-                                                style={
-                                                    {
-                                                        width: '440px',
-                                                        float: 'right'
-                                                    }
-                                                } />
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="taggerGroupItemName"></div>
-                                            <div class="taggerGroupItemPrice">
-                                                <h4>فالكون إف-1</h4>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <ul>
-                                                    <li>الطول
-                                                        <span>54 سم</span>
-                                                    </li>
-                                                    <li>الوزن
-                                                        <span>850 غرام</span>
-                                                    </li>
-                                                    <li>عمر البطارية
-                                                        <span>
-                                                            24 ساعة</span>
-                                                    </li>
-                                                    <li>تحكم من خلال أنظمة<br />
-                                                        ويندوز و أندرويد
-                                                        <span>+</span>
-                                                    </li>
-                                                </ul>
-
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="taggerGroupItem">
-                                    <div class="row">
-                                        <div class="col-md-8">
-                                            <img src="/img/falcon-f1.jpg" />
-                                            <p class="taggerGroupNotice opacityLess"></p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="taggerGroupItemName"></div>
-                                            <div class="taggerGroupItemPrice">
-                                                <h4>فالكون إف-2</h4>
-                                            </div>
-                                            <div class="taggerGroupItemSpec">
-                                                <ul>
-                                                    <li>الطول
-                                                        <span>950 غرام</span>
-                                                    </li>
-                                                    <li>الوزن
-                                                        <span>
-                                                            66 سم</span>
-                                                    </li>
-                                                    <li>عمر البطارية
-                                                        <span>
-                                                            24 ساعة</span>
-                                                    </li>
-                                                    <li>تحكم من خلال أنظمة<br />
-                                                        ويندوز و أندرويد
-                                                        <span>+</span>
-                                                    </li>
-                                                </ul>
-
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                
+            </div>
+            <div class="taggerGroup">
+            <div class="col-md-12">
+                <img src="/img/arabic/outdoor/outdoor-2.png"
+                    style={
+                        {
+                            width: "70%",
+                            margin: "0 auto 30px"
+                        }
+                    } />
                 </div>
             </div>
+            <div class="taggerGroup">
+                
+                <img src="/img/arabic/outdoor/outdoor-3.png"
+                    style={
+                        {
+                            width: "70%",
+                            margin: "0 auto 3px"
+                        }
+                    } />
+            </div>
+            <div class="taggerGroup">
+                
+                <img src="/img/arabic/outdoor/outdoor-4.png"
+                    style={
+                        {
+                            width: "70%",
+                            margin: "0 auto 3px"
+                        }
+                    } />
+            </div>
             {/* group two */}
-            <hr />
-            <div class="taggerGroup rtl">
+            
+            {/* <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle">تعديلات فالكون</div>
@@ -416,12 +263,12 @@ export default function header() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* premium */}
 
-            <hr />
-            <div class="taggerGroup rtl">
+           
+            {/* <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle">تعديلات فالكون
@@ -617,11 +464,11 @@ export default function header() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* tactical pro */}
-            <hr />
-            <div class="taggerGroup rtl">
+           
+            {/* <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
                         <div class="taggerGroupHeaderPreTitle">تعديلات فالكون</div>
@@ -817,10 +664,28 @@ export default function header() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* tactical guns */}
             <hr />
+            <div class="taggerGroup">
+                <div class="taggerGroupHeader">
+                    <div class="container">
+                        <div class="taggerGroupHeaderPreTitle">Falcon Lux</div>
+                    </div>
+                </div>
+                <div class="taggerGroupBody">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                            <img src="/img/pages/falcon-lux.png"/>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
             {/* <div class="taggerGroup rtl">
                 <div class="taggerGroupHeader">
                     <div class="container">
