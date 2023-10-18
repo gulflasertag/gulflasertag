@@ -21,7 +21,9 @@ export default function contact() {
 
     function onSubmitForm(values) {
         values.preventDefault();
-
+        //const data = new FormData(values.target);
+        //const currentDiv2 = document.getElementById("formMsg");
+           // currentDiv2.innerHTML = "<p style='color:red'>Hello! </p>"+ data.get('email');
           emailjs.sendForm('service_9unfc3q', 'template_5rikh2d', values.target, 'a-1OEpzmL8klM1UFh').then((result) => {
             console.log(result.text);
             const currentDiv = document.getElementById("formMsg");

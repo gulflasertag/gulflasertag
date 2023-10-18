@@ -21,7 +21,7 @@ export default function header() {
                     </div>
                 </div>
             </div>
-            <section class="headbandSec sceneSec rtl"
+            <section class="headbandSec sceneSec"
                 style={
                     {background: "#0b0b0b"}
             }>
@@ -106,6 +106,7 @@ export default function header() {
                     </div>
                 </div>
  */}
+   
    <img src="/img/arabic/outdoor/outdoor-4.png"
                     style={
                         {
@@ -113,6 +114,7 @@ export default function header() {
                             margin: "0 auto 3px"
                         }
                     } />
+   
             </section>
 
             {/* section 21 */}

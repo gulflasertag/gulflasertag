@@ -272,7 +272,7 @@ export default function Home() {
                 </div>
                 <div class="container">
 
-                    <img src="/img/logo-mars.png"
+                    <img src="/img/arabic/vion-arabic-1.png"
                         style={
                             {
                                 width: "100%",
