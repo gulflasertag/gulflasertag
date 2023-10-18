@@ -279,7 +279,7 @@ export default function Home() {
                                 margin: "0 auto 15px"
                             }
                         } />
-                    <Link href="/en/mars" class="btn btn-primary btnMain btnMainWhite">
+                    <Link href="/mars" class="btn btn-primary btnMain btnMainWhite">
                     اقرأ أكثر
                     </Link>
                 </div>
