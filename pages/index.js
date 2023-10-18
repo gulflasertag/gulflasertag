@@ -262,50 +262,29 @@ export default function Home() {
                     </Link>
                 </div>
             </section>
-            <section class="indoorSec rtl">
-                <div class="shape shape-top" data-negative="true">
+            <section class="airBunker" style={
+                { background: "#d22e2e" }
+            }>
+                <div class="shape shape-bottom" data-negative="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                         <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
                     </svg>
                 </div>
                 <div class="container">
 
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-12">
-                            <img src="/img/logo-mars.png" class="nortlimg"/>
-                        </div>
-
-                        <div class="col-md-6 col-sm-6 col-12">
-                            {/* <img src="/img/logo-mars.png" class="nortlimg"
-                                style={
-                                    {maxWidth: "100px"}
-                            }></img> */}
-                            <br/>
-                            <br/>
-                            <h2 class="mars_section_title">
-                                <span class="mars_color">واقع افتراضى</span>&nbsp; جذاب يتخطى الحدود</h2>
-                            <p class="secDescription"
-                                style={
-                                    {fontSize: "25px"}
-                            }>
-                                كل ما تحتاج ‏إليه ‏بندقية و سماعة الراس
-                            </p>
-
-
-                            <br/>
-                            <br/>
-                            <br/>
-                            {/* <Link href="/mars" class="btn btn-primary btnMain btnMainWhite">
-                                اقرأ أكثر
-                            </Link> */}
-                        </div>
-                    </div>
+                    <img src="/img/logo-mars.png"
+                        style={
+                            {
+                                width: "100%",
+                                margin: "0 auto 15px"
+                            }
+                        } />
+                    <Link href="/en/mars" class="btn btn-primary btnMain btnMainWhite">
+                    اقرأ أكثر
+                    </Link>
                 </div>
-                {/* <div class="shape shape-bottom" data-negative="true">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
-                        <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
-                    </svg>
-                </div> */} </section>
+            </section>
+            
 
             <section class="preFooter rtl" id="services">
                 {/* <div class="background-overlay"></div> */}

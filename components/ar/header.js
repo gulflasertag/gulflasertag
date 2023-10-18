@@ -33,7 +33,7 @@ export default function header() {
                                     </li>
                                     <li>
                                         <Link href="/mars" title="mars">
-                                            الـمـريـخ لـلـواقـع الافـتـراضي
+                                        فيون للواقع الافتراضي
                                         </Link>
                                     </li>
                                     <li>

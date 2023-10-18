@@ -25,7 +25,7 @@ export default function header() {
                 style={
                     {background: "#0b0b0b"}
             }>
-                <div class="container">
+                {/* <div class="container">
                     <div class="taggerGroupHeaderPreTitle">الملحقات</div>
                     <div class="row">
 
@@ -105,8 +105,14 @@ export default function header() {
 
                     </div>
                 </div>
-
-
+ */}
+   <img src="/img/arabic/outdoor/outdoor-4.png"
+                    style={
+                        {
+                            width: "80%",
+                            margin: "0 auto 3px"
+                        }
+                    } />
             </section>
 
             {/* section 21 */}

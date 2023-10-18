@@ -56,7 +56,7 @@ export default function header() {
                         }
                     } />
             </div>
-            <div class="taggerGroup">
+            {/* <div class="taggerGroup">
                 
                 <img src="/img/arabic/outdoor/outdoor-4.png"
                     style={
@@ -65,7 +65,7 @@ export default function header() {
                             margin: "0 auto 3px"
                         }
                     } />
-            </div>
+            </div> */}
             {/* group two */}
             
             {/* <div class="taggerGroup rtl">

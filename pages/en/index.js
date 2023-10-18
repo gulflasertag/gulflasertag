@@ -11,25 +11,25 @@ import {
     GiAbstract092,
     GiDiscussion
 } from "react-icons/gi";
-import {FaVideo, FaGamepad} from "react-icons/fa"
-import {MdChat} from "react-icons/md";
+import { FaVideo, FaGamepad } from "react-icons/fa"
+import { MdChat } from "react-icons/md";
 
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {useEffect} from 'react';
+import { useEffect } from 'react';
 
 
 export default function Home() {
     useEffect(() => {
-        AOS.init({duration: 2000});
+        AOS.init({ duration: 2000 });
     }, []);
     return (
         <Layout>
             <div class="language">
                 <Link href="/">
 
-                    <MdChat/>العربيــة
+                    <MdChat />العربيــة
                 </Link>
             </div>
             <section class="heroBanner">
@@ -45,8 +45,8 @@ export default function Home() {
                                 &nbsp;LaserTag</h2>
                             <p class="secDescription"
                                 style={
-                                    {"margin-bottom": "15px"}
-                            }>
+                                    { "margin-bottom": "15px" }
+                                }>
                                 An innovative laser tag equipment that provides lifelong business support at every stage from consulting on the choice of game sets to opening a laser tag center with its further promotion..
                             </p>
 
@@ -72,7 +72,7 @@ export default function Home() {
 
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <div class="icon"><GiAk47U/></div>
+                                            <div class="icon"><GiAk47U /></div>
                                         </div>
                                         <div class="col-md-10">
                                             <h4>TAGGERS</h4>
@@ -87,7 +87,7 @@ export default function Home() {
 
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <div class="icon"><GiAbstract002/></div>
+                                            <div class="icon"><GiAbstract002 /></div>
                                         </div>
                                         <div class="col-md-10">
                                             <h4>ADDITIONAL DEVICES WITH TAGGERS</h4>
@@ -102,7 +102,7 @@ export default function Home() {
 
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <div class="icon"><GiAfterburn/></div>
+                                            <div class="icon"><GiAfterburn /></div>
                                         </div>
                                         <div class="col-md-10">
                                             <h4>GAME SCENARIO DEVICES</h4>
@@ -114,7 +114,7 @@ export default function Home() {
 
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/laser.png" alt="Outdoor Laser Tag System"/>
+                            <img src="img/laser.png" alt="Outdoor Laser Tag System" />
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
 
@@ -123,7 +123,7 @@ export default function Home() {
 
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <div class="icon"><GiAbstract092/></div>
+                                            <div class="icon"><GiAbstract092 /></div>
                                         </div>
                                         <div class="col-md-10">
                                             <h4>SOFTWARES</h4>
@@ -138,7 +138,7 @@ export default function Home() {
 
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <div class="icon"><GiDiscussion/></div>
+                                            <div class="icon"><GiDiscussion /></div>
                                         </div>
                                         <div class="col-md-10">
                                             <h4>SERVICES PROVIDED</h4>
@@ -171,15 +171,15 @@ export default function Home() {
                     <div class="row">
                         <div class="col-md-6 col-sm-6 col-12">
                             <h2 class="sectionHeading">Indoor Galaxy Eclipse</h2>
-                            <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression. 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Unique modes that make players superheroes.</p>
-                            <hr/>
+                            <p class="secDescription">An ambitious design that inspires action. A safe game in which there is no place for aggression.
+                                Unique modes that make players superheroes.</p>
+                            <hr />
                             <div class="indoorSec_item">
                                 <Link href="/en/indoor/#video">
 
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <div class="icon"><FaVideo/></div>
+                                            <div class="icon"><FaVideo /></div>
                                         </div>
                                         <div class="col-md-10">
 
@@ -197,7 +197,7 @@ export default function Home() {
 
                                     <div class="row">
                                         <div class="col-md-2">
-                                            <div class="icon"><FaGamepad/></div>
+                                            <div class="icon"><FaGamepad /></div>
                                         </div>
                                         <div class="col-md-10">
                                             <h4>Game Scenario</h4>
@@ -208,14 +208,14 @@ export default function Home() {
                                 </Link>
                             </div>
 
-                            <br/>
-                            <br/>
+                            <br />
+                            <br />
                             <Link href="/en/indoor" class="btn btn-primary btnMain btnMainWhite">
                                 View More
                             </Link>
                         </div>
                         <div class="col-md-6 col-sm-6 col-12">
-                            <img src="img/galaxy-kit.png" alt="Indoor Galaxy Eclipse"/>
+                            <img src="img/galaxy-kit.png" alt="Indoor Galaxy Eclipse" />
                         </div>
 
                     </div>
@@ -234,13 +234,13 @@ export default function Home() {
                     <p class="subheading">Paintball, Laser tag, Archeritag & Nerf drone racing.</p>
                     <div class="row">
                         <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/airbunker2.png" alt="Airbunker"/>
+                            <img src="img/airbunker2.png" alt="Airbunker" />
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/airbunker.jpeg" alt="Airbunker"/>
+                            <img src="img/airbunker.jpeg" alt="Airbunker" />
                         </div>
                         <div class="col-md-4 col-sm-4 col-12">
-                            <img src="img/airbunker6.png" alt="Airbunker"/>
+                            <img src="img/airbunker6.png" alt="Airbunker" />
                         </div>
                     </div>
 
@@ -248,49 +248,38 @@ export default function Home() {
                         Read More
                     </Link>
                 </div>
+
             </section>
-            <section class="indoorSec">
-                <div class="shape shape-top" data-negative="true">
+            <section class="airBunker" style={
+                { background: "#d22e2e" }
+            }>
+                <div class="shape shape-bottom" data-negative="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                         <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
                     </svg>
                 </div>
                 <div class="container">
 
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-12">
-                            {/* <img src="/img/logo-mars.png"
-                                style={
-                                    {maxWidth: "100px"}
-                            }></img> */}
-                            <br/>
-                            <br/>
-                            <h2 class="mars_section_title">
-                                <span class="mars_color">VR attraction</span>&nbsp;for your business.</h2>
-                            <p class="secDescription">
-                                Forget the limits, all you need is a blaster and a headset.
-                            </p>
-
-
-                            <br/>
-                            <br/>
-                            <br/>
-                            {/* <Link href="/en/mars" class="btn btn-primary btnMain btnMainWhite">
-                                View More
-                            </Link> */}
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-12">
-                            <img src="/img/logo-mars.png"/>
-                        </div>
-
-                    </div>
+                    <img src="/img/logo-mars.png"
+                        style={
+                            {
+                                width: "100%",
+                                margin: "0 auto 15px"
+                            }
+                        } />
+                    <Link href="/en/mars" class="btn btn-primary btnMain btnMainWhite">
+                        View More
+                    </Link>
                 </div>
-                {/* <div class="shape shape-bottom" data-negative="true">
+            </section>
+            {/* <section class="indoorSec">
+                <div class="shape shape-top" data-negative="true">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
                         <path class="shape-fill" d="M500.2,94.7L0,0v100h1000V0L500.2,94.7z"></path>
                     </svg>
-                </div> */} 
-            </section>
+                </div>
+                
+            </section> */}
 
             <section class="preFooter" id="services">
                 {/* <div class="background-overlay"></div> */}
