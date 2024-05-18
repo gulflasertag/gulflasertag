@@ -146,7 +146,7 @@ export default function contact() {
 
                             <p>
                                 <b>United Arab Emirates:</b><br/>
-                                +971558349291
+                                +971588349291
                                 <br/>
                                 <br/>
                                 <b>Estonia:</b>
