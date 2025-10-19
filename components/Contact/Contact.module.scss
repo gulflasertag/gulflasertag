@@ -1,0 +1,1006 @@
+.contactMain {
+  width: 100%;
+  height: auto;
+}
+
+.contactContainer {
+  padding: 110px 40px 40px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.contactSub {
+  width: 100%;
+}
+
+.headingDiv {
+  h3 {
+    color: #9f1c20;
+    text-align: center;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 10px;
+    color: #636363;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.44px;
+  }
+}
+
+.formMain {
+  width: 100%;
+  height: auto;
+  background: #040707;
+  // padding: 120px 40px;
+}
+
+.formTopStroke {
+  height: 44px;
+  width: 100%;
+  background: #9f1c20;
+  clip-path: polygon(
+    100% 0%,
+    100% 4.598%,
+    100% 100%,
+    0% 100%,
+    0% 94.318%,
+    67.083% 95.455%,
+    69.896% 0%,
+    100% 0%
+  );
+  margin-bottom: -1px;
+}
+
+.formContainer {
+  // position: relative;
+  height: auto;
+  width: 100%;
+  background: #040707;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+  gap: 80px;
+}
+
+.formOverlay {
+  // position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background: linear-gradient(265deg, rgba(0, 0, 0, 0.4) 22.74%, #000 59.47%);
+  // z-index: 3;
+}
+
+// .formBg {
+//   position: absolute;
+//   top: 0px;
+//   right: 0px;
+//   width: 61.2vw;
+//   height: 100%;
+//   background: #000;
+//   overflow: hidden;
+//   img {
+//     position: relative;
+//     top: 10px;
+//     display: block;
+//     height: 100%;
+//     width: 100%;
+//     object-fit: cover;
+//   }
+// }
+
+.fornSub {
+  // max-width: 1640px;
+  // margin: 0 auto;
+  // padding: 120px 40px;
+  // position: relative;
+  // z-index: 4;
+  width: 100%;
+  max-width: 811px;
+}
+
+.gridItemImgWrapper {
+  clip-path: polygon(
+    97.372% 0%,
+    12.694% 0%,
+    0.034% 14.772%,
+    0.034% 100%,
+    66.41% 100%,
+    68.46% 100%,
+    100% 100%,
+    100% 37.886%,
+    97.372% 31.17%,
+    97.372% 0%
+  );
+  background: #9f1c20;
+  height: fit-content;
+  width: fit-content;
+  padding-left: 11px;
+}
+
+.gridItemImg {
+  clip-path: polygon(
+    98.103% 0%,
+    12.817% 0%,
+    0.033% 15.535%,
+    0.033% 97.393%,
+    63.161% 97.393%,
+    67.131% 100%,
+    100% 100%,
+    100% 34.109%,
+    98.103% 31.144%,
+    98.103% 0%
+  );
+
+  img {
+    min-width: 673px;
+    max-width: 673px;
+    min-height: 533px;
+    max-height: 533px;
+    object-fit: cover;
+    display: block;
+  }
+}
+///formmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+
+.form {
+  width: 100%;
+  // max-width: 811px;
+}
+
+.contactForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.formLabel {
+  color: #e6e6e6;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.formInputWrapper {
+  width: 100%;
+  padding: 1px;
+  background-color: #636363;
+
+  height: fit-content;
+  clip-path: polygon(
+    99.239% 2.173%,
+    99.239% 22.413%,
+    100% 27.388%,
+    100% 100%,
+    93.192% 100%,
+    91.923% 93.368%,
+    0.254% 93.368%,
+    0.254% 22.433%,
+    3.603% 2.173%,
+    99.239% 2.173%
+  );
+}
+
+.textareaWrapper {
+  display: inline-block;
+  padding: 1px;
+  background: #636363;
+  clip-path: polygon(
+    99.629% 0.696%,
+    99.629% 10.883%,
+    100% 13.386%,
+    100% 100%,
+    81.121% 100%,
+    80.504% 96.662%,
+    0.062% 96.662%,
+    0.062% 10.892%,
+    1.692% 0.696%,
+    99.629% 0.696%
+  );
+}
+
+.formInput,
+.formTextarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: #040707;
+  display: block;
+  font-family: inherit;
+  color: #636363;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+
+  &::placeholder {
+    color: #636363;
+    font-family: inherit;
+  }
+}
+
+.formInput {
+  padding: 18px 15px;
+  clip-path: polygon(
+    99.239% 2.173%,
+    99.239% 22.413%,
+    100% 27.388%,
+    100% 100%,
+    93.192% 100%,
+    91.923% 93.368%,
+    0.254% 93.368%,
+    0.254% 22.433%,
+    3.603% 2.173%,
+    99.239% 2.173%
+  );
+}
+
+.formTextarea {
+  background: #040707;
+  padding: 14px 15px;
+  height: 120px;
+  clip-path: polygon(
+    99.629% 0.696%,
+    99.629% 10.883%,
+    100% 13.386%,
+    100% 100%,
+    81.121% 100%,
+    80.504% 96.662%,
+    0.062% 96.662%,
+    0.062% 10.892%,
+    1.692% 0.696%,
+    99.629% 0.696%
+  );
+
+  resize: none;
+}
+
+.errorMessage {
+  color: #ef4444;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 0px;
+}
+
+.readmoreBtnWrapper {
+  margin-top: 10px;
+  width: fit-content;
+  background: #fff;
+  padding: 1px 1.1px;
+  transition: all 0.6s ease;
+  clip-path: polygon(
+    98.522% 0.917%,
+    7.143% 0.917%,
+    0.493% 23.853%,
+    0.493% 92.661%,
+    83.99% 92.661%,
+    86.453% 100%,
+    100% 100%,
+    100% 29.358%,
+    98.522% 23.853%,
+    98.522% 0.917%
+  );
+
+  &:hover {
+    background: #9f1c20;
+    .readmoreBtn {
+      background: #fff;
+      transition: all 0.6s ease;
+    }
+    .readmoreBtnContent {
+      p {
+        transition: all 0.6s ease;
+        color: #9f1c20;
+      }
+      transition: all 0.6s ease;
+      svg {
+        path {
+          stroke: #9f1c20;
+          transition: all 0.6s ease;
+        }
+      }
+    }
+  }
+}
+.readmoreBtn {
+  transition: all 0.6s ease;
+  padding: 14px 54px 16px 54px;
+
+  background: #9f1c20;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  clip-path: polygon(
+    98.522% 0.917%,
+    7.143% 0.917%,
+    0.493% 23.853%,
+    0.493% 92.661%,
+    83.99% 92.661%,
+    86.453% 100%,
+    100% 100%,
+    100% 29.358%,
+    98.522% 23.853%,
+    98.522% 0.917%
+  );
+}
+.readmoreBtnContent {
+  transition: all 0.6s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  p {
+    transition: all 0.6s ease;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+}
+
+.readmoreBtnContent svg {
+  max-width: 18px;
+  path {
+    transition: all 0.6s ease;
+  }
+}
+
+.formBottomStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    0% 100%,
+    0% 95.402%,
+    0% 0%,
+    100% 0%,
+    100% 5.682%,
+    32.917% 4.545%,
+    30.104% 100%,
+    0% 100%
+  );
+  margin-top: -1px;
+  background: #9f1c20;
+}
+
+.contctDetails {
+  padding: 120px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.contactDetailsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 70px;
+}
+
+.contactDetailsGridItem {
+  display: flex;
+  gap: 20px;
+}
+
+.gridItemsDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactDetailHeading {
+  h4 {
+    color: #9f1c20;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+}
+
+.headingIcon {
+  img {
+    display: block;
+    max-width: 26px;
+  }
+}
+
+.contactPara {
+  color: #1e1e1e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+
+  span {
+    display: block;
+  }
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.socialIcon {
+  img {
+    cursor: pointer;
+    display: block;
+    max-width: 42px;
+  }
+}
+
+.rtl {
+  .contactContainer {
+    direction: rtl;
+  }
+  .form {
+    direction: rtl;
+  }
+
+  .readmoreBtnContent svg {
+    transform: rotate(180deg);
+  }
+
+  .formInput,
+  .formTextarea {
+    text-align: right;
+  }
+
+  .contctDetails {
+    direction: rtl;
+  }
+}
+
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+
+@media only screen and (max-width: 1599px) {
+  .contactContainer {
+    padding: 100px 40px 40px 40px;
+  }
+  .formContainer {
+    gap: 60px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  .formTopStroke,
+  .formBottomStroke {
+    height: 40px;
+  }
+
+  .fornSub {
+    // padding: 120px 40px;
+  }
+
+  .form {
+    // max-width: 47.3vw;
+  }
+
+  .formLabel {
+    font-size: 16px;
+  }
+  .gridItemImg {
+    img {
+      min-width: 633px;
+      max-width: 633px;
+      min-height: 493px;
+      max-height: 493px;
+    }
+  }
+  .formInput {
+    padding: 18px 15px;
+    clip-path: polygon(
+      99.239% 2.173%,
+      99.239% 22.413%,
+      100% 27.388%,
+      100% 100%,
+      93.192% 100%,
+      91.923% 93.368%,
+      0.254% 93.368%,
+      0.254% 22.433%,
+      3.603% 2.173%,
+      99.239% 2.173%
+    );
+  }
+
+  .readmoreBtn {
+    padding: 12px 46px 14px 46px;
+  }
+
+  .readmoreBtnContent {
+    p {
+      font-size: 18px;
+      // line-height: 30px;
+    }
+  }
+
+  .readmoreBtnContent svg {
+    max-width: 16px;
+  }
+
+  .contctDetails {
+    padding: 120px 40px;
+  }
+
+  .contactDetailsGrid {
+    gap: 60px;
+  }
+
+  .contactDetailsGridItem {
+    gap: 20px;
+  }
+
+  .gridItemsDetails {
+    gap: 20px;
+  }
+
+  .contactDetailHeading {
+    h4 {
+      font-size: 18px;
+    }
+  }
+
+  .headingIcon {
+    img {
+      max-width: 24px;
+    }
+  }
+
+  .contactPara {
+    font-size: 18px;
+  }
+
+  .socials {
+    gap: 16px;
+  }
+
+  .socialIcon {
+    img {
+      max-width: 42px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .contactContainer {
+    padding: 80px 40px 40px 40px;
+  }
+  .formContainer {
+    gap: 50px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  .formTopStroke,
+  .formBottomStroke {
+    height: 38px;
+  }
+
+  .fornSub {
+    // padding: 100px 40px;
+  }
+  .gridItemImg {
+    img {
+      min-width: 543px;
+      max-width: 543px;
+      min-height: 403px;
+      max-height: 403px;
+    }
+  }
+  .form {
+    // max-width: 45.5vw;
+  }
+
+  .readmoreBtn {
+    padding: 12px 40px 12px 40px;
+  }
+
+  .readmoreBtnContent {
+    p {
+      font-size: 16px;
+      // line-height: 28px;
+    }
+  }
+
+  .formLabel {
+    font-size: 16px;
+  }
+
+  .formInput {
+    padding: 17px 15px;
+  }
+
+  .formTextarea {
+    padding: 14px 15px;
+  }
+
+  .contctDetails {
+    padding: 100px 40px;
+  }
+
+  .contactDetailsGrid {
+    gap: 40px;
+  }
+
+  .contactDetailsGridItem {
+    gap: 18px;
+  }
+
+  .contactDetailHeading {
+    h4 {
+      font-size: 16px;
+    }
+  }
+
+  .headingIcon {
+    img {
+      max-width: 22px;
+    }
+  }
+
+  .contactPara {
+    font-size: 16px;
+  }
+
+  .socials {
+    gap: 16px;
+  }
+
+  .socialIcon {
+    img {
+      max-width: 38px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .contactContainer {
+    padding: 60px 30px 40px 30px;
+  }
+  .formContainer {
+    padding: 120px 30px;
+    gap: 40px;
+    flex-direction: column-reverse;
+  }
+  .headingDiv {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  .formTopStroke,
+  .formBottomStroke {
+    height: 36px;
+  }
+
+  .fornSub {
+    // padding: 80px 30px;
+  }
+  // .gridItemImg {
+  //   img {
+  //     min-width: 493px;
+  //     max-width: 493px;
+  //     min-height: 353px;
+  //     max-height: 353px;
+  //   }
+  // }
+  .form {
+    // max-width: 45vw;
+  }
+
+  .readmoreBtn {
+    padding: 12px 36px 12px 36px;
+  }
+
+  .getInTouchContent {
+    min-width: 431px;
+  }
+
+  .form {
+    min-width: 480px;
+  }
+
+  .contctDetails {
+    padding: 80px 30px;
+  }
+
+  .contactDetailsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .headingDiv {
+    h3 {
+      font-size: 28px;
+      line-height: 46px;
+    }
+  }
+  .gridItemImg {
+    img {
+      min-width: 530px;
+      max-width: 530px;
+      min-height: 419px;
+      max-height: 419px;
+    }
+  }
+  .formTopStroke,
+  .formBottomStroke {
+    height: 32px;
+  }
+
+  .formInput {
+    padding: 18px 15px;
+  }
+  .formContainer {
+    padding: 100px 30px;
+  }
+  .readmoreBtn {
+    padding: 12px 32px 12px 32px;
+  }
+
+  .contactDetailsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contactDetailsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 100px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contactContainer {
+    padding: 60px 20px 40px 20px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 24px;
+      line-height: 42px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 23px;
+    }
+  }
+
+  .formTopStroke,
+  .formBottomStroke {
+    height: 28px;
+  }
+  .formContainer {
+    padding: 80px 20px;
+  }
+  .fornSub {
+    // padding: 80px 20px;
+  }
+  .gridItemImg {
+    img {
+      min-width: 500px;
+      max-width: 500px;
+      min-height: 395px;
+      max-height: 395px;
+    }
+  }
+  .form {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  .readmoreBtnContent {
+    p {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .formLabel {
+    font-size: 15px;
+  }
+
+  .formInput,
+  .formTextarea {
+    font-size: 15px;
+    line-height: 29px;
+  }
+
+  .formRow {
+    gap: 20px;
+  }
+
+  .readmoreBtn {
+    padding: 12px 28px 12px 28px;
+  }
+
+  .contactDetailsGridItem {
+    gap: 16px;
+  }
+
+  .contactDetailHeading {
+    h4 {
+      font-size: 15px;
+    }
+  }
+
+  .headingIcon {
+    img {
+      max-width: 20px;
+    }
+  }
+
+  .contactPara {
+    font-size: 15px;
+  }
+
+  .socials {
+    gap: 16px;
+  }
+
+  .socialIcon {
+    img {
+      max-width: 36px;
+    }
+  }
+
+  .contctDetails {
+    padding: 80px 20px;
+  }
+
+  .contactDetailsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 40px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .headingDiv {
+    h3 {
+      font-size: 22px;
+      line-height: 40px;
+    }
+  }
+
+  .formTopStroke,
+  .formBottomStroke {
+    height: 26px;
+  }
+
+  .readmoreBtn {
+    padding: 12px 24px 12px 24px;
+  }
+
+  .formTextarea {
+    padding: 14px 15px;
+    height: 100px;
+  }
+
+  .formRow {
+    grid-template-columns: 1fr;
+  }
+
+  .formOverlay {
+    display: none;
+  }
+
+  .gridItemImg {
+    img {
+      min-width: 428px;
+      max-width: 428px;
+      min-height: 338px;
+      max-height: 338px;
+    }
+  }
+
+  .contactDetailsGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 60px;
+    place-items: center;
+  }
+
+  .headingIcon {
+    display: none;
+  }
+
+  .gridItemsDetails {
+    text-align: center;
+  }
+
+  .socials {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .formTopStroke,
+  .formBottomStroke {
+    height: 24px;
+  }
+  .gridItemImg {
+    img {
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 100%;
+      max-height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .formTopStroke,
+  .formBottomStroke {
+    height: 22px;
+  }
+}

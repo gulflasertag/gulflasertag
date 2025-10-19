@@ -1,0 +1,1869 @@
+.IndoorGalaxyMain {
+  width: 100%;
+  height: auto;
+}
+
+.IndoorGalaxyContainer {
+  max-width: 1640px;
+  padding: 120px 40px 100px 40px;
+  margin: 0 auto;
+}
+
+.IndoorGalaxySub {
+  width: 100%;
+}
+
+.headingDiv {
+  p {
+    color: #636363;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+  }
+}
+
+//game kit
+
+.gameKitMain {
+  width: 100%;
+  height: auto;
+}
+
+.gameKitTopStroke {
+  height: 44px;
+  width: 100%;
+  background: #9f1c20;
+
+  clip-path: polygon(
+    100% 0%,
+    100% 4.598%,
+    100% 100%,
+    0% 100%,
+    0% 94.318%,
+    67.083% 95.455%,
+    69.896% 0%,
+    100% 0%
+  );
+  margin-bottom: -1px;
+}
+
+.gameKitContainer {
+  background: #000;
+  width: 100%;
+  height: auto;
+}
+
+.gameKitSub {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 100px 40px 67px 40px;
+}
+
+.gameKitTop {
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gameKitContent {
+  h3 {
+    color: #fff;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 830px;
+    margin-top: 10px;
+    color: #e6e6e6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.gameKitImg {
+  max-width: 670px;
+  flex: 1;
+  img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+//features
+
+.features {
+  margin-top: 40px;
+}
+
+.featureHeading {
+  h3 {
+    color: #fff;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.52px;
+    text-transform: uppercase;
+  }
+}
+
+.featuresGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.featuresGridItem {
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  h4 {
+    color: #9f1c20;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 16px;
+    color: #e6e6e6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.36px;
+  }
+}
+
+//choose your superpower
+
+.powerMain {
+  width: 100%;
+  height: auto;
+  background-image: url("/images/powerbg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.powerContainer {
+  padding: 120px 40px 235px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.powerSub {
+  width: 100%;
+}
+
+.powerHeading {
+  h3 {
+    color: #9f1c20;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 800px;
+    margin-top: 10px;
+    color: #636363;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.powerGrid {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  // gap: 63px;
+  gap: 50px;
+}
+
+.powerGridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.powerImgBtn {
+  width: 154px;
+  height: 141px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    .powerImgBase {
+      transition: all 0.3s ease;
+      height: 135px;
+    }
+
+    .healer {
+      transition: all 0.3s ease;
+      box-shadow: 0 0 25px 3px rgba(255, 0, 0, 0.4) inset,
+        2px -2px 12px 1px rgba(255, 0, 0, 0.3) inset,
+        -2px 2px 12px 1px rgba(255, 0, 0, 0.3) inset,
+        2px 2px 12px 1px rgba(255, 0, 0, 0.3) inset,
+        -2px -2px 12px 1px rgba(255, 0, 0, 0.3) inset;
+    }
+
+    .ninja {
+      transition: all 0.3s ease;
+      box-shadow: 0 0 25px 3px rgba(0, 165, 255, 0.4) inset,
+        2px -2px 12px 1px rgba(0, 165, 255, 0.3) inset,
+        -2px 2px 12px 1px rgba(0, 165, 255, 0.3) inset,
+        2px 2px 12px 1px rgba(0, 165, 255, 0.3) inset,
+        -2px -2px 12px 1px rgba(0, 165, 255, 0.3) inset;
+    }
+
+    .shield {
+      transition: all 0.3s ease;
+      box-shadow: 0 0 25px 3px rgba(0, 255, 0, 0.4) inset,
+        2px -2px 12px 1px rgba(0, 255, 0, 0.3) inset,
+        -2px 2px 12px 1px rgba(0, 255, 0, 0.3) inset,
+        2px 2px 12px 1px rgba(0, 255, 0, 0.3) inset,
+        -2px -2px 12px 1px rgba(0, 255, 0, 0.3) inset;
+    }
+
+    .bomberman {
+      transition: all 0.3s ease;
+      box-shadow: 0 0 25px 3px rgba(255, 230, 0, 0.4) inset,
+        2px -2px 12px 1px rgba(255, 230, 0, 0.3) inset,
+        -2px 2px 12px 1px rgba(255, 230, 0, 0.3) inset,
+        2px 2px 12px 1px rgba(255, 230, 0, 0.3) inset,
+        -2px -2px 12px 1px rgba(255, 230, 0, 0.3) inset;
+    }
+
+    .maxdamage {
+      transition: all 0.3s ease;
+      box-shadow: 0 0 25px 3px rgba(255, 0, 0, 0.4) inset,
+        2px -2px 12px 1px rgba(255, 0, 0, 0.3) inset,
+        -2px 2px 12px 1px rgba(255, 0, 0, 0.3) inset,
+        2px 2px 12px 1px rgba(255, 0, 0, 0.3) inset,
+        -2px -2px 12px 1px rgba(255, 0, 0, 0.3) inset;
+    }
+  }
+}
+
+.powerImgBase {
+  border-radius: 14px;
+  background: #333;
+  width: 100%;
+  height: 141px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.powerImgMiddle {
+  transition: all 0.3s ease;
+  border-radius: 14px;
+  width: 100%;
+  height: 131px;
+  background: #000;
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.05) inset,
+    0 10px 15px 0 rgba(255, 255, 255, 0.3) inset,
+    -10px 0 15px 0 rgba(255, 255, 255, 0.3) inset;
+  border: 7px solid #1e1e1e;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+  }
+}
+
+.powerGridItemContent {
+  h4 {
+    color: #9f1c20;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 14px;
+    color: #636363;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.4px;
+  }
+}
+
+.powerStroke {
+  height: 44px;
+  width: 100%;
+  background: #9f1c20;
+  clip-path: polygon(
+    100% 0%,
+    100% 4.598%,
+    100% 100%,
+    0% 100%,
+    0% 94.318%,
+    67.083% 95.455%,
+    69.896% 0%,
+    100% 0%
+  );
+  margin-bottom: -1px;
+}
+
+//dynamic game scenario devices
+
+.dynamicgameMain {
+  width: 100%;
+  height: auto;
+  background: #040707;
+}
+
+.dynamicgameContainer {
+  padding: 112px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.dynamicgameSub {
+  width: 100%;
+}
+
+.dynamicgameHeading {
+  h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+
+    span {
+      color: #9f1c20;
+    }
+  }
+
+  P {
+    max-width: 1440px;
+    margin: 14px auto 0px;
+    color: #d9dada;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.dynamicgameGrid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.dynamicgameGridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.dynamicgameOverlayOne,
+.dynamicgameOverlayTwo,
+.dynamicgameOverlayThree {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #000000;
+  opacity: 0.65;
+  z-index: 3;
+}
+
+/* Default state: first overlay none, second and third overlays block */
+.dynamicgameOverlayOne {
+  display: none;
+}
+.dynamicgameOverlayTwo {
+  display: block;
+}
+.dynamicgameOverlayThree {
+  display: block;
+}
+
+/* When hovering on first item: first overlay stays none, others become block */
+.dynamicgameGridItem:nth-child(1):hover .dynamicgameOverlayOne {
+  display: none;
+}
+.dynamicgameGrid:has(.dynamicgameGridItem:nth-child(1):hover)
+  .dynamicgameOverlayTwo {
+  display: block;
+}
+.dynamicgameGrid:has(.dynamicgameGridItem:nth-child(1):hover)
+  .dynamicgameOverlayThree {
+  display: block;
+}
+
+/* When hovering on second item: second overlay becomes none, others become block */
+.dynamicgameGridItem:nth-child(2):hover .dynamicgameOverlayTwo {
+  display: none;
+}
+.dynamicgameGrid:has(.dynamicgameGridItem:nth-child(2):hover)
+  .dynamicgameOverlayOne {
+  display: block;
+}
+.dynamicgameGrid:has(.dynamicgameGridItem:nth-child(2):hover)
+  .dynamicgameOverlayThree {
+  display: block;
+}
+
+/* When hovering on third item: third overlay becomes none, others become block */
+.dynamicgameGridItem:nth-child(3):hover .dynamicgameOverlayThree {
+  display: none;
+}
+.dynamicgameGrid:has(.dynamicgameGridItem:nth-child(3):hover)
+  .dynamicgameOverlayOne {
+  display: block;
+}
+.dynamicgameGrid:has(.dynamicgameGridItem:nth-child(3):hover)
+  .dynamicgameOverlayTwo {
+  display: block;
+}
+
+.dynamicgameImg {
+  max-height: 429px;
+
+  clip-path: polygon(
+    100% 100%,
+    /* (766.5, 430.5) */ 68.4% 100%,
+    /* (524.694, 430.5) */ 68.4% 99.99%,
+    /* (524.633, 430.484) */ 64.4% 98%,
+    /* (493.709, 422.519) */ 0.07% 98%,
+    /* (0.5, 422.519) */ 0.07% 11.2%,
+    /* (0.5, 48.249) */ 0.1% 11.16%,
+    /* (0.785156, 48.1133) */ 13.1% 0.13%,
+    /* (100.574, 0.548828) */ 13.13% 0.12%,
+    /* (100.677, 0.5) */ 98% 0.12%,
+    /* (751.69, 0.5) */ 98% 22.3%,
+    /* (751.69, 96.0781) */ 99.8% 24.4%,
+    /* (766.262, 105.009) */ 100% 24.4%,
+    /* (766.5, 105.155) */ 100% 100% /* close */
+  );
+  padding: 1px;
+  background: #9f1c20;
+
+  img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+    clip-path: polygon(
+      100% 100%,
+      /* (766.5, 430.5) */ 68.4% 100%,
+      /* (524.694, 430.5) */ 68.4% 99.99%,
+      /* (524.633, 430.484) */ 64.4% 98%,
+      /* (493.709, 422.519) */ 0.07% 98%,
+      /* (0.5, 422.519) */ 0.07% 11.2%,
+      /* (0.5, 48.249) */ 0.1% 11.16%,
+      /* (0.785156, 48.1133) */ 13.1% 0.13%,
+      /* (100.574, 0.548828) */ 13.13% 0.12%,
+      /* (100.677, 0.5) */ 98% 0.12%,
+      /* (751.69, 0.5) */ 98% 22.3%,
+      /* (751.69, 96.0781) */ 99.8% 24.4%,
+      /* (766.262, 105.009) */ 100% 24.4%,
+      /* (766.5, 105.155) */ 100% 100% /* close */
+    );
+  }
+}
+
+.dynamicgameContent {
+  h4 {
+    color: #9f1c20;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #cfcfcf;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    margin-top: 14px;
+  }
+}
+
+// ready made scenarios or create tour won
+
+.rmsMain {
+  width: 100%;
+  height: auto;
+}
+
+.rmsContainer {
+  padding: 120px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.rmsSub {
+  width: 100%;
+}
+
+.rmsHeading {
+  h3 {
+    color: #9f1c20;
+    text-align: center;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px; /* 129.63% */
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 10px;
+    color: #636363;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.4px;
+  }
+}
+
+.rmsSlider {
+  margin-top: 60px;
+  width: 100%;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.slide {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rmsSliderItem {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.rmsSliderImg {
+  width: 94.444px;
+  height: 100px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.rmsSliderContent {
+  h4 {
+    color: #9f1c20;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  p {
+    margin-top: 14px;
+    color: #636363;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.4px;
+    margin-bottom: 0;
+  }
+}
+
+// Pagination dots
+.bullet {
+  width: 10px;
+  height: 10px;
+  background: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 1;
+  border: 1px solid rgba(159, 28, 32, 0.3);
+  flex-shrink: 0 !important;
+
+  &:hover {
+    background: #9f1c20;
+  }
+}
+
+.bulletActive {
+  background: #9f1c20;
+}
+
+// Navigation Controls Below Slider
+.navigationControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: fit-content !important;
+  // display: none;
+}
+
+// Navigation Buttons
+
+.navButton {
+  width: 57.9px;
+  height: 51px;
+  background: #9f1c20;
+  border: none;
+  color: #040707;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}
+
+.prevButton {
+  clip-path: polygon(
+    100% 1.895%,
+    24.406% 1.895%,
+    1.656% 26.421%,
+    1.656% 100%,
+    68.221% 100%,
+    83.387% 100%,
+    100% 100%,
+    100% 34.27%,
+    100% 26.421%,
+    100% 1.895%
+  );
+}
+
+.nextButton {
+  clip-path: polygon(
+    1.657% 1.895%,
+    77.25% 1.895%,
+    100% 26.421%,
+    100% 100%,
+    33.436% 100%,
+    18.269% 100%,
+    1.657% 100%,
+    1.657% 34.27%,
+    1.657% 26.421%,
+    1.657% 1.895%
+  );
+}
+
+.rtl {
+  direction: rtl;
+
+  .prevButton {
+    clip-path: polygon(
+      1.657% 1.895%,
+      77.25% 1.895%,
+      100% 26.421%,
+      100% 100%,
+      33.436% 100%,
+      18.269% 100%,
+      1.657% 100%,
+      1.657% 34.27%,
+      1.657% 26.421%,
+      1.657% 1.895%
+    );
+
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  .nextButton {
+    clip-path: polygon(
+      100% 1.895%,
+      24.406% 1.895%,
+      1.656% 26.421%,
+      1.656% 100%,
+      68.221% 100%,
+      83.387% 100%,
+      100% 100%,
+      100% 34.27%,
+      100% 26.421%,
+      100% 1.895%
+    );
+
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+
+@media only screen and (max-width: 1599px) {
+  .IndoorGalaxyContainer {
+    padding: 100px 40px 80px 40px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  //game kit
+
+  .gameKitTopStroke {
+    height: 40px;
+  }
+
+  .gameKitSub {
+    padding: 100px 40px 67px 40px;
+  }
+
+  .gameKitTop {
+    gap: 60px;
+  }
+
+  .gameKitContent {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    p {
+      max-width: 744px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .gameKitImg {
+    max-width: 625px;
+    min-width: 524px;
+    flex: 1;
+    img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  //features
+
+  .featureHeading {
+    h3 {
+      font-size: 24px;
+    }
+  }
+
+  //choose your superpower
+
+  .powerContainer {
+    padding: 120px 40px 200px 40px;
+  }
+
+  .powerHeading {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    p {
+      max-width: 730px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .powerGrid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 87px;
+  }
+
+  .powerGridItem {
+    gap: 40px;
+  }
+
+  .powerImgBtn {
+    width: 144px;
+    height: 131px;
+
+    &:hover {
+      .powerImgBase {
+        height: 125px;
+      }
+    }
+  }
+
+  .powerImgBase {
+    height: 131px;
+  }
+
+  .powerImgMiddle {
+    height: 121px;
+  }
+
+  .powerGridItemContent {
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      margin-top: 14px;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .powerStroke {
+    height: 40px;
+  }
+
+  //dynamic game scenario devices
+
+  .dynamicgameContainer {
+    padding: 112px 40px;
+  }
+
+  .dynamicgameHeading {
+    h3 {
+      font-size: 40px;
+      line-height: 51px;
+    }
+
+    P {
+      max-width: 1300px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .dynamicgameGrid {
+    margin-top: 50px;
+    // grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .dynamicgameContent {
+    h4 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.36px;
+    }
+  }
+
+  // ready made scenarios or create tour won
+
+  .rmsContainer {
+    padding: 120px 40px;
+  }
+
+  .rmsHeading {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .rmsSlider {
+    margin-top: 60px;
+  }
+
+  .rmsSliderItem {
+    gap: 40px;
+  }
+
+  .rmsSliderContent {
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .bullet {
+    width: 10px;
+    height: 10px;
+  }
+
+  .navigationControls {
+    gap: 36px;
+    margin-top: 50px;
+  }
+
+  .navButton {
+    width: 56.9px;
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .IndoorGalaxyContainer {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  //game kit
+
+  .gameKitTopStroke {
+    height: 38px;
+  }
+
+  .gameKitSub {
+    padding: 100px 40px 60px 40px;
+  }
+
+  .gameKitTop {
+    gap: 40px;
+  }
+
+  .gameKitContent {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+
+    p {
+      max-width: 650px;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .gameKitImg {
+    max-width: 625px;
+    min-width: 480px;
+    flex: 1;
+    img {
+      display: block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  //features
+
+  .featureHeading {
+    h3 {
+      font-size: 22px;
+    }
+  }
+
+  .featuresGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .featuresGridItem {
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+
+  //choose your superpower
+
+  .powerContainer {
+    padding: 120px 40px 180px 40px;
+  }
+
+  .powerHeading {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+
+    p {
+      max-width: 640px;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .powerGrid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+  }
+
+  .powerGridItem {
+    gap: 40px;
+  }
+
+  .powerImgBtn {
+    width: 134px;
+    height: 121px;
+
+    &:hover {
+      .powerImgBase {
+        height: 115px;
+      }
+    }
+  }
+
+  .powerImgBase {
+    height: 121px;
+  }
+
+  .powerImgMiddle {
+    height: 111px;
+  }
+
+  .powerGridItemContent {
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      margin-top: 14px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .powerStroke {
+    height: 38px;
+  }
+
+  //dynamic game scenario devices
+
+  .dynamicgameContainer {
+    padding: 112px 40px;
+  }
+
+  .dynamicgameHeading {
+    h3 {
+      font-size: 36px;
+      line-height: 47px;
+    }
+
+    P {
+      max-width: 1160px;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .dynamicgameGrid {
+    margin-top: 50px;
+    // grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .dynamicgameContent {
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  // ready made scenarios or create tour won
+
+  .rmsContainer {
+    padding: 120px 40px;
+  }
+
+  .rmsHeading {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .rmsSlider {
+    margin-top: 60px;
+  }
+
+  .rmsSliderItem {
+    gap: 36px;
+  }
+
+  .rmsSliderContent {
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .bullet {
+    width: 9px;
+    height: 9px;
+  }
+
+  .navigationControls {
+    gap: 32px;
+    margin-top: 50px;
+  }
+
+  .navButton {
+    width: 54.9px;
+    height: 48px;
+  }
+
+  .rmsSliderImg {
+    width: 90.444px;
+    height: 96px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .IndoorGalaxyContainer {
+    padding: 60px 30px 60px 30px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  //game kit
+
+  .gameKitTopStroke {
+    height: 36px;
+  }
+
+  .gameKitSub {
+    padding: 80px 30px 60px 30px;
+  }
+
+  .gameKitTop {
+    gap: 40px;
+  }
+
+  .gameKitContent {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+  }
+
+  .gameKitImg {
+    max-width: 625px;
+    min-width: 420px;
+  }
+
+  //features
+
+  .featureHeading {
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .featuresGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  //choose your superpower
+
+  .powerContainer {
+    padding: 100px 30px 160px 30px;
+  }
+
+  .powerHeading {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+  }
+
+  .powerGrid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+  }
+
+  .powerGridItem {
+    gap: 32px;
+  }
+
+  .powerStroke {
+    height: 36px;
+  }
+
+  //dynamic game scenario devices
+
+  .dynamicgameContainer {
+    padding: 100px 30px;
+  }
+
+  .dynamicgameHeading {
+    h3 {
+      font-size: 32px;
+      line-height: 43px;
+    }
+  }
+
+  .dynamicgameGrid {
+    margin-top: 50px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+
+  // ready made scenarios or create tour won
+
+  .rmsContainer {
+    padding: 100px 30px;
+  }
+
+  .rmsHeading {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .rmsSlider {
+    margin-top: 60px;
+  }
+
+  .rmsSliderItem {
+    gap: 36px;
+  }
+
+  .rmsSliderContent {
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .bullet {
+    width: 9px;
+    height: 9px;
+  }
+
+  .navigationControls {
+    gap: 32px;
+    margin-top: 50px;
+  }
+
+  .navButton {
+    width: 54.9px;
+    height: 48px;
+  }
+
+  .rmsSliderImg {
+    width: 86.444px;
+    height: 92px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  //game kit
+
+  .gameKitTopStroke {
+    height: 32px;
+  }
+
+  .gameKitTop {
+    gap: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .gameKitContent {
+    width: 100%;
+
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+
+    p {
+      max-width: 100%;
+    }
+  }
+
+  .gameKitImg {
+    max-width: 541px;
+    min-width: 0;
+  }
+
+  //choose your superpower
+
+  .powerContainer {
+    padding: 100px 30px 140px 30px;
+  }
+
+  .powerHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+
+  .powerImgBtn {
+    width: 124px;
+    height: 111px;
+
+    &:hover {
+      .powerImgBase {
+        height: 105px;
+      }
+    }
+  }
+
+  .powerImgBase {
+    height: 111px;
+  }
+
+  .powerImgMiddle {
+    height: 101px;
+  }
+
+  .powerStroke {
+    height: 32px;
+  }
+
+  //dynamic game scenario devices
+
+  .dynamicgameContainer {
+    padding: 100px 30px;
+  }
+
+  .dynamicgameHeading {
+    h3 {
+      font-size: 28px;
+      line-height: 29px;
+    }
+  }
+
+  .dynamicgameGrid {
+    margin-top: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .dynamicgameImg {
+    max-width: 541px;
+    max-height: auto;
+    margin: 0 auto;
+  }
+
+  // ready made scenarios or create tour won
+
+  .rmsContainer {
+    padding: 100px 30px;
+  }
+
+  .rmsHeading {
+    h3 {
+      font-size: 28px;
+      line-height: 46px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .rmsSlider {
+    margin-top: 60px;
+  }
+
+  .rmsSliderItem {
+    gap: 32px;
+  }
+
+  .rmsSliderContent {
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .bullet {
+    width: 8px;
+    height: 8px;
+  }
+
+  .navigationControls {
+    gap: 28px;
+    margin-top: 50px;
+  }
+
+  .navButton {
+    width: 50.9px;
+    height: 44px;
+  }
+
+  .rmsSliderImg {
+    width: 80.444px;
+    height: 86px;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .powerGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .IndoorGalaxyContainer {
+    padding: 60px 20px 60px 20px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 15px;
+      line-height: 23px;
+    }
+  }
+
+  //game kit
+
+  .gameKitSub {
+    padding: 80px 20px 60px 20px;
+  }
+
+  .gameKitTopStroke {
+    height: 28px;
+  }
+
+  .gameKitContent {
+    width: 100%;
+
+    h3 {
+      font-size: 30px;
+      line-height: 48px;
+    }
+
+    p {
+      max-width: 100%;
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .gameKitImg {
+    max-width: 511px;
+  }
+
+  //features
+
+  .featuresGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .featuresGridItem {
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 29px;
+    }
+  }
+
+  //choose your superpower
+
+  .powerContainer {
+    padding: 80px 20px 120px 20px;
+  }
+
+  .powerHeading {
+    h3 {
+      font-size: 22px;
+      line-height: 38px;
+    }
+
+    p {
+      max-width: 600px;
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .powerGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .powerGridItemContent {
+    p {
+      max-width: 220px;
+    }
+  }
+
+  .powerGridItem {
+    gap: 28px;
+  }
+
+  .powerImgBtn {
+    width: 114px;
+    height: 101px;
+
+    &:hover {
+      .powerImgBase {
+        height: 95px;
+      }
+    }
+  }
+
+  .powerImgBase {
+    height: 101px;
+  }
+
+  .powerImgMiddle {
+    height: 91px;
+  }
+
+  .powerGridItemContent {
+    h4 {
+      font-size: 15px;
+    }
+
+    p {
+      margin-top: 12px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  .powerStroke {
+    height: 28px;
+  }
+
+  //dynamic game scenario devices
+
+  .dynamicgameGrid {
+    margin-top: 40px;
+  }
+
+  .dynamicgameContainer {
+    padding: 80px 20px;
+  }
+
+  .dynamicgameHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 25px;
+    }
+
+    P {
+      max-width: 100%;
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .dynamicgameContent {
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+
+  // ready made scenarios or create tour won
+
+  .rmsContainer {
+    padding: 80px 20px;
+  }
+
+  .rmsHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 42px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .rmsSlider {
+    margin-top: 60px;
+  }
+
+  .rmsSliderItem {
+    gap: 32px;
+  }
+
+  .rmsSliderContent {
+    h4 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  .bullet {
+    width: 8px;
+    height: 8px;
+  }
+
+  .navigationControls {
+    gap: 28px;
+    margin-top: 50px;
+  }
+
+  .navButton {
+    width: 50.9px;
+    height: 44px;
+  }
+
+  .rmsSliderImg {
+    width: 74.444px;
+    height: 80px;
+  }
+
+  .pagination {
+    // width: 100px !important;
+    // overflow: hidden !important;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .gameKitTopStroke {
+    height: 26px;
+  }
+
+  .gameKitContent {
+    width: 100%;
+
+    h3 {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+
+  .gameKitImg {
+    max-width: 439px;
+  }
+
+  //choose your superpower
+
+  .powerImgBtn {
+    width: 104px;
+    height: 91px;
+
+    &:hover {
+      .powerImgBase {
+        height: 85px;
+      }
+    }
+  }
+
+  .powerImgBase {
+    height: 91px;
+  }
+
+  .powerImgMiddle {
+    height: 81px;
+  }
+
+  .powerStroke {
+    height: 26px;
+  }
+
+  //dynamic game scenario devices
+
+  .dynamicgameHeading {
+    h3 {
+      font-size: 22px;
+      line-height: 23px;
+    }
+  }
+
+  .rmsHeading {
+    h3 {
+      font-size: 22px;
+      line-height: 40px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .rmsSliderItem {
+    // width: 80%;
+    margin: 0 auto;
+    max-width: 289px;
+    // background: green;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .gameKitTopStroke {
+    height: 24px;
+  }
+
+  .gameKitImg {
+    max-width: 100%;
+  }
+
+  //features
+
+  .featuresGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  //choose your superpower
+
+  .powerGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+  }
+
+  .powerGridItemContent {
+    p {
+      max-width: 200px;
+    }
+  }
+
+  .powerStroke {
+    height: 24px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .gameKitTopStroke {
+    height: 22px;
+  }
+
+  .powerStroke {
+    height: 22px;
+  }
+}

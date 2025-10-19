@@ -1,0 +1,1488 @@
+.gsdMain {
+  width: 100%;
+  height: auto;
+}
+
+.gsdContainer {
+  max-width: 1640px;
+  padding: 120px 40px 120px 40px;
+  margin: 0 auto;
+}
+
+.gsdSub {
+  width: 100%;
+}
+
+.headingDiv {
+  p {
+    color: #636363;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+  }
+}
+
+//Accessories
+
+.accessoriesMain,
+.grMain {
+  width: 100%;
+  height: auto;
+}
+
+.accessoriesMainHeading {
+  margin-bottom: 40px;
+  h2 {
+    color: #9f1c20;
+    text-align: center;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+}
+
+.accessoriesTopStroke,
+.grTopStroke {
+  height: 44px;
+  width: 100%;
+  background: #9f1c20;
+  clip-path: polygon(
+    100% 0%,
+    100% 4.598%,
+    100% 100%,
+    0% 100%,
+    0% 94.318%,
+    67.083% 95.455%,
+    69.896% 0%,
+    100% 0%
+  );
+  margin-bottom: -1px;
+}
+
+.accessoriesContainer {
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+.sdmContainer {
+  height: auto;
+  background: #fff;
+}
+
+.containerBorder {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.accessoriesSub {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+.accessoriesBottomStroke,
+.grBottomStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    0% 100%,
+    0% 95.402%,
+    0% 0%,
+    100% 0%,
+    100% 5.682%,
+    32.917% 4.545%,
+    30.104% 100%,
+    0% 100%
+  );
+  margin-top: -1px;
+  background: #9f1c20;
+}
+
+.accessoriesItem {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.accessoriesContent {
+  flex: 1;
+}
+.accessoriesHeading {
+  h3 {
+    color: #fff;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+
+    span {
+      color: #9f1c20;
+    }
+  }
+}
+.sdmHeading {
+  h3 {
+    color: #040707;
+  }
+}
+
+.accessoriesSpecification {
+  margin-top: 22px;
+
+  h4 {
+    color: #fff;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+  }
+}
+
+.sdmSpecification {
+  h4 {
+    color: #040707;
+  }
+}
+
+.specificationList {
+  margin-top: 14px;
+  padding: 14px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sdmSpecificationList {
+  border-top: 1px solid rgba(30, 30, 30, 0.2);
+  border-bottom: 1px solid rgba(30, 30, 30, 0.2);
+}
+
+.specificationListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  li {
+    list-style: none;
+  }
+}
+
+.specificationListItemLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  li {
+    color: #e6e6e6;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+  }
+}
+
+.sdmSpecificationListItemLeft {
+  li {
+    color: #1e1e1e;
+  }
+}
+
+.specificationListItemRight {
+  li {
+    color: #e6e6e6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.4px;
+  }
+}
+
+.sdmSpecificationListItemRight {
+  li {
+    color: #1e1e1e;
+  }
+}
+
+.specificationDesc {
+  margin-top: 20px;
+
+  p {
+    color: #cfcfcf;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    letter-spacing: -0.36px;
+  }
+}
+
+.sdmSpecificationDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  p {
+    color: #1e1e1e;
+  }
+}
+
+.accessoriesImg {
+  max-width: 389px;
+  img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.sdmImg {
+  max-width: 508px;
+  img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.modesGridContainer {
+  margin-top: 40px;
+}
+
+.sdmGridContainer {
+  margin-top: 30px;
+}
+
+.modesGridheading {
+  h3 {
+    color: #fff;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+  }
+}
+
+.modesGrid {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 16px;
+}
+.modesGridTwo {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 16px;
+}
+
+.modesGridThree {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.modesGridItem {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  p {
+    color: #cfcfcf;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.36px;
+  }
+}
+
+.sdmGridItem {
+  border: 1px solid rgba(30, 30, 30, 0.2);
+  gap: 20px;
+
+  p {
+    color: #1e1e1e;
+  }
+}
+
+.modesGridImg {
+  max-width: 68px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.sdmGridImg {
+  max-width: 97px;
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+// gears and attachments
+
+.gaContainer {
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+.gaSub {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+.grGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.grGridItem,
+.grGridContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.grGridImg {
+  clip-path: polygon(
+    97.373% 0%,
+    12.726% 0%,
+    0.07% 14.772%,
+    0.07% 100%,
+    66.422% 100%,
+    68.472% 100%,
+    100% 100%,
+    100% 37.886%,
+    97.373% 31.17%,
+    97.373% 0%
+  );
+  background: #9f1c20;
+  padding-left: 7.14px;
+
+  img {
+    justify-items: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.grGridHeading {
+  h4 {
+    color: #fff;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+  }
+}
+
+.grGridDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  p {
+    color: #cfcfcf;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+  }
+}
+
+//smart remote control
+
+.srcContainer {
+  width: 100%;
+  height: auto;
+  background: #000;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.srcSub {
+  z-index: 3;
+  position: relative;
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+.srcContent {
+  max-width: 820px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  width: 50vw;
+}
+
+.srcHeading {
+  h3 {
+    color: #fff;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+}
+
+.srcDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  p {
+    color: #cfcfcf;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 145.455% */
+    letter-spacing: -0.44px;
+  }
+}
+
+.srcOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    111deg,
+    rgba(0, 0, 0, 0.6) 48.31%,
+    rgba(0, 0, 0, 0) 70.01%
+  );
+  z-index: 2;
+}
+
+.srcImg {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 40vw;
+  height: 100%;
+  max-width: 716px;
+  z-index: 1;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+// Storage and Power Accessories
+
+.spaContainer {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.spaSub {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+.spaGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  // place-items: center;
+  justify-items: center; /* horizontally inside cells */
+}
+
+.spaGridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 731px;
+}
+
+.spaGridImg {
+  background: #9f1c20;
+
+  clip-path: polygon(
+    97.371% 0%,
+    12.665% 0%,
+    0% 14.772%,
+    0% 100%,
+    66.398% 100%,
+    68.45% 100%,
+    100% 100%,
+    100% 37.887%,
+    97.371% 31.17%,
+    97.371% 0%
+  );
+
+  padding-left: 11px;
+  padding-right: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+  img {
+    clip-path: polygon(
+      97.371% 0%,
+      12.665% 0%,
+      0% 14.772%,
+      0% 100%,
+      66.398% 100%,
+      68.45% 100%,
+      100% 100%,
+      100% 37.887%,
+      97.371% 31.17%,
+      97.371% 0%
+    );
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+.spaGridContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.spaGridHeading {
+  h3 {
+    color: #040707;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+  }
+}
+
+.spaGridDesc {
+  p {
+    color: #636363;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.rtl {
+  .headingDiv {
+    direction: rtl;
+  }
+
+  .accessoriesMainHeading {
+    direction: rtl;
+  }
+
+  .accessoriesContent {
+    direction: rtl;
+  }
+
+  .modesGridContainer {
+    direction: rtl;
+  }
+
+  .sdmGridContainer {
+    direction: rtl;
+  }
+
+  .gaContainer {
+    direction: rtl;
+  }
+
+  .srcContent {
+    direction: rtl;
+  }
+
+  .spaContainer {
+    direction: rtl;
+  }
+}
+
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+
+@media only screen and (max-width: 1599px) {
+  .gsdContainer {
+    padding: 100px 40px 100px 40px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  //Accessories
+
+  .accessoriesMainHeading {
+    h2 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  }
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 40px;
+  }
+
+  .accessoriesItem {
+    gap: 60px;
+  }
+
+  .accessoriesHeading {
+    h3 {
+      font-size: 38px;
+    }
+  }
+
+  .accessoriesSpecification {
+    h4 {
+      font-size: 22px;
+    }
+  }
+
+  .modesGridheading {
+    h3 {
+      font-size: 22px;
+    }
+  }
+
+  .modesGrid {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  // gears and attachments
+
+  .grGrid {
+    gap: 36px;
+  }
+
+  .grGridHeading {
+    h4 {
+      font-size: 38px;
+    }
+  }
+
+  //smart remote control
+
+  .srcContent {
+    max-width: 760px;
+  }
+
+  .srcHeading {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+  }
+
+  .srcDesc {
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  // Storage and Power Accessories
+
+  .spaGridHeading {
+    h3 {
+      font-size: 38px;
+      line-height: 49px;
+    }
+  }
+
+  .spaGridDesc {
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .gsdContainer {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  //Accessories
+
+  .accessoriesMainHeading {
+    h2 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+  }
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 38px;
+  }
+
+  .accessoriesSub {
+    padding: 120px 40px;
+  }
+
+  .accessoriesItem {
+    gap: 50px;
+  }
+
+  .accessoriesHeading {
+    h3 {
+      font-size: 32px;
+    }
+  }
+
+  .accessoriesSpecification {
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  .specificationList {
+    gap: 16px;
+  }
+
+  .specificationListItemLeft {
+    li {
+      font-size: 16px;
+    }
+  }
+
+  .specificationListItemRight {
+    li {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .specificationDesc {
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  .modesGridheading {
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .modesGrid {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 16px;
+  }
+
+  .modesGridItem {
+    p {
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+
+  // gears and attachments
+
+  .grGrid {
+    gap: 32px;
+  }
+
+  .grGridHeading {
+    h4 {
+      font-size: 32px;
+    }
+  }
+
+  .grGridDesc {
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  //smart remote control
+
+  .srcSub {
+    padding: 120px 40px;
+  }
+
+  .srcContent {
+    max-width: 760px;
+    width: 46vw;
+  }
+
+  .srcHeading {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+  }
+
+  .srcDesc {
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+  .srcImg {
+    width: 44vw;
+  }
+
+  // Storage and Power Accessories
+
+  .spaGridHeading {
+    h3 {
+      font-size: 32px;
+      line-height: 43px;
+    }
+  }
+
+  .spaGridDesc {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .gsdContainer {
+    padding: 60px 30px 60px 30px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  //Accessories
+
+  .accessoriesMainHeading {
+    h2 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+  }
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 36px;
+  }
+
+  .accessoriesSub {
+    padding: 100px 30px;
+  }
+
+  .accessoriesItem {
+    gap: 50px;
+  }
+
+  .accessoriesHeading {
+    h3 {
+      font-size: 28px;
+    }
+  }
+
+  .accessoriesSpecification {
+    h4 {
+      font-size: 18px;
+    }
+  }
+
+  .specificationList {
+    gap: 16px;
+  }
+
+  .specificationListItem {
+    gap: 40px;
+  }
+
+  .specificationListItemLeft {
+    li {
+      font-size: 16px;
+    }
+  }
+
+  .specificationListItemRight {
+    li {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .specificationDesc {
+    p {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+
+  .accessoriesImg {
+    max-width: 360px;
+  }
+
+  .sdmImg {
+    max-width: 480px;
+  }
+
+  .modesGridheading {
+    h3 {
+      font-size: 18px;
+    }
+  }
+
+  .modesGrid,
+  .modesGridTwo {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+  }
+
+  .modesGridItem {
+    p {
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+
+  .modesGridImg {
+    max-width: 60px;
+  }
+
+  .sdmGridImg {
+    max-width: 89px;
+  }
+
+  // gears and attachments
+
+  .gaSub {
+    padding: 100px 30px;
+  }
+
+  .grGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .grGridHeading {
+    h4 {
+      font-size: 28px;
+    }
+  }
+
+  //smart remote control
+
+  .srcSub {
+    padding: 100px 30px;
+  }
+
+  .srcContent {
+    max-width: 760px;
+    width: 46vw;
+  }
+
+  .srcHeading {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+  }
+
+  .srcDesc {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+  .srcImg {
+    width: 46vw;
+  }
+
+  // Storage and Power Accessories
+
+  .spaSub {
+    padding: 100px 30px;
+  }
+
+  .spaGridHeading {
+    h3 {
+      font-size: 28px;
+      line-height: 39px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1120px) {
+  .modesGridThree {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  //Accessories
+
+  .accessoriesMainHeading {
+    h2 {
+      font-size: 30px;
+      line-height: 46px;
+    }
+  }
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 32px;
+  }
+
+  .accessoriesItem {
+    gap: 40px;
+    flex-direction: column-reverse;
+  }
+
+  .accessoriesItemTwo {
+    flex-direction: column;
+  }
+
+  .accessoriesHeading {
+    h3 {
+      font-size: 24px;
+    }
+  }
+
+  .accessoriesImg {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .sdmImg {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .modesGrid,
+  .modesGridTwo {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  // gears and attachments
+
+  .gaSub {
+    padding: 100px 30px;
+  }
+
+  .grGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .grGridHeading {
+    h4 {
+      font-size: 24px;
+    }
+  }
+
+  //smart remote control
+
+  .srcSub {
+    padding: 0;
+  }
+
+  .srcContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-direction: column-reverse;
+    padding: 100px 30px 100px 30px;
+  }
+
+  .srcContent {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .srcHeading {
+    h3 {
+      font-size: 30px;
+      line-height: 48px;
+    }
+  }
+
+  .srcDesc {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .srcOverlay {
+    display: none;
+  }
+
+  .srcImg {
+    position: relative;
+    width: 100%;
+
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+
+    img {
+      height: auto;
+    }
+  }
+
+  // Storage and Power Accessories
+
+  .spaGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .spaGridHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .modesGridThree {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .modesGrid,
+  .modesGridTwo {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  // gears and attachments
+
+  .grGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+  }
+
+  .grGridImg {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  // Storage and Power Accessories
+
+  .spaGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .spaGridItem {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .spaGridImg {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .gsdContainer {
+    padding: 60px 20px 60px 20px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 15px;
+      line-height: 23px;
+    }
+  }
+
+  //Accessories
+
+  .accessoriesMainHeading {
+    h2 {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 28px;
+  }
+
+  .accessoriesSub {
+    padding: 80px 20px;
+  }
+
+  .accessoriesHeading {
+    h3 {
+      font-size: 22px;
+    }
+  }
+
+  .accessoriesSpecification {
+    h4 {
+      font-size: 18px;
+    }
+  }
+
+  .specificationListItem {
+    gap: 20px;
+  }
+
+  .specificationListItemLeft {
+    li {
+      font-size: 15px;
+    }
+  }
+
+  .specificationListItemRight {
+    li {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .specificationDesc {
+    p {
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+
+  .modesGridheading {
+    h3 {
+      font-size: 18px;
+    }
+  }
+
+  .modesGrid,
+  .modesGridTwo {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .modesGridThree {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modesGridItem {
+    p {
+      font-size: 15px;
+      line-height: 29px;
+    }
+  }
+
+  .modesGridImg {
+    max-width: 56px;
+  }
+
+  .sdmGridImg {
+    max-width: 85px;
+  }
+
+  .accessoriesImg {
+    max-width: 389px;
+  }
+
+  .sdmImg {
+    max-width: 480px;
+  }
+
+  // gears and attachments
+
+  .gaSub {
+    padding: 80px 20px;
+  }
+
+  .grGridImg {
+    max-width: 460px;
+  }
+
+  .grGridHeading {
+    h4 {
+      font-size: 22px;
+    }
+  }
+
+  .grGridDesc {
+    p {
+      font-size: 15px;
+      line-height: 21px;
+    }
+  }
+
+  //smart remote control
+
+  .srcContainer {
+    gap: 40px;
+    padding: 80px 20px;
+  }
+
+  .srcHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+
+  .srcDesc {
+    p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  // Storage and Power Accessories
+
+  .spaSub {
+    padding: 80px 20px;
+  }
+
+  .spaGridHeading {
+    h3 {
+      font-size: 22px;
+      line-height: 33px;
+    }
+  }
+
+  .spaGridImg {
+    max-width: 460px;
+  }
+
+  .spaGridDesc {
+    p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  //Accessories
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 26px;
+  }
+
+  .modesGrid,
+  .modesGridTwo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modesGridImg {
+    max-width: 52px;
+  }
+
+  .sdmGridImg {
+    max-width: 81px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  //Accessories
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 24px;
+  }
+
+  .modesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modesGridThree {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .modesGridImg {
+    max-width: 52px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  //Accessories
+
+  .accessoriesTopStroke,
+  .accessoriesBottomStroke,
+  .grTopStroke,
+  .grBottomStroke {
+    height: 22px;
+  }
+
+  .modesGrid,
+  .modesGridTwo {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .modesGridImg {
+    max-width: 52px;
+  }
+}

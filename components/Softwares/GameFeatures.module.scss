@@ -1,0 +1,376 @@
+.gameFeatMainDiv {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.PageIntroStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    100% 2.299%,
+    100% 4.598%,
+    100% 100%,
+    0% 98.851%,
+    0% 91.954%,
+    67.083% 96.552%,
+    69.896% 0%,
+    100% 2.299%
+  );
+  background: #9f1c20;
+}
+.gameFeatContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+.gameFeatSubDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+
+.gameFeatHeading {
+  color: #040707;
+  text-align: center;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1.08px;
+  text-transform: uppercase;
+  span {
+    color: #9f1c20;
+  }
+}
+
+// New slider styles
+.gameFeatGridMainDiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  //   display: flex;
+  //   align-items: center;
+  gap: 30px;
+}
+
+.gameFeatGridItemWrapper {
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(
+    13.2% 0.1%,
+    97.8% 0.1%,
+    97.8% 22.3%,
+    99.7% 24.4%,
+    99.7% 100%,
+    68.3% 100%,
+    64.3% 98%,
+    0.3% 98%,
+    0.3% 11.2%,
+    13.2% 0.1%
+  );
+  background: #9f1c20;
+  padding: 1.1px;
+}
+
+.gameFeatGridItem {
+  clip-path: polygon(
+    13.2% 0.1%,
+    97.8% 0.1%,
+    97.8% 22.3%,
+    99.7% 24.4%,
+    99.7% 100%,
+    68.3% 100%,
+    64.3% 98%,
+    0.3% 98%,
+    0.3% 11.2%,
+    13.2% 0.1%
+  );
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+  padding: 30px 26px 43px 26px;
+  height: 100%;
+  align-items: stretch;
+}
+
+.gameFeatImgDiv {
+  width: 102px;
+  height: 102px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clip-path: polygon(
+    97.6% 0%,
+    21.6% 0%,
+    0.5% 19.1%,
+    0.5% 100%,
+    64.3% 100%,
+    68.4% 100%,
+    99.5% 100%,
+    99.5% 35%,
+    97.6% 32%,
+    97.6% 0%
+  );
+  background: #9f1c20;
+  img {
+    width: 60px;
+    height: 60px;
+    // flex-shrink: 0;
+    // aspect-ratio: 1/1;
+  }
+}
+.gameFeatContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.gameFeatContentTitle {
+  color: #9f1c20;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+
+.gameFeatContentDesc {
+  color: #636363;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.4px;
+}
+.rtl {
+  direction: rtl;
+  // text-align: right;
+}
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+@media only screen and (max-width: 1599px) {
+  .gameFeatContainer {
+    // max-width: 1280px;
+    // padding: 100px 30px;
+  }
+
+  .gameFeatHeading {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  .PageIntroStroke {
+    height: 42px;
+  }
+  .gameFeatGridMainDiv {
+    gap: 20px;
+  }
+  .gameFeatGridItem {
+    padding: 26px 22px 38px 22px;
+    gap: 16px;
+  }
+  .gameFeatContentTitle {
+    font-size: 22px;
+  }
+  .gameFeatContentDesc {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .gameFeatImgDiv {
+    width: 90px;
+    height: 90px;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .gameFeatContainer {
+    // max-width: 1121px;
+    // padding: 80px 25px;
+  }
+
+  .gameFeatSubDiv {
+    // gap: 50px;
+  }
+
+  .gameFeatHeading {
+    font-size: 42px;
+    line-height: 58px;
+  }
+  .PageIntroStroke {
+    height: 40px;
+  }
+  .gameFeatGridMainDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    align-items: center;
+    width: fit-content;
+  }
+  .gameFeatGridItemWrapper {
+    width: auto;
+    max-width: 400px;
+    align-content: center;
+  }
+  .gameFeatGridItem {
+    max-width: 400px;
+    padding: 30px 26px 43px 26px;
+  }
+  // .gameFeatImgDiv {
+  //   width: 80px;
+  //   height: 80px;
+  //   img {
+  //     width: 50px;
+  //     height: 50px;
+  //   }
+  // }
+}
+
+@media only screen and (max-width: 1199px) {
+  .gameFeatContainer {
+    // max-width: 940px;
+    padding: 100px 30px;
+    // padding: 60px 20px;
+  }
+
+  .gameFeatSubDiv {
+    // gap: 40px;
+  }
+
+  .gameFeatHeading {
+    font-size: 36px;
+    line-height: 52px;
+  }
+  .PageIntroStroke {
+    height: 38px;
+  }
+  .gameFeatGridItem {
+    padding: 26px 22px 38px 22px;
+  }
+  .gameFeatContentTitle {
+    font-size: 20px;
+  }
+  .gameFeatContentDesc {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .gameFeatGridItem {
+    gap: 20px;
+  }
+  .gameFeatImgDiv {
+    width: 80px;
+    height: 80px;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .gameFeatContainer {
+    max-width: 100%;
+    // padding: 50px 20px;
+  }
+
+  .gameFeatSubDiv {
+    gap: 30px;
+  }
+
+  .gameFeatHeading {
+    font-size: 28px;
+    line-height: 46px;
+  }
+  .PageIntroStroke {
+    height: 36px;
+  }
+
+  .gameFeatGridMainDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .gameFeatContentTitle {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .gameFeatContainer {
+    padding: 80px 20px;
+  }
+
+  .gameFeatSubDiv {
+    gap: 25px;
+  }
+
+  .gameFeatHeading {
+    font-size: 24px;
+    line-height: 42px;
+  }
+  .PageIntroStroke {
+    height: 32px;
+  }
+
+  .gameFeatGridMainDiv {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .gameFeatImgDiv {
+    width: 65px;
+    height: 65px;
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .gameFeatHeading {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .PageIntroStroke {
+    height: 28px;
+  }
+
+  .gameFeatGridMainDiv {
+    gap: 15px;
+  }
+  .gameFeatGridItemWrapper {
+    max-width: 367px;
+  }
+  .gameFeatGridItem {
+    max-width: 367px;
+    padding: 26px 22px 38px 22px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .gameFeatContainer {
+    // padding: 30px 20px;
+  }
+  .gameFeatGridItem {
+    max-width: 367px;
+    padding: 26px 16px 30px 16px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .gameFeatContainer {
+    // padding: 25px 20px;
+  }
+}

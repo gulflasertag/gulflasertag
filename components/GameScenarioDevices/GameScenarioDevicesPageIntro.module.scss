@@ -1,0 +1,221 @@
+.PageIntroMain {
+  width: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(216, 216, 216, 0.3) 0%,
+      rgba(216, 216, 216, 0) 46.96%
+    ),
+    #000;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.PageIntroContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 214px 40px 0 40px;
+}
+.PageIntroSub {
+  width: 100%;
+}
+
+.PageIntroHeading {
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1.28px;
+    text-transform: uppercase;
+  }
+}
+
+.PageIntroIcon {
+  width: fit-content;
+  margin: 0 auto 20px;
+
+  img {
+    max-width: 303px;
+    display: block;
+  }
+}
+
+.PageIntroStroke {
+  margin-top: 90px;
+  width: 100%;
+
+  img {
+    display: block;
+    height: 50px;
+    width: 100%;
+  }
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+
+@media only screen and (max-width: 1599px) {
+  .PageIntroContainer {
+    padding: 200px 40px 0 40px;
+  }
+
+  .PageIntroHeading {
+    h1 {
+      font-size: 58px;
+      line-height: 76px;
+    }
+  }
+
+  .PageIntroIcon {
+    img {
+      max-width: 266px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 46px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .PageIntroHeading {
+    h1 {
+      font-size: 52px;
+      line-height: 70px;
+    }
+  }
+
+  .PageIntroIcon {
+    img {
+      max-width: 246px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 42px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .PageIntroContainer {
+    padding: 180px 30px 0 30px;
+  }
+
+  .PageIntroHeading {
+    h1 {
+      font-size: 46px;
+      line-height: 64px;
+    }
+  }
+
+  .PageIntroIcon {
+    img {
+      max-width: 226px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .PageIntroContainer {
+    padding: 140px 30px 0 30px;
+  }
+
+  .PageIntroHeading {
+    h1 {
+      font-size: 40px;
+      line-height: 58px;
+    }
+  }
+
+  .PageIntroIcon {
+    img {
+      max-width: 206px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 36px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .PageIntroHeading {
+    h1 {
+      font-size: 34px;
+      line-height: 52px;
+    }
+  }
+
+  .PageIntroContainer {
+    padding: 140px 20px 0 20px;
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 32px;
+    }
+  }
+
+  .PageIntroIcon {
+    img {
+      max-width: 186px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .PageIntroHeading {
+    h1 {
+      font-size: 28px;
+      line-height: 46px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 28px;
+    }
+  }
+
+  .PageIntroIcon {
+    img {
+      max-width: 166px;
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .PageIntroStroke {
+    img {
+      height: 26px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .PageIntroStroke {
+    img {
+      height: 24px;
+    }
+  }
+}

@@ -1,0 +1,681 @@
+.ourSystemMainDiv {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.ourSystemClipPathDiv {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    0% 97.701%,
+    0% 95.402%,
+    0% 0%,
+    100% 1.149%,
+    100% 8.046%,
+    32.917% 3.448%,
+    30.104% 100%,
+    0% 97.701%
+  );
+  background: #9f1c20;
+}
+.ourSystemContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.ourSystemSubDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+
+.ourSystemHeading {
+  color: #040707;
+  text-align: center;
+  font-size: 54px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1.08px;
+  text-transform: uppercase;
+  span {
+    color: #9f1c20;
+  }
+}
+
+.ourSystemSliderMainDiv {
+  width: 100%;
+  //   max-width: 1200px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+}
+
+.systemSwiper {
+  width: 100%;
+  //   height: 600px;
+  //   overflow: hidden;
+  //   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  clip-path: polygon(
+    100% 100%,
+    64.515% 100%,
+    64.507% 99.987%,
+    63.107% 97.811%,
+    -0.064% 97.811%,
+    -0.064% 15.646%,
+    -0.051% 15.625%,
+    9.534% 0.052%,
+    9.542% 0.038%,
+    99.063% 0.038%,
+    99.063% 31.307%,
+    99.994% 34.261%,
+    100% 34.279%,
+    100% 100%
+  );
+  //   padding: 40px 0px;
+  background: black;
+}
+
+.systemSlide {
+  width: 100%;
+  height: 100%;
+  //   height: 700px;
+  //   position: relative;
+}
+
+.slideContent {
+  width: 100%;
+  height: 100%;
+  //   position: relative;
+  // Remove the dark gradient background
+  background: transparent;
+}
+
+.videoContainer {
+  width: 100%;
+  height: auto;
+  //   position: relative;
+  //   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // Keep the clip-path for the unique shape
+  //   clip-path: polygon(
+  //     100% 100%,
+  //     64.515% 100%,
+  //     64.507% 99.987%,
+  //     63.107% 97.811%,
+  //     -0.064% 97.811%,
+  //     -0.064% 15.646%,
+  //     -0.051% 15.625%,
+  //     9.534% 0.052%,
+  //     9.542% 0.038%,
+  //     99.063% 0.038%,
+  //     99.063% 31.307%,
+  //     99.994% 34.261%,
+  //     100% 34.279%,
+  //     100% 100%
+  //   );
+}
+
+.slideThumbnail,
+.slideVideo {
+  width: 100%;
+  height: 707px;
+  cursor: pointer;
+  //   padding: 20px 0px;
+  //   height: 707px;
+  //   height: 100%;
+  //   object-fit: contain;
+  //   object-fit: fill;
+  object-fit: cover; // Enable object-fit to properly display video content
+  // Remove clip-path from video element to show full content
+}
+
+.playButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  // background: linear-gradient(
+  //   0deg,
+  //   rgba(0, 0, 0, 0.8) 0%,
+  //   rgba(0, 0, 0, 0.8) 100%
+  // );
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s all ease-in-out;
+  img {
+    width: 100px;
+    height: 100px;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+      transition: 0.3s all ease-in-out;
+      //   img {
+      transform: scale(1.05);
+      //   }
+      // transform: translate(-50%, -50%) scale(1.1);
+    }
+  }
+}
+
+.sliderBelowDivMain {
+  width: 100%;
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   right: 0;
+  //   height: 15%;
+  // Add a subtle gradient overlay for better text readability
+  //   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.slideTitle {
+  width: fit-content;
+  color: #040707;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
+.navigationButtonsContainer {
+  //   position: absolute;
+  //   bottom: 30px;
+  //   right: 30px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+  padding: 0 4px;
+}
+
+.navButtonWrapperNext,
+.navButtonWrapperPrev {
+  padding: 1.1px;
+  background: #9f1c20;
+  border: none;
+  position: relative;
+  z-index: 10;
+
+  &.disabled {
+    background: #666;
+    cursor: not-allowed;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+.navButtonWrapperNext {
+  clip-path: polygon(
+    1.657% 1.895%,
+    77.25% 1.895%,
+    100% 26.421%,
+    100% 100%,
+    33.436% 100%,
+    18.269% 100%,
+    1.657% 100%,
+    1.657% 34.27%,
+    1.657% 26.421%,
+    1.657% 1.895%
+  );
+}
+.navButtonWrapperPrev {
+  clip-path: polygon(
+    100% 1.895%,
+    24.406% 1.895%,
+    1.656% 26.421%,
+    1.656% 100%,
+    68.221% 100%,
+    83.387% 100%,
+    100% 100%,
+    100% 34.27%,
+    100% 26.421%,
+    100% 1.895%
+  );
+}
+.navButton {
+  width: 57.9px;
+  height: 51px;
+  background: #9f1c20;
+  border: none;
+  color: #040707;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      background: #666 !important;
+    }
+  }
+
+  &:hover {
+    &.prevButton {
+      clip-path: polygon(
+        100% 1.895%,
+        24.406% 1.895%,
+        1.656% 26.421%,
+        1.656% 100%,
+        68.221% 100%,
+        83.387% 100%,
+        100% 100%,
+        100% 34.27%,
+        100% 26.421%,
+        100% 1.895%
+      );
+    }
+  }
+  &:hover {
+    &.nextButton {
+      clip-path: polygon(
+        1.657% 1.895%,
+        77.25% 1.895%,
+        100% 26.421%,
+        100% 100%,
+        33.436% 100%,
+        18.269% 100%,
+        1.657% 100%,
+        1.657% 34.27%,
+        1.657% 26.421%,
+        1.657% 1.895%
+      );
+    }
+  }
+
+  &:hover {
+    background: #fff;
+    svg {
+      color: #9f1c20;
+      path {
+        stroke: #9f1c20;
+      }
+    }
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}
+.rtl {
+  direction: rtl;
+  .navigationButtonsContainer {
+    // flex-direction: row-reverse;
+  }
+  .navButtonWrapperPrev {
+    clip-path: polygon(
+      1.657% 1.895%,
+      77.25% 1.895%,
+      100% 26.421%,
+      100% 100%,
+      33.436% 100%,
+      18.269% 100%,
+      1.657% 100%,
+      1.657% 34.27%,
+      1.657% 26.421%,
+      1.657% 1.895%
+    );
+
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  .navButtonWrapperNext {
+    clip-path: polygon(
+      100% 1.895%,
+      24.406% 1.895%,
+      1.656% 26.421%,
+      1.656% 100%,
+      68.221% 100%,
+      83.387% 100%,
+      100% 100%,
+      100% 34.27%,
+      100% 26.421%,
+      100% 1.895%
+    );
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  .navButton {
+    &:hover {
+      &.prevButton {
+        clip-path: polygon(
+          1.657% 1.895%,
+          77.25% 1.895%,
+          100% 26.421%,
+          100% 100%,
+          33.436% 100%,
+          18.269% 100%,
+          1.657% 100%,
+          1.657% 34.27%,
+          1.657% 26.421%,
+          1.657% 1.895%
+        );
+      }
+    }
+    &:hover {
+      &.nextButton {
+        clip-path: polygon(
+          100% 1.895%,
+          24.406% 1.895%,
+          1.656% 26.421%,
+          1.656% 100%,
+          68.221% 100%,
+          83.387% 100%,
+          100% 100%,
+          100% 34.27%,
+          100% 26.421%,
+          100% 1.895%
+        );
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1599px) {
+  .ourSystemContainer {
+    // max-width: 1280px;
+    padding: 120px 40px;
+    // padding: 100px 30px;
+  }
+
+  .ourSystemHeading {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 680px;
+  }
+
+  .slideTitle {
+    font-size: 28px;
+  }
+  .navButton {
+    width: 52px;
+    height: 52px;
+  }
+  .sliderBelowDivMain {
+    padding: 0px 16px;
+  }
+  .ourSystemSliderMainDiv {
+    gap: 34px;
+  }
+  .playButton {
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .ourSystemContainer {
+    // max-width: 1121px;
+    // padding: 80px 25px;
+  }
+
+  .ourSystemSubDiv {
+    gap: 50px;
+  }
+
+  .ourSystemHeading {
+    font-size: 42px;
+    line-height: 58px;
+  }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 600px;
+  }
+
+  .slideTitle {
+    font-size: 26px;
+  }
+  .navButton {
+    width: 48px;
+    height: 48px;
+  }
+  .ourSystemSliderMainDiv {
+    gap: 30px;
+  }
+  .playButton {
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .ourSystemContainer {
+    // max-width: 940px;
+    padding: 100px 30px;
+    // padding: 60px 20px;
+  }
+
+  .ourSystemSubDiv {
+    gap: 40px;
+  }
+
+  .ourSystemHeading {
+    font-size: 36px;
+    line-height: 52px;
+  }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 510px;
+  }
+
+  .slideTitle {
+    font-size: 24px;
+  }
+
+  .navButton {
+    width: 44px;
+    height: 44px;
+  }
+  .ourSystemSliderMainDiv {
+    gap: 26px;
+  }
+  .playButton {
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .ourSystemContainer {
+    // padding: 50px 20px;
+  }
+
+  .ourSystemSubDiv {
+    gap: 30px;
+  }
+
+  .ourSystemHeading {
+    font-size: 28px;
+    line-height: 46px;
+  }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 450px;
+  }
+
+  .slideTitle {
+    font-size: 22px;
+  }
+  .navButton {
+    width: 38px;
+    height: 38px;
+  }
+
+  .navButtonWrapperPrev,
+  .navButtonWrapperNext {
+    margin: 0;
+  }
+  .ourSystemSliderMainDiv {
+    gap: 22px;
+  }
+  .navigationButtonsContainer {
+    padding: 0px;
+  }
+  .playButton {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .ourSystemContainer {
+    padding: 80px 20px;
+    // padding: 40px 20px;
+  }
+
+  .ourSystemSubDiv {
+    gap: 25px;
+  }
+
+  .ourSystemHeading {
+    font-size: 24px;
+    line-height: 42px;
+  }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 340px;
+  }
+  .slideTitle {
+    font-size: 20px;
+  }
+
+  .playButton {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .navigationButtonsContainer {
+    // gap: 15px;
+    margin-top: 0px;
+  }
+  .ourSystemSliderMainDiv {
+    gap: 18px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .ourSystemHeading {
+    font-size: 22px;
+    line-height: 40px;
+  }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 260px;
+  }
+
+  .slideTitle {
+    font-size: 18px;
+  }
+
+  .playButton svg {
+    width: 45px;
+    height: 45px;
+  }
+
+  .navButton {
+    width: 36px;
+    height: 36px;
+  }
+  .ourSystemSliderMainDiv {
+    gap: 14px;
+  }
+  .sliderBelowDivMain {
+    padding: 0px;
+  }
+  .playButton {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+@media only screen and (max-width: 479px) {
+  // .ourSystemContainer {
+  //   padding: 30px 20px;
+  // }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 220px;
+  }
+
+  .slideTitle {
+    font-size: 16px;
+  }
+  .navButton {
+    width: 36px;
+    height: 36px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  // .ourSystemContainer {
+  //   padding: 25px 20px;
+  // }
+
+  .slideThumbnail,
+  .slideVideo {
+    height: 220px;
+  }
+
+  .slideTitle {
+    font-size: 14px;
+  }
+
+  .playButton svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .navButton {
+    width: 32px;
+    height: 32px;
+  }
+}

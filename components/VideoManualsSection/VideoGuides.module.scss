@@ -1,0 +1,571 @@
+.videoManualsMain {
+  width: 100%;
+  height: auto;
+}
+
+.videoManualsContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+.videoManualsSub {
+  width: 100%;
+}
+
+.videoManualsDescription {
+  margin: 0 auto;
+  max-width: 1520px;
+  p {
+    color: #636363;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+  }
+}
+
+.videoManualsGrid {
+  margin-top: 71px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.videoManualsGridItemWrapper {
+  width: 100%;
+}
+
+.videoManualsGridItem {
+  //   border: 2px solid black;
+  position: relative;
+  background: #000;
+}
+.thumbnailImage {
+  display: block;
+  width: 100%;
+  min-height: 307px;
+  max-height: 307px;
+  object-fit: cover;
+}
+
+// Thumbnail and play button styles
+.thumbnailWrapper {
+  position: relative;
+  cursor: pointer;
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  //   &:hover .playButton {
+  //     transform: translate(-50%, -50%) scale(1.1);
+  //     background: rgba(255, 255, 255, 0.95);
+  //   }
+
+  &:hover .videoOverlay {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.4) 50%,
+      rgba(0, 0, 0, 0) 100%
+    );
+  }
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 307px;
+  object-fit: cover;
+  display: block;
+}
+
+.videoOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 16px;
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  min-height: 307px;
+  max-height: 307px;
+  //   transition: background 0.3s ease;
+  &:hover {
+    .playButton {
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+
+    .thumbnail {
+      filter: brightness(0.8);
+    }
+  }
+}
+
+.overlayContent {
+  width: 100%;
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  height: fit-content !important;
+  //   min-height: 307px/
+}
+
+.overlayProfile {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 50% !important;
+  //   border: 2px solid white;
+  min-height: none !important;
+  max-height: none !important;
+}
+
+.overlayTitle {
+  margin: 0;
+  color: #e8e8e8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.thumbnailImage {
+  width: 100%;
+  height: 307px;
+  object-fit: cover;
+  display: block;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  z-index: 2;
+  //   width: 68px;
+  //   height: 68px;
+  //   border: none;
+  //   border-radius: 50%;
+  //   background: rgba(255, 255, 255, 0.8);
+  //   color: #ff0000;
+  //   cursor: pointer;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   transition: all 0.3s ease;
+  svg {
+    width: 68px;
+    height: 48px;
+    opacity: 0.9;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+  //   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  //   &:hover {
+  //     background: rgba(255, 255, 255, 0.95);
+  //   }
+}
+
+.playIcon {
+  width: 24px;
+  height: 24px;
+  margin-left: 4px; // Slight offset to center the play icon visually
+}
+
+// Video player styles
+.videoPlayer {
+  width: 100%;
+  height: 307px;
+  object-fit: cover;
+}
+
+.videoPlayerWrapper {
+  position: relative;
+  width: 100%;
+  height: 307px;
+}
+
+.videoIframe {
+  width: 100%;
+  height: 100%;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 10;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.9);
+  }
+}
+
+.videoManualsContent {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: #f9f9f9;
+}
+
+.contentUp {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contentProfile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.contentTitle {
+  margin: 0;
+  color: #e8e8e8;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.36px;
+}
+
+.PageIntroStroke {
+  width: 100%;
+  height: 50px;
+  clip-path: polygon(
+    100% 2.299%,
+    100% 4.598%,
+    100% 100%,
+    67.083% 100%,
+    0% 100%,
+    0% 91.954%,
+    67.083% 100%,
+    69.896% 0%,
+    100% 2.299%
+  );
+  background: #9f1c20;
+}
+
+.rtl {
+  direction: rtl;
+  .overlayContent {
+    text-align: left !important;
+    // direction: ltr !important;
+    flex-direction: row-reverse !important;
+  }
+}
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+// Responsive styles
+@media only screen and (max-width: 1599px) {
+  .videoManualsDescription {
+    max-width: 1400px;
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .videoManualsGrid {
+    gap: 18px;
+  }
+
+  .videoManualsGridItem {
+  }
+  .thumbnailImage {
+    min-height: 278px;
+    max-height: 278px;
+  }
+
+  .thumbnailImage,
+  .videoPlayer,
+  .videoPlayerWrapper {
+    height: 278px;
+  }
+
+  .playButton svg {
+    width: 60px;
+    height: 42px;
+  }
+
+  .playIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .videoOverlay {
+    padding: 14px;
+    min-height: 278px;
+    max-height: 278px;
+  }
+  //   .overlayContent {
+  //     min-height: 278px;
+  //     max-height: 278px;
+  //   }
+  .overlayProfile {
+    width: 32px;
+    height: 32px;
+  }
+
+  .overlayTitle {
+    font-size: 16px;
+  }
+
+  .PageIntroStroke {
+    height: 46px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .videoManualsDescription {
+    max-width: 1260px;
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .videoManualsGrid {
+    gap: 16px;
+  }
+
+  .videoManualsGridItem {
+  }
+  .thumbnailImage {
+    min-height: 250px;
+    max-height: 250px;
+  }
+
+  .thumbnailImage,
+  .videoPlayer,
+  .videoPlayerWrapper {
+    height: 250px;
+  }
+
+  .playButton svg {
+    width: 56px;
+    height: 40px;
+  }
+
+  .videoOverlay {
+    padding: 12px;
+    min-height: 250px;
+    max-height: 250px;
+  }
+
+  .overlayProfile {
+    width: 28px;
+    height: 28px;
+  }
+
+  .overlayTitle {
+    // font-size: 12px;
+  }
+
+  .PageIntroStroke {
+    height: 42px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .videoManualsContainer {
+    padding: 100px 30px;
+  }
+
+  .videoManualsDescription {
+    max-width: 1024px;
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .videoManualsGrid {
+    gap: 14px;
+  }
+
+  .videoManualsGridItem {
+  }
+  .thumbnailImage {
+    min-height: 220px;
+    max-height: 220px;
+  }
+
+  .thumbnailImage,
+  .videoPlayer,
+  .videoPlayerWrapper {
+    height: 220px;
+  }
+
+  .playButton svg {
+    width: 52px;
+    height: 36px;
+  }
+
+  .videoOverlay {
+    padding: 10px;
+    min-height: 220px;
+    max-height: 220px;
+  }
+
+  .overlayProfile {
+    width: 24px;
+    height: 24px;
+  }
+
+  .overlayTitle {
+    // font-size: 11px;
+  }
+
+  .PageIntroStroke {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .videoManualsGrid {
+    gap: 12px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .PageIntroStroke {
+    height: 36px;
+  }
+  .playButton svg {
+    width: 48px;
+    height: 34px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .videoManualsContainer {
+    padding: 80px 20px;
+  }
+
+  .videoManualsGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+    justify-items: center;
+  }
+
+  .videoManualsGridItemWrapper {
+    margin: 0 auto;
+    text-align: center;
+    // justify-items: center;
+    max-width: 500px;
+  }
+
+  .videoManualsGridItem {
+    max-width: 600px;
+  }
+  .thumbnailImage {
+    min-height: 240px;
+    max-height: 240px;
+  }
+
+  .thumbnailImage,
+  .videoPlayer,
+  .videoPlayerWrapper {
+    height: 240px;
+  }
+
+  .videoOverlay {
+    padding: 8px;
+    min-height: 240px;
+    max-height: 240px;
+  }
+  .playButton svg {
+    width: 56px;
+    height: 40px;
+  }
+
+  .overlayProfile {
+    width: 20px;
+    height: 20px;
+  }
+
+  .overlayTitle {
+    // font-size: 10px;
+  }
+
+  .PageIntroStroke {
+    height: 32px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .videoManualsGrid {
+    gap: 12px;
+  }
+
+  .playButton svg {
+    width: 52px;
+    height: 36px;
+  }
+
+  .playIcon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .overlayContent {
+    gap: 8px;
+  }
+
+  .overlayProfile {
+    width: 18px;
+    height: 18px;
+  }
+
+  .overlayTitle {
+    font-size: 14px;
+  }
+
+  .PageIntroStroke {
+    height: 28px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .videoManualsGrid {
+    gap: 12px;
+  }
+
+  .playButton svg {
+    width: 48px;
+    height: 34px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .playButton svg {
+    width: 44px;
+    height: 32px;
+  }
+}

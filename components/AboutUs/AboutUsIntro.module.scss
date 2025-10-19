@@ -1,0 +1,216 @@
+.aboutUsIntroMain {
+  width: 100%;
+  background: linear-gradient(
+      180deg,
+      rgba(216, 216, 216, 0.3) 0%,
+      rgba(216, 216, 216, 0) 46.96%
+    ),
+    #000;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutUsIntroContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 214px 40px 0 40px;
+}
+.aboutUsIntroSub {
+  width: 100%;
+}
+
+.aboutUsIntroHeading {
+  width: 100%;
+  display: flex;
+  max-width: 900px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin: 10px auto 0;
+    max-width: 850px;
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+  }
+}
+
+.PageIntroStroke {
+  margin-top: 90px;
+  width: 100%;
+
+  img {
+    display: block;
+    height: 50px;
+    width: 100%;
+  }
+}
+.rtl {
+  direction: rtl;
+  // text-align: right;
+}
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+@media only screen and (max-width: 1599px) {
+  .aboutUsIntroContainer {
+    padding: 200px 40px 0 40px;
+  }
+
+  .aboutUsIntroHeading {
+    h1 {
+      font-size: 44px;
+      line-height: 76px;
+    }
+
+    p {
+      max-width: 780px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 46px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .aboutUsIntroHeading {
+    h1 {
+      font-size: 38px;
+      line-height: 70px;
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 42px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .aboutUsIntroContainer {
+    padding: 180px 30px 0 30px;
+  }
+
+  .aboutUsIntroHeading {
+    h1 {
+      font-size: 32px;
+      line-height: 64px;
+    }
+
+    p {
+      max-width: 620px;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .aboutUsIntroContainer {
+    padding: 140px 30px 0 30px;
+  }
+
+  .aboutUsIntroHeading {
+    h1 {
+      font-size: 26px;
+      line-height: 58px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 36px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .aboutUsIntroHeading {
+    h1 {
+      font-size: 24px;
+      line-height: 56px;
+    }
+
+    p {
+      max-width: 580px;
+      // font-size: 15px;
+      // line-height: 25px;
+    }
+  }
+
+  .aboutUsIntroContainer {
+    padding: 140px 20px 0 20px;
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 32px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .aboutUsIntroHeading {
+    h1 {
+      font-size: 22px;
+      line-height: 54px;
+    }
+  }
+
+  .PageIntroStroke {
+    img {
+      height: 28px;
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .PageIntroStroke {
+    img {
+      height: 26px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .PageIntroStroke {
+    img {
+      height: 24px;
+    }
+  }
+}

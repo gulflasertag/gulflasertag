@@ -1,0 +1,527 @@
+.igeMain {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.igeContainer {
+  padding: 260px 40px 230px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.igeSub {
+  width: 100%;
+}
+
+.igeBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.igMainStroke,
+.igMainStrokeAr {
+  height: 44px;
+  width: 100%;
+  background: #9f1c20;
+  margin-bottom: -1px;
+
+  clip-path: polygon(
+    100% 0%,
+    100% 4.598%,
+    100% 100%,
+    0% 100%,
+    0% 94.318%,
+    67.083% 95.455%,
+    69.896% 0%,
+    100% 0%
+  );
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+
+  background: radial-gradient(
+      81.88% 61.96% at 71.09% 47.23%,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 8.55%),
+    linear-gradient(0deg, #000 -1.66%, rgba(0, 0, 0, 0) 14.93%);
+}
+
+.igeMenImg {
+  position: absolute;
+  bottom: 0px;
+  right: 40px;
+  width: calc(46vw - 40px);
+
+  img {
+    display: block;
+    max-width: 604px;
+    object-fit: cover;
+  }
+}
+
+.igeContent {
+  width: fit-content;
+}
+
+.igeHeading {
+  width: fit-content;
+  h3 {
+    color: #fff;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #e6e6e6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.igeInfo {
+  margin-top: 11.5px;
+  width: fit-content;
+  p {
+    max-width: 579px;
+    color: #e6e6e6;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.readmoreBtnWrapper {
+  margin-top: 50px;
+  width: fit-content;
+  background: #fff;
+  padding: 1.1px;
+  transition: all 0.6s ease;
+  clip-path: polygon(
+    98.522% 0.917%,
+    7.143% 0.917%,
+    0.493% 23.853%,
+    0.493% 92.661%,
+    83.99% 92.661%,
+    86.453% 100%,
+    100% 100%,
+    100% 29.358%,
+    98.522% 23.853%,
+    98.522% 0.917%
+  );
+
+  &:hover {
+    background: #9f1c20;
+    .readmoreBtn {
+      background: #fff;
+      transition: all 0.6s ease;
+    }
+    .readmoreBtnContent {
+      p {
+        transition: all 0.6s ease;
+        color: #9f1c20;
+      }
+      transition: all 0.6s ease;
+      svg {
+        path {
+          stroke: #9f1c20;
+          transition: all 0.6s ease;
+        }
+      }
+    }
+  }
+}
+.readmoreBtn {
+  width: fit-content;
+  transition: all 0.6s ease;
+  padding: 14px 37.5px 16px 37.5px;
+  background: #9f1c20;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+  clip-path: polygon(
+    98.522% 0.917%,
+    7.143% 0.917%,
+    0.493% 23.853%,
+    0.493% 92.661%,
+    83.99% 92.661%,
+    86.453% 100%,
+    100% 100%,
+    100% 29.358%,
+    98.522% 23.853%,
+    98.522% 0.917%
+  );
+}
+.readmoreBtnContent {
+  transition: all 0.6s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  p {
+    transition: all 0.6s ease;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+  }
+}
+
+.readmoreBtnContent svg {
+  max-width: 18px;
+  path {
+    transition: all 0.6s ease;
+  }
+}
+
+// lang traslation
+
+.rtl {
+  // direction: rtl;
+
+  .igeContent {
+    direction: rtl;
+  }
+
+  .readmoreBtnContent svg {
+    max-width: 18px;
+    rotate: 180deg;
+  }
+
+  // .igeMenImg {
+  //   left: 40px;
+  //   right: auto;
+  //   img {
+  //     transform: scaleX(-1);
+  //   }
+  // }
+
+  // .overlay {
+  //   background: radial-gradient(
+  //       81.88% 61.96% at 28.91% 47.23%,
+  //       /* flipped horizontally */ rgba(0, 0, 0, 0) 0%,
+  //       rgba(0, 0, 0, 0.7) 100%
+  //     ),
+  //     linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 8.55%),
+  //     linear-gradient(0deg, #000 -1.66%, rgba(0, 0, 0, 0) 14.93%);
+  // }
+}
+
+// .igMainStrokeAr {
+//   height: 44px;
+//   width: 100%;
+//   background: #9f1c20;
+
+//   clip-path: polygon(
+//     0% 0%,
+//     0% 4.598%,
+//     0% 100%,
+//     100% 100%,
+//     100% 94.318%,
+//     32.917% 95.455%,
+//     30.104% 0%,
+//     0% 0%
+//   );
+// }
+
+// Arabic font support
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+
+@media only screen and (max-width: 1599px) {
+  .igeContainer {
+    padding: 230px 40px 200px 40px;
+  }
+
+  .igMainStroke {
+    height: 40px;
+  }
+
+  .igeHeading {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .igeInfo {
+    p {
+      max-width: 518px;
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .readmoreBtn {
+    padding: 12px 37px 12px 37px;
+  }
+
+  .readmoreBtnContent {
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .readmoreBtnContent svg {
+    max-width: 16px;
+  }
+
+  .igeMenImg {
+    right: 40px;
+    width: calc(46vw - 16px);
+
+    img {
+      display: block;
+      max-width: 580px;
+      object-fit: cover;
+    }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .igeContainer {
+    padding: 210px 40px 180px 40px;
+  }
+
+  .igMainStroke {
+    height: 38px;
+  }
+
+  .igeHeading {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .igeInfo {
+    p {
+      max-width: 457.5px;
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .readmoreBtn {
+    padding: 10px 33px 10px 33px;
+  }
+
+  .readmoreBtnContent {
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .igeMenImg {
+    right: 40px;
+    width: calc(46vw + 24px);
+
+    img {
+      display: block;
+      max-width: 540px;
+      object-fit: cover;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .igeContainer {
+    padding: 190px 30px 160px 30px;
+  }
+
+  .igMainStroke {
+    height: 36px;
+  }
+
+  .igeHeading {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+  }
+
+  .igeMenImg {
+    right: 30px;
+    width: calc(46vw + 54px);
+
+    img {
+      display: block;
+      max-width: 520px;
+      object-fit: cover;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .igeContainer {
+    padding: 100px 30px 100px 30px;
+  }
+
+  .igMainStroke {
+    height: 32px;
+  }
+
+  .igeMenImg {
+    right: 40px;
+    width: calc(46vw);
+
+    img {
+      display: block;
+      max-width: 400px;
+      object-fit: cover;
+    }
+  }
+
+  .igeHeading {
+    h3 {
+      font-size: 28px;
+      line-height: 46px;
+    }
+  }
+
+  .readmoreBtn {
+    padding: 10px 33px 10px 33px;
+  }
+
+  .igeMenImg {
+    display: none;
+  }
+
+  .igeContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .igeHeading {
+    text-align: center;
+  }
+
+  .igeInfo {
+    max-width: 700px;
+    text-align: center;
+
+    p {
+      max-width: 100%;
+    }
+  }
+
+  .readmoreBtnWrapper {
+    margin: 40px auto 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .igeContainer {
+    padding: 80px 20px 80px 20px;
+  }
+
+  .igMainStroke {
+    height: 28px;
+  }
+
+  .igeHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 42px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .igeInfo {
+    p {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+
+  .readmoreBtn {
+    padding: 10px 29px 10px 29px;
+  }
+
+  .readmoreBtnContent {
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .igeHeading {
+    h3 {
+      font-size: 22px;
+      line-height: 40px;
+    }
+  }
+
+  .igMainStroke {
+    height: 26px;
+  }
+
+  .igeContainer {
+    padding: 80px 20px 80px 20px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .igMainStroke {
+    height: 24px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .igMainStroke {
+    height: 22px;
+  }
+}

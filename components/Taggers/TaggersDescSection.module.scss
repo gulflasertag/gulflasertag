@@ -1,0 +1,193 @@
+.softwareSubTitleMain {
+  width: 100%;
+  height: auto;
+}
+
+.softwareSubTitleContainer {
+  padding: 120px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.softwareSubTitleSub {
+  width: 100%;
+}
+
+.headingDiv {
+  h3 {
+    color: #9f1c20;
+    text-align: center;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+  }
+
+  p {
+    max-width: 1212px;
+    margin: 0 auto;
+    // margin-top: 10px;
+    color: #636363;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.44px;
+  }
+}
+.PageIntroStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    100% 0%,
+    100% 4.598%,
+    100% 100%,
+    0% 100%,
+    0% 94.318%,
+    67.083% 95.455%,
+    69.896% 0%,
+    100% 0%
+  );
+  margin-bottom: -1px;
+  background: #9f1c20;
+  // &.rtl {
+  //   direction: rtl;
+  //   transform: scaleX(-1);
+  // }
+}
+.rtl {
+  direction: rtl;
+}
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+@media only screen and (max-width: 1599px) {
+  .softwareSubTitleContainer {
+    padding: 100px 40px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    p {
+      max-width: 980px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .PageIntroStroke {
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .softwareSubTitleContainer {
+    padding: 80px 40px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+
+    p {
+      max-width: 940px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+  .PageIntroStroke {
+    height: 38px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .softwareSubTitleContainer {
+    padding: 60px 30px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+
+    p {
+      max-width: 860px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .PageIntroStroke {
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .headingDiv {
+    h3 {
+      font-size: 28px;
+      line-height: 46px;
+    }
+    p {
+      max-width: 720px;
+    }
+  }
+  .PageIntroStroke {
+    height: 32px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .softwareSubTitleContainer {
+    padding: 60px 20px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 24px;
+      line-height: 42px;
+    }
+    p {
+      max-width: 580px;
+    }
+
+    // p {
+    //   font-size: 15px;
+    //   line-height: 23px;
+    // }
+  }
+  .PageIntroStroke {
+    height: 28px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .headingDiv {
+    h3 {
+      font-size: 22px;
+      line-height: 40px;
+    }
+  }
+  .PageIntroStroke {
+    height: 26px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .PageIntroStroke {
+    height: 24px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .PageIntroStroke {
+    height: 22px;
+  }
+}

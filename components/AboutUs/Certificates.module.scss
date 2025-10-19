@@ -1,0 +1,387 @@
+.softwareSubTitleMain {
+  width: 100%;
+  height: auto;
+  background: #040707;
+}
+
+.softwareSubTitleContainer {
+  padding: 120px 40px;
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+.softwareSubTitleSub {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+
+.PageIntroStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    100% 2.299%,
+    100% 4.598%,
+    100% 100%,
+    0% 98.851%,
+    0% 91.954%,
+    67.083% 96.552%,
+    69.896% 0%,
+    100% 2.299%
+  );
+  background: #9f1c20;
+  direction: rtl;
+  transform: scaleX(-1);
+  // transform: scaleY(-1);
+}
+//game mode------ styless
+
+.gameModeSubDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.headingDiv {
+  h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+    span {
+      color: #9f1c20;
+    }
+  }
+
+  p {
+    // max-width: 1212px;
+    margin: 0 auto;
+    // margin-top: 10px;
+    color: #636363;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.44px;
+  }
+}
+
+.PageIntroStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    100% 2.299%,
+    100% 4.598%,
+    100% 100%,
+    0% 98.851%,
+    0% 91.954%,
+    67.083% 96.552%,
+    69.896% 0%,
+    100% 2.299%
+  );
+  background: #9f1c20;
+}
+//gamemode grid styles---------
+.gameModeGridDiv {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 90px;
+}
+.gameModeGridItem {
+  width: 100%;
+  max-width: 294px;
+  display: flex;
+  //   padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  flex: 1 0 0;
+  margin: 0 auto;
+  align-self: stretch;
+  //   border: 1px solid rgba(159, 28, 32, 0.3);
+}
+.gameModeGridItemImg {
+  //   width: 56px;
+  width: auto;
+  height: 185px;
+  aspect-ratio: 74/81;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.gameModeGridItemContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  align-self: stretch;
+}
+.gridItemTitle {
+  //   color: #9f1c20;
+  //   font-size: 20px;
+  //   font-style: italic;
+  //   font-weight: 600;
+  //   line-height: normal;
+  //   letter-spacing: -0.4px;
+  //   text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  //   font-family: Inter;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+}
+
+.gridItemDesc {
+  align-self: stretch;
+  color: #636363;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+}
+.rtl {
+  direction: rtl;
+}
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+
+@media only screen and (max-width: 1599px) {
+  .softwareSubTitleContainer {
+    padding: 100px 40px;
+  }
+  .softwareSubTitleSub {
+    gap: 100px;
+  }
+  .PageIntroStroke {
+    height: 42px;
+  }
+  //gamemode styles--
+  .gameModeSubDiv {
+    gap: 40px;
+  }
+  .headingDiv {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+    }
+
+    p {
+      //   max-width: 980px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  .gameModeGridDiv {
+    gap: 65px;
+  }
+  .gameModeGridItem {
+    gap: 16px;
+  }
+  .gameModeGridItemContent {
+    gap: 16px;
+  }
+  .gameModeGridItemImg {
+    // width: 50px;
+    height: 178px;
+  }
+  .gridItemTitle {
+    font-size: 20px;
+  }
+  .gridItemDesc {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .softwareSubTitleContainer {
+    padding: 80px 40px;
+  }
+  .softwareSubTitleSub {
+    gap: 80px;
+  }
+  .PageIntroStroke {
+    height: 40px;
+  }
+  //gamemode styles--
+  .gameModeTitleContainer {
+    padding: 80px 40px;
+  }
+  .gameModeSubDiv {
+    gap: 30px;
+  }
+  .gameModeGridItem {
+    gap: 14px;
+  }
+  .gameModeGridItemContent {
+    gap: 14px;
+  }
+  .headingDiv {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+    }
+
+    p {
+      //   max-width: 940px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  .gameModeGridDiv {
+    gap: 30px;
+  }
+  .gameModeGridItemImg {
+    // width: 50px;
+    height: 170px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .softwareSubTitleContainer {
+    padding: 60px 30px;
+  }
+  .softwareSubTitleSub {
+    gap: 60px;
+  }
+  .PageIntroStroke {
+    height: 38px;
+  }
+  //gamemode styles--
+
+  .gameModeTitleContainer {
+    padding: 60px 30px;
+  }
+  .gameModeSubDiv {
+    // gap: 20px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+    }
+
+    p {
+      //   max-width: 860px;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  .gameModeGridItemImg {
+    // width: 52px;
+    height: 160px;
+  }
+  .gridItemTitle {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .PageIntroStroke {
+    height: 36px;
+  }
+  .gameModeSubDiv {
+    gap: 20px;
+  }
+  .headingDiv {
+    h3 {
+      font-size: 28px;
+      line-height: 46px;
+    }
+    p {
+      max-width: 720px;
+    }
+  }
+  .gameModeGridDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .softwareSubTitleContainer {
+    padding: 60px 20px;
+  }
+  .PageIntroStroke {
+    height: 32px;
+  }
+
+  .headingDiv {
+    h3 {
+      font-size: 24px;
+      line-height: 42px;
+    }
+    p {
+      max-width: 580px;
+    }
+
+    // p {
+    //   font-size: 15px;
+    //   line-height: 23px;
+    // }
+  }
+
+  // .gameModeGridDiv {
+  //   grid-template-columns: 1fr;
+  //   gap: 40px;
+  // }
+  .gameModeGridDiv {
+    // grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .gridItemTitle {
+    font-size: 16px;
+  }
+
+  .gridItemDesc {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .PageIntroStroke {
+    height: 28px;
+  }
+  .headingDiv {
+    width: 100%;
+    h3 {
+      //   text-align: left;
+      font-size: 22px;
+      line-height: 40px;
+    }
+  }
+  .gameModeGridDiv {
+    gap: 35px;
+  }
+  .gameModeGridDiv {
+    grid-template-columns: 1fr;
+    // gap: 24px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+}
+
+@media only screen and (max-width: 375px) {
+}

@@ -1,0 +1,433 @@
+// .vrBlasterMainOverlay {
+//   width: 100%;
+//   height: 100%;
+//   background-image: url("/images/vrblaster.webp");
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   position: absolute;
+//   z-index: 1111;
+//   top: 0;
+//   left: 0;
+// }
+.vrBlasterMainDiv {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(
+      257deg,
+      rgba(159, 28, 32, 0.86) -86.83%,
+      rgba(0, 0, 0, 0.86) 41.41%
+    ),
+    url("/images/vrblaster.webp");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.vrBlasterContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+  //   position: relative;
+  //   z-index: 1;
+}
+
+.vrBlasterSubDiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.vrBlasterHeadingDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+.vrBlasterHeading {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.08px;
+  text-transform: uppercase;
+  span {
+    color: #9f1c20;
+  }
+}
+.vrBlasterSubHeading {
+  color: #999;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+}
+
+.vrBlasterCardMainDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  width: 100%;
+}
+.serviceCardClipPath {
+  width: 100%;
+  padding: 2px;
+  background-color: #636363;
+
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    transition: 0.3s all ease-in-out;
+    background-color: #9f1c20;
+  }
+}
+
+.serviceCard {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  flex: 1 0 0;
+  align-self: stretch;
+  //   stroke-width: 2px;
+  //   stroke: var(--3, #636363);
+  &:hover {
+    border-color: #9f1c20;
+  }
+
+  &.serviceCardActive {
+    border-color: #9f1c20;
+  }
+}
+
+.serviceIcon {
+  width: 48px;
+  height: 48px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    // object-fit: contain;
+    // filter: brightness(0) invert(1);
+  }
+}
+.serviceTextDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  max-width: 377px;
+}
+
+.serviceTitle {
+  color: #b1b2b2;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  text-transform: uppercase;
+  align-self: stretch;
+}
+
+.serviceDescription {
+  color: #b1b2b2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+}
+.rtl {
+  direction: rtl;
+  .vrBlasterCardMainDiv {
+    direction: rtl;
+  }
+  .serviceCard {
+    text-align: right;
+  }
+}
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+@media only screen and (max-width: 1599px) {
+  .vrBlasterContainer {
+    // max-width: 1280px !important;
+    padding: 100px 30px;
+  }
+
+  /* Check 1367px and add css here */
+  .vrBlasterHeading {
+    font-size: 40px;
+    line-height: 51px;
+  }
+  .vrBlasterSubHeading {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .vrBlasterHeadingDiv {
+    gap: 18px;
+  }
+  .vrBlasterCardMainDiv {
+    gap: 30px;
+  }
+
+  .serviceCard {
+    // padding: 44px 46px;
+    gap: 36px;
+  }
+  .serviceTitle {
+    font-size: 22px;
+    // line-height: ;
+  }
+
+  .serviceDescription {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .vrBlasterContainer {
+    // max-width: 1121px !important;
+    padding: 80px 25px;
+  }
+  /* Check 1200px and add css here */
+  .vrBlasterSubDiv {
+    gap: 50px;
+  }
+  .vrBlasterHeading {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .vrBlasterSubHeading {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .vrBlasterHeadingDiv {
+    gap: 16px;
+  }
+  .vrBlasterCardMainDiv {
+    gap: 26px;
+  }
+
+  .serviceCard {
+    // padding: 38px 40px;
+    gap: 32px;
+  }
+
+  .serviceTitle {
+    font-size: 20px;
+    // line-height: ;
+  }
+
+  .serviceDescription {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .serviceIcon {
+    width: 46px;
+    height: 46px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .vrBlasterContainer {
+    // max-width: 940px !important;
+    padding: 60px 30px;
+  }
+  /* Check 1025px and add css here */
+  .vrBlasterSubDiv {
+    gap: 40px;
+  }
+
+  .vrBlasterHeading {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  .vrBlasterHeadingDiv {
+    gap: 14px;
+  }
+  .vrBlasterCardMainDiv {
+    gap: 24px;
+  }
+
+  .serviceCard {
+    // padding: 32px 30px;
+    gap: 26px;
+  }
+  .serviceTitle {
+    font-size: 18px;
+    // line-height: ;
+  }
+  .serviceIcon {
+    width: 44px;
+    height: 44px;
+  }
+  .vrBlasterCardMainDiv {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .vrBlasterContainer {
+    max-width: 100% !important;
+    // padding: 0 30px;
+    // padding: 50px 20px;
+  }
+  .vrBlasterMainDiv {
+    background: linear-gradient(
+      257deg,
+      rgba(159, 28, 32, 0.86) -86.83%,
+      rgba(0, 0, 0, 0.86) 41.41%
+    );
+  }
+  /* Check 768px and add css here */
+  .vrBlasterSubDiv {
+    gap: 30px;
+  }
+  .vrBlasterHeading {
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+  }
+
+  .vrBlasterCardMainDiv {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .serviceCard {
+    // padding: 20px 15px;
+    // padding: 44px 46px;
+    gap: 36px;
+  }
+
+  .serviceIcon {
+    width: 50px;
+    height: 50px;
+  }
+
+  //   .serviceTitle {
+  //     font-size: 15px;
+  //     margin-bottom: 15px;
+  //   }
+
+  //   .serviceDescription {
+  //     font-size: 14px;
+  //   }
+}
+
+@media only screen and (max-width: 767px) {
+  .vrBlasterContainer {
+    // padding: 40px 20px;
+    padding: 60px 20px;
+  }
+  /* Check 480px and add css here */
+  .vrBlasterSubDiv {
+    gap: 25px;
+  }
+  .vrBlasterHeading {
+    font-size: 22px;
+    line-height: 33px;
+  }
+  .vrBlasterHeadingDiv {
+    align-items: flex-start;
+  }
+  .vrBlasterSubHeading {
+    text-align: left;
+  }
+  .vrBlasterCardMainDiv {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+  .serviceCardClipPath {
+    max-width: 469px;
+  }
+  .serviceCard {
+    // padding: 44px 46px;
+    gap: 24px;
+    // align-items: flex-start;
+  }
+  .serviceIcon {
+    width: 48px;
+    height: 48px;
+  }
+  .serviceTextDiv {
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .vrBlasterHeading {
+    font-size: 20px;
+    line-height: 31px;
+  }
+  .serviceCardClipPath {
+    max-width: 430px;
+  }
+  //   .serviceIcon {
+  //     width: 45px;
+  //     height: 45px;
+  //   }
+
+  //   .serviceTitle {
+  //     font-size: 14px;
+  //   }
+
+  //   .serviceDescription {
+  //     font-size: 13px;
+  //   }
+}
+@media only screen and (max-width: 479px) {
+  .vrBlasterContainer {
+    // padding: 30px 20px;
+    // padding: 0 15px;
+  }
+  /* Check 375px and add css here */
+  .vrBlasterCardMainDiv {
+    gap: 24px;
+  }
+  .serviceCard {
+    // padding: 32px 30px;
+    gap: 18px;
+  }
+  .serviceIcon {
+    width: 44px;
+    height: 44px;
+  }
+  .serviceTitle {
+    font-size: 16px;
+  }
+  .serviceDescription {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .vrBlasterContainer {
+    // padding: 25px 20px;
+  }
+  /* Check 320px and add css here */
+  .vrBlasterHeading {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}

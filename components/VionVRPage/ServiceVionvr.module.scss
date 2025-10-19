@@ -1,0 +1,549 @@
+.ourValuesMain {
+  width: 100%;
+  height: auto;
+}
+
+.ourValuesContainer {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 120px 40px;
+  padding-top: 0px !important;
+}
+
+.ourValuesSub {
+  width: 100%;
+}
+
+.ourValuesGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 100px;
+}
+
+.ourValuesGridItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.gridItemContent {
+  max-width: 740px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+  // padding-top: 34px;
+}
+
+.numberBadge {
+  max-height: 212px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.contentInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  //   margin-top: -80px;
+}
+
+.contentHeading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.ourStoryHeading {
+  color: #040707;
+  text-align: left;
+  font-size: 44px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -0.88px;
+  text-transform: uppercase;
+  span {
+    color: #9f1c20;
+  }
+}
+
+.commitmentText {
+  color: #636363;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  padding-bottom: 14px;
+}
+
+.contentDescription {
+  align-self: stretch;
+  color: #636363;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.44px;
+}
+.contentDataDiv {
+  display: flex;
+  padding: 20px 0;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.contentDataDivImg {
+  width: 48px;
+  height: 48px;
+  aspect-ratio: 1/1;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.contentPoint {
+  max-width: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+}
+.pointTitle {
+  color: #040707;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-transform: uppercase;
+  align-self: stretch;
+}
+.pointDesc {
+  color: #636363;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.4px;
+  align-self: stretch;
+}
+
+.gridItemImgWrapper {
+  clip-path: polygon(
+    97.371% 0%,
+    12.665% 0%,
+    0% 14.772%,
+    0% 100%,
+    66.398% 100%,
+    68.45% 100%,
+    100% 100%,
+    100% 37.887%,
+    97.371% 31.17%,
+    97.371% 0%
+  );
+  background: #9f1c20;
+  height: fit-content;
+  width: fit-content;
+  padding-left: 11px;
+}
+
+.gridItemImg {
+  clip-path: polygon(
+    98.102% 0%,
+    12.788% 0%,
+    0% 15.535%,
+    0% 98.307%,
+    63.149% 98.307%,
+    67.12% 100%,
+    100% 100%,
+    100% 34.109%,
+    98.102% 31.145%,
+    98.102% 0%
+  );
+  img {
+    // min-width: 673px;
+    min-width: 706px;
+    max-width: 706px;
+    min-height: 555px;
+    max-height: 555px;
+    object-fit: cover;
+    display: block;
+  }
+}
+.PageIntroStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    100% 2.299%,
+    100% 4.598%,
+    100% 100%,
+    0% 98.851%,
+    0% 91.954%,
+    67.083% 96.552%,
+    69.896% 0%,
+    100% 2.299%
+  );
+  background: #9f1c20;
+}
+#PageIntroStrokeUp {
+  clip-path: polygon(
+    0% 97.701%,
+    0% 95.402%,
+    0% 0%,
+    100% 1.149%,
+    100% 8.046%,
+    32.917% 3.448%,
+    30.104% 100%,
+    0% 97.701%
+  );
+}
+.rtl {
+  direction: rtl;
+}
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+@media only screen and (max-width: 1599px) {
+  .gridItemContent {
+    max-width: 700px;
+  }
+
+  .contentInfo {
+    gap: 16px;
+  }
+
+  .numberBadge {
+    max-height: 190px;
+  }
+  .ourValuesGridItem {
+    gap: 30px;
+  }
+  .ourStoryHeading {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .commitmentText {
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 12px;
+  }
+  .contentDescription {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .pointTitle {
+    font-size: 18px;
+  }
+  .pointDesc {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .gridItemImg {
+    img {
+      min-width: 660px;
+      max-width: 660px;
+      min-height: 520px;
+      max-height: 520px;
+    }
+  }
+
+  .PageIntroStroke {
+    height: 42px;
+  }
+  .contentDataDiv {
+    gap: 16px;
+    padding: 16px 0;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .ourValuesGrid {
+    gap: 80px;
+  }
+
+  .ourValuesGridItem {
+    gap: 20px;
+  }
+
+  .gridItemContent {
+    // padding-top: 24px;
+  }
+
+  .numberBadge {
+    max-height: 180px;
+  }
+  .contentInfo {
+    gap: 14px;
+  }
+  .ourStoryHeading {
+    font-size: 34px;
+    line-height: 46px;
+  }
+  .contentDescription {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .pointTitle {
+    // font-size: 20px;
+  }
+  .contentPoint {
+    gap: 4px;
+  }
+  .pointDesc {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .gridItemImg {
+    img {
+      min-width: 570px;
+      max-width: 570px;
+      min-height: 490px;
+      max-height: 490px;
+    }
+  }
+
+  .PageIntroStroke {
+    height: 40px;
+  }
+  .contentDataDiv {
+    gap: 12px;
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .ourValuesContainer {
+    padding: 60px 30px;
+  }
+
+  .numberBadge {
+    max-height: 174px;
+  }
+
+  .gridItemContent {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 10px;
+  }
+
+  .contentInfo {
+    width: 100%;
+    gap: 16px;
+  }
+  .contentPoint {
+    width: 100%;
+    max-width: 100%;
+    gap: 6px;
+  }
+  .ourValuesGridItem {
+    gap: 30px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ourStoryHeading {
+    font-size: 36px;
+    line-height: 46px;
+  }
+  .contentDescription {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .pointTiming {
+    gap: 10px;
+  }
+  .pointTitle {
+    font-size: 18px;
+  }
+  .pointDesc {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .gridItemImg {
+    img {
+      min-width: 580px;
+      max-width: 580px;
+      min-height: 500px;
+      max-height: 500px;
+    }
+  }
+  .PageIntroStroke {
+    height: 38px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .ourValuesGrid {
+    gap: 80px;
+  }
+
+  .contentInfo {
+    gap: 12px;
+  }
+
+  .ourValuesGridItem {
+    gap: 30px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gridItemContent {
+    padding-top: 0px;
+  }
+
+  .numberBadge {
+    max-height: 164px;
+  }
+
+  .ourStoryHeading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .pointTiming {
+    gap: 8px;
+  }
+  .pointTitle {
+    font-size: 16px;
+  }
+
+  .gridItemImg {
+    img {
+      min-width: 550px;
+      max-width: 550px;
+      min-height: 480px;
+      max-height: 480px;
+    }
+  }
+  .PageIntroStroke {
+    height: 36px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ourValuesGrid {
+    gap: 80px;
+  }
+
+  .ourValuesContainer {
+    padding: 60px 20px;
+  }
+  .ourValuesGridItem {
+    gap: 20px;
+  }
+  .numberBadge {
+    max-height: 156px;
+  }
+
+  .ourStoryHeading {
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  .contentDescription {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .gridItemImg {
+    img {
+      min-width: 500px;
+      max-width: 500px;
+      min-height: 460px;
+      max-height: 460px;
+    }
+  }
+  .PageIntroStroke {
+    height: 32px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .ourValuesGrid {
+    gap: 60px;
+  }
+  .contentInfo {
+    gap: 8px;
+  }
+  .contentPoint {
+    gap: 4px;
+  }
+  .numberBadge {
+    max-height: 150px;
+  }
+
+  .ourStoryHeading {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .pointTitle {
+    font-size: 16px;
+  }
+
+  .gridItemImg {
+    img {
+      // min-width: 100%;
+      // max-width: 100%;
+      // min-height: 100%;
+      // max-height: 100%;
+      min-width: 433px;
+      max-width: 433px;
+      min-height: 400px;
+      max-height: 400px;
+    }
+  }
+  .PageIntroStroke {
+    height: 28px;
+  }
+  .contentDataDivImg {
+    width: 40px;
+    height: 40px;
+  }
+  .contentHeading {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .numberBadge {
+    max-height: 140px;
+  }
+
+  .gridItemContent {
+    max-width: 100%;
+  }
+
+  .gridItemImg {
+    img {
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .contentInfo {
+    // margin-top: -50px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .numberBadge {
+    max-height: 136px;
+  }
+}

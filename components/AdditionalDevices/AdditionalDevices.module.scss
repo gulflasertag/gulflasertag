@@ -1,0 +1,1371 @@
+.additionalDevicesMain {
+  width: 100%;
+  height: auto;
+}
+
+.additionalDevicesContainer {
+  max-width: 1640px;
+  padding: 120px 40px 120px 40px;
+  margin: 0 auto;
+}
+
+.additionalDevicesSub {
+  width: 100%;
+}
+
+.headingDiv {
+  p {
+    color: #636363;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+  }
+}
+
+//head band
+
+.headbandMain {
+  width: 100%;
+  height: auto;
+}
+
+.headbandTopStroke {
+  height: 44px;
+  width: 100%;
+  background: #9f1c20;
+  clip-path: polygon(
+    100% 0%,
+    100% 4.598%,
+    100% 100%,
+    0% 100%,
+    0% 94.318%,
+    67.083% 95.455%,
+    69.896% 0%,
+    100% 0%
+  );
+  margin-bottom: -1px;
+}
+
+.headbandContainer {
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+.headbandSub {
+  max-width: 1640px;
+  padding: 120px 40px 136px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin: 0 auto;
+}
+
+.headbandImg {
+  // max-width: 773px;
+  max-width: 672px;
+  position: absolute;
+  left: 0;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.headbandContent {
+  max-width: 868px;
+  margin-left: auto;
+}
+
+.headbandHeading {
+  h3 {
+    color: #fff;
+    font-size: 54px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.08px;
+    text-transform: uppercase;
+    max-width: 683px;
+  }
+
+  p {
+    margin-top: 20px;
+    color: #cfcfcf;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.44px;
+  }
+}
+
+.headbandFeatures {
+  margin-top: 30px;
+  h4 {
+    color: #fff;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+  }
+}
+
+.headbandGrid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.headbandGridItem {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.headbandGridItemIcon {
+  width: fit-content;
+  img {
+    display: block;
+    max-width: 48px;
+  }
+}
+
+.headbandGridItemContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  h5 {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #b1b2b2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.headbandBottomStroke {
+  width: 100%;
+  height: 44px;
+  clip-path: polygon(
+    0% 100%,
+    0% 95.402%,
+    0% 0%,
+    100% 0%,
+    100% 5.682%,
+    32.917% 4.545%,
+    30.104% 100%,
+    0% 100%
+  );
+  margin-top: -1px;
+  background: #9f1c20;
+}
+
+//netronic vest
+
+.vestContainer {
+  background: #fff;
+  width: 100%;
+  height: auto;
+}
+
+.vestSub {
+  max-width: 1640px;
+  padding: 120px 40px 100px 40px;
+  margin: 0 auto;
+}
+
+.vestHeading {
+  h3 {
+    color: #040707;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+    span {
+      color: #9f1c20;
+    }
+  }
+}
+
+.vestContent {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.vestLeftContent {
+  padding: 20px 20px 20px 0;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  h4 {
+    color: #9f1c20;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #636363;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+}
+
+.vestImg {
+  flex: 1;
+  max-width: 730px;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.vestRightContent {
+  padding: 20px 0px 20px 20px;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: flex-end;
+  h4 {
+    color: #9f1c20;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: #636363;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+}
+
+// shock band
+
+.shockBandContainer {
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.shockBandSub {
+  max-width: 1640px;
+  padding: 0px 40px 0px 40px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+}
+
+.shockBandImg {
+  background: #9f1c20;
+  max-width: 684px;
+
+  clip-path: polygon(
+    97.371% 0%,
+    12.665% 0%,
+    0% 14.772%,
+    0% 100%,
+    66.398% 100%,
+    68.45% 100%,
+    100% 100%,
+    100% 37.887%,
+    97.371% 31.17%,
+    97.371% 0%
+  );
+
+  margin: 28px 0;
+
+  padding-left: 11px;
+  padding-right: 1px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+  img {
+    clip-path: polygon(
+      97.371% 0%,
+      12.665% 0%,
+      0% 14.772%,
+      0% 100%,
+      66.398% 100%,
+      68.45% 100%,
+      100% 100%,
+      100% 37.887%,
+      97.371% 31.17%,
+      97.371% 0%
+    );
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.shockBandContent {
+  flex: 1;
+}
+
+.shockBandHeading {
+  display: flex;
+  gap: 4px;
+  h4 {
+    color: #9f1c20;
+    font-size: 44px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.88px;
+    text-transform: uppercase;
+  }
+}
+.scorpianIcon {
+  img {
+    max-width: 299px;
+    display: block;
+  }
+}
+
+.shockBandSpecifications {
+  margin-top: 40px;
+  h5 {
+    color: #9f1c20;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: uppercase;
+  }
+}
+
+.shockBandSpecificationsList {
+  margin-top: 16px;
+}
+
+.specificationsListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 12px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.specificationsListItemLeft {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  span {
+    color: #636363;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.4px;
+  }
+
+  p {
+    color: #636363;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+  }
+}
+
+.specificationsListItemRight {
+  p {
+    color: #636363;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.4px;
+  }
+}
+
+.shockBandSpecificationsDesc {
+  margin-top: 8px;
+  p {
+    color: #636363;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    letter-spacing: -0.4px;
+  }
+}
+
+.scorpianVideoWrapper {
+  padding: 120px 40px;
+  margin: 0 auto;
+  max-width: 1640px;
+}
+
+.scorpianVideo {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.scorpianVideoPlayer {
+  width: 100%;
+  height: 786px;
+  border-radius: 20px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.videoIframe {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1640px) {
+  .headbandImg {
+    max-width: 773px;
+    position: static;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.rtl {
+  .additionalDevicesContainer {
+    direction: rtl;
+  }
+
+  .headbandContent {
+    direction: rtl;
+  }
+
+  .vestHeading {
+    direction: rtl;
+  }
+
+  .vestLeftContent,
+  .vestRightContent {
+    direction: rtl;
+  }
+  // .vestLeftContent {
+  //   max-width: 660px;
+  // }
+  .shockBandContent {
+    direction: rtl;
+  }
+  // .vestRightContent {
+  //   display: none;
+  // }
+}
+
+.rtl * {
+  font-family: "Tajawal", sans-serif;
+}
+
+@media only screen and (max-width: 1599px) {
+  .additionalDevicesContainer {
+    padding: 100px 40px 100px 40px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 40px;
+  }
+
+  .headbandSub {
+    padding: 120px 40px 136px 0px;
+    gap: 60px;
+  }
+
+  .headbandImg {
+    max-width: 773px;
+    flex: 1;
+  }
+
+  .headbandContent {
+    max-width: 780px;
+  }
+
+  .headbandHeading {
+    h3 {
+      font-size: 48px;
+      line-height: 64px;
+      max-width: 550px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .headbandFeatures {
+    h4 {
+      font-size: 24px;
+    }
+  }
+
+  .headbandGrid {
+    gap: 30px;
+  }
+
+  .headbandGridItemContent {
+    h5 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  .rtl {
+    .headbandHeading {
+      h3 {
+        max-width: 560px;
+      }
+    }
+  }
+
+  //netronic vest
+
+  .vestSub {
+    padding: 120px 40px 100px 40px;
+  }
+
+  .vestHeading {
+    h3 {
+      font-size: 38px;
+      line-height: 49px;
+    }
+  }
+
+  .vestLeftContent,
+  .vestRightContent {
+    max-width: 336px;
+
+    h4 {
+      font-size: 18px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .vestImg {
+    max-width: 730px;
+    flex: 1;
+  }
+
+  // shock band
+
+  .shockBandImg {
+    max-width: 660px;
+  }
+
+  .shockBandHeading {
+    h4 {
+      font-size: 38px;
+      line-height: 49px;
+    }
+  }
+  .scorpianIcon {
+    img {
+      max-width: 258px;
+    }
+  }
+
+  .shockBandSpecificationsDesc {
+    p {
+      font-size: 18px;
+      line-height: 28px; /* 150% */
+    }
+  }
+
+  .scorpianVideoWrapper {
+    padding: 120px 40px;
+  }
+
+  .scorpianVideoPlayer {
+    height: 700px;
+  }
+  .rtl {
+    // .vestLeftContent {
+    //   max-width: 570px;
+    // }
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .additionalDevicesContainer {
+    padding: 80px 40px 80px 40px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 38px;
+  }
+
+  .headbandSub {
+    padding: 120px 40px 120px 0px;
+    gap: 50px;
+  }
+
+  .headbandImg {
+    max-width: 773px;
+    min-width: 440px;
+    flex: 1;
+  }
+
+  .headbandContent {
+    max-width: 700px;
+  }
+
+  .headbandHeading {
+    h3 {
+      font-size: 42px;
+      line-height: 58px;
+      max-width: 480px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+
+  .rtl {
+    .headbandHeading {
+      h3 {
+        max-width: 500px;
+      }
+    }
+  }
+
+  .headbandFeatures {
+    h4 {
+      font-size: 22px;
+    }
+  }
+
+  .headbandGrid {
+    gap: 30px;
+  }
+
+  .headbandGridItemContent {
+    h5 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  //netronic vest
+
+  .vestSub {
+    padding: 120px 40px 100px 40px;
+  }
+
+  .vestHeading {
+    h3 {
+      font-size: 32px;
+      line-height: 43px;
+    }
+  }
+
+  .vestLeftContent,
+  .vestRightContent {
+    max-width: 280px;
+
+    h4 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .vestLeftContent {
+    padding: 20px 0px 20px 0;
+  }
+
+  .vestRightContent {
+    padding: 20px 0px 20px 0px;
+  }
+
+  // shock band
+
+  .shockBandSub {
+    gap: 60px;
+  }
+
+  .shockBandImg {
+    max-width: 600px;
+  }
+
+  .shockBandHeading {
+    h4 {
+      font-size: 32px;
+      line-height: 43px;
+    }
+  }
+  .scorpianIcon {
+    img {
+      max-width: 217px;
+    }
+  }
+
+  .shockBandSpecifications {
+    margin-top: 26px;
+    h5 {
+      font-size: 18px;
+    }
+  }
+
+  .specificationsListItemLeft {
+    gap: 24px;
+
+    span {
+      font-size: 18px;
+      line-height: 30px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .specificationsListItemRight {
+    p {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+
+  .shockBandSpecificationsDesc {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .scorpianVideoPlayer {
+    height: 600px;
+  }
+  .rtl {
+    // .vestLeftContent {
+    //   max-width: 540px;
+    // }
+    // .vestContent {
+    //   gap: 60px;
+    // }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .additionalDevicesContainer {
+    padding: 60px 30px 60px 30px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 36px;
+  }
+
+  .headbandSub {
+    padding: 100px 30px 100px 0px;
+    gap: 40px;
+  }
+
+  .headbandImg {
+    max-width: 773px;
+    min-width: 380px;
+    flex: 1;
+  }
+
+  .headbandContent {
+    max-width: 670px;
+  }
+
+  .headbandHeading {
+    h3 {
+      font-size: 36px;
+      line-height: 52px;
+      max-width: 420px;
+    }
+  }
+
+  .rtl {
+    .headbandHeading {
+      h3 {
+        max-width: 420px;
+      }
+    }
+  }
+
+  .headbandFeatures {
+    h4 {
+      font-size: 22px;
+    }
+  }
+
+  .headbandGridItemIcon {
+    img {
+      max-width: 44px;
+    }
+  }
+
+  //netronic vest
+
+  .vestSub {
+    padding: 100px 30px;
+  }
+
+  .vestHeading {
+    h3 {
+      font-size: 26px;
+      line-height: 37px;
+    }
+  }
+
+  .vestContent {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .vestLeftContent,
+  .vestRightContent {
+    max-width: 100%;
+  }
+  .rtl {
+    .vestLeftContent {
+      max-width: 100%;
+    }
+  }
+
+  .vestLeftContent {
+    padding: 0;
+  }
+
+  .vestRightContent {
+    padding: 0;
+  }
+
+  .vestImg {
+    max-width: 650px;
+    flex: 1;
+  }
+
+  // shock band
+
+  .shockBandSub {
+    padding: 0px 30px 0px 30px;
+    gap: 40px;
+  }
+
+  .shockBandImg {
+    max-width: 540px;
+  }
+
+  .shockBandContent {
+    min-width: 420px;
+  }
+
+  .shockBandHeading {
+    h4 {
+      font-size: 26px;
+      line-height: 37px;
+    }
+  }
+
+  .scorpianIcon {
+    img {
+      max-width: 179px;
+    }
+  }
+
+  .specificationsListItem {
+    gap: 20px;
+  }
+
+  .specificationsListItemLeft {
+    gap: 20px;
+  }
+
+  .scorpianVideoWrapper {
+    padding: 100px 30px;
+  }
+
+  .scorpianVideoPlayer {
+    height: 540px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 32px;
+  }
+
+  .headbandSub {
+    padding: 100px 30px 100px 30px;
+    gap: 40px;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1640px;
+  }
+
+  .headbandImg {
+    max-width: 500px;
+    min-width: 0;
+  }
+
+  .headbandContent {
+    max-width: 100%;
+  }
+
+  .headbandHeading {
+    h3 {
+      font-size: 30px;
+      line-height: 46px;
+      max-width: 100%;
+    }
+  }
+
+  .rtl {
+    .headbandHeading {
+      h3 {
+        max-width: 100%;
+      }
+    }
+  }
+
+  .headbandFeatures {
+    h4 {
+      font-size: 20px;
+    }
+  }
+
+  //netronic vest
+
+  .vestSub {
+    padding: 100px 30px;
+  }
+
+  .vestHeading {
+    h3 {
+      font-size: 26px;
+      line-height: 37px;
+    }
+  }
+
+  .vestContent {
+    gap: 40px;
+  }
+
+  .vestImg {
+    max-width: 550px;
+    flex: 1;
+  }
+
+  // shock band
+
+  .shockBandSub {
+    padding: 0px 30px 0px 30px;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .shockBandImg {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .shockBandContent {
+    min-width: 0;
+  }
+
+  .specificationsListItemLeft {
+    gap: 16px;
+
+    span {
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  .specificationsListItemRight {
+    p {
+      font-size: 16px;
+      line-height: 28px;
+    }
+  }
+
+  .shockBandSpecificationsDesc {
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .scorpianVideoWrapper {
+    padding: 100px 30px;
+  }
+
+  .scorpianVideoPlayer {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .scorpianVideoPlayer {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .additionalDevicesContainer {
+    padding: 60px 20px 60px 20px;
+  }
+
+  .headingDiv {
+    p {
+      font-size: 15px;
+      line-height: 23px;
+    }
+  }
+
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 28px;
+  }
+
+  .headbandSub {
+    padding: 80px 20px 80px 20px;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .headbandImg {
+    max-width: 460px;
+    min-width: 0;
+  }
+
+  .headbandGridItemIcon {
+    img {
+      max-width: 40px;
+    }
+  }
+
+  .headbandHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 40px;
+      max-width: 100%;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+
+  .headbandFeatures {
+    h4 {
+      font-size: 18px;
+    }
+  }
+
+  .headbandGridItemContent {
+    h5 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 23px;
+    }
+  }
+
+  //netronic vest
+
+  .vestSub {
+    padding: 80px 20px;
+  }
+
+  .vestHeading {
+    h3 {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+
+  .vestImg {
+    max-width: 510px;
+    flex: 1;
+  }
+
+  .vestLeftContent,
+  .vestRightContent {
+    h4 {
+      font-size: 15px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  // shock band
+
+  .shockBandSub {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .shockBandImg {
+    max-width: 460px;
+  }
+
+  .shockBandHeading {
+    h4 {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+  .scorpianIcon {
+    img {
+      max-width: 163px;
+    }
+  }
+
+  .shockBandSpecifications {
+    margin-top: 22px;
+    h5 {
+      font-size: 18px;
+    }
+  }
+
+  .specificationsListItemLeft {
+    gap: 12px;
+
+    span {
+      font-size: 15px;
+      line-height: 26px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .specificationsListItemRight {
+    p {
+      font-size: 15px;
+      line-height: 26px;
+    }
+  }
+
+  .shockBandSpecificationsDesc {
+    p {
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+
+  .scorpianVideoWrapper {
+    padding: 80px 20px;
+  }
+
+  .scorpianVideoPlayer {
+    height: 375px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 26px;
+  }
+
+  .headbandHeading {
+    h3 {
+      font-size: 22px;
+      line-height: 38px;
+    }
+  }
+
+  .headbandGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  //netronic vest
+
+  .vestHeading {
+    h3 {
+      font-size: 22px;
+      line-height: 33px;
+    }
+  }
+
+  // shock band
+
+  .shockBandHeading {
+    flex-wrap: wrap;
+    h4 {
+      font-size: 22px;
+      line-height: 33px;
+    }
+  }
+  .scorpianIcon {
+    img {
+      max-width: 150px;
+    }
+  }
+
+  .scorpianVideoPlayer {
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 24px;
+  }
+
+  .scorpianVideoPlayer {
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  //head band
+
+  .headbandTopStroke,
+  .headbandBottomStroke {
+    height: 22px;
+  }
+
+  .specificationsListItemLeft {
+    gap: 10px;
+
+    span {
+      font-size: 14px;
+      line-height: 25px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .specificationsListItemRight {
+    p {
+      font-size: 14px;
+      line-height: 25px;
+    }
+  }
+
+  .specificationsListItem {
+    gap: 16px;
+  }
+}
